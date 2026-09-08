@@ -1,0 +1,60 @@
+{
+  "project": "plush-rabbit-knight",
+  "started_at_utc": "2026-09-08T10:03:48.647019+00:00",
+  "source_sha256": "abe8cfa87b167d004b00812bee7bf67dde47186f8a01b6ce37f9eb65b4ebfa74",
+  "source_unchanged": true,
+  "blender_version": "5.2.1 LTS",
+  "backend": "OPTIX",
+  "selected_devices": [
+    {
+      "name": "NVIDIA GeForce RTX 4070 Ti",
+      "type": "OPTIX"
+    }
+  ],
+  "settings": {
+    "engine": "CYCLES",
+    "frame": 1,
+    "resolution": [
+      1000,
+      1000
+    ],
+    "percentage": 100,
+    "border": false,
+    "samples": 1024,
+    "adaptive_sampling": true,
+    "noise_threshold": 0.003000000026077032,
+    "denoising": false,
+    "cycles_device": "GPU",
+    "compositing": true,
+    "sequencer": true
+  },
+  "render_call_seconds": 55.467,
+  "process_seconds": 57.523,
+  "render_sha256": "986b33a1f01748ebedd835874e2dfc3ee979286e33a116f68c5ddbef3fcbfacd",
+  "visual_inspection": {
+    "performed": true,
+    "scope": "Actual full-resolution image opened and inspected; scene, subjects, materials, shadows and output dimensions present. No blank output or missing-texture magenta observed.",
+    "relationship_to_display_image": "Native .blend render; later image retouching in the gallery is not present in this output."
+  },
+  "token_usage_for_original_creation": null,
+  "timing_scope": "Render call covers initialization, rendering, enabled denoising/compositing and PNG saving. Process time also covers Blender startup, scene loading and device discovery. Neither includes creative iteration or later AI image retouching.",
+  "hardware": {
+    "cpu": "13th Gen Intel(R) Core(TM) i7-13700F",
+    "gpu": "NVIDIA GeForce RTX 4070 Ti",
+    "vram_mib": 12282,
+    "driver_version": "591.86",
+    "backend": "OPTIX",
+    "before_gpu_utilization_percent": 5,
+    "before_total_gpu_memory_used_mib": 4238
+  },
+  "source": "../../source/editable-base.blend",
+  "output": "native-render.png",
+  "conditions": [
+    "One full-resolution frame per scene, in separate sequential Blender processes.",
+    "Saved camera, geometry, materials, lighting, frame, resolution, sampling cap, denoising and adaptive threshold retained.",
+    "OptiX was explicitly selected and its RTX 4070 Ti device confirmed by Blender; CPU rendering was disabled.",
+    "Ordinary desktop applications remained open. No claim of an isolated GPU benchmark.",
+    "OptiX reported that its persistent cache database could not be initialized in this execution environment; this may affect compilation time.",
+    "The original scene and global Blender preferences were not saved or overwritten."
+  ]
+}

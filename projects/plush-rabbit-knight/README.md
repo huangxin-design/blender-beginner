@@ -15,10 +15,10 @@
 | 制作消耗 | 已有记录 |
 | --- | --- |
 | Token 用量 | 未记录；历史材料没有可对应到本项目的完整用量数据。 |
-| 原生渲染时间 / 显卡 | 1 分 11.04 秒，来自 EXR 母版的 RenderTime；原始显卡型号未记录。只覆盖底稿渲染，不含后续图片精修。 |
+| 本机重新渲染 / 显卡 | **55.47 秒**，RTX 4070 Ti / 12 GB，Cycles / OptiX；含启动与载入共 **57.52 秒**。测于 2026-09-08，不含图片精修。 |
 | 工程中的渲染设置 | Cycles，1000 × 1000，1024 samples。这里记录的是底稿设置；上方终图还做过图片精修。 |
 
-[用量与时间的记录范围](../../docs/showcase-measurements.md) · [工程设置检查](../early-works-source-check.md)
+[本次原生出图](measurements/2026-09-08/native-render.png) · [本机实测记录](measurements/2026-09-08/measurement.json) · [用量与时间的记录范围](../../docs/showcase-measurements.md) · [工程设置检查](../early-works-source-check.md)
 
 粉色兔子举着金色水晶剑、持木盾站在树墩上。这次练习集中在毛发、木纹与晶体的材质区分，以及剑光与角色之间的照明关系。参考原作来自 Bonnie Lu（@lubonnie_art）于 2022 年 8 月 8 日发布的兔君冒险主题作品；“毛绒兔骑士”是本仓库的描述名。[出处与署名](credits.md)
 

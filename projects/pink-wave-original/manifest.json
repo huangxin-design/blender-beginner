@@ -1,0 +1,38 @@
+{
+  "project": "pink-wave-original",
+  "packaged_at": "2026-09-08",
+  "artwork_files_copied_without_modification": [
+    {
+      "file": "preview.png",
+      "logical_source": "v005-4k/Preview_1280.png",
+      "bytes": 944321,
+      "sha256": "ebcb8ae05cd5bde44a98b3743592f0dd0ade2658787642c5be86ee64ce4afe20",
+      "source_sha256": "ebcb8ae05cd5bde44a98b3743592f0dd0ade2658787642c5be86ee64ce4afe20",
+      "byte_identical": true
+    },
+    {
+      "file": "preview.mp4",
+      "logical_source": "v005-4k/Pink_Wave_Preview_1080.mp4",
+      "bytes": 6478533,
+      "sha256": "d12b5e8f07db0cac5d0b2c107f95976c53babd2190f689641b1403bcb6cc826e",
+      "source_sha256": "d12b5e8f07db0cac5d0b2c107f95976c53babd2190f689641b1403bcb6cc826e",
+      "byte_identical": true
+    },
+    {
+      "file": "source/scene.blend",
+      "logical_source": "v005-4k/Pink_Wave.blend",
+      "bytes": 6301166,
+      "sha256": "b9302ccee1bec7799061d78a9f96e637ef64c54adba29f4cb38cdcef2d5b6213",
+      "source_sha256": "b9302ccee1bec7799061d78a9f96e637ef64c54adba29f4cb38cdcef2d5b6213",
+      "byte_identical": true
+    },
+    {
+      "file": "source/render_final.py",
+      "logical_source": "v005-4k/render_final.py",
+      "bytes": 1228,
+      "sha256": "029aae590763f3b7b0f3f73ffc5a16ddd5270ce86a26b9154786fd22f870f26f",
+      "source_sha256": "029aae590763f3b7b0f3f73ffc5a16ddd5270ce86a26b9154786fd22f870f26f",
+      "byte_identical": true
+    }
+  ]
+}

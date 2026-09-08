@@ -17,6 +17,32 @@
 
 这组图片来自原生 Blender 渲染。工程内的 200 帧动作循环重复三次，组成 20 秒视频；[检查记录](ai-brand-materials/verification.json) 保留了工程、静图与视频各自的验证范围。
 
+## 粉色波浪 · 20 秒解压动画
+
+https://github.com/user-attachments/assets/09e1b56e-4b11-4e15-ac81-7e638166a24d
+
+**提示词 · 整理示例**
+
+> 做一片粉色圆柱阵列，让金属和陶瓷小球轮流滚过，柱子跟着起伏成波浪。光线柔和、接触自然，输出方形 4K 循环动画，重复到 20 秒，保留可编辑工程。
+
+**Token 用量：** 尚无这版作品的完整记录。<br>
+**显卡与历史渲染耗时：** RTX 4070 Ti / 12 GB，**58 分 7.7 秒**（3840 × 3840、64 采样、200 帧原生循环）。循环三遍合成 20 秒，播放器展示 1080 预览；计时不含建模与编码。
+
+[案例与源工程](pink-wave-original/README.md) · [提示词](pink-wave-original/prompts.md) · [制作回顾](pink-wave-original/conversation.md) · [计时与验收](pink-wave-original/verification.json)
+
+## 数字盆景 · 让一棵树长出数字花园
+
+https://github.com/user-attachments/assets/60e3e618-b5af-4ed9-bbdb-2656ff3a2128
+
+**提示词 · 整理示例**
+
+> 让一棵树从石台上生长出来，叶片展开、花苞打开，再出现跟随花叶的数字标记。用横向切片做转场，配上古典与电子融合的音乐，给我 7 秒竖屏动画和完整可编辑工程。
+
+**Token 用量：** 尚无这版作品的完整记录。<br>
+**显卡与历史渲染耗时：** RTX 4070 Ti / 12 GB，累计 **10 分 57.8 秒**（720 × 1280、48 采样，175 帧主镜头 + 20 帧转场近景）；两个渲染进程含启动、载入共 **11 分 9.8 秒**，不含合成与配乐制作。
+
+[第 6 版案例](tree-study/README.md) · [完整工程包](https://github.com/huangxin-design/blender-beginner/releases/download/showcase-2026-09-08/tree-study-v006-project.zip) · [提示词](tree-study/prompts.md) · [制作回顾](tree-study/conversation.md) · [计时与验收](tree-study/verification.json)
+
 ## 粉色装置
 
 [![粉色玩具装置，经过图像精修的展示成品](pink-installation/preview.png)](pink-installation/README.md)
@@ -24,7 +50,7 @@
 > 按参考图做一个粉色玩具装置：珊瑚粉褶柱、蓝色背板、薄荷珠和金白悬球，保留上下堆叠的趣味感。先给我看构图小样，再把陶瓷、金属和短绒做出不同的触感。保存可编辑的 Blender 工程；图片精修另存一份。
 
 **Token 用量：** 未记录。<br>
-**原生渲染时间：** 4.75 秒；EXR 母版记录，显卡型号未记录，不含图片精修。<br>
+**本机显卡实测：** RTX 4070 Ti / 12 GB，渲染 **5.95 秒**；含启动与载入共 **7.14 秒**。不含图片精修。[本次出图与记录](pink-installation/README.md)<br>
 **底稿设置：** Cycles，1080 × 1048，128 samples。
 
 [完整案例](pink-installation/README.md) · [源文件](pink-installation/source/editable-base.blend) · [分轮提示词](pink-installation/prompts.md) · [制作过程](pink-installation/conversation.md) · [出处](pink-installation/credits.md)
@@ -38,7 +64,7 @@
 > 把参考图里的兔子做成一位毛绒小骑士：粉色绒毛、金色水晶剑、橙色木盾，站在树墩上，背后有三朵软软的云。毛发要蓬松，剑光轻轻照亮靠近它的脸和耳朵。先确认姿势，再细化材质，保留能继续修改的 Blender 工程。
 
 **Token 用量：** 未记录。<br>
-**原生渲染时间：** 1 分 11.04 秒；EXR 母版记录，显卡型号未记录，不含图片精修。<br>
+**本机显卡实测：** RTX 4070 Ti / 12 GB，渲染 **55.47 秒**；含启动与载入共 **57.52 秒**。不含图片精修。[本次出图与记录](plush-rabbit-knight/README.md)<br>
 **底稿设置：** Cycles，1000 × 1000，1024 samples。
 
 [完整案例](plush-rabbit-knight/README.md) · [源文件](plush-rabbit-knight/source/editable-base.blend) · [分轮提示词](plush-rabbit-knight/prompts.md) · [制作过程](plush-rabbit-knight/conversation.md) · [出处](plush-rabbit-knight/credits.md)

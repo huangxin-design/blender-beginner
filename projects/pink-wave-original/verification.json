@@ -1,0 +1,244 @@
+{
+  "project": "pink-wave-original",
+  "recorded_at": "2026-09-08",
+  "artifact_source": "Original v005-4k source and 1080 preview; distinct from the later AI brand spheres project.",
+  "this_archive_check": {
+    "artwork_copied_byte_identical": true,
+    "manifest": "manifest.json",
+    "poster_visually_inspected": true,
+    "rerendered": false,
+    "video_reencoded": false,
+    "relocated_source_reopened": true,
+    "new_video_decode_or_player_verification": true
+  },
+  "historical_render": {
+    "blender": "5.2.1 LTS",
+    "engine": "Cycles",
+    "backend": "OptiX GPU",
+    "gpu": "NVIDIA GeForce RTX 4070 Ti",
+    "vram_gb": 12,
+    "gpu_evidence": "Same-machine setup record and installation configuration shown in original production task. GPU model is not repeated in the final render log.",
+    "resolution": [
+      3840,
+      3840
+    ],
+    "samples": 64,
+    "adaptive_threshold": 0.035,
+    "unique_frames": 200,
+    "fps": 30,
+    "loop_and_png_write_seconds": 3487.7,
+    "with_extra_seam_frame_201_seconds": 3501.7,
+    "process_command_seconds_from_task": 3503.291,
+    "video_frames": 600,
+    "video_seconds": 20,
+    "loop_repetitions": 3,
+    "timer_scope": "200 frame evaluations, renders, PNG writes and progress output. Excludes scene load/startup, seam frame 201, video encoding, creative revisions and acceptance.",
+    "log_check": "The original render log contains one Saved record for every frame 0001 through 0200.",
+    "evidence": [
+      "v005-4k/render-progress.json",
+      "v005-4k/render.log",
+      "v005-4k/render_final.py",
+      "v005-4k/build_scene.py"
+    ],
+    "token_total": null,
+    "token_scope": "No complete per-case token record established for this archive."
+  },
+  "historical_preview_acceptance": {
+    "file": "preview.mp4",
+    "resolution": [
+      1080,
+      1080
+    ],
+    "frames": 600,
+    "fps": 30,
+    "seconds": 20,
+    "audio": false,
+    "software_decode_record_exists": true,
+    "full_native_hardware_decode_verified": false,
+    "target_player_window_verified": false,
+    "source": "v005-4k/delivery-verification.json"
+  },
+  "historical_corrected_4k_master_acceptance": {
+    "file_not_in_this_case": "playback-fix/Pink_Wave_4K_Windows_20s.mp4",
+    "resolution": [
+      3840,
+      3840
+    ],
+    "software_frames": 600,
+    "hardware_frames": 600,
+    "differing_records": 0,
+    "target_player_window_verified": false,
+    "scope": "Separate corrected 4K movie. Its hardware comparison does not establish acceptance of this case 1080 preview.",
+    "source": "playback-fix/native-hash-verification.json; playback-fix/播放说明.md"
+  },
+  "dependencies": {
+    "packed_environment": "Studio Small 01 is packed according to the original project delivery note.",
+    "new_location_dependency_check": "Independently reopened repository copy with factory startup and automatic scripts disabled. Packed Studio Small 01 HDRI confirmed; no linked libraries. Source SHA256 unchanged. No new render."
+  },
+  "relocated_source_check": {
+    "date": "2026-09-08",
+    "process": {
+      "blender": "5.2.1 LTS",
+      "mode": "factory startup, disabled automatic execution, no source save",
+      "kind": "pink-wave-original",
+      "source_basename": "scene.blend",
+      "default_scene": "Pink Wave - 200 frame loop",
+      "frame_range": [
+        1,
+        200
+      ],
+      "resolution": [
+        3840,
+        3840
+      ],
+      "objects": 254,
+      "images": [
+        {
+          "name": "studio_small_01_2k.hdr",
+          "source": "FILE",
+          "packed": true,
+          "external_exists": false
+        }
+      ],
+      "fonts": [],
+      "linked_libraries": [],
+      "packed_studio_environment_confirmed": true,
+      "rendered": false,
+      "source_sha256_unchanged": "b9302ccee1bec7799061d78a9f96e637ef64c54adba29f4cb38cdcef2d5b6213"
+    },
+    "scope": "Independent read-only reopening and packed dependency inspection; no new render or animation validation."
+  },
+  "published_preview_check_2026_09_08": {
+    "source": {
+      "bytes": 6478533,
+      "sha256": "d12b5e8f07db0cac5d0b2c107f95976c53babd2190f689641b1403bcb6cc826e"
+    },
+    "player": {
+      "name": "Google Chrome Chromium HTML5 video, automated headless browser",
+      "version": "152.0.7977.76",
+      "video_decoder": "D3D11VideoDecoder",
+      "state": {
+        "duration": 20,
+        "currentTime": 20,
+        "ended": true,
+        "width": 1080,
+        "height": 1080,
+        "error": null,
+        "muted": true,
+        "playbackRate": 1,
+        "totalVideoFrames": 600,
+        "droppedVideoFrames": 2,
+        "webkitDecodedFrameCount": 600
+      },
+      "checked_seconds": [
+        0,
+        20
+      ],
+      "screenshots": [
+        "chrome-1.0s.png",
+        "chrome-5.0s.png",
+        "chrome-10.0s.png",
+        "chrome-15.0s.png",
+        "chrome-19.5s.png"
+      ],
+      "visual_review": {
+        "status": "completed_for_listed_screenshots",
+        "screenshots": [
+          "chrome-1.0s.png",
+          "chrome-5.0s.png",
+          "chrome-10.0s.png",
+          "chrome-15.0s.png",
+          "chrome-19.5s.png"
+        ],
+        "observations": [
+          "No block corruption or residual image ghosting seen in the listed native-size browser screenshots.",
+          "Two dropped frames reported during this 20-second playback; not a zero-drop playback result."
+        ]
+      },
+      "unverified": [
+        "Codex embedded player",
+        "other players and devices",
+        "audio listening (muted)"
+      ]
+    },
+    "decode": {
+      "ffmpeg_version": "ffmpeg version 9.0.1-full_build-www.gyan.dev Copyright (c) 2000-2026 the FFmpeg developers",
+      "comparison_format": "native 8-bit planar YUV420; no scaling",
+      "width": 1080,
+      "height": 1080,
+      "expected_frames": 600,
+      "software_decoder": "h264 (FFmpeg software; hwaccel none)",
+      "hardware_decoder": "h264_cuvid (NVIDIA NVDEC), CUDA output, mandatory hwdownload",
+      "hardware_path_confirmed": true,
+      "software_frames": 600,
+      "hardware_frames": 600,
+      "checked_frame_range_inclusive": [
+        1,
+        600
+      ],
+      "max_abs_sample_error": 0,
+      "mean_abs_sample_error": 0.0,
+      "changed_samples": 0,
+      "numerical_comparison_pass": true,
+      "visual_review": {
+        "status": "completed_for_selected_native_resolution_pairs",
+        "reviewed_frames": [
+          1,
+          300,
+          600
+        ],
+        "paths": [
+          "software",
+          "hardware"
+        ],
+        "observations": [
+          "Soft pink column grid and the three material spheres are intact; no block corruption or residual image ghosting seen in inspected beginning, middle and final frames."
+        ],
+        "scope": "All 600 native-resolution frames were compared numerically; listed frame pairs were visually inspected."
+      }
+    }
+  },
+  "github_attachment_check_2026_09_08": {
+    "page": "https://github.com/huangxin-design/blender-beginner/issues/1",
+    "http_status": 200,
+    "anonymous_access": true,
+    "player": "GitHub public issue native video player in background Chrome",
+    "browser_version": "152.0.7977.76",
+    "decoder_names": [
+      "D3D11VideoDecoder"
+    ],
+    "downloaded_attachment_sha256_matches_source": true,
+    "project": "pink-wave-original",
+    "attachment_url": "https://github.com/user-attachments/assets/09e1b56e-4b11-4e15-ac81-7e638166a24d",
+    "source_sha256": "d12b5e8f07db0cac5d0b2c107f95976c53babd2190f689641b1403bcb6cc826e",
+    "source_unique_frames": 600,
+    "player_final_state": {
+      "duration": 20,
+      "currentTime": 20,
+      "ended": true,
+      "width": 1080,
+      "height": 1080,
+      "error": null,
+      "totalVideoFrames": 600,
+      "droppedVideoFrames": 0,
+      "decodedFrames": 600,
+      "muted": true
+    },
+    "frame_counter_scope": "Browser lifetime decoded/total counters may include preroll or repeated decoding after seeking; they do not replace source unique-frame counts.",
+    "visual_review": {
+      "status": "completed_for_listed_screenshots",
+      "observations": [
+        "Viewed the live GitHub issue page screenshots during playback and after playback ended. The correct project is visible in each player; no block corruption or residual image ghosting seen."
+      ],
+      "screenshots": [
+        "issue-video-1-playing.png",
+        "issue-video-1-ended.png"
+      ]
+    },
+    "unverified": [
+      "Repository README page",
+      "Codex embedded player",
+      "audio listening (muted)"
+    ]
+  }
+}

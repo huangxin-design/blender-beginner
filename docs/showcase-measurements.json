@@ -173,5 +173,65 @@
     "duration_seconds": 30,
     "encode_elapsed_seconds": 11.774,
     "scope_note": "编码记录的11.774秒不是Blender渲染耗时。未找到可靠的任务Token归属。"
-  }
+  },
+  "local_rerender_2026_09_08": [
+    {
+      "project": "pink-installation",
+      "record": "projects/pink-installation/measurements/2026-09-08/measurement.json",
+      "render_call_seconds": 5.954,
+      "process_seconds": 7.135,
+      "gpu": "NVIDIA GeForce RTX 4070 Ti",
+      "resolution": [
+        1080,
+        1048
+      ],
+      "samples": 128
+    },
+    {
+      "project": "plush-rabbit-knight",
+      "record": "projects/plush-rabbit-knight/measurements/2026-09-08/measurement.json",
+      "render_call_seconds": 55.467,
+      "process_seconds": 57.523,
+      "gpu": "NVIDIA GeForce RTX 4070 Ti",
+      "resolution": [
+        1000,
+        1000
+      ],
+      "samples": 1024
+    }
+  ],
+  "project_group_animations": [
+    {
+      "project": "pink-wave-original",
+      "record": "projects/pink-wave-original/verification.json",
+      "gpu": "NVIDIA GeForce RTX 4070 Ti",
+      "resolution": [
+        3840,
+        3840
+      ],
+      "samples": 64,
+      "unique_rendered_frames": 200,
+      "loop_elapsed_seconds": 3487.7,
+      "process_seconds_including_extra_seam_frame": 3503.291,
+      "model_tokens": null,
+      "scope": "Historical original pink-wave render, distinct from later AI-brand animation; preview repeats the 200-frame loop three times. Excludes modeling and encoding."
+    },
+    {
+      "project": "tree-study",
+      "version": "v006",
+      "record": "projects/tree-study/verification.json",
+      "gpu": "NVIDIA GeForce RTX 4070 Ti",
+      "resolution": [
+        720,
+        1280
+      ],
+      "samples": 48,
+      "main_frames": 175,
+      "close_frames": 20,
+      "render_call_seconds_sum": 657.787,
+      "process_seconds_sum": 669.796,
+      "model_tokens": null,
+      "scope": "Historical sum of two render jobs; final video contains 175 frames, with close frames used in the transition. Excludes modeling, music, composition and encoding."
+    }
+  ]
 }

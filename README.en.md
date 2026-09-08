@@ -41,18 +41,18 @@ Once installed, try:
 
 ## Where it can help
 
-| You might ask | How it helps |
+| What you need | Say this, and the skill gets to work |
 | --- | --- |
-| I'm new to Blender. Where should I put the app and my files? | Checks for an existing Blender installation first. If you need one, sets up the app and projects in your chosen location. |
-| Can my computer handle 4K images or animation? | Looks at your computer and the scene you want to make, runs a small test when needed, and explains what might be demanding and what still needs checking. |
-| Could I make something that looks like this reference? | Explains which parts look straightforward, where the difficulties are, and how the result might differ from the reference. |
-| How do I ask for a frosted, clear, or dreamlike look? | Turns those descriptions into practical choices for materials, lighting, and the camera. |
-| It looks too plastic or blurry. How do I fix it? | Finds what is affecting the result, makes changes based on your feedback, and checks that the parts you already like are preserved. |
-| Can I open the finished file and keep editing it? | Saves and reopens the project, then renders and inspects a preview so you can see the result and any remaining issues. |
-| How many model tokens have been recorded for this project? | Starts recording from a specified conversation, shows the observed amount and how far the record goes, and explains what is still missing. |
-| How much longer will this render take? | Shows progress for the render it starts, estimates the remaining time once enough data is available, and says when it is too early to estimate. |
+| Install Blender and organize the files | Say **“Install Blender on my D drive and put my projects there too”** → Downloads and installs Blender, configures the Chinese interface and autosave, creates project and render folders, and delivers a starter file that opens and renders. |
+| Find out whether this computer can handle 4K or animation | Say **“Test this project on my computer and tell me whether to aim for a 4K still or an animation”** → Detects the GPU, VRAM and RAM, checks GPU acceleration, and runs a time-limited sample; delivers measured render time, GPU availability and verification results, and separate settings recommendations and remaining checks for 4K and animation. |
+| Understand what is achievable from a reference | Say **“Score this reference and tell me the difficult parts and expected differences”** → Delivers an evidence-based 0–100 assessment of the approach, covering shape, materials, lighting and camera, assets, and device limits, with the hardest assumptions to test first. |
+| Describe a look without learning nodes | Say **“Make this sphere frosted glass, add a glow around the edges, and soften the background”** → Builds the material nodes, glow and depth-of-field settings, then delivers an editable project and a preview. |
+| Refine a result | Say **“The wood grooves are too shiny. Change only that and keep everything else”** → Adjusts the relevant effect in the current project, saves a new version and comparison previews, and checks the objects, materials and composition you wanted to preserve. |
+| Get source files you can keep editing | Say **“Give me the editable project, its assets, and a preview”** → Delivers the `.blend`, required assets and production scripts; reopens the saved project, checks dependencies, renders a preview and inspects the image. |
+| Track a project's token usage | Say **“Start recording the tokens this conversation uses for this project from now on”** → Establishes a baseline and produces an updated usage record with the observed total, cutoff time and pending usage, available to check as work continues. |
+| See render progress and remaining time | Say **“Start rendering and show me the progress and time remaining”** → Opens a local page for this render with its stage, elapsed time and completed frames; once enough full frames are available, updates an estimated remaining-time range. |
 
-Describe the result you want, look at the preview, and tell Codex what to change. Feedback such as “make the light softer” or “blur the background a little” becomes a concrete adjustment in Blender.
+You describe the result and review previews; Codex does the work. Automatic installation currently targets Windows, Mac execution still needs real-device validation, scores are not reconstruction percentages, usage covers the specified conversation's recorded interval, and remaining time is estimated from complete frames in the render launched by the skill. See the [quick start](docs/quickstart.md) and [usage and progress details](docs/usage-progress.md).
 
 ## Explore an idea or start making it
 
@@ -79,6 +79,32 @@ See [usage, boundaries, and verification](docs/usage-progress.md) (Chinese). v05
 
 ## Projects, source files, and condensed conversations
 
+### Pink wave · a 20-second animation
+
+https://github.com/user-attachments/assets/09e1b56e-4b11-4e15-ac81-7e638166a24d
+
+**Prompt · retrospective example**
+
+> Make a field of pink columns rise and fall as metal and ceramic spheres roll across it. Keep the light soft and the contact natural. Render a square 4K loop, repeat it into a 20-second film, and keep the editable project.
+
+**Token usage:** A complete record for this version is unavailable.<br>
+**GPU and historical render time:** RTX 4070 Ti / 12 GB, **58 minutes 7.7 seconds** for 200 native frames at 3840 × 3840 and 64 samples. The loop repeats three times; the player shows a 1080 preview. Timing excludes modeling and encoding.
+
+[Case and editable source](projects/pink-wave-original/README.md) · [Prompts](projects/pink-wave-original/prompts.md) · [Production recap](projects/pink-wave-original/conversation.md) · [Timing and verification](projects/pink-wave-original/verification.json)
+
+### Tree study · a digital garden
+
+https://github.com/user-attachments/assets/60e3e618-b5af-4ed9-bbdb-2656ff3a2128
+
+**Prompt · retrospective example**
+
+> Grow a tree from a stone plinth, unfold its leaves and flowers, then bring in digital markers that follow the foliage. Add a horizontal slice transition and music combining classical and electronic sounds. Deliver a seven-second vertical film and the complete editable project.
+
+**Token usage:** A complete record for this version is unavailable.<br>
+**GPU and historical render time:** RTX 4070 Ti / 12 GB, **10 minutes 57.8 seconds** summed over 175 main frames and 20 transition closeups at 720 × 1280 and 48 samples. The two render processes total **11 minutes 9.8 seconds** including startup and loading, excluding compositing and music production.
+
+[Version 6 case](projects/tree-study/README.md) · [Complete project archive](https://github.com/huangxin-design/blender-beginner/releases/download/showcase-2026-09-08/tree-study-v006-project.zip) · [Prompts](projects/tree-study/prompts.md) · [Production recap](projects/tree-study/conversation.md) · [Timing and verification](projects/tree-study/verification.json)
+
 The three early projects below also include prompts, editable sources, and production records. Like the AI spheres above, they are the author's separate GitHub showcase materials, not evidence of the current skill producing each result in one pass.
 
 ### Pink installation
@@ -90,7 +116,7 @@ The three early projects below also include prompts, editable sources, and produ
 > Build a pink toy installation from the reference: a coral ribbed column, a blue backboard, mint beads, and a gold-and-white floating sphere. Give the ceramic a soft glaze, the metal clear reflections, and the plush parts a soft texture. Check the shapes first, then refine materials and lighting.
 
 **Token usage:** Not recorded.<br>
-**GPU and render time:** GPU model not recorded; the native base render took **4.75 seconds** (1080 × 1048, 128 samples). This excludes the subsequent image retouching shown above. [Timing scope](docs/showcase-measurements.md).
+**Local GPU measurement:** RTX 4070 Ti / 12 GB: **5.95 seconds** to render, **7.14 seconds** including startup and loading (1080 × 1048, 128-sample cap). Excludes subsequent image retouching. [New native render](projects/pink-installation/measurements/2026-09-08/native-render.png) · [Measured record](projects/pink-installation/measurements/2026-09-08/measurement.json).
 
 [Source and native render](projects/pink-installation/README.md) · [Full prompts](projects/pink-installation/prompts.md) · [Process and references](projects/pink-installation/conversation.md)
 
@@ -103,7 +129,7 @@ The three early projects below also include prompts, editable sources, and produ
 > Make a pink plush rabbit knight standing on a tree stump, holding a golden crystal sword and a wooden shield. Keep the fur soft, let the sword light gently reach its face and hand, and add three rounded clouds behind it. Show a small preview before refining the fur and glow.
 
 **Token usage:** Not recorded.<br>
-**GPU and render time:** GPU model not recorded; the native base render took **71.04 seconds** (1000 × 1000, 1024 samples). This excludes the sword glow and cloud image edits, which were not written back to the `.blend`. [Timing scope](docs/showcase-measurements.md).
+**Local GPU measurement:** RTX 4070 Ti / 12 GB: **55.47 seconds** to render, **57.52 seconds** including startup and loading (1000 × 1000, 1024-sample cap). Excludes the sword glow and cloud image edits. [New native render](projects/plush-rabbit-knight/measurements/2026-09-08/native-render.png) · [Measured record](projects/plush-rabbit-knight/measurements/2026-09-08/measurement.json).
 
 [Source and native render](projects/plush-rabbit-knight/README.md) · [Full prompts](projects/plush-rabbit-knight/prompts.md) · [Process and references](projects/plush-rabbit-knight/conversation.md)
 

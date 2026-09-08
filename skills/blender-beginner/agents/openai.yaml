@@ -1,0 +1,4 @@
+interface:
+  display_name: "Blender 新手开工助手"
+  short_description: "评估设备与参考图、制作可编辑工程，记录 Token 并查看渲染进度"
+  default_prompt: "使用 $blender-beginner 完成我当前的 Blender 请求，复用已有环境和工程，按需要评估、制作或局部修改。"

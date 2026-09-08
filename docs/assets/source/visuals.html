@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="zh-CN">
+<meta charset="utf-8">
+<title>Blender 开工助手 · Visual source</title>
+<style>
+:root{--paper:#f6f3ea;--ink:#252a26;--sage:#a6b8a6;--dark:#405a47;--accent:#b85e32;--line:#d4d7c9;--muted:#697265}
+*{box-sizing:border-box}body{margin:0;background:#dce0d8;color:var(--ink);font-family:Arial,"Microsoft YaHei",sans-serif}.board{position:relative;overflow:hidden;background:var(--paper);margin:40px auto;padding:58px 64px}.eyebrow{font:600 18px Arial;letter-spacing:3px;color:var(--dark)}.rule{height:1px;background:var(--line);margin:26px 0}.title{font-weight:750;letter-spacing:-2px;line-height:1.17;margin:25px 0 16px}.muted{color:var(--muted)}.accent{color:var(--accent)}.mono{font-family:Consolas,monospace}.foot{position:absolute;bottom:34px;left:64px;right:64px;display:flex;justify-content:space-between;align-items:center;font-size:18px;color:var(--muted)}.pill{display:inline-flex;align-items:center;padding:10px 17px;border:1px solid var(--line);border-radius:30px;font-size:18px}.dot{width:9px;height:9px;border-radius:50%;background:var(--accent);margin-right:10px}.label{font-size:20px;font-weight:700}.mark{display:inline-block;width:18px;height:18px;background:var(--dark);transform:rotate(45deg);margin-right:18px}.version{font:600 18px Consolas,monospace;letter-spacing:1px}.quote{border-left:4px solid var(--accent);padding-left:20px}
+#social{width:1280px;height:640px;padding:45px 52px}.social-title{font-size:85px;margin-top:62px;margin-bottom:25px}.social-sub{font-size:25px;line-height:1.7}.social-case{position:absolute;right:52px;top:130px;width:438px;border:1px solid #cbd1c4;background:#fffdf8;padding:18px 18px 20px;box-shadow:10px 12px 0 #e3e7dc}.social-case img{display:block;width:400px;height:300px;object-fit:contain}.casebar{display:flex;align-items:center;justify-content:space-between;font-size:15px;margin-bottom:15px}.social-case .meta{font-size:17px;margin-top:15px;color:var(--dark)}#social .foot{left:52px;right:52px;bottom:30px;font-size:16px}
+#workflow{width:1600px;height:760px}#workflow .title{font-size:52px}.lead{font-size:23px;line-height:1.65;margin:0;color:var(--muted)}.steps{display:grid;grid-template-columns:repeat(6,1fr);gap:18px;margin-top:50px}.step{position:relative;border-top:2px solid var(--dark);padding-top:24px;min-height:260px}.num{font:400 60px Arial;letter-spacing:-3px;color:#a2b09a;line-height:1}.step h3{font-size:26px;margin:29px 0 19px;letter-spacing:-1px}.step p{font-size:19px;line-height:1.8;margin:0;color:var(--muted)}.step:not(:last-child):after{content:'→';position:absolute;right:0;top:23px;color:var(--accent);font-size:29px}.workflow-note{margin-top:31px;background:#e8ecdf;padding:20px 24px;font-size:21px;color:var(--dark)}
+#comparison{width:1600px;height:1070px}#comparison .title{font-size:48px}.compare{display:grid;grid-template-columns:1fr 1fr;gap:48px;margin-top:32px}.compare figure{margin:0}.compare .caption{display:flex;justify-content:space-between;align-items:center;padding:0 0 17px;font-size:22px}.compare img{display:block;width:100%;height:auto;border:1px solid #d9d7ca}.compare .detail{font-size:19px;color:var(--muted);margin-top:17px;line-height:1.7}.retained{display:flex;gap:16px;margin-top:27px;align-items:center}.retained .caption{font-size:19px;margin-right:7px}.compare .version{color:var(--accent)}
+#language{width:1600px;height:900px}#language .title{font-size:52px}.ask{background:var(--dark);color:#faf9f0;padding:27px 32px;margin-top:33px;font-size:31px;line-height:1.6}.ask .tag{display:block;font-size:15px;letter-spacing:3px;color:#cbd8bf;margin-bottom:10px}.translations{display:grid;grid-template-columns:1fr 1fr;gap:0 50px;margin-top:20px}.translation{display:grid;grid-template-columns:160px 1fr;gap:16px;border-bottom:1px solid var(--line);padding:28px 0}.translation .from{font-size:25px;font-weight:700;color:var(--accent)}.translation .to{font-size:25px;font-weight:700}.translation p{font-size:19px;line-height:1.7;margin:9px 0 0;color:var(--muted)}
+</style>
+
+<section class="board" id="social">
+  <div class="eyebrow"><span class="mark"></span>CODEX SKILL / v04</div>
+  <h1 class="title social-title">Blender<br>开工助手<span class="accent">.</span></h1>
+  <p class="social-sub">从一句大白话，<br>到可编辑的 <b class="mono accent">.blend</b></p>
+  <div class="social-case">
+    <div class="casebar"><span>真实案例 · 绿色哑光陶瓷台灯</span><span class="version">v002</span></div>
+    <img src="../../../projects/green-desk-lamp/versions/v002/preview.png" alt="真实 Blender 渲染">
+    <div class="meta">工程 <span class="mono">.blend</span> + 脚本 <span class="mono">.py</span> + 预览</div>
+  </div>
+  <div class="foot"><span>准备环境 / 看懂参考 / 局部修改</span><span>独立项目 · 含真实案例与源文件</span></div>
+</section>
+
+<section class="board" id="workflow">
+  <div class="eyebrow">HOW IT WORKS / 按需使用</div>
+  <h2 class="title">从想法出发，把过程和工程留下来。</h2>
+  <p class="lead">按当前任务选择步骤；已有环境和工程直接复用。</p>
+  <div class="steps">
+    <article class="step"><div class="num">01</div><h3>准备环境</h3><p>复用已有 Blender<br>按指定目录开工</p></article>
+    <article class="step"><div class="num">02</div><h3>评估设备</h3><p>对照目标场景<br>验证画质与预算</p></article>
+    <article class="step"><div class="num">03</div><h3>看懂参考</h3><p>识别关键特征<br>说明难点与假设</p></article>
+    <article class="step"><div class="num">04</div><h3>转成制作需求</h3><p>把大白话变成<br>对象、材质与镜头</p></article>
+    <article class="step"><div class="num">05</div><h3>小样与修改</h3><p>看真实渲染<br>按反馈局部调整</p></article>
+    <article class="step"><div class="num">06</div><h3>保存与归档</h3><p>工程、脚本、预览<br>按作品和版本保留</p></article>
+  </div>
+  <div class="workflow-note">只咨询，就给判断；只改局部，就检查相关变化。作品源文件由维护者归档到仓库。</div>
+  <div class="foot"><span>Blender 开工助手</span><span>需求 → 可执行操作 → 实际检查</span></div>
+</section>
+
+<section class="board" id="comparison">
+  <div class="eyebrow">REAL BLENDER OUTPUT / DEMO 01</div>
+  <h2 class="title">同一盏台灯，只改灯罩材质。</h2>
+  <p class="lead quote">“灯罩改成哑光陶瓷，仍然绿色；底座、支架和构图保留。”</p>
+  <div class="compare">
+    <figure><div class="caption"><b>原始材质</b><span class="version">v001</span></div><img src="../../../projects/green-desk-lamp/versions/v001/preview.png" alt="初版真实渲染"><div class="detail">绿色灯罩与底座共用原始材质，<br>灯罩高光较集中。</div></figure>
+    <figure><div class="caption"><b>绿色哑光陶瓷</b><span class="version">v002</span></div><img src="../../../projects/green-desk-lamp/versions/v002/preview.png" alt="修改后真实渲染"><div class="detail">灯罩与绿色顶盖使用独立材质，<br>高光变柔和，底座原材质保留。</div></figure>
+  </div>
+  <div class="retained"><span class="caption">已检查的保留项</span><span class="pill"><i class="dot"></i>相机与画幅</span><span class="pill"><i class="dot"></i>底座与支架</span><span class="pill"><i class="dot"></i>几何与原工程</span></div>
+  <div class="foot"><span>Blender 5.2.1 LTS · 原始预览 640 × 480 · 等比例排版</span><span>两版均附 .blend 与可复现脚本</span></div>
+</section>
+
+<section class="board" id="language">
+  <div class="eyebrow">NATURAL LANGUAGE / 方案示例 · 未渲染</div>
+  <h2 class="title">你说感受，Codex 拆成制作动作。</h2>
+  <div class="ask"><span class="tag">用户的大白话</span>“奶油色磨砂花瓶，背景虚一点，边缘带一点光晕。”</div>
+  <div class="translations">
+    <article class="translation"><div class="from">奶油色</div><div><div class="to">低饱和暖白</div><p>在中性照明下检查底色，避免整件偏黄。</p></div></article>
+    <article class="translation"><div class="from">磨砂</div><div><div class="to">粗糙度 + 细微肌理</div><p>先明确材料，再检查柔和高光与纹理尺度。</p></div></article>
+    <article class="translation"><div class="from">背景虚一点</div><div><div class="to">对焦 + 光圈 + 前后距离</div><p>主体关键部位清晰，背景适度失焦。</p></div></article>
+    <article class="translation"><div class="from">一点光晕</div><div><div class="to">亮部的合成光晕</div><p>区分物体发光与画面光晕，保住轮廓。</p></div></article>
+  </div>
+  <div class="foot"><span>实现方向需在实际工程中验证。</span><span>让用户描述效果，让 Codex 处理节点。</span></div>
+</section>
+</html>

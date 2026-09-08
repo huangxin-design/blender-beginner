@@ -1,0 +1,510 @@
+{
+  "archive_date": "2026-09-06",
+  "import_date": "2026-09-08",
+  "files": [
+    {
+      "source_in_archive": "01_粉色装置/成品_用户确认的精修图.png",
+      "published_file": "projects/pink-installation/preview.png",
+      "source_sha256": "c7a86c97839868777d057df2cce15dba572380838c8e49e9b88ec1012cf39c1d",
+      "published_sha256": "c7a86c97839868777d057df2cce15dba572380838c8e49e9b88ec1012cf39c1d",
+      "bytes": 1501663,
+      "text_adapted": false
+    },
+    {
+      "source_in_archive": "01_粉色装置/原生渲染_精修前.png",
+      "published_file": "projects/pink-installation/native-render.png",
+      "source_sha256": "e0770ace7ba3c33aa044877bf7526e1144936da012e547293416ff3b4fccd5d6",
+      "published_sha256": "e0770ace7ba3c33aa044877bf7526e1144936da012e547293416ff3b4fccd5d6",
+      "bytes": 1033512,
+      "text_adapted": false
+    },
+    {
+      "source_in_archive": "01_粉色装置/可编辑底稿_不含最终图像精修.blend",
+      "published_file": "projects/pink-installation/source/editable-base.blend",
+      "source_sha256": "158c230c037a0eaceaa50cce96a6cf8d7a60671c07e9f974f7c6f1e27305fcd3",
+      "published_sha256": "158c230c037a0eaceaa50cce96a6cf8d7a60671c07e9f974f7c6f1e27305fcd3",
+      "bytes": 1836757,
+      "text_adapted": false
+    },
+    {
+      "source_in_archive": "01_粉色装置/线性母版_beauty.exr",
+      "published_file": "projects/pink-installation/source/beauty.exr",
+      "source_sha256": "a38b3cf778d7c9656dabb355e2d96a556f34681ab044821f50691be722555d11",
+      "published_sha256": "a38b3cf778d7c9656dabb355e2d96a556f34681ab044821f50691be722555d11",
+      "bytes": 8209872,
+      "text_adapted": false
+    },
+    {
+      "source_in_archive": "01_粉色装置/实际使用的英文图像精修提示词.txt",
+      "published_file": "projects/pink-installation/postprocess-prompt.txt",
+      "source_sha256": "695c70a4e2630346901ff0196836b0f623e07f27e2fd943dfee62e4f642fc5c7",
+      "published_sha256": "695c70a4e2630346901ff0196836b0f623e07f27e2fd943dfee62e4f642fc5c7",
+      "bytes": 2853,
+      "text_adapted": false
+    },
+    {
+      "source_in_archive": "01_粉色装置/参考原图.png",
+      "published_file": "projects/pink-installation/reference.png",
+      "source_sha256": "630a0df2e8fcd400549093daef6a25170c77453fc23590282a59eb6260522dd7",
+      "published_sha256": "630a0df2e8fcd400549093daef6a25170c77453fc23590282a59eb6260522dd7",
+      "bytes": 472950,
+      "text_adapted": false
+    },
+    {
+      "source_in_archive": "01_粉色装置/版本链对照.jpg",
+      "published_file": "projects/pink-installation/version-comparison.jpg",
+      "source_sha256": "164b655d339057d53dcbbe583ae916fae2acf255269ded18bb25e3fdbc60d91d",
+      "published_sha256": "164b655d339057d53dcbbe583ae916fae2acf255269ded18bb25e3fdbc60d91d",
+      "bytes": 123296,
+      "text_adapted": false
+    },
+    {
+      "source_in_archive": "01_粉色装置/制作记录/优化前后对比.jpg",
+      "published_file": "projects/pink-installation/material-comparison.jpg",
+      "source_sha256": "8ac2186825e57cfbf5d476a05f0235b63cbf4d5a8b4480b58399a36645882c9f",
+      "published_sha256": "8ac2186825e57cfbf5d476a05f0235b63cbf4d5a8b4480b58399a36645882c9f",
+      "bytes": 53278,
+      "text_adapted": false
+    },
+    {
+      "source_in_archive": "01_粉色装置/制作记录/材质细节对比.jpg",
+      "published_file": "projects/pink-installation/material-details.jpg",
+      "source_sha256": "883b0999fe091cb214fce6cf1b63fef9fcf23703e1d7b1bf400f1c87c621403f",
+      "published_sha256": "883b0999fe091cb214fce6cf1b63fef9fcf23703e1d7b1bf400f1c87c621403f",
+      "bytes": 157392,
+      "text_adapted": false
+    },
+    {
+      "source_in_archive": "01_粉色装置/优化提示词对话.md",
+      "published_file": "projects/pink-installation/prompts.md",
+      "source_sha256": "96a9d7c1be5205f7dbe0a84af80af00255518be55adf5179465952cd4a4cb1d4",
+      "published_sha256": "96a9d7c1be5205f7dbe0a84af80af00255518be55adf5179465952cd4a4cb1d4",
+      "bytes": 4717,
+      "text_adapted": false
+    },
+    {
+      "source_in_archive": "02_毛绒兔骑士/成品_用户确认的精修图.png",
+      "published_file": "projects/plush-rabbit-knight/preview.png",
+      "source_sha256": "5031b227e027c1ba31cdad89a0ec84f1f914da75b927345ffdba94ce7292aba8",
+      "published_sha256": "5031b227e027c1ba31cdad89a0ec84f1f914da75b927345ffdba94ce7292aba8",
+      "bytes": 2129910,
+      "text_adapted": false
+    },
+    {
+      "source_in_archive": "02_毛绒兔骑士/原生渲染_精修前.png",
+      "published_file": "projects/plush-rabbit-knight/native-render.png",
+      "source_sha256": "d46c45911feb3fd3e7c2e4dfbde49733c6288ca7f16bf36040295f4584c68902",
+      "published_sha256": "d46c45911feb3fd3e7c2e4dfbde49733c6288ca7f16bf36040295f4584c68902",
+      "bytes": 1447183,
+      "text_adapted": false
+    },
+    {
+      "source_in_archive": "02_毛绒兔骑士/可编辑底稿_不含最终图像精修.blend",
+      "published_file": "projects/plush-rabbit-knight/source/editable-base.blend",
+      "source_sha256": "abe8cfa87b167d004b00812bee7bf67dde47186f8a01b6ce37f9eb65b4ebfa74",
+      "published_sha256": "abe8cfa87b167d004b00812bee7bf67dde47186f8a01b6ce37f9eb65b4ebfa74",
+      "bytes": 32447880,
+      "text_adapted": false
+    },
+    {
+      "source_in_archive": "02_毛绒兔骑士/线性母版_beauty.exr",
+      "published_file": "projects/plush-rabbit-knight/source/beauty.exr",
+      "source_sha256": "706aee54da14f2338777f162ffd2d414321fb843d8a57276f8cb8ec9cc8e1354",
+      "published_sha256": "706aee54da14f2338777f162ffd2d414321fb843d8a57276f8cb8ec9cc8e1354",
+      "bytes": 3445667,
+      "text_adapted": false
+    },
+    {
+      "source_in_archive": "02_毛绒兔骑士/实际使用的英文图像精修提示词.txt",
+      "published_file": "projects/plush-rabbit-knight/postprocess-prompt.txt",
+      "source_sha256": "e2f674117813f9529e4386459744818add0070bae67ade816e43a9ac122b3b1b",
+      "published_sha256": "e2f674117813f9529e4386459744818add0070bae67ade816e43a9ac122b3b1b",
+      "bytes": 2549,
+      "text_adapted": false
+    },
+    {
+      "source_in_archive": "02_毛绒兔骑士/参考原图.png",
+      "published_file": "projects/plush-rabbit-knight/reference.png",
+      "source_sha256": "f5dbb842021d97b7552df73976179ef5e6fcc849920ac42a8ac7a698e4e4cc95",
+      "published_sha256": "f5dbb842021d97b7552df73976179ef5e6fcc849920ac42a8ac7a698e4e4cc95",
+      "bytes": 1079889,
+      "text_adapted": false
+    },
+    {
+      "source_in_archive": "02_毛绒兔骑士/版本链对照.jpg",
+      "published_file": "projects/plush-rabbit-knight/version-comparison.jpg",
+      "source_sha256": "27bb70bf590987abba50504094bc230067c73fbb1611d24f5e7451089900f248",
+      "published_sha256": "27bb70bf590987abba50504094bc230067c73fbb1611d24f5e7451089900f248",
+      "bytes": 208954,
+      "text_adapted": false
+    },
+    {
+      "source_in_archive": "02_毛绒兔骑士/制作记录/优化前后对比.jpg",
+      "published_file": "projects/plush-rabbit-knight/material-comparison.jpg",
+      "source_sha256": "421557759f5388a0e2cb4ab7a2946d99ba703137914a1895f912abd125271175",
+      "published_sha256": "421557759f5388a0e2cb4ab7a2946d99ba703137914a1895f912abd125271175",
+      "bytes": 93241,
+      "text_adapted": false
+    },
+    {
+      "source_in_archive": "02_毛绒兔骑士/制作记录/材质细节对比.jpg",
+      "published_file": "projects/plush-rabbit-knight/material-details.jpg",
+      "source_sha256": "8faeb6f53881fd1f00a98586f4348bb3449fcbf66acc439b3e03da6ba7329b82",
+      "published_sha256": "8faeb6f53881fd1f00a98586f4348bb3449fcbf66acc439b3e03da6ba7329b82",
+      "bytes": 211772,
+      "text_adapted": false
+    },
+    {
+      "source_in_archive": "02_毛绒兔骑士/优化提示词对话.md",
+      "published_file": "projects/plush-rabbit-knight/prompts.md",
+      "source_sha256": "20c2d8be4483fdb903abf15709803a27fae33acba6cf065e7d765fb9c2a27177",
+      "published_sha256": "20c2d8be4483fdb903abf15709803a27fae33acba6cf065e7d765fb9c2a27177",
+      "bytes": 4532,
+      "text_adapted": false
+    },
+    {
+      "source_in_archive": "03_悬浮几何动画/完整可编辑动画工程.blend",
+      "published_file": "projects/floating-geometry-animation/source/scene.blend",
+      "source_sha256": "5d562833e18117f0d39930581a5dd61bdc32ec241826230a3dff884b1d1213b0",
+      "published_sha256": "5d562833e18117f0d39930581a5dd61bdc32ec241826230a3dff884b1d1213b0",
+      "bytes": 4850144,
+      "text_adapted": false
+    },
+    {
+      "source_in_archive": "03_悬浮几何动画/成品_五套配色_30秒.mp4",
+      "published_file": "projects/floating-geometry-animation/final.mp4",
+      "source_sha256": "6689d4b3c95de5bbda0aff3fe16ea530402821832ddf7c5ddd0d78c758882243",
+      "published_sha256": "6689d4b3c95de5bbda0aff3fe16ea530402821832ddf7c5ddd0d78c758882243",
+      "bytes": 9156614,
+      "text_adapted": false
+    },
+    {
+      "source_in_archive": "03_悬浮几何动画/五套配色预览.jpg",
+      "published_file": "projects/floating-geometry-animation/preview.jpg",
+      "source_sha256": "2ff08c0828416b761dd1f191a1449a495c99b5936512e89c5fdf53cc2ad584c4",
+      "published_sha256": "2ff08c0828416b761dd1f191a1449a495c99b5936512e89c5fdf53cc2ad584c4",
+      "bytes": 236598,
+      "text_adapted": false
+    },
+    {
+      "source_in_archive": "03_悬浮几何动画/参考关键帧.png",
+      "published_file": "projects/floating-geometry-animation/reference.png",
+      "source_sha256": "5d80b773afff3851a67121b090443451e1ff73e38778204927403721c66ea84d",
+      "published_sha256": "5d80b773afff3851a67121b090443451e1ff73e38778204927403721c66ea84d",
+      "bytes": 725176,
+      "text_adapted": false
+    },
+    {
+      "source_in_archive": "03_悬浮几何动画/参考视频_用户提供.mp4",
+      "published_file": "projects/floating-geometry-animation/reference.mp4",
+      "source_sha256": "2e68f33376b8655a4e6b3ee25d27f0b1afa06a8b344d91dbcd5bb7341b56217b",
+      "published_sha256": "2e68f33376b8655a4e6b3ee25d27f0b1afa06a8b344d91dbcd5bb7341b56217b",
+      "bytes": 4657686,
+      "text_adapted": false
+    },
+    {
+      "source_in_archive": "03_悬浮几何动画/优化提示词对话.md",
+      "published_file": "projects/floating-geometry-animation/prompts.md",
+      "source_sha256": "68d576e72d270fdc57b636c23defb797e29bfae78c7fd09c939ce11ac1847a99",
+      "published_sha256": "68d576e72d270fdc57b636c23defb797e29bfae78c7fd09c939ce11ac1847a99",
+      "bytes": 4391,
+      "text_adapted": false
+    },
+    {
+      "source_in_archive": "重建支持/setup/audit_enhanced_materials.py",
+      "published_file": "projects/_early-work-support/setup/audit_enhanced_materials.py",
+      "source_sha256": "c2fad6a506b74b0c647a58b88a059b24de450bf0418f1c64c88aadd7e36b814b",
+      "published_sha256": "c2fad6a506b74b0c647a58b88a059b24de450bf0418f1c64c88aadd7e36b814b",
+      "bytes": 2664,
+      "text_adapted": false
+    },
+    {
+      "source_in_archive": "重建支持/setup/finish_stills.py",
+      "published_file": "projects/_early-work-support/setup/finish_stills.py",
+      "source_sha256": "bea88a56542c5b3874530ae161fe90950eff5e9fa7f0ba6540bd4b853d1dbeeb",
+      "published_sha256": "bea88a56542c5b3874530ae161fe90950eff5e9fa7f0ba6540bd4b853d1dbeeb",
+      "bytes": 5426,
+      "text_adapted": false
+    },
+    {
+      "source_in_archive": "重建支持/作品/01_粉色装置/01_粉色装置.blend",
+      "published_file": "projects/_early-work-support/作品/01_粉色装置/01_粉色装置.blend",
+      "source_sha256": "203b11c7e60bb388f1945522ea01dc69f299480d9aca2b503f8183b1742c2ff6",
+      "published_sha256": "203b11c7e60bb388f1945522ea01dc69f299480d9aca2b503f8183b1742c2ff6",
+      "bytes": 1792753,
+      "text_adapted": false
+    },
+    {
+      "source_in_archive": "重建支持/作品/01_粉色装置/create_scene.py",
+      "published_file": "projects/_early-work-support/作品/01_粉色装置/create_scene.py",
+      "source_sha256": "e3c45e1017394a3f1621a3b8da477c2892dd08e0171593fcf44e8afd832d2cba",
+      "published_sha256": "e3c45e1017394a3f1621a3b8da477c2892dd08e0171593fcf44e8afd832d2cba",
+      "bytes": 28454,
+      "text_adapted": false
+    },
+    {
+      "source_in_archive": "重建支持/作品/02_毛绒兔骑士/02_毛绒兔骑士.blend",
+      "published_file": "projects/_early-work-support/作品/02_毛绒兔骑士/02_毛绒兔骑士.blend",
+      "source_sha256": "0ed932c2689d0ddab8d4fd4eaf5d64afa4f15c70f5c550a04c0a0e7693ba8af4",
+      "published_sha256": "0ed932c2689d0ddab8d4fd4eaf5d64afa4f15c70f5c550a04c0a0e7693ba8af4",
+      "bytes": 28651079,
+      "text_adapted": false
+    },
+    {
+      "source_in_archive": "重建支持/作品/02_毛绒兔骑士/create_rabbit_knight.py",
+      "published_file": "projects/_early-work-support/作品/02_毛绒兔骑士/create_rabbit_knight.py",
+      "source_sha256": "20735c312a3695555ef198269bcaf40faa34a527343a21ec5ef6c33c093e7976",
+      "published_sha256": "20735c312a3695555ef198269bcaf40faa34a527343a21ec5ef6c33c093e7976",
+      "bytes": 32932,
+      "text_adapted": false
+    },
+    {
+      "source_in_archive": "重建支持/作品/02_毛绒兔骑士/render_rabbit.py",
+      "published_file": "projects/_early-work-support/作品/02_毛绒兔骑士/render_rabbit.py",
+      "source_sha256": "5d86e8f5e7eb2048352e6fdfedf162bda272f5f01a119eb29c3bf5d7f31b5c40",
+      "published_sha256": "5d86e8f5e7eb2048352e6fdfedf162bda272f5f01a119eb29c3bf5d7f31b5c40",
+      "bytes": 2150,
+      "text_adapted": false
+    },
+    {
+      "source_in_archive": "重建支持/作品/04_粉色装置_光影增强/enhance_scene.py",
+      "published_file": "projects/_early-work-support/作品/04_粉色装置_光影增强/enhance_scene.py",
+      "source_sha256": "889a40bce46ea44076346a245ca667069c865089594c9a891fbdba86dc92cbec",
+      "published_sha256": "889a40bce46ea44076346a245ca667069c865089594c9a891fbdba86dc92cbec",
+      "bytes": 13556,
+      "text_adapted": false
+    },
+    {
+      "source_in_archive": "重建支持/作品/05_毛绒兔骑士_光影增强/enhance_materials.py",
+      "published_file": "projects/_early-work-support/作品/05_毛绒兔骑士_光影增强/enhance_materials.py",
+      "source_sha256": "64db1348278b915b929e0a55687aa0ebea771667ae19fef1a36a019b7e6f8e9e",
+      "published_sha256": "64db1348278b915b929e0a55687aa0ebea771667ae19fef1a36a019b7e6f8e9e",
+      "bytes": 21501,
+      "text_adapted": false
+    },
+    {
+      "source_in_archive": "重建支持/作品/05_毛绒兔骑士_光影增强/render_beauty.py",
+      "published_file": "projects/_early-work-support/作品/05_毛绒兔骑士_光影增强/render_beauty.py",
+      "source_sha256": "8c1bf3892ecb77462ae3774593888b29c824097855defa45aeca90662abb022c",
+      "published_sha256": "8c1bf3892ecb77462ae3774593888b29c824097855defa45aeca90662abb022c",
+      "bytes": 2274,
+      "text_adapted": false
+    },
+    {
+      "source_in_archive": "重建支持/作品/08_紫色悬浮几何/08_紫色悬浮几何_调色成品.blend",
+      "published_file": "projects/_early-work-support/作品/08_紫色悬浮几何/08_紫色悬浮几何_调色成品.blend",
+      "source_sha256": "6ef2027313d5c5df391c2d6492f7c3684b9cf81c9f7665c74bcd3e0eca01ad3d",
+      "published_sha256": "6ef2027313d5c5df391c2d6492f7c3684b9cf81c9f7665c74bcd3e0eca01ad3d",
+      "bytes": 971835,
+      "text_adapted": false
+    },
+    {
+      "source_in_archive": "重建支持/作品/08_紫色悬浮几何/build_scene.py",
+      "published_file": "projects/_early-work-support/作品/08_紫色悬浮几何/build_scene.py",
+      "source_sha256": "ea1d5497722d2a7397b30d90931cc5611e6b7770203f943987a24fd2172ea45a",
+      "published_sha256": "ea1d5497722d2a7397b30d90931cc5611e6b7770203f943987a24fd2172ea45a",
+      "bytes": 25519,
+      "text_adapted": false
+    },
+    {
+      "source_in_archive": "重建支持/作品/08_紫色悬浮几何/color_finish.json",
+      "published_file": "projects/_early-work-support/作品/08_紫色悬浮几何/color_finish.json",
+      "source_sha256": "b60b1fd27e67ad8f5b61e62b17469c64705ba7e06ed63d26633cbb8332e5a4a4",
+      "published_sha256": "b60b1fd27e67ad8f5b61e62b17469c64705ba7e06ed63d26633cbb8332e5a4a4",
+      "bytes": 285,
+      "text_adapted": false
+    },
+    {
+      "source_in_archive": "重建支持/作品/08_紫色悬浮几何/finish_native.py",
+      "published_file": "projects/_early-work-support/作品/08_紫色悬浮几何/finish_native.py",
+      "source_sha256": "abfa1fa9f7434379c4694586ad4620707b147a8b15a9c05184dd8a1552b1ff0e",
+      "published_sha256": "abfa1fa9f7434379c4694586ad4620707b147a8b15a9c05184dd8a1552b1ff0e",
+      "bytes": 5452,
+      "text_adapted": false
+    },
+    {
+      "source_in_archive": "重建支持/作品/08_紫色悬浮几何/hero_geometry.py",
+      "published_file": "projects/_early-work-support/作品/08_紫色悬浮几何/hero_geometry.py",
+      "source_sha256": "3ede24e0f2f540b029edc99aa2994f25899798051eab578a5ebb687905849232",
+      "published_sha256": "3ede24e0f2f540b029edc99aa2994f25899798051eab578a5ebb687905849232",
+      "bytes": 9149,
+      "text_adapted": false
+    },
+    {
+      "source_in_archive": "重建支持/作品/08_紫色悬浮几何/materials.py",
+      "published_file": "projects/_early-work-support/作品/08_紫色悬浮几何/materials.py",
+      "source_sha256": "5bbb9e0a548a0bfd0b3fa50c31b7cdd40f2072b06e07f31ecb08435914c5653e",
+      "published_sha256": "5bbb9e0a548a0bfd0b3fa50c31b7cdd40f2072b06e07f31ecb08435914c5653e",
+      "bytes": 5277,
+      "text_adapted": false
+    },
+    {
+      "source_in_archive": "重建支持/作品/09_紫色悬浮几何动画/09_01_白底彩色.blend",
+      "published_file": "projects/_early-work-support/作品/09_紫色悬浮几何动画/09_01_白底彩色.blend",
+      "source_sha256": "3339e6493f1e5b425635bef135224f2b20f20cb5b413c1a9b304ee87bb081da4",
+      "published_sha256": "3339e6493f1e5b425635bef135224f2b20f20cb5b413c1a9b304ee87bb081da4",
+      "bytes": 1621753,
+      "text_adapted": false
+    },
+    {
+      "source_in_archive": "重建支持/作品/09_紫色悬浮几何动画/09_02_黑金.blend",
+      "published_file": "projects/_early-work-support/作品/09_紫色悬浮几何动画/09_02_黑金.blend",
+      "source_sha256": "5937ba5fa746d6333b257d5f2d01d60970a8feaeae581868e19181921082645a",
+      "published_sha256": "5937ba5fa746d6333b257d5f2d01d60970a8feaeae581868e19181921082645a",
+      "bytes": 1611007,
+      "text_adapted": false
+    },
+    {
+      "source_in_archive": "重建支持/作品/09_紫色悬浮几何动画/09_03_冰蓝虹彩.blend",
+      "published_file": "projects/_early-work-support/作品/09_紫色悬浮几何动画/09_03_冰蓝虹彩.blend",
+      "source_sha256": "700feb65ca225e4383cbe4fdb5016f2d3ef572dc3a12704ebbef146f711f2271",
+      "published_sha256": "700feb65ca225e4383cbe4fdb5016f2d3ef572dc3a12704ebbef146f711f2271",
+      "bytes": 1616868,
+      "text_adapted": false
+    },
+    {
+      "source_in_archive": "重建支持/作品/09_紫色悬浮几何动画/09_04_紫黄糖果.blend",
+      "published_file": "projects/_early-work-support/作品/09_紫色悬浮几何动画/09_04_紫黄糖果.blend",
+      "source_sha256": "ad28d9d222fee3d15d526dbececcc39a81d4cd1b477f0e53b11651fa9ebfdc93",
+      "published_sha256": "ad28d9d222fee3d15d526dbececcc39a81d4cd1b477f0e53b11651fa9ebfdc93",
+      "bytes": 1611008,
+      "text_adapted": false
+    },
+    {
+      "source_in_archive": "重建支持/作品/09_紫色悬浮几何动画/09_05_黑白.blend",
+      "published_file": "projects/_early-work-support/作品/09_紫色悬浮几何动画/09_05_黑白.blend",
+      "source_sha256": "d9b45e640373ae8c78bcdba28965f11e1b4a4263d172256fa6ec89f4519925a1",
+      "published_sha256": "d9b45e640373ae8c78bcdba28965f11e1b4a4263d172256fa6ec89f4519925a1",
+      "bytes": 1609787,
+      "text_adapted": false
+    },
+    {
+      "source_in_archive": "重建支持/作品/09_紫色悬浮几何动画/09_基础循环.blend",
+      "published_file": "projects/_early-work-support/作品/09_紫色悬浮几何动画/09_基础循环.blend",
+      "source_sha256": "d62b0b68b071b45740ea4f2c94ffc19f05c666ed709cf5ee17af4572c727568f",
+      "published_sha256": "d62b0b68b071b45740ea4f2c94ffc19f05c666ed709cf5ee17af4572c727568f",
+      "bytes": 1611369,
+      "text_adapted": false
+    },
+    {
+      "source_in_archive": "重建支持/作品/09_紫色悬浮几何动画/assemble_projects.py",
+      "published_file": "projects/_early-work-support/作品/09_紫色悬浮几何动画/assemble_projects.py",
+      "source_sha256": "21a3918041f641f9ebc48bdb48e4842ae2d6da1f1c827764790b20847ccef448",
+      "published_sha256": "21a3918041f641f9ebc48bdb48e4842ae2d6da1f1c827764790b20847ccef448",
+      "bytes": 6682,
+      "text_adapted": false
+    },
+    {
+      "source_in_archive": "重建支持/作品/09_紫色悬浮几何动画/assembly_build_report.json",
+      "published_file": "projects/_early-work-support/作品/09_紫色悬浮几何动画/assembly_build_report.json",
+      "source_sha256": "db79a2af43888e087fe76594128db967934cfe1229e0e7aa2d6717471e77e962",
+      "published_sha256": "9f56469b4e04ed66ebcd38ea81fa5e4bd289d2c80bd53b445bbf8f777eaf202c",
+      "bytes": 2312,
+      "text_adapted": true
+    },
+    {
+      "source_in_archive": "重建支持/作品/09_紫色悬浮几何动画/build_animation.py",
+      "published_file": "projects/_early-work-support/作品/09_紫色悬浮几何动画/build_animation.py",
+      "source_sha256": "db58a6240909689b3228cdd09524cc254452d39e845c8ee9093ec10ba60127a0",
+      "published_sha256": "db58a6240909689b3228cdd09524cc254452d39e845c8ee9093ec10ba60127a0",
+      "bytes": 8476,
+      "text_adapted": false
+    },
+    {
+      "source_in_archive": "重建支持/作品/09_紫色悬浮几何动画/encode_final.ps1",
+      "published_file": "projects/_early-work-support/作品/09_紫色悬浮几何动画/encode_final.ps1",
+      "source_sha256": "8e8426d2e4fdf86a8b0c837d587919423ee55884d11fe49e85502d98b9e3725a",
+      "published_sha256": "161a826c7679b445dbd8100511752ef22564ec42617c7d0e949c54acd2eaeaa0",
+      "bytes": 7147,
+      "text_adapted": true
+    },
+    {
+      "source_in_archive": "重建支持/作品/09_紫色悬浮几何动画/finalize_projects.py",
+      "published_file": "projects/_early-work-support/作品/09_紫色悬浮几何动画/finalize_projects.py",
+      "source_sha256": "a0541802c2f04f40b79282ec174b7a9833bc83679afb1b4c883382558b80cdcf",
+      "published_sha256": "a0541802c2f04f40b79282ec174b7a9833bc83679afb1b4c883382558b80cdcf",
+      "bytes": 7196,
+      "text_adapted": false
+    },
+    {
+      "source_in_archive": "重建支持/作品/09_紫色悬浮几何动画/motion_build_report.json",
+      "published_file": "projects/_early-work-support/作品/09_紫色悬浮几何动画/motion_build_report.json",
+      "source_sha256": "65efad2e00162ffbc62df23bee1cd031e228ce02d61587bb266b89d016df096a",
+      "published_sha256": "65efad2e00162ffbc62df23bee1cd031e228ce02d61587bb266b89d016df096a",
+      "bytes": 12942,
+      "text_adapted": false
+    },
+    {
+      "source_in_archive": "重建支持/作品/09_紫色悬浮几何动画/palette_animation.py",
+      "published_file": "projects/_early-work-support/作品/09_紫色悬浮几何动画/palette_animation.py",
+      "source_sha256": "aa4fd903f17b2baa5af0585a067047bbcd462acea261bd121b22e08fc39462d1",
+      "published_sha256": "aa4fd903f17b2baa5af0585a067047bbcd462acea261bd121b22e08fc39462d1",
+      "bytes": 9324,
+      "text_adapted": false
+    },
+    {
+      "source_in_archive": "重建支持/作品/09_紫色悬浮几何动画/render_animation.py",
+      "published_file": "projects/_early-work-support/作品/09_紫色悬浮几何动画/render_animation.py",
+      "source_sha256": "fc412f6fccf0e3eab20d1b1faf618ccdb8ae6afa0c54bcb856d5cd3507074be1",
+      "published_sha256": "fc412f6fccf0e3eab20d1b1faf618ccdb8ae6afa0c54bcb856d5cd3507074be1",
+      "bytes": 2146,
+      "text_adapted": false
+    },
+    {
+      "source_in_archive": "重建支持/作品/09_紫色悬浮几何动画/render_profile.json",
+      "published_file": "projects/_early-work-support/作品/09_紫色悬浮几何动画/render_profile.json",
+      "source_sha256": "dbb23d49f6bfce1727978f89e030bbfc5b7fc39c38dd1e53ac5ca0e34310acf0",
+      "published_sha256": "dbb23d49f6bfce1727978f89e030bbfc5b7fc39c38dd1e53ac5ca0e34310acf0",
+      "bytes": 205,
+      "text_adapted": false
+    },
+    {
+      "source_in_archive": "重建支持/作品/09_紫色悬浮几何动画/rig_inventory.json",
+      "published_file": "projects/_early-work-support/作品/09_紫色悬浮几何动画/rig_inventory.json",
+      "source_sha256": "9233c50ea1342b51c97ca7c571eb2605b3eae2b9173d45c743fd4f1f9e459c49",
+      "published_sha256": "4185105d298d4a36c407b89e45773fdfe7c226639d7a810af0cd06452cffb795",
+      "bytes": 179698,
+      "text_adapted": true
+    },
+    {
+      "source_in_archive": "重建支持/作品/09_紫色悬浮几何动画/参考音轨.m4a",
+      "published_file": "projects/_early-work-support/作品/09_紫色悬浮几何动画/参考音轨.m4a",
+      "source_sha256": "58411ccf87f9ab616ecc247dcf6e39d52a40ad4a04c5ab9492f39a97f4c29534",
+      "published_sha256": "58411ccf87f9ab616ecc247dcf6e39d52a40ad4a04c5ab9492f39a97f4c29534",
+      "bytes": 244985,
+      "text_adapted": false
+    },
+    {
+      "source_in_archive": "重建支持/作品/后期配置/04_糖果粉蓝.json",
+      "published_file": "projects/_early-work-support/作品/后期配置/04_糖果粉蓝.json",
+      "source_sha256": "663537013d01a839485d38bd948adfbc0345370fda7097494d67bee3a617d9ff",
+      "published_sha256": "663537013d01a839485d38bd948adfbc0345370fda7097494d67bee3a617d9ff",
+      "bytes": 328,
+      "text_adapted": false
+    },
+    {
+      "source_in_archive": "重建支持/作品/后期配置/05_莓粉暖金.json",
+      "published_file": "projects/_early-work-support/作品/后期配置/05_莓粉暖金.json",
+      "source_sha256": "aa0aec609b7351da56a09509b73205f8831edc5f88c4475580b605748723d367",
+      "published_sha256": "aa0aec609b7351da56a09509b73205f8831edc5f88c4475580b605748723d367",
+      "bytes": 306,
+      "text_adapted": false
+    },
+    {
+      "source_in_archive": "重建支持/参考图/09_动画拆解/motion_spec.json",
+      "published_file": "projects/_early-work-support/参考图/09_动画拆解/motion_spec.json",
+      "source_sha256": "e6d7df1f7436b96e1dfacf178b9514a5831625df2d3c101a4ac81883729da23f",
+      "published_sha256": "b094333b900a63fa15bc4f8b27058efd51f40e7c4ab192ecab019df51ca70e20",
+      "bytes": 3456,
+      "text_adapted": true
+    },
+    {
+      "source_in_archive": "三份作品预览.jpg",
+      "published_file": "docs/assets/early-works.jpg",
+      "source_sha256": "f62328b8a34f5a195fc27f49982b187a56f10ebffc17410c09df062f933e4838",
+      "published_sha256": "f62328b8a34f5a195fc27f49982b187a56f10ebffc17410c09df062f933e4838",
+      "bytes": 222020,
+      "text_adapted": false
+    }
+  ]
+}

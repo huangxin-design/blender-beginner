@@ -1,0 +1,10 @@
+{
+  "samples": 64,
+  "min_samples": 16,
+  "adaptive_threshold": 0.022,
+  "denoiser": "OPENIMAGEDENOISE",
+  "denoising_use_gpu": true,
+  "resolution": [720, 1280],
+  "fps": 30,
+  "engine": "Cycles OptiX"
+}

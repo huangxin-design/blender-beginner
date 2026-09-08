@@ -1,0 +1,15 @@
+本文转录随包的实际后期记录；仅将成品链接改为本仓库路径。下述检查为历史记录。
+
+# 发光宝剑与立体云：图像后期版
+
+成片：[02_毛绒兔骑士_发光宝剑与立体云.png](preview.png)
+
+方式：内置 image_gen 图像编辑，以用户上传的现有兔骑士成片为输入。本次交付是 PNG 图像后期版本，没有将新效果写回 Blender 场景。原有 Blender 工程和上一版图片保留。
+
+调整目标：提升剑身金白发光和局部对比，增加受剑光照射的左侧毛发暖光；云朵增加圆润起伏、亮部和底部阴影；保留粉色兔子、盾牌、木桩与前景构图。
+
+独立对照检查：通过本次发光宝剑与云朵体积的视觉验收。剑刃外轮廓、两侧晶体切面可辨，左脸、左耳和手部暖光方向一致，左眼未被辉光遮挡；三朵云均增加了凸起分团和亮顶暗底。主体姿势、五官与构图没有影响交付的漂移。实际变化：剑心局部接近纯白，细节主要保留在两侧晶面；毛发呈现更明显的卷曲纤维，草丝略粗。本次是生成式图像编辑，不是逐像素仅改曝光，也不等同于原生材质节点更新。
+
+实际使用的完整提示词：
+
+> Edit this exact supplied 1000x1000 Blender-rendered image as a careful professional lighting, material and color finishing pass. Preserve the exact square composition, camera, pink furry bunny knight's identity and pose, facial proportions and expression, ears, dense fine pink fur, left raised paw, right orange wooden shield and gold boss, stump wood rings, orange grass, soft foreground leaves, fence and backdrop. This is a localized refinement of the SAME image, not a redesign. Two requested improvements: (1) Make the existing faceted crystal sword in the upper LEFT read as a truly luminous magical sword, with dramatically higher LOCAL contrast but tasteful overall grading. The blade itself must emit brilliant warm gold-white light, a narrow nearly white luminous core and bright gold edges with readable transparent amber/golden crystal facets and tiny sparkling inclusions. Preserve the exact blade shape, position, wood crossguard and existing small tip star. Add a beautiful controlled soft golden bloom around the whole blade, strongest near the central core and tip, smoothly fading over a modest radius; no giant flare or opaque glow disk. Motivate nearby light: soft golden illumination and warm rim highlights on the bunny's left paw and left cheek and fine fur facing the sword, subtle bright warm eye catchlights. Gently deepen midtone shadows and ambient exposure so the glowing sword is clearly the brightest focal point. Keep pink fur richly rosy, golden orange grass, delicate cream backdrop and an airy cheerful fairy-tale mood. Moderate increased contrast and color richness, no excessive orange color cast, no crushed shadows, no broad highlight clipping. (2) The existing cream-white clouds appear a little flat. Give ALL THREE existing background clouds a more convincing softly inflated 3D volume: rounded billowing lobes, greater visual thickness at edges, smoothly curved surfaces, soft bright upper-left highlights, gentle shaded undersides, subtle ambient occlusion between lobes. Retain the clouds' positions, overall sizes and silhouettes and smooth soft clay-like/cloud-like aesthetic. Keep them softly behind the sharply detailed bunny with natural depth of field, never prominent or harsh. Do not add new cloud objects or sculpt complicated textures. Keep the rest of the scene unchanged, preserve the crisp tiny fur strands and detailed varnished shield wood, no new props, no extra stars, no words, no watermarks. Finished premium 3D animation still, clean artifact-free shading. Output one square image.

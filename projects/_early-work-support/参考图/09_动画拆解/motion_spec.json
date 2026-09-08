@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "source": "C:/Users/YOUR_USERNAME/Downloads/Video Downloader/pinterest_127578601936631279/127578601936631279.mp4",
+  "video": {"width":720,"height":1280,"fps_numerator":30000,"fps_denominator":1001,"frames":899,"video_duration_seconds":29.996633,"container_duration_seconds":30.016009,"audio_present":true},
+  "evidence": {
+    "camera": "effectively fixed, no discernible orbit or major zoom",
+    "global_motion": "independent local motion in a stable overall composition; no common rigid rotation or explosion",
+    "whole_video_seamless_loop": false,
+    "palette_cut_frames_zero_based": [182,363,543,723],
+    "palette_cut_seconds": [6.07273,12.11210,18.11810,24.12410],
+    "palettes": ["light_gray_multicolor","black_gold","icy_iridescent","purple_yellow_pink","black_white"],
+    "common_image_similarity_lag_seconds":3.0,
+    "all_objects_exact_same_period_verified":false,
+    "lower_left_torus_three_second_repeat_supported":false,
+    "audio_bpm_verified":false
+  },
+  "recommended_reconstruction": {
+    "status":"art-directed approximation from single-view evidence, not recovered exact 3D motion",
+    "fps":30,
+    "palette_duration_seconds":6,
+    "palette_frames":180,
+    "palette_count":5,
+    "total_duration_seconds":30,
+    "common_scene_animation_across_palettes":true,
+    "camera_animation":false,
+    "palette_transition":"hard_cut",
+    "master_motion_period_seconds":6,
+    "loop_closure_frame":181,
+    "render_frames_inclusive":[1,180],
+    "motions":[
+      {"component":"wire_cube","motion":"local spin with slight precession; separate inner object motion","spin_period_seconds":3,"precession_period_seconds":6,"notes":"Cube symmetry creates ambiguous 1/2/3 second image minima. This is a practical approximation."},
+      {"component":"large_flat_yellow_ring","motion":"rotate about face normal with attached orbiting accent spheres; nearly fixed center","spin_period_seconds":3,"tilt_period_seconds":6,"tilt_amplitude_degrees":4},
+      {"component":"lower_left_thick_torus","motion":"slow local rocking / inclination change","period_seconds":6,"recommended_tilt_amplitude_degrees":18,"maintain_ground_contact":true},
+      {"component":"top_tube_pair","motion":"independent opposite-phase vertical bob and slight tilt","period_seconds":3,"relative_phases_degrees":[0,180],"bob_amplitude_fraction_of_tube_length":0.14},
+      {"component":"ribbed_sphere_torus","motion":"local axial turn and restrained wobble; fixed center","spin_period_seconds":3,"wobble_period_seconds":6,"wobble_amplitude_degrees":8},
+      {"component":"lower_blue_hollow_tube","motion":"local rocking, preserve opening visibility","period_seconds":3,"tilt_amplitude_degrees":12},
+      {"component":"lower_pink_hollow_tube","motion":"phase-offset rocking and slight bob","period_seconds":3,"phase_degrees":120,"tilt_amplitude_degrees":10},
+      {"component":"right_lower_saucer","motion":"local rotation, small wobble and bob","spin_period_seconds":3,"wobble_period_seconds":6,"tilt_amplitude_degrees":12},
+      {"component":"loose_small_primitives","motion":"independent local spins and gentle bobs, no global orbital drift","allowed_period_seconds":[3,6],"phase_distribution":"staggered"}
+    ],
+    "qa_sample_seconds":[0,0.5,1.5,3,4.5,5.966667],
+    "qa_checks":["stable composition bounds","wireframe intersections","open tube mouths","continuous shadows","seam closure","no palette transition black frame"]
+  }
+}

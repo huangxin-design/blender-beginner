@@ -1,0 +1,8755 @@
+{
+  "source": "C:\\Users\\YOUR_USERNAME\\Documents\\ChatGPT\\Blender\\作品\\08_紫色悬浮几何\\08_紫色悬浮几何_调色成品.blend",
+  "frame_range": [
+    1,
+    250
+  ],
+  "fps": 24,
+  "geometry_objects": 99,
+  "objects_parented": 0,
+  "geometry_nodes_modifier_count": 18,
+  "reference_basis": {
+    "screen_right_R": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "screen_up_U": [
+      0.0,
+      0.242536,
+      0.970142
+    ],
+    "toward_camera_T": [
+      0.0,
+      -0.970142,
+      0.242536
+    ],
+    "center_C": [
+      0.0,
+      0.0,
+      4.15
+    ],
+    "pixels_per_world_unit": 80
+  },
+  "groups": [
+    {
+      "id": "core",
+      "anchor": "01 | Yellow pleated orbital core",
+      "members": [
+        "01 | Yellow pleated orbital core",
+        "01b | Soft recessed yellow dimple closure"
+      ],
+      "pivot_world": [
+        0.2625,
+        0.386844,
+        6.19215
+      ],
+      "pivot_screen": [
+        381.0,
+        474.0,
+        0.12
+      ],
+      "local_axis_z_world": [
+        -0.286516,
+        -0.76462,
+        0.577291
+      ]
+    },
+    {
+      "id": "yellow_washer",
+      "anchor": "02 | Yellow broad recessed washer",
+      "members": [
+        "02 | Yellow broad recessed washer",
+        "02b | Raised annular lip"
+      ],
+      "pivot_world": [
+        -1.25,
+        0.224345,
+        3.191984
+      ],
+      "pivot_screen": [
+        260.0,
+        710.0,
+        -0.45
+      ],
+      "local_axis_z_world": [
+        -0.171489,
+        -0.884427,
+        0.434029
+      ]
+    },
+    {
+      "id": "cage",
+      "anchor": "06 | Spatial lilac cage",
+      "members": [
+        "06 | Spatial lilac cage",
+        "06b | Sphere inside cage",
+        "06c | Pink capsule inside cage",
+        "06d | Lilac lower cage pin"
+      ],
+      "pivot_world": [
+        1.575,
+        -0.209187,
+        3.931718
+      ],
+      "pivot_screen": [
+        486.0,
+        661.0,
+        0.15
+      ],
+      "local_axis_z_world": [
+        -0.388118,
+        -0.914142,
+        -0.117081
+      ]
+    },
+    {
+      "id": "top_pink_pipe",
+      "anchor": "12b | Top right pink long tube",
+      "members": [
+        "12 | Top right horizontal lower pink tube ring",
+        "12b | Top right pink long tube"
+      ],
+      "pivot_world": [
+        2.55,
+        0.530547,
+        7.715274
+      ],
+      "pivot_screen": [
+        564.0,
+        353.0,
+        0.35
+      ],
+      "local_axis_z_world": [
+        0.907959,
+        0.406546,
+        -0.101636
+      ]
+    },
+    {
+      "id": "upper_sector",
+      "anchor": "15 | Upper purple circular sector",
+      "members": [
+        "15 | Upper purple circular sector",
+        "15b | Pale bevel line across sector"
+      ],
+      "pivot_world": [
+        1.8125,
+        0.888287,
+        6.053905
+      ],
+      "pivot_screen": [
+        505.0,
+        475.0,
+        -0.4
+      ],
+      "local_axis_z_world": [
+        0.254301,
+        -0.91365,
+        0.317134
+      ]
+    },
+    {
+      "id": "gold_pipe",
+      "anchor": "19 | Left diagonal golden tube",
+      "members": [
+        "19 | Left diagonal golden tube",
+        "19b | Navy open end detail"
+      ],
+      "pivot_world": [
+        -3.09375,
+        -0.311052,
+        4.987961
+      ],
+      "pivot_screen": [
+        112.5,
+        581.0,
+        0.505
+      ],
+      "local_axis_z_world": [
+        0.646614,
+        0.578517,
+        0.4972
+      ]
+    },
+    {
+      "id": "blue_studded_button",
+      "anchor": "21 | Blue studded circular button",
+      "members": [
+        "21 | Blue studded circular button",
+        "21 stud 00",
+        "21 rounded stud cap",
+        "21 stud 01",
+        "21 rounded stud cap.001",
+        "21 stud 02",
+        "21 rounded stud cap.002",
+        "21 stud 03",
+        "21 rounded stud cap.003",
+        "21 stud 04",
+        "21 rounded stud cap.004",
+        "21 stud 05",
+        "21 rounded stud cap.005",
+        "21 stud 06",
+        "21 rounded stud cap.006",
+        "21 stud 07",
+        "21 rounded stud cap.007"
+      ],
+      "pivot_world": [
+        -2.0625,
+        -1.008342,
+        4.569587
+      ],
+      "pivot_screen": [
+        195.0,
+        627.0,
+        1.08
+      ],
+      "local_axis_z_world": [
+        -0.170455,
+        -0.984964,
+        0.028112
+      ]
+    },
+    {
+      "id": "arrow",
+      "anchor": "22 | Arrow shaft",
+      "members": [
+        "22 | Arrow shaft",
+        "22 arrow head"
+      ],
+      "pivot_world": [
+        -2.775913,
+        -1.240267,
+        4.360942
+      ],
+      "pivot_screen": [
+        137.927,
+        647.693,
+        1.2544
+      ],
+      "local_axis_z_world": [
+        0.631673,
+        0.188022,
+        0.752088
+      ]
+    },
+    {
+      "id": "lower_fan",
+      "anchor": "23 | Left lower lavender fan",
+      "members": [
+        "23 | Left lower lavender fan",
+        "23b | Fan pale cut edge"
+      ],
+      "pivot_world": [
+        -3.2125,
+        -0.524483,
+        3.495154
+      ],
+      "pivot_screen": [
+        103.0,
+        701.0,
+        0.35
+      ],
+      "local_axis_z_world": [
+        -0.336849,
+        -0.900173,
+        0.276084
+      ]
+    },
+    {
+      "id": "lower_pink_pipe",
+      "anchor": "26 | Front lower pink hollow pipe",
+      "members": [
+        "26 | Front lower pink hollow pipe",
+        "26b | White collar plate"
+      ],
+      "pivot_world": [
+        -1.30625,
+        -1.367295,
+        1.670073
+      ],
+      "pivot_screen": [
+        255.5,
+        859.0,
+        0.725
+      ],
+      "local_axis_z_world": [
+        -0.749331,
+        -0.453544,
+        0.482494
+      ]
+    },
+    {
+      "id": "gold_dish",
+      "anchor": "31 | Gold curved shallow dish",
+      "members": [
+        "31 | Gold curved shallow dish",
+        "31c | Dish foot",
+        "31d | Purple ball over dish"
+      ],
+      "pivot_world": [
+        2.8625,
+        -0.990152,
+        0.931552
+      ],
+      "pivot_screen": [
+        589.0,
+        909.0,
+        0.18
+      ],
+      "local_axis_z_world": [
+        -0.173458,
+        -0.91557,
+        -0.362828
+      ]
+    },
+    {
+      "id": "pink_waffle",
+      "anchor": "32 | Pink waffle disc",
+      "members": [
+        "32 curled lattice rim 00",
+        "32 curled lattice rim 01",
+        "32 curled lattice rim 02",
+        "32 curled lattice rim 03",
+        "32 curled lattice rim 04",
+        "32 curled lattice rim 05",
+        "32 curled lattice rim 06",
+        "32 curled lattice rim 07",
+        "32 | Pink waffle disc"
+      ],
+      "pivot_world": [
+        2.75,
+        -1.623776,
+        1.901695
+      ],
+      "pivot_screen": [
+        580.0,
+        846.0,
+        1.03
+      ],
+      "local_axis_z_world": [
+        0.22472,
+        -0.951082,
+        -0.211999
+      ]
+    },
+    {
+      "id": "spindle",
+      "anchor": "34 | Small left spindle",
+      "members": [
+        "34 | Small left spindle",
+        "34b | Spindle collar"
+      ],
+      "pivot_world": [
+        -2.95,
+        0.774598,
+        6.011461
+      ],
+      "pivot_screen": [
+        124.0,
+        480.5,
+        -0.3
+      ],
+      "local_axis_z_world": [
+        0.939265,
+        -0.083236,
+        -0.332946
+      ]
+    },
+    {
+      "id": "upper_outline",
+      "anchor": "35 | Upper fine outline",
+      "members": [
+        "35 | Upper fine outline",
+        "Upper outline corner marker",
+        "Upper outline corner marker.001"
+      ],
+      "pivot_world": [
+        0.55,
+        1.65864,
+        7.156229
+      ],
+      "pivot_screen": [
+        404.0,
+        374.5,
+        -0.88
+      ],
+      "local_axis_z_world": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "id": "03 | White spherical ring with purple bore",
+      "anchor": "03 | White spherical ring with purple bore",
+      "members": [
+        "03 | White spherical ring with purple bore"
+      ],
+      "pivot_world": [
+        -2.6875,
+        0.103078,
+        1.057671
+      ],
+      "pivot_screen": [
+        145.0,
+        878.0,
+        -0.85
+      ],
+      "local_axis_z_world": [
+        0.529193,
+        -0.808907,
+        0.256173
+      ]
+    },
+    {
+      "id": "04 | Large navy diagonal open tube",
+      "anchor": "04 | Large navy diagonal open tube",
+      "members": [
+        "04 | Large navy diagonal open tube"
+      ],
+      "pivot_world": [
+        0.56875,
+        -0.703353,
+        1.748897
+      ],
+      "pivot_screen": [
+        405.5,
+        840.0,
+        0.1
+      ],
+      "local_axis_z_world": [
+        0.409778,
+        -0.513708,
+        0.753782
+      ]
+    },
+    {
+      "id": "05 | Golden orbital hoop",
+      "anchor": "05 | Golden orbital hoop",
+      "members": [
+        "05 | Golden orbital hoop"
+      ],
+      "pivot_world": [
+        1.75,
+        -1.145981,
+        4.307648
+      ],
+      "pivot_screen": [
+        500.0,
+        650.0,
+        1.15
+      ],
+      "local_axis_z_world": [
+        -0.176384,
+        -0.982167,
+        0.065089
+      ]
+    },
+    {
+      "id": "08 | Large open parallelogram frame",
+      "anchor": "08 | Large open parallelogram frame",
+      "members": [
+        "08 | Large open parallelogram frame"
+      ],
+      "pivot_world": [
+        -1.525,
+        1.367295,
+        6.733005
+      ],
+      "pivot_screen": [
+        238.0,
+        413.0,
+        -0.7
+      ],
+      "local_axis_z_world": [
+        0.361058,
+        -0.914915,
+        -0.180464
+      ]
+    },
+    {
+      "id": "09 | Upper pink open cylinder",
+      "anchor": "09 | Upper pink open cylinder",
+      "members": [
+        "09 | Upper pink open cylinder"
+      ],
+      "pivot_world": [
+        -1.9125,
+        0.424134,
+        7.413317
+      ],
+      "pivot_screen": [
+        207.0,
+        378.5,
+        0.38
+      ],
+      "local_axis_z_world": [
+        0.228117,
+        -0.463083,
+        0.856456
+      ]
+    },
+    {
+      "id": "10 | Upper navy open cylinder",
+      "anchor": "10 | Upper navy open cylinder",
+      "members": [
+        "10 | Upper navy open cylinder"
+      ],
+      "pivot_world": [
+        -1.375,
+        0.355921,
+        6.934309
+      ],
+      "pivot_screen": [
+        250.0,
+        417.0,
+        0.33
+      ],
+      "local_axis_z_world": [
+        0.209595,
+        -0.4074,
+        0.888873
+      ]
+    },
+    {
+      "id": "11 | Tiny yellow cube",
+      "anchor": "11 | Tiny yellow cube",
+      "members": [
+        "11 | Tiny yellow cube"
+      ],
+      "pivot_world": [
+        -2.65,
+        0.700322,
+        7.363596
+      ],
+      "pivot_screen": [
+        148.0,
+        377.0,
+        0.1
+      ],
+      "local_axis_z_world": [
+        -0.118609,
+        -0.980532,
+        -0.156491
+      ]
+    },
+    {
+      "id": "13 | Top right blue long tube",
+      "anchor": "13 | Top right blue long tube",
+      "members": [
+        "13 | Top right blue long tube"
+      ],
+      "pivot_world": [
+        2.9875,
+        0.612402,
+        8.042697
+      ],
+      "pivot_screen": [
+        599.0,
+        326.0,
+        0.35
+      ],
+      "local_axis_z_world": [
+        0.811534,
+        0.566859,
+        -0.141715
+      ]
+    },
+    {
+      "id": "14 | Faceted lavender kite",
+      "anchor": "14 | Faceted lavender kite",
+      "members": [
+        "14 | Faceted lavender kite"
+      ],
+      "pivot_world": [
+        0.5625,
+        -0.480827,
+        7.298112
+      ],
+      "pivot_screen": [
+        405.0,
+        405.0,
+        1.23
+      ],
+      "local_axis_z_world": [
+        -0.086083,
+        -0.963144,
+        0.25484
+      ]
+    },
+    {
+      "id": "18 | Thin pink horizontal pipe",
+      "anchor": "18 | Thin pink horizontal pipe",
+      "members": [
+        "18 | Thin pink horizontal pipe"
+      ],
+      "pivot_world": [
+        -0.05,
+        -0.267699,
+        4.996449
+      ],
+      "pivot_screen": [
+        356.0,
+        579.5,
+        0.465
+      ],
+      "local_axis_z_world": [
+        0.99721,
+        0.022518,
+        0.071168
+      ]
+    },
+    {
+      "id": "20 | Small lilac satellite loop",
+      "anchor": "20 | Small lilac satellite loop",
+      "members": [
+        "20 | Small lilac satellite loop"
+      ],
+      "pivot_world": [
+        -2.325,
+        0.365016,
+        5.527602
+      ],
+      "pivot_screen": [
+        174.0,
+        526.0,
+        -0.02
+      ],
+      "local_axis_z_world": [
+        0.341187,
+        -0.926333,
+        0.15968
+      ]
+    },
+    {
+      "id": "24 | Central pale arc shard",
+      "anchor": "24 | Central pale arc shard",
+      "members": [
+        "24 | Central pale arc shard"
+      ],
+      "pivot_world": [
+        -0.325,
+        -1.200551,
+        3.4709
+      ],
+      "pivot_screen": [
+        334.0,
+        716.0,
+        1.0
+      ],
+      "local_axis_z_world": [
+        0.0,
+        -0.970143,
+        0.242536
+      ]
+    },
+    {
+      "id": "25 | Pale triangular shard",
+      "anchor": "25 | Pale triangular shard",
+      "members": [
+        "25 | Pale triangular shard"
+      ],
+      "pivot_world": [
+        0.1625,
+        -1.779605,
+        3.422393
+      ],
+      "pivot_screen": [
+        373.0,
+        731.0,
+        1.55
+      ],
+      "local_axis_z_world": [
+        -0.0,
+        -0.970142,
+        0.242536
+      ]
+    },
+    {
+      "id": "29 | Right upright purple cup",
+      "anchor": "29 | Right upright purple cup",
+      "members": [
+        "29 | Right upright purple cup"
+      ],
+      "pivot_world": [
+        3.34375,
+        -0.853422,
+        2.488631
+      ],
+      "pivot_screen": [
+        627.5,
+        785.5,
+        0.425
+      ],
+      "local_axis_z_world": [
+        0.010956,
+        -0.353431,
+        0.935396
+      ]
+    },
+    {
+      "id": "36 | Left fine outline",
+      "anchor": "36 | Left fine outline",
+      "members": [
+        "36 | Left fine outline"
+      ],
+      "pivot_world": [
+        -2.9625,
+        1.015618,
+        4.707832
+      ],
+      "pivot_screen": [
+        123.0,
+        577.0,
+        -0.85
+      ],
+      "local_axis_z_world": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "id": "37 | Lower peach fine outline",
+      "anchor": "37 | Lower peach fine outline",
+      "members": [
+        "37 | Lower peach fine outline"
+      ],
+      "pivot_world": [
+        -1.21875,
+        -0.229196,
+        0.67689
+      ],
+      "pivot_screen": [
+        262.5,
+        914.0,
+        -0.62
+      ],
+      "local_axis_z_world": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "id": "38 | Lower tilted diamond",
+      "anchor": "38 | Lower tilted diamond",
+      "members": [
+        "38 | Lower tilted diamond"
+      ],
+      "pivot_world": [
+        0.3125,
+        0.40746,
+        1.986583
+      ],
+      "pivot_screen": [
+        385.0,
+        800.0,
+        -0.92
+      ],
+      "local_axis_z_world": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "id": "07 | Pink corrugated floating ribbon",
+      "anchor": "07 | Pink corrugated floating ribbon",
+      "members": [
+        "07 | Pink corrugated floating ribbon"
+      ],
+      "pivot_world": [
+        2.375,
+        -0.763987,
+        6.041778
+      ],
+      "pivot_screen": [
+        550.0,
+        508.0,
+        1.2
+      ],
+      "local_axis_z_world": [
+        -0.079225,
+        -0.996285,
+        -0.033762
+      ]
+    },
+    {
+      "id": "16 | Upper pale sphere",
+      "anchor": "16 | Upper pale sphere",
+      "members": [
+        "16 | Upper pale sphere"
+      ],
+      "pivot_world": [
+        -1.375,
+        1.061093,
+        5.302044
+      ],
+      "pivot_screen": [
+        250.0,
+        530.0,
+        -0.75
+      ],
+      "local_axis_z_world": [
+        0.0,
+        -0.970143,
+        0.242536
+      ]
+    },
+    {
+      "id": "17 | Long lilac back rod",
+      "anchor": "17 | Long lilac back rod",
+      "members": [
+        "17 | Long lilac back rod"
+      ],
+      "pivot_world": [
+        -0.69375,
+        0.630593,
+        5.023129
+      ],
+      "pivot_screen": [
+        304.5,
+        560.0,
+        -0.4
+      ],
+      "local_axis_z_world": [
+        0.755885,
+        -0.158789,
+        -0.635156
+      ]
+    },
+    {
+      "id": "27 | Front pink diagonal rod",
+      "anchor": "27 | Front pink diagonal rod",
+      "members": [
+        "27 | Front pink diagonal rod"
+      ],
+      "pivot_world": [
+        1.99375,
+        -1.784456,
+        2.702063
+      ],
+      "pivot_screen": [
+        519.5,
+        787.0,
+        1.38
+      ],
+      "local_axis_z_world": [
+        0.635898,
+        0.187183,
+        0.74873
+      ]
+    },
+    {
+      "id": "28 | Short lilac bottom rod",
+      "anchor": "28 | Short lilac bottom rod",
+      "members": [
+        "28 | Short lilac bottom rod"
+      ],
+      "pivot_world": [
+        0.66875,
+        -1.959081,
+        1.096477
+      ],
+      "pivot_screen": [
+        413.5,
+        915.0,
+        1.16
+      ],
+      "local_axis_z_world": [
+        0.658505,
+        0.182527,
+        0.730107
+      ]
+    },
+    {
+      "id": "30 | Lower blue coin",
+      "anchor": "30 | Lower blue coin",
+      "members": [
+        "30 | Lower blue coin"
+      ],
+      "pivot_world": [
+        1.35,
+        -1.064125,
+        0.718121
+      ],
+      "pivot_screen": [
+        468.0,
+        927.0,
+        0.2
+      ],
+      "local_axis_z_world": [
+        0.546289,
+        -0.824717,
+        -0.146325
+      ]
+    },
+    {
+      "id": "Particle 00",
+      "anchor": "Particle 00",
+      "members": [
+        "Particle 00"
+      ],
+      "pivot_world": [
+        -3.5,
+        1.115664,
+        7.788034
+      ],
+      "pivot_screen": [
+        80.0,
+        336.0,
+        -0.2
+      ],
+      "local_axis_z_world": [
+        0.0,
+        -0.970143,
+        0.242536
+      ]
+    },
+    {
+      "id": "Particle 01",
+      "anchor": "Particle 01",
+      "members": [
+        "Particle 01"
+      ],
+      "pivot_world": [
+        -3.5125,
+        0.918604,
+        7.412104
+      ],
+      "pivot_screen": [
+        79.0,
+        369.0,
+        -0.1
+      ],
+      "local_axis_z_world": [
+        0.0,
+        -0.970143,
+        0.242536
+      ]
+    },
+    {
+      "id": "Particle 02",
+      "anchor": "Particle 02",
+      "members": [
+        "Particle 02"
+      ],
+      "pivot_world": [
+        -3.5,
+        0.824621,
+        7.036174
+      ],
+      "pivot_screen": [
+        80.0,
+        400.0,
+        -0.1
+      ],
+      "local_axis_z_world": [
+        0.0,
+        -0.970143,
+        0.242536
+      ]
+    },
+    {
+      "id": "Particle 03",
+      "anchor": "Particle 03",
+      "members": [
+        "Particle 03"
+      ],
+      "pivot_world": [
+        -3.5,
+        0.776114,
+        6.63599
+      ],
+      "pivot_screen": [
+        80.0,
+        432.0,
+        -0.15
+      ],
+      "local_axis_z_world": [
+        0.0,
+        -0.970143,
+        0.242536
+      ]
+    },
+    {
+      "id": "Particle 04",
+      "anchor": "Particle 04",
+      "members": [
+        "Particle 04"
+      ],
+      "pivot_world": [
+        -3.4125,
+        -0.682131,
+        5.54458
+      ],
+      "pivot_screen": [
+        87.0,
+        545.0,
+        1.0
+      ],
+      "local_axis_z_world": [
+        0.0,
+        -0.970143,
+        0.242536
+      ]
+    },
+    {
+      "id": "Particle 05",
+      "anchor": "Particle 05",
+      "members": [
+        "Particle 05"
+      ],
+      "pivot_world": [
+        0.475,
+        0.779146,
+        7.678893
+      ],
+      "pivot_screen": [
+        398.0,
+        351.0,
+        0.1
+      ],
+      "local_axis_z_world": [
+        0.0,
+        -0.970143,
+        0.242536
+      ]
+    },
+    {
+      "id": "Particle 06",
+      "anchor": "Particle 06",
+      "members": [
+        "Particle 06"
+      ],
+      "pivot_world": [
+        1.6875,
+        0.439596,
+        7.145315
+      ],
+      "pivot_screen": [
+        495.0,
+        399.0,
+        0.3
+      ],
+      "local_axis_z_world": [
+        0.0,
+        -0.970143,
+        0.242536
+      ]
+    },
+    {
+      "id": "Particle 07",
+      "anchor": "Particle 07",
+      "members": [
+        "Particle 07"
+      ],
+      "pivot_world": [
+        1.65,
+        0.260726,
+        6.842146
+      ],
+      "pivot_screen": [
+        492.0,
+        426.0,
+        0.4
+      ],
+      "local_axis_z_world": [
+        0.0,
+        -0.970143,
+        0.242536
+      ]
+    },
+    {
+      "id": "Particle 08",
+      "anchor": "Particle 08",
+      "members": [
+        "Particle 08"
+      ],
+      "pivot_world": [
+        3.475,
+        0.742765,
+        7.121061
+      ],
+      "pivot_screen": [
+        638.0,
+        395.0,
+        0.0
+      ],
+      "local_axis_z_world": [
+        0.0,
+        -0.970143,
+        0.242536
+      ]
+    },
+    {
+      "id": "Particle 09",
+      "anchor": "Particle 09",
+      "members": [
+        "Particle 09"
+      ],
+      "pivot_world": [
+        3.55,
+        -0.054571,
+        5.58096
+      ],
+      "pivot_screen": [
+        644.0,
+        530.0,
+        0.4
+      ],
+      "local_axis_z_world": [
+        0.0,
+        -0.970143,
+        0.242536
+      ]
+    },
+    {
+      "id": "Particle 10",
+      "anchor": "Particle 10",
+      "members": [
+        "Particle 10"
+      ],
+      "pivot_world": [
+        2.975,
+        -0.003032,
+        4.962494
+      ],
+      "pivot_screen": [
+        598.0,
+        577.0,
+        0.2
+      ],
+      "local_axis_z_world": [
+        0.0,
+        -0.970143,
+        0.242536
+      ]
+    },
+    {
+      "id": "Particle 11",
+      "anchor": "Particle 11",
+      "members": [
+        "Particle 11"
+      ],
+      "pivot_world": [
+        3.375,
+        -0.612402,
+        4.586564
+      ],
+      "pivot_screen": [
+        630.0,
+        618.0,
+        0.7
+      ],
+      "local_axis_z_world": [
+        0.0,
+        -0.970143,
+        0.242536
+      ]
+    },
+    {
+      "id": "Particle 12",
+      "anchor": "Particle 12",
+      "members": [
+        "Particle 12"
+      ],
+      "pivot_world": [
+        -2.125,
+        -0.870097,
+        3.761943
+      ],
+      "pivot_screen": [
+        190.0,
+        687.0,
+        0.75
+      ],
+      "local_axis_z_world": [
+        0.0,
+        -0.970143,
+        0.242536
+      ]
+    },
+    {
+      "id": "Particle 13",
+      "anchor": "Particle 13",
+      "members": [
+        "Particle 13"
+      ],
+      "pivot_world": [
+        -0.1,
+        -1.694718,
+        2.318856
+      ],
+      "pivot_screen": [
+        352.0,
+        815.0,
+        1.2
+      ],
+      "local_axis_z_world": [
+        0.0,
+        -0.970143,
+        0.242536
+      ]
+    },
+    {
+      "id": "Particle 14",
+      "anchor": "Particle 14",
+      "members": [
+        "Particle 14"
+      ],
+      "pivot_world": [
+        -3.5,
+        -0.612402,
+        2.731167
+      ],
+      "pivot_screen": [
+        80.0,
+        762.0,
+        0.25
+      ],
+      "local_axis_z_world": [
+        0.0,
+        -0.970143,
+        0.242536
+      ]
+    },
+    {
+      "id": "Particle 15",
+      "anchor": "Particle 15",
+      "members": [
+        "Particle 15"
+      ],
+      "pivot_world": [
+        -3.5,
+        -0.906477,
+        2.37949
+      ],
+      "pivot_screen": [
+        80.0,
+        795.0,
+        0.45
+      ],
+      "local_axis_z_world": [
+        0.0,
+        -0.970143,
+        0.242536
+      ]
+    },
+    {
+      "id": "Particle 16",
+      "anchor": "Particle 16",
+      "members": [
+        "Particle 16"
+      ],
+      "pivot_world": [
+        2.35,
+        -0.83978,
+        2.440124
+      ],
+      "pivot_screen": [
+        548.0,
+        789.0,
+        0.4
+      ],
+      "local_axis_z_world": [
+        0.0,
+        -0.970143,
+        0.242536
+      ]
+    },
+    {
+      "id": "Particle 17",
+      "anchor": "Particle 17",
+      "members": [
+        "Particle 17"
+      ],
+      "pivot_world": [
+        1.7875,
+        -0.421406,
+        2.876688
+      ],
+      "pivot_screen": [
+        503.0,
+        747.0,
+        0.1
+      ],
+      "local_axis_z_world": [
+        0.0,
+        -0.970143,
+        0.242536
+      ]
+    },
+    {
+      "id": "Faceted fragment 00",
+      "anchor": "Faceted fragment 00",
+      "members": [
+        "Faceted fragment 00"
+      ],
+      "pivot_world": [
+        3.1,
+        -0.012127,
+        6.575356
+      ],
+      "pivot_screen": [
+        608.0,
+        452.0,
+        0.6
+      ],
+      "local_axis_z_world": [
+        0.431852,
+        -0.888342,
+        0.156054
+      ]
+    },
+    {
+      "id": "Faceted fragment 01",
+      "anchor": "Faceted fragment 01",
+      "members": [
+        "Faceted fragment 01"
+      ],
+      "pivot_world": [
+        1.55,
+        -0.148553,
+        6.029651
+      ],
+      "pivot_screen": [
+        484.0,
+        497.0,
+        0.6
+      ],
+      "local_axis_z_world": [
+        0.431852,
+        -0.888342,
+        0.156054
+      ]
+    },
+    {
+      "id": "Faceted fragment 02",
+      "anchor": "Faceted fragment 02",
+      "members": [
+        "Faceted fragment 02"
+      ],
+      "pivot_world": [
+        -3.5,
+        -0.776114,
+        3.519408
+      ],
+      "pivot_screen": [
+        80.0,
+        704.0,
+        0.6
+      ],
+      "local_axis_z_world": [
+        0.431852,
+        -0.888342,
+        0.156054
+      ]
+    },
+    {
+      "id": "33 | Upper orange sliver",
+      "anchor": "33 | Upper orange sliver",
+      "members": [
+        "33 | Upper orange sliver"
+      ],
+      "pivot_world": [
+        -0.325,
+        1.399127,
+        7.272646
+      ],
+      "pivot_screen": [
+        334.0,
+        370.5,
+        -0.6
+      ],
+      "local_axis_z_world": [
+        -0.252422,
+        0.234682,
+        0.938727
+      ]
+    }
+  ],
+  "objects": {
+    "02 | Yellow broad recessed washer": {
+      "type": "MESH",
+      "parent": null,
+      "origin_world": [
+        -1.25,
+        0.224345,
+        3.191984
+      ],
+      "matrix_world": [
+        [
+          0.963287,
+          0.206565,
+          -0.171489,
+          -1.25
+        ],
+        [
+          -0.2429,
+          0.398484,
+          -0.884427,
+          0.224345
+        ],
+        [
+          -0.114356,
+          0.893611,
+          0.434029,
+          3.191984
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "local_axis_z_world": [
+        -0.171489,
+        -0.884427,
+        0.434029
+      ],
+      "world_bounds": [
+        [
+          -2.833036184310913,
+          -0.7147067785263062,
+          1.8022452592849731
+        ],
+        [
+          0.33303627371788025,
+          1.1633976697921753,
+          4.581723690032959
+        ]
+      ],
+      "screen_bounds_px_and_depth": [
+        [
+          133.357,
+          587.009,
+          -1.0429
+        ],
+        [
+          386.643,
+          832.991,
+          0.1429
+        ]
+      ],
+      "visible_shadow": true,
+      "geometry_nodes": [],
+      "actual_min_world_z": 1.9544014930725098
+    },
+    "02b | Raised annular lip": {
+      "type": "MESH",
+      "parent": null,
+      "origin_world": [
+        -1.25,
+        0.098227,
+        3.223514
+      ],
+      "matrix_world": [
+        [
+          0.963287,
+          0.206565,
+          -0.171489,
+          -1.25
+        ],
+        [
+          -0.2429,
+          0.398484,
+          -0.884427,
+          0.098227
+        ],
+        [
+          -0.114356,
+          0.893611,
+          0.434029,
+          3.223514
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "local_axis_z_world": [
+        -0.171489,
+        -0.884427,
+        0.434029
+      ],
+      "world_bounds": [
+        [
+          -2.7772388458251953,
+          -0.7687375545501709,
+          1.8968802690505981
+        ],
+        [
+          0.27723896503448486,
+          0.9651913642883301,
+          4.550148010253906
+        ]
+      ],
+      "screen_bounds_px_and_depth": [
+        [
+          137.821,
+          591.504,
+          -0.8472
+        ],
+        [
+          382.179,
+          828.496,
+          0.2072
+        ]
+      ],
+      "visible_shadow": true,
+      "geometry_nodes": [],
+      "actual_min_world_z": 2.0447466373443604
+    },
+    "03 | White spherical ring with purple bore": {
+      "type": "MESH",
+      "parent": null,
+      "origin_world": [
+        -2.6875,
+        0.103078,
+        1.057671
+      ],
+      "matrix_world": [
+        [
+          0.848048,
+          -0.027734,
+          0.529193,
+          -2.6875
+        ],
+        [
+          0.514097,
+          0.285261,
+          -0.808907,
+          0.103078
+        ],
+        [
+          -0.128524,
+          0.958048,
+          0.256173,
+          1.057671
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "local_axis_z_world": [
+        0.529193,
+        -0.808907,
+        0.256173
+      ],
+      "world_bounds": [
+        [
+          -4.066189289093018,
+          -1.440738320350647,
+          -0.30216845870018005
+        ],
+        [
+          -1.3088107109069824,
+          1.6468937397003174,
+          2.417510509490967
+        ]
+      ],
+      "screen_bounds_px_and_depth": [
+        [
+          34.705,
+          790.847,
+          -2.1919
+        ],
+        [
+          255.295,
+          965.153,
+          0.4919
+        ]
+      ],
+      "visible_shadow": true,
+      "geometry_nodes": [],
+      "actual_min_world_z": 0.01282435655593872
+    },
+    "04 | Large navy diagonal open tube": {
+      "type": "MESH",
+      "parent": null,
+      "origin_world": [
+        0.56875,
+        -0.703353,
+        1.748897
+      ],
+      "matrix_world": [
+        [
+          0.78175,
+          -0.470052,
+          0.409777,
+          0.56875
+        ],
+        [
+          0.623592,
+          0.589269,
+          -0.513707,
+          -0.703353
+        ],
+        [
+          -0.0,
+          0.657125,
+          0.753782,
+          1.748897
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "local_axis_z_world": [
+        0.409778,
+        -0.513708,
+        0.753782
+      ],
+      "world_bounds": [
+        [
+          -0.7011355757713318,
+          -2.070762872695923,
+          0.4496537446975708
+        ],
+        [
+          1.8386354446411133,
+          0.6640563011169434,
+          3.0481410026550293
+        ]
+      ],
+      "screen_bounds_px_and_depth": [
+        [
+          303.909,
+          736.044,
+          -1.3409
+        ],
+        [
+          507.091,
+          943.956,
+          1.5409
+        ]
+      ],
+      "visible_shadow": true,
+      "geometry_nodes": [
+        {
+          "modifier": "04 | Large navy diagonal open tube | tube parameters",
+          "group": "04 | Large navy diagonal open tube | tube parameters",
+          "inputs": [
+            {
+              "name": "Radius",
+              "identifier": "Socket_1",
+              "type": "NodeSocketFloat",
+              "value": 0.6299999952316284,
+              "modifier_override_present": false,
+              "interface_default_animatable": false
+            },
+            {
+              "name": "Wall",
+              "identifier": "Socket_2",
+              "type": "NodeSocketFloat",
+              "value": 0.14000000059604645,
+              "modifier_override_present": false,
+              "interface_default_animatable": false
+            },
+            {
+              "name": "Length",
+              "identifier": "Socket_3",
+              "type": "NodeSocketFloat",
+              "value": 2.3488361835479736,
+              "modifier_override_present": false,
+              "interface_default_animatable": false
+            },
+            {
+              "name": "Material",
+              "identifier": "Socket_4",
+              "type": "NodeSocketMaterial",
+              "value": {
+                "datablock": "08 | Midnight blue satin resin"
+              },
+              "modifier_override_present": false,
+              "interface_default_animatable": false
+            }
+          ]
+        }
+      ],
+      "actual_min_world_z": 0.45266813039779663
+    },
+    "05 | Golden orbital hoop": {
+      "type": "MESH",
+      "parent": null,
+      "origin_world": [
+        1.75,
+        -1.145981,
+        4.307648
+      ],
+      "matrix_world": [
+        [
+          0.968628,
+          0.175065,
+          -0.176384,
+          1.75
+        ],
+        [
+          -0.184953,
+          0.03377,
+          -0.982167,
+          -1.145981
+        ],
+        [
+          -0.165987,
+          0.983978,
+          0.065089,
+          4.307648
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "local_axis_z_world": [
+        -0.176384,
+        -0.982167,
+        0.065089
+      ],
+      "world_bounds": [
+        [
+          -0.25015440583229065,
+          -1.5522059202194214,
+          2.2993335723876953
+        ],
+        [
+          3.750154495239258,
+          -0.7397556900978088,
+          6.315962791442871
+        ]
+      ],
+      "screen_bounds_px_and_depth": [
+        [
+          339.988,
+          486.503,
+          0.5237
+        ],
+        [
+          660.012,
+          813.497,
+          1.7763
+        ]
+      ],
+      "visible_shadow": false,
+      "geometry_nodes": [
+        {
+          "modifier": "05 | Golden orbital hoop | frame parameters",
+          "group": "05 | Golden orbital hoop | frame parameters",
+          "inputs": [
+            {
+              "name": "Radius",
+              "identifier": "Socket_1",
+              "type": "NodeSocketFloat",
+              "value": 1.7200000286102295,
+              "modifier_override_present": false,
+              "interface_default_animatable": false
+            },
+            {
+              "name": "Wire",
+              "identifier": "Socket_2",
+              "type": "NodeSocketFloat",
+              "value": 0.02500000037252903,
+              "modifier_override_present": false,
+              "interface_default_animatable": false
+            },
+            {
+              "name": "Material",
+              "identifier": "Socket_3",
+              "type": "NodeSocketMaterial",
+              "value": {
+                "datablock": "08 | warm yellow satin alloy"
+              },
+              "modifier_override_present": false,
+              "interface_default_animatable": false
+            }
+          ]
+        }
+      ],
+      "actual_min_world_z": 2.566359281539917
+    },
+    "06 | Spatial lilac cage": {
+      "type": "MESH",
+      "parent": null,
+      "origin_world": [
+        1.575,
+        -0.209187,
+        3.931718
+      ],
+      "matrix_world": [
+        [
+          0.913406,
+          -0.122691,
+          -0.388118,
+          1.575
+        ],
+        [
+          -0.398459,
+          -0.074659,
+          -0.914142,
+          -0.209187
+        ],
+        [
+          0.083181,
+          0.989633,
+          -0.117081,
+          3.931718
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "local_axis_z_world": [
+        -0.388118,
+        -0.914142,
+        -0.117081
+      ],
+      "world_bounds": [
+        [
+          0.41649219393730164,
+          -1.25209379196167,
+          2.9872934818267822
+        ],
+        [
+          2.7335078716278076,
+          0.8337198495864868,
+          4.876142501831055
+        ]
+      ],
+      "screen_bounds_px_and_depth": [
+        [
+          393.319,
+          580.937,
+          -1.0511
+        ],
+        [
+          578.681,
+          741.063,
+          1.3511
+        ]
+      ],
+      "visible_shadow": true,
+      "geometry_nodes": [
+        {
+          "modifier": "06 | Spatial lilac cage | frame parameters",
+          "group": "06 | Spatial lilac cage | frame parameters",
+          "inputs": [
+            {
+              "name": "Radius",
+              "identifier": "Socket_1",
+              "type": "NodeSocketFloat",
+              "value": 0.800000011920929,
+              "modifier_override_present": false,
+              "interface_default_animatable": false
+            },
+            {
+              "name": "Wire",
+              "identifier": "Socket_2",
+              "type": "NodeSocketFloat",
+              "value": 0.039000000804662704,
+              "modifier_override_present": false,
+              "interface_default_animatable": false
+            },
+            {
+              "name": "Material",
+              "identifier": "Socket_3",
+              "type": "NodeSocketMaterial",
+              "value": {
+                "datablock": "08 | violet molded resin"
+              },
+              "modifier_override_present": false,
+              "interface_default_animatable": false
+            },
+            {
+              "name": "Size",
+              "identifier": "Socket_4",
+              "type": "NodeSocketVector",
+              "value": [
+                1.649999976158142,
+                1.5199999809265137,
+                1.3200000524520874
+              ],
+              "modifier_override_present": false,
+              "interface_default_animatable": false
+            }
+          ]
+        }
+      ],
+      "actual_min_world_z": 2.995103597640991
+    },
+    "08 | Large open parallelogram frame": {
+      "type": "MESH",
+      "parent": null,
+      "origin_world": [
+        -1.525,
+        1.367295,
+        6.733005
+      ],
+      "matrix_world": [
+        [
+          0.909653,
+          -0.205351,
+          0.361058,
+          -1.525
+        ],
+        [
+          0.302924,
+          -0.266772,
+          -0.914915,
+          1.367295
+        ],
+        [
+          0.284199,
+          0.941628,
+          -0.180464,
+          6.733005
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "local_axis_z_world": [
+        0.361058,
+        -0.914915,
+        -0.180464
+      ],
+      "world_bounds": [
+        [
+          -2.67539381980896,
+          0.5264167189598083,
+          5.879368782043457
+        ],
+        [
+          -0.3746061325073242,
+          2.20817232131958,
+          7.586640357971191
+        ]
+      ],
+      "screen_bounds_px_and_depth": [
+        [
+          145.968,
+          335.909,
+          -1.5504
+        ],
+        [
+          330.032,
+          490.091,
+          0.1504
+        ]
+      ],
+      "visible_shadow": false,
+      "geometry_nodes": [
+        {
+          "modifier": "08 | Large open parallelogram frame | frame parameters",
+          "group": "08 | Large open parallelogram frame | frame parameters",
+          "inputs": [
+            {
+              "name": "Radius",
+              "identifier": "Socket_1",
+              "type": "NodeSocketFloat",
+              "value": 0.8999999761581421,
+              "modifier_override_present": false,
+              "interface_default_animatable": false
+            },
+            {
+              "name": "Wire",
+              "identifier": "Socket_2",
+              "type": "NodeSocketFloat",
+              "value": 0.01899999938905239,
+              "modifier_override_present": false,
+              "interface_default_animatable": false
+            },
+            {
+              "name": "Material",
+              "identifier": "Socket_3",
+              "type": "NodeSocketMaterial",
+              "value": {
+                "datablock": "08 | pale lilac satin ceramic"
+              },
+              "modifier_override_present": false,
+              "interface_default_animatable": false
+            },
+            {
+              "name": "Size",
+              "identifier": "Socket_4",
+              "type": "NodeSocketVector",
+              "value": [
+                1.899999976158142,
+                1.0199999809265137,
+                0.8500000238418579
+              ],
+              "modifier_override_present": false,
+              "interface_default_animatable": false
+            }
+          ]
+        }
+      ],
+      "actual_min_world_z": 5.887894153594971
+    },
+    "09 | Upper pink open cylinder": {
+      "type": "MESH",
+      "parent": null,
+      "origin_world": [
+        -1.9125,
+        0.424134,
+        7.413317
+      ],
+      "matrix_world": [
+        [
+          0.897065,
+          -0.378467,
+          0.228117,
+          -1.9125
+        ],
+        [
+          0.441899,
+          0.768296,
+          -0.463083,
+          0.424134
+        ],
+        [
+          0.0,
+          0.516221,
+          0.856456,
+          7.413317
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "local_axis_z_world": [
+        0.228117,
+        -0.463083,
+        0.856456
+      ],
+      "world_bounds": [
+        [
+          -2.3818933963775635,
+          -0.15637139976024628,
+          6.804630756378174
+        ],
+        [
+          -1.4431064128875732,
+          1.0046396255493164,
+          8.022003173828125
+        ]
+      ],
+      "screen_bounds_px_and_depth": [
+        [
+          169.449,
+          329.843,
+          -0.2632
+        ],
+        [
+          244.551,
+          427.157,
+          1.0232
+        ]
+      ],
+      "visible_shadow": true,
+      "geometry_nodes": [
+        {
+          "modifier": "09 | Upper pink open cylinder | tube parameters",
+          "group": "09 | Upper pink open cylinder | tube parameters",
+          "inputs": [
+            {
+              "name": "Radius",
+              "identifier": "Socket_1",
+              "type": "NodeSocketFloat",
+              "value": 0.27000001072883606,
+              "modifier_override_present": false,
+              "interface_default_animatable": false
+            },
+            {
+              "name": "Wall",
+              "identifier": "Socket_2",
+              "type": "NodeSocketFloat",
+              "value": 0.04500000178813934,
+              "modifier_override_present": false,
+              "interface_default_animatable": false
+            },
+            {
+              "name": "Length",
+              "identifier": "Socket_3",
+              "type": "NodeSocketFloat",
+              "value": 1.095927119255066,
+              "modifier_override_present": false,
+              "interface_default_animatable": false
+            },
+            {
+              "name": "Material",
+              "identifier": "Socket_4",
+              "type": "NodeSocketMaterial",
+              "value": {
+                "datablock": "08 | candy pink soft lacquer"
+              },
+              "modifier_override_present": false,
+              "interface_default_animatable": false
+            }
+          ]
+        }
+      ],
+      "actual_min_world_z": 6.80572509765625
+    },
+    "10 | Upper navy open cylinder": {
+      "type": "MESH",
+      "parent": null,
+      "origin_world": [
+        -1.375,
+        0.355921,
+        6.934309
+      ],
+      "matrix_world": [
+        [
+          0.889221,
+          -0.406639,
+          0.209595,
+          -1.375
+        ],
+        [
+          0.457477,
+          0.790405,
+          -0.4074,
+          0.355921
+        ],
+        [
+          -0.0,
+          0.458154,
+          0.888873,
+          6.934309
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "local_axis_z_world": [
+        0.209595,
+        -0.4074,
+        0.888873
+      ],
+      "world_bounds": [
+        [
+          -1.9193202257156372,
+          -0.3398815393447876,
+          6.061575889587402
+        ],
+        [
+          -0.8306797742843628,
+          1.051723599433899,
+          7.807042121887207
+        ]
+      ],
+      "screen_bounds_px_and_depth": [
+        [
+          206.454,
+          348.965,
+          -0.4934
+        ],
+        [
+          293.546,
+          485.035,
+          1.1534
+        ]
+      ],
+      "visible_shadow": true,
+      "geometry_nodes": [
+        {
+          "modifier": "10 | Upper navy open cylinder | tube parameters",
+          "group": "10 | Upper navy open cylinder | tube parameters",
+          "inputs": [
+            {
+              "name": "Radius",
+              "identifier": "Socket_1",
+              "type": "NodeSocketFloat",
+              "value": 0.2849999964237213,
+              "modifier_override_present": false,
+              "interface_default_animatable": false
+            },
+            {
+              "name": "Wall",
+              "identifier": "Socket_2",
+              "type": "NodeSocketFloat",
+              "value": 0.07000000029802322,
+              "modifier_override_present": false,
+              "interface_default_animatable": false
+            },
+            {
+              "name": "Length",
+              "identifier": "Socket_3",
+              "type": "NodeSocketFloat",
+              "value": 1.669887900352478,
+              "modifier_override_present": false,
+              "interface_default_animatable": false
+            },
+            {
+              "name": "Material",
+              "identifier": "Socket_4",
+              "type": "NodeSocketMaterial",
+              "value": {
+                "datablock": "08 | deep blue coated resin"
+              },
+              "modifier_override_present": false,
+              "interface_default_animatable": false
+            }
+          ]
+        }
+      ],
+      "actual_min_world_z": 6.061861038208008
+    },
+    "11 | Tiny yellow cube": {
+      "type": "MESH",
+      "parent": null,
+      "origin_world": [
+        -2.65,
+        0.700322,
+        7.363596
+      ],
+      "matrix_world": [
+        [
+          0.907673,
+          -0.402568,
+          -0.118609,
+          -2.65
+        ],
+        [
+          -0.170966,
+          -0.096583,
+          -0.980532,
+          0.700322
+        ],
+        [
+          0.383275,
+          0.910281,
+          -0.156491,
+          7.363596
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "local_axis_z_world": [
+        -0.118609,
+        -0.980532,
+        -0.156491
+      ],
+      "world_bounds": [
+        [
+          -2.9459028244018555,
+          0.47134360671043396,
+          6.987681865692139
+        ],
+        [
+          -2.354097366333008,
+          0.929299533367157,
+          7.739511013031006
+        ]
+      ],
+      "screen_bounds_px_and_depth": [
+        [
+          124.328,
+          345.647,
+          -0.2001
+        ],
+        [
+          171.672,
+          408.353,
+          0.4001
+        ]
+      ],
+      "visible_shadow": false,
+      "geometry_nodes": [
+        {
+          "modifier": "11 | Tiny yellow cube | frame parameters",
+          "group": "11 | Tiny yellow cube | frame parameters",
+          "inputs": [
+            {
+              "name": "Radius",
+              "identifier": "Socket_1",
+              "type": "NodeSocketFloat",
+              "value": 0.30000001192092896,
+              "modifier_override_present": false,
+              "interface_default_animatable": false
+            },
+            {
+              "name": "Wire",
+              "identifier": "Socket_2",
+              "type": "NodeSocketFloat",
+              "value": 0.014000000432133675,
+              "modifier_override_present": false,
+              "interface_default_animatable": false
+            },
+            {
+              "name": "Material",
+              "identifier": "Socket_3",
+              "type": "NodeSocketMaterial",
+              "value": {
+                "datablock": "08 | warm yellow satin alloy"
+              },
+              "modifier_override_present": false,
+              "interface_default_animatable": false
+            },
+            {
+              "name": "Size",
+              "identifier": "Socket_4",
+              "type": "NodeSocketVector",
+              "value": [
+                0.30000001192092896,
+                0.6000000238418579,
+                0.3199999928474426
+              ],
+              "modifier_override_present": false,
+              "interface_default_animatable": false
+            }
+          ]
+        }
+      ],
+      "actual_min_world_z": 6.9942626953125
+    },
+    "12 | Top right horizontal lower pink tube ring": {
+      "type": "MESH",
+      "parent": null,
+      "origin_world": [
+        1.5625,
+        0.666367,
+        7.681319
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          1.5625
+        ],
+        [
+          0.0,
+          0.242536,
+          -0.970142,
+          0.666367
+        ],
+        [
+          0.0,
+          0.970142,
+          0.242536,
+          7.681319
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "local_axis_z_world": [
+        0.0,
+        -0.970143,
+        0.242536
+      ],
+      "world_bounds": [
+        [
+          1.4945000410079956,
+          0.6372623443603516,
+          7.61219596862793
+        ],
+        [
+          1.6304999589920044,
+          0.695470929145813,
+          7.750441551208496
+        ]
+      ],
+      "screen_bounds_px_and_depth": [
+        [
+          479.56,
+          347.56,
+          0.197
+        ],
+        [
+          490.44,
+          358.44,
+          0.223
+        ]
+      ],
+      "visible_shadow": true,
+      "geometry_nodes": [
+        {
+          "modifier": "12 | Top right horizontal lower pink tube ring | frame paramete",
+          "group": "12 | Top right horizontal lower pink tube ring | frame parameters",
+          "inputs": [
+            {
+              "name": "Radius",
+              "identifier": "Socket_1",
+              "type": "NodeSocketFloat",
+              "value": 0.054999999701976776,
+              "modifier_override_present": false,
+              "interface_default_animatable": false
+            },
+            {
+              "name": "Wire",
+              "identifier": "Socket_2",
+              "type": "NodeSocketFloat",
+              "value": 0.013000000268220901,
+              "modifier_override_present": false,
+              "interface_default_animatable": false
+            },
+            {
+              "name": "Material",
+              "identifier": "Socket_3",
+              "type": "NodeSocketMaterial",
+              "value": {
+                "datablock": "08 | lavender white porcelain"
+              },
+              "modifier_override_present": false,
+              "interface_default_animatable": false
+            }
+          ]
+        }
+      ],
+      "actual_min_world_z": 7.615349292755127
+    },
+    "12b | Top right pink long tube": {
+      "type": "MESH",
+      "parent": null,
+      "origin_world": [
+        2.55,
+        0.530547,
+        7.715274
+      ],
+      "matrix_world": [
+        [
+          -0.408662,
+          0.092762,
+          0.907959,
+          2.55
+        ],
+        [
+          0.912686,
+          0.041535,
+          0.406546,
+          0.530547
+        ],
+        [
+          0.0,
+          0.994822,
+          -0.101636,
+          7.715274
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "local_axis_z_world": [
+        0.907959,
+        0.406546,
+        -0.101636
+      ],
+      "world_bounds": [
+        [
+          1.529871940612793,
+          0.008102638646960258,
+          7.516599178314209
+        ],
+        [
+          3.5701284408569336,
+          1.0529906749725342,
+          7.9139485359191895
+        ]
+      ],
+      "screen_bounds_px_and_depth": [
+        [
+          482.39,
+          344.385,
+          -0.1978
+        ],
+        [
+          645.61,
+          361.615,
+          0.8978
+        ]
+      ],
+      "visible_shadow": true,
+      "geometry_nodes": [
+        {
+          "modifier": "12b | Top right pink long tube | tube parameters",
+          "group": "12b | Top right pink long tube | tube parameters",
+          "inputs": [
+            {
+              "name": "Radius",
+              "identifier": "Socket_1",
+              "type": "NodeSocketFloat",
+              "value": 0.09000000357627869,
+              "modifier_override_present": false,
+              "interface_default_animatable": false
+            },
+            {
+              "name": "Wall",
+              "identifier": "Socket_2",
+              "type": "NodeSocketFloat",
+              "value": 0.027000000700354576,
+              "modifier_override_present": false,
+              "interface_default_animatable": false
+            },
+            {
+              "name": "Length",
+              "identifier": "Socket_3",
+              "type": "NodeSocketFloat",
+              "value": 2.1476731300354004,
+              "modifier_override_present": false,
+              "interface_default_animatable": false
+            },
+            {
+              "name": "Material",
+              "identifier": "Socket_4",
+              "type": "NodeSocketMaterial",
+              "value": {
+                "datablock": "08 | pale lilac satin ceramic"
+              },
+              "modifier_override_present": false,
+              "interface_default_animatable": false
+            }
+          ]
+        }
+      ],
+      "actual_min_world_z": 7.516829967498779
+    },
+    "13 | Top right blue long tube": {
+      "type": "MESH",
+      "parent": null,
+      "origin_world": [
+        2.9875,
+        0.612402,
+        8.042697
+      ],
+      "matrix_world": [
+        [
+          -0.572638,
+          0.116179,
+          0.811534,
+          2.9875
+        ],
+        [
+          0.819808,
+          0.081152,
+          0.566859,
+          0.612402
+        ],
+        [
+          -0.0,
+          0.989908,
+          -0.141715,
+          8.042697
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "local_axis_z_world": [
+        0.811534,
+        0.566859,
+        -0.141715
+      ],
+      "world_bounds": [
+        [
+          2.2936182022094727,
+          0.0857422947883606,
+          7.834565162658691
+        ],
+        [
+          3.6813817024230957,
+          1.1390626430511475,
+          8.250828742980957
+        ]
+      ],
+      "screen_bounds_px_and_depth": [
+        [
+          543.489,
+          316.569,
+          -0.1957
+        ],
+        [
+          654.511,
+          335.431,
+          0.8957
+        ]
+      ],
+      "visible_shadow": true,
+      "geometry_nodes": [
+        {
+          "modifier": "13 | Top right blue long tube | tube parameters",
+          "group": "13 | Top right blue long tube | tube parameters",
+          "inputs": [
+            {
+              "name": "Radius",
+              "identifier": "Socket_1",
+              "type": "NodeSocketFloat",
+              "value": 0.10000000149011612,
+              "modifier_override_present": false,
+              "interface_default_animatable": false
+            },
+            {
+              "name": "Wall",
+              "identifier": "Socket_2",
+              "type": "NodeSocketFloat",
+              "value": 0.028999999165534973,
+              "modifier_override_present": false,
+              "interface_default_animatable": false
+            },
+            {
+              "name": "Length",
+              "identifier": "Socket_3",
+              "type": "NodeSocketFloat",
+              "value": 1.5402922630310059,
+              "modifier_override_present": false,
+              "interface_default_animatable": false
+            },
+            {
+              "name": "Material",
+              "identifier": "Socket_4",
+              "type": "NodeSocketMaterial",
+              "value": {
+                "datablock": "08 | Midnight blue satin resin"
+              },
+              "modifier_override_present": false,
+              "interface_default_animatable": false
+            }
+          ]
+        }
+      ],
+      "actual_min_world_z": 7.8349103927612305
+    },
+    "14 | Faceted lavender kite": {
+      "type": "MESH",
+      "parent": null,
+      "origin_world": [
+        0.5625,
+        -0.480827,
+        7.298112
+      ],
+      "matrix_world": [
+        [
+          0.98393,
+          0.156434,
+          -0.086083,
+          0.5625
+        ],
+        [
+          -0.12235,
+          0.23955,
+          -0.963144,
+          -0.480827
+        ],
+        [
+          -0.130048,
+          0.958198,
+          0.25484,
+          7.298112
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "local_axis_z_world": [
+        -0.086083,
+        -0.963144,
+        0.25484
+      ],
+      "world_bounds": [
+        [
+          -0.08340698480606079,
+          -0.9288020133972168,
+          6.709044933319092
+        ],
+        [
+          1.0599852800369263,
+          -0.058011941611766815,
+          8.095117568969727
+        ]
+      ],
+      "screen_bounds_px_and_depth": [
+        [
+          353.327,
+          344.097,
+          0.9828
+        ],
+        [
+          444.799,
+          450.253,
+          1.552
+        ]
+      ],
+      "visible_shadow": true,
+      "geometry_nodes": [],
+      "actual_min_world_z": 6.858691692352295
+    },
+    "15 | Upper purple circular sector": {
+      "type": "MESH",
+      "parent": null,
+      "origin_world": [
+        1.8125,
+        0.888287,
+        6.053905
+      ],
+      "matrix_world": [
+        [
+          0.503783,
+          -0.82555,
+          0.254301,
+          1.8125
+        ],
+        [
+          0.405055,
+          -0.034259,
+          -0.91365,
+          0.888287
+        ],
+        [
+          0.762977,
+          0.563288,
+          0.317134,
+          6.053905
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "local_axis_z_world": [
+        0.254301,
+        -0.91365,
+        0.317134
+      ],
+      "world_bounds": [
+        [
+          1.3135663270950317,
+          0.8126002550125122,
+          5.708197593688965
+        ],
+        [
+          2.900700569152832,
+          1.4377589225769043,
+          7.292052268981934
+        ]
+      ],
+      "screen_bounds_px_and_depth": [
+        [
+          465.085,
+          371.334,
+          -0.804
+        ],
+        [
+          592.056,
+          500.21,
+          -0.2391
+        ]
+      ],
+      "visible_shadow": true,
+      "geometry_nodes": [],
+      "actual_min_world_z": 6.044741630554199
+    },
+    "18 | Thin pink horizontal pipe": {
+      "type": "MESH",
+      "parent": null,
+      "origin_world": [
+        -0.05,
+        -0.267699,
+        4.996449
+      ],
+      "matrix_world": [
+        [
+          -0.022575,
+          -0.07115,
+          0.99721,
+          -0.05
+        ],
+        [
+          0.999745,
+          -0.001607,
+          0.022518,
+          -0.267699
+        ],
+        [
+          -0.0,
+          0.997464,
+          0.071168,
+          4.996449
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "local_axis_z_world": [
+        0.99721,
+        0.022518,
+        0.071168
+      ],
+      "world_bounds": [
+        [
+          -1.1464039087295532,
+          -0.38738399744033813,
+          4.8240790367126465
+        ],
+        [
+          1.0464038848876953,
+          -0.1480133980512619,
+          5.168819904327393
+        ]
+      ],
+      "screen_bounds_px_and_depth": [
+        [
+          268.288,
+          563.806,
+          0.3447
+        ],
+        [
+          443.712,
+          595.194,
+          0.5853
+        ]
+      ],
+      "visible_shadow": false,
+      "geometry_nodes": [
+        {
+          "modifier": "18 | Thin pink horizontal pipe | tube parameters",
+          "group": "18 | Thin pink horizontal pipe | tube parameters",
+          "inputs": [
+            {
+              "name": "Radius",
+              "identifier": "Socket_1",
+              "type": "NodeSocketFloat",
+              "value": 0.0949999988079071,
+              "modifier_override_present": false,
+              "interface_default_animatable": false
+            },
+            {
+              "name": "Wall",
+              "identifier": "Socket_2",
+              "type": "NodeSocketFloat",
+              "value": 0.02500000037252903,
+              "modifier_override_present": false,
+              "interface_default_animatable": false
+            },
+            {
+              "name": "Length",
+              "identifier": "Socket_3",
+              "type": "NodeSocketFloat",
+              "value": 2.1810851097106934,
+              "modifier_override_present": false,
+              "interface_default_animatable": false
+            },
+            {
+              "name": "Material",
+              "identifier": "Socket_4",
+              "type": "NodeSocketMaterial",
+              "value": {
+                "datablock": "08 | candy pink soft lacquer"
+              },
+              "modifier_override_present": false,
+              "interface_default_animatable": false
+            }
+          ]
+        }
+      ],
+      "actual_min_world_z": 4.8241424560546875
+    },
+    "19 | Left diagonal golden tube": {
+      "type": "MESH",
+      "parent": null,
+      "origin_world": [
+        -3.09375,
+        -0.311052,
+        4.987961
+      ],
+      "matrix_world": [
+        [
+          -0.666774,
+          -0.370543,
+          0.646614,
+          -3.09375
+        ],
+        [
+          0.74526,
+          -0.33152,
+          0.578517,
+          -0.311052
+        ],
+        [
+          0.0,
+          0.867636,
+          0.4972,
+          4.987961
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "local_axis_z_world": [
+        0.646614,
+        0.578517,
+        0.4972
+      ],
+      "world_bounds": [
+        [
+          -3.8748888969421387,
+          -1.0493338108062744,
+          4.368767738342285
+        ],
+        [
+          -2.3126111030578613,
+          0.42722997069358826,
+          5.60715389251709
+        ]
+      ],
+      "screen_bounds_px_and_depth": [
+        [
+          50.009,
+          522.028,
+          -0.1726
+        ],
+        [
+          174.991,
+          639.972,
+          1.1826
+        ]
+      ],
+      "visible_shadow": false,
+      "geometry_nodes": [
+        {
+          "modifier": "19 | Left diagonal golden tube | tube parameters",
+          "group": "19 | Left diagonal golden tube | tube parameters",
+          "inputs": [
+            {
+              "name": "Radius",
+              "identifier": "Socket_1",
+              "type": "NodeSocketFloat",
+              "value": 0.26499998569488525,
+              "modifier_override_present": false,
+              "interface_default_animatable": false
+            },
+            {
+              "name": "Wall",
+              "identifier": "Socket_2",
+              "type": "NodeSocketFloat",
+              "value": 0.05999999865889549,
+              "modifier_override_present": false,
+              "interface_default_animatable": false
+            },
+            {
+              "name": "Length",
+              "identifier": "Socket_3",
+              "type": "NodeSocketFloat",
+              "value": 1.5658482313156128,
+              "modifier_override_present": false,
+              "interface_default_animatable": false
+            },
+            {
+              "name": "Material",
+              "identifier": "Socket_4",
+              "type": "NodeSocketMaterial",
+              "value": {
+                "datablock": "08 | sun yellow satin plastic"
+              },
+              "modifier_override_present": false,
+              "interface_default_animatable": false
+            }
+          ]
+        }
+      ],
+      "actual_min_world_z": 4.369885444641113
+    },
+    "19b | Navy open end detail": {
+      "type": "MESH",
+      "parent": null,
+      "origin_world": [
+        -3.6,
+        -1.162352,
+        4.530781
+      ],
+      "matrix_world": [
+        [
+          0.86273,
+          0.289495,
+          0.414596,
+          -3.6
+        ],
+        [
+          0.466765,
+          -0.140562,
+          -0.87314,
+          -1.162352
+        ],
+        [
+          -0.194493,
+          0.946803,
+          -0.256393,
+          4.530781
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "local_axis_z_world": [
+        0.414596,
+        -0.87314,
+        -0.256393
+      ],
+      "world_bounds": [
+        [
+          -3.939761161804199,
+          -1.3630390167236328,
+          4.199333667755127
+        ],
+        [
+          -3.2602386474609375,
+          -0.9616649150848389,
+          4.862228870391846
+        ]
+      ],
+      "screen_bounds_px_and_depth": [
+        [
+          44.819,
+          610.052,
+          0.949
+        ],
+        [
+          99.181,
+          655.948,
+          1.491
+        ]
+      ],
+      "visible_shadow": true,
+      "geometry_nodes": [
+        {
+          "modifier": "19b | Navy open end detail | frame parameters",
+          "group": "19b | Navy open end detail | frame parameters",
+          "inputs": [
+            {
+              "name": "Radius",
+              "identifier": "Socket_1",
+              "type": "NodeSocketFloat",
+              "value": 0.25,
+              "modifier_override_present": false,
+              "interface_default_animatable": false
+            },
+            {
+              "name": "Wire",
+              "identifier": "Socket_2",
+              "type": "NodeSocketFloat",
+              "value": 0.032999999821186066,
+              "modifier_override_present": false,
+              "interface_default_animatable": false
+            },
+            {
+              "name": "Material",
+              "identifier": "Socket_3",
+              "type": "NodeSocketMaterial",
+              "value": {
+                "datablock": "08 | deep blue coated resin"
+              },
+              "modifier_override_present": false,
+              "interface_default_animatable": false
+            }
+          ]
+        }
+      ],
+      "actual_min_world_z": 4.257246494293213
+    },
+    "20 | Small lilac satellite loop": {
+      "type": "MESH",
+      "parent": null,
+      "origin_world": [
+        -2.325,
+        0.365016,
+        5.527602
+      ],
+      "matrix_world": [
+        [
+          0.939693,
+          0.023858,
+          0.341187,
+          -2.325
+        ],
+        [
+          0.331808,
+          0.178352,
+          -0.926333,
+          0.365016
+        ],
+        [
+          -0.082952,
+          0.983677,
+          0.15968,
+          5.527602
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "local_axis_z_world": [
+        0.341187,
+        -0.926333,
+        0.15968
+      ],
+      "world_bounds": [
+        [
+          -2.5863590240478516,
+          0.18189597129821777,
+          5.251364231109619
+        ],
+        [
+          -2.06364107131958,
+          0.5481362342834473,
+          5.803840160369873
+        ]
+      ],
+      "screen_bounds_px_and_depth": [
+        [
+          153.091,
+          505.714,
+          -0.1781
+        ],
+        [
+          194.909,
+          546.286,
+          0.1381
+        ]
+      ],
+      "visible_shadow": true,
+      "geometry_nodes": [
+        {
+          "modifier": "20 | Small lilac satellite loop | frame parameters",
+          "group": "20 | Small lilac satellite loop | frame parameters",
+          "inputs": [
+            {
+              "name": "Radius",
+              "identifier": "Socket_1",
+              "type": "NodeSocketFloat",
+              "value": 0.1899999976158142,
+              "modifier_override_present": false,
+              "interface_default_animatable": false
+            },
+            {
+              "name": "Wire",
+              "identifier": "Socket_2",
+              "type": "NodeSocketFloat",
+              "value": 0.05999999865889549,
+              "modifier_override_present": false,
+              "interface_default_animatable": false
+            },
+            {
+              "name": "Material",
+              "identifier": "Socket_3",
+              "type": "NodeSocketMaterial",
+              "value": {
+                "datablock": "08 | pale lilac satin ceramic"
+              },
+              "modifier_override_present": false,
+              "interface_default_animatable": false
+            }
+          ]
+        }
+      ],
+      "actual_min_world_z": 5.280834197998047
+    },
+    "23 | Left lower lavender fan": {
+      "type": "MESH",
+      "parent": null,
+      "origin_world": [
+        -3.2125,
+        -0.524483,
+        3.495154
+      ],
+      "matrix_world": [
+        [
+          0.667749,
+          0.663811,
+          -0.336849,
+          -3.2125
+        ],
+        [
+          -0.435115,
+          -0.019094,
+          -0.900173,
+          -0.524483
+        ],
+        [
+          -0.603976,
+          0.747657,
+          0.276084,
+          3.495154
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "local_axis_z_world": [
+        -0.336849,
+        -0.900173,
+        0.276084
+      ],
+      "world_bounds": [
+        [
+          -3.6439085006713867,
+          -1.0039608478546143,
+          2.441213607788086
+        ],
+        [
+          -2.147176742553711,
+          -0.4580737054347992,
+          3.975720167160034
+        ]
+      ],
+      "screen_bounds_px_and_depth": [
+        [
+          68.487,
+          665.149,
+          0.1663
+        ],
+        [
+          188.226,
+          789.366,
+          0.7954
+        ]
+      ],
+      "visible_shadow": false,
+      "geometry_nodes": [],
+      "actual_min_world_z": 2.5922136306762695
+    },
+    "24 | Central pale arc shard": {
+      "type": "MESH",
+      "parent": null,
+      "origin_world": [
+        -0.325,
+        -1.200551,
+        3.4709
+      ],
+      "matrix_world": [
+        [
+          0.469472,
+          0.882948,
+          0.0,
+          -0.325
+        ],
+        [
+          -0.214146,
+          0.113864,
+          -0.970142,
+          -1.200551
+        ],
+        [
+          -0.856585,
+          0.455454,
+          0.242536,
+          3.4709
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "local_axis_z_world": [
+        0.0,
+        -0.970143,
+        0.242536
+      ],
+      "world_bounds": [
+        [
+          -1.0220952033996582,
+          -1.5226824283599854,
+          2.4188480377197266
+        ],
+        [
+          0.7429777979850769,
+          -1.0475956201553345,
+          3.846250534057617
+        ]
+      ],
+      "screen_bounds_px_and_depth": [
+        [
+          278.232,
+          686.348,
+          0.935
+        ],
+        [
+          419.438,
+          801.454,
+          1.065
+        ]
+      ],
+      "visible_shadow": true,
+      "geometry_nodes": [],
+      "actual_min_world_z": 2.693575382232666
+    },
+    "25 | Pale triangular shard": {
+      "type": "MESH",
+      "parent": null,
+      "origin_world": [
+        0.1625,
+        -1.779605,
+        3.422393
+      ],
+      "matrix_world": [
+        [
+          0.984808,
+          -0.173648,
+          -0.0,
+          0.1625
+        ],
+        [
+          0.042116,
+          0.238851,
+          -0.970142,
+          -1.779605
+        ],
+        [
+          0.168463,
+          0.955404,
+          0.242536,
+          3.422393
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "local_axis_z_world": [
+        -0.0,
+        -0.970142,
+        0.242536
+      ],
+      "world_bounds": [
+        [
+          -0.004941300023347139,
+          -1.851913571357727,
+          3.2350239753723145
+        ],
+        [
+          0.5299376845359802,
+          -1.6484168767929077,
+          3.721587896347046
+        ]
+      ],
+      "screen_bounds_px_and_depth": [
+        [
+          359.605,
+          706.928,
+          1.49
+        ],
+        [
+          402.395,
+          745.251,
+          1.58
+        ]
+      ],
+      "visible_shadow": true,
+      "geometry_nodes": [],
+      "actual_min_world_z": 3.23896861076355
+    },
+    "26 | Front lower pink hollow pipe": {
+      "type": "MESH",
+      "parent": null,
+      "origin_world": [
+        -1.30625,
+        -1.367295,
+        1.670073
+      ],
+      "matrix_world": [
+        [
+          0.517804,
+          0.412773,
+          -0.749331,
+          -1.30625
+        ],
+        [
+          -0.855499,
+          0.249837,
+          -0.453544,
+          -1.367295
+        ],
+        [
+          0.0,
+          0.875899,
+          0.482494,
+          1.670073
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "local_axis_z_world": [
+        -0.749331,
+        -0.453544,
+        0.482494
+      ],
+      "world_bounds": [
+        [
+          -2.291673421859741,
+          -2.1263644695281982,
+          0.9525492191314697
+        ],
+        [
+          -0.32082676887512207,
+          -0.6082246899604797,
+          2.3875973224639893
+        ]
+      ],
+      "screen_bounds_px_and_depth": [
+        [
+          176.666,
+          805.172,
+          -0.058
+        ],
+        [
+          334.334,
+          912.828,
+          1.508
+        ]
+      ],
+      "visible_shadow": true,
+      "geometry_nodes": [
+        {
+          "modifier": "26 | Front lower pink hollow pipe | tube parameters",
+          "group": "26 | Front lower pink hollow pipe | tube parameters",
+          "inputs": [
+            {
+              "name": "Radius",
+              "identifier": "Socket_1",
+              "type": "NodeSocketFloat",
+              "value": 0.30000001192092896,
+              "modifier_override_present": false,
+              "interface_default_animatable": false
+            },
+            {
+              "name": "Wall",
+              "identifier": "Socket_2",
+              "type": "NodeSocketFloat",
+              "value": 0.04699999839067459,
+              "modifier_override_present": false,
+              "interface_default_animatable": false
+            },
+            {
+              "name": "Length",
+              "identifier": "Socket_3",
+              "type": "NodeSocketFloat",
+              "value": 1.8850148916244507,
+              "modifier_override_present": false,
+              "interface_default_animatable": false
+            },
+            {
+              "name": "Material",
+              "identifier": "Socket_4",
+              "type": "NodeSocketMaterial",
+              "value": {
+                "datablock": "08 | candy pink soft lacquer"
+              },
+              "modifier_override_present": false,
+              "interface_default_animatable": false
+            }
+          ]
+        }
+      ],
+      "actual_min_world_z": 0.953575849533081
+    },
+    "29 | Right upright purple cup": {
+      "type": "MESH",
+      "parent": null,
+      "origin_world": [
+        3.34375,
+        -0.853422,
+        2.488631
+      ],
+      "matrix_world": [
+        [
+          0.99952,
+          -0.028984,
+          0.010956,
+          3.34375
+        ],
+        [
+          0.030985,
+          0.934947,
+          -0.353431,
+          -0.853422
+        ],
+        [
+          -0.0,
+          0.353601,
+          0.935396,
+          2.488631
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "local_axis_z_world": [
+        0.010956,
+        -0.353431,
+        0.935396
+      ],
+      "world_bounds": [
+        [
+          3.080374240875244,
+          -1.296513319015503,
+          1.8666527271270752
+        ],
+        [
+          3.607125759124756,
+          -0.41033118963241577,
+          3.110609769821167
+        ]
+      ],
+      "screen_bounds_px_and_depth": [
+        [
+          606.43,
+          736.454,
+          -0.1128
+        ],
+        [
+          648.57,
+          834.546,
+          0.9628
+        ]
+      ],
+      "visible_shadow": true,
+      "geometry_nodes": [
+        {
+          "modifier": "29 | Right upright purple cup | tube parameters",
+          "group": "29 | Right upright purple cup | tube parameters",
+          "inputs": [
+            {
+              "name": "Radius",
+              "identifier": "Socket_1",
+              "type": "NodeSocketFloat",
+              "value": 0.25,
+              "modifier_override_present": false,
+              "interface_default_animatable": false
+            },
+            {
+              "name": "Wall",
+              "identifier": "Socket_2",
+              "type": "NodeSocketFloat",
+              "value": 0.07500000298023224,
+              "modifier_override_present": false,
+              "interface_default_animatable": false
+            },
+            {
+              "name": "Length",
+              "identifier": "Socket_3",
+              "type": "NodeSocketFloat",
+              "value": 1.1408603191375732,
+              "modifier_override_present": false,
+              "interface_default_animatable": false
+            },
+            {
+              "name": "Material",
+              "identifier": "Socket_4",
+              "type": "NodeSocketMaterial",
+              "value": {
+                "datablock": "08 | violet molded resin"
+              },
+              "modifier_override_present": false,
+              "interface_default_animatable": false
+            }
+          ]
+        }
+      ],
+      "actual_min_world_z": 1.8685604333877563
+    },
+    "31 | Gold curved shallow dish": {
+      "type": "MESH",
+      "parent": null,
+      "origin_world": [
+        2.8625,
+        -0.990152,
+        0.931552
+      ],
+      "matrix_world": [
+        [
+          0.905849,
+          -0.32076,
+          -0.173458,
+          2.8625
+        ],
+        [
+          -0.29289,
+          -0.228735,
+          -0.91557,
+          -0.990152
+        ],
+        [
+          0.306027,
+          0.730543,
+          -0.362828,
+          0.931552
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "local_axis_z_world": [
+        -0.173458,
+        -0.91557,
+        -0.362828
+      ],
+      "world_bounds": [
+        [
+          1.8186436891555786,
+          -1.678183674812317,
+          -0.013289421796798706
+        ],
+        [
+          3.8976833820343018,
+          -0.34789806604385376,
+          1.858253002166748
+        ]
+      ],
+      "screen_bounds_px_and_depth": [
+        [
+          505.491,
+          841.012,
+          -0.6256
+        ],
+        [
+          671.815,
+          979.284,
+          1.0256
+        ]
+      ],
+      "visible_shadow": true,
+      "geometry_nodes": [],
+      "actual_min_world_z": 0.20226876437664032
+    },
+    "32 curled lattice rim 00": {
+      "type": "MESH",
+      "parent": null,
+      "origin_world": [
+        2.645957,
+        -1.771043,
+        2.121894
+      ],
+      "matrix_world": [
+        [
+          0.915608,
+          0.33341,
+          0.22472,
+          2.645957
+        ],
+        [
+          0.28054,
+          -0.129384,
+          -0.951082,
+          -1.771043
+        ],
+        [
+          -0.288025,
+          0.933862,
+          -0.212,
+          2.121894
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "local_axis_z_world": [
+        0.22472,
+        -0.951082,
+        -0.212
+      ],
+      "world_bounds": [
+        [
+          2.51239013671875,
+          -1.8438305854797363,
+          1.9914870262145996
+        ],
+        [
+          2.7795233726501465,
+          -1.6982545852661133,
+          2.252300262451172
+        ]
+      ],
+      "screen_bounds_px_and_depth": [
+        [
+          560.991,
+          821.841,
+          1.1274
+        ],
+        [
+          582.362,
+          841.694,
+          1.3251
+        ]
+      ],
+      "visible_shadow": true,
+      "geometry_nodes": [],
+      "actual_min_world_z": 2.023620843887329
+    },
+    "32 curled lattice rim 01": {
+      "type": "MESH",
+      "parent": null,
+      "origin_world": [
+        2.864061,
+        -1.715793,
+        2.105221
+      ],
+      "matrix_world": [
+        [
+          0.915608,
+          0.33341,
+          0.22472,
+          2.864061
+        ],
+        [
+          0.28054,
+          -0.129384,
+          -0.951082,
+          -1.715793
+        ],
+        [
+          -0.288025,
+          0.933862,
+          -0.212,
+          2.105221
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "local_axis_z_world": [
+        0.22472,
+        -0.951082,
+        -0.212
+      ],
+      "world_bounds": [
+        [
+          2.730494260787964,
+          -1.7885808944702148,
+          1.9748144149780273
+        ],
+        [
+          2.9976274967193604,
+          -1.6430048942565918,
+          2.2356276512145996
+        ]
+      ],
+      "screen_bounds_px_and_depth": [
+        [
+          578.44,
+          822.063,
+          1.0698
+        ],
+        [
+          599.81,
+          841.916,
+          1.2675
+        ]
+      ],
+      "visible_shadow": true,
+      "geometry_nodes": [],
+      "actual_min_world_z": 2.006948232650757
+    },
+    "32 curled lattice rim 02": {
+      "type": "MESH",
+      "parent": null,
+      "origin_world": [
+        3.019664,
+        -1.642647,
+        1.942011
+      ],
+      "matrix_world": [
+        [
+          0.915608,
+          0.33341,
+          0.22472,
+          3.019664
+        ],
+        [
+          0.28054,
+          -0.129384,
+          -0.951082,
+          -1.642647
+        ],
+        [
+          -0.288025,
+          0.933862,
+          -0.212,
+          1.942011
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "local_axis_z_world": [
+        0.22472,
+        -0.951082,
+        -0.212
+      ],
+      "world_bounds": [
+        [
+          2.886096954345703,
+          -1.7154353857040405,
+          1.811604380607605
+        ],
+        [
+          3.1532301902770996,
+          -1.5698593854904175,
+          2.0724174976348877
+        ]
+      ],
+      "screen_bounds_px_and_depth": [
+        [
+          590.888,
+          833.31,
+          0.9592
+        ],
+        [
+          612.258,
+          853.164,
+          1.1569
+        ]
+      ],
+      "visible_shadow": true,
+      "geometry_nodes": [],
+      "actual_min_world_z": 1.8437381982803345
+    },
+    "32 curled lattice rim 03": {
+      "type": "MESH",
+      "parent": null,
+      "origin_world": [
+        2.53016,
+        -1.757899,
+        1.940184
+      ],
+      "matrix_world": [
+        [
+          0.915608,
+          0.33341,
+          0.22472,
+          2.53016
+        ],
+        [
+          0.28054,
+          -0.129384,
+          -0.951082,
+          -1.757899
+        ],
+        [
+          -0.288025,
+          0.933862,
+          -0.212,
+          1.940184
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "local_axis_z_world": [
+        0.22472,
+        -0.951082,
+        -0.212
+      ],
+      "world_bounds": [
+        [
+          2.3965935707092285,
+          -1.8306870460510254,
+          1.8097773790359497
+        ],
+        [
+          2.663726806640625,
+          -1.6851110458374023,
+          2.0705904960632324
+        ]
+      ],
+      "screen_bounds_px_and_depth": [
+        [
+          551.727,
+          835.688,
+          1.0706
+        ],
+        [
+          573.098,
+          855.542,
+          1.2683
+        ]
+      ],
+      "visible_shadow": true,
+      "geometry_nodes": [],
+      "actual_min_world_z": 1.8419111967086792
+    },
+    "32 curled lattice rim 04": {
+      "type": "MESH",
+      "parent": null,
+      "origin_world": [
+        2.74493,
+        -1.701356,
+        1.914173
+      ],
+      "matrix_world": [
+        [
+          0.915608,
+          0.33341,
+          0.22472,
+          2.74493
+        ],
+        [
+          0.28054,
+          -0.129384,
+          -0.951082,
+          -1.701356
+        ],
+        [
+          -0.288025,
+          0.933862,
+          -0.212,
+          1.914173
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "local_axis_z_world": [
+        0.22472,
+        -0.951082,
+        -0.212
+      ],
+      "world_bounds": [
+        [
+          2.611363649368286,
+          -1.7741435766220093,
+          1.7837661504745483
+        ],
+        [
+          2.8784968852996826,
+          -1.6285675764083862,
+          2.044579267501831
+        ]
+      ],
+      "screen_bounds_px_and_depth": [
+        [
+          568.909,
+          836.61,
+          1.0094
+        ],
+        [
+          590.28,
+          856.464,
+          1.2071
+        ]
+      ],
+      "visible_shadow": true,
+      "geometry_nodes": [],
+      "actual_min_world_z": 1.8158999681472778
+    },
+    "32 curled lattice rim 05": {
+      "type": "MESH",
+      "parent": null,
+      "origin_world": [
+        2.900533,
+        -1.62821,
+        1.750963
+      ],
+      "matrix_world": [
+        [
+          0.915608,
+          0.33341,
+          0.22472,
+          2.900533
+        ],
+        [
+          0.28054,
+          -0.129384,
+          -0.951082,
+          -1.62821
+        ],
+        [
+          -0.288025,
+          0.933862,
+          -0.212,
+          1.750963
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "local_axis_z_world": [
+        0.22472,
+        -0.951082,
+        -0.212
+      ],
+      "world_bounds": [
+        [
+          2.7669663429260254,
+          -1.700998067855835,
+          1.620556116104126
+        ],
+        [
+          3.034099578857422,
+          -1.555422067642212,
+          1.8813693523406982
+        ]
+      ],
+      "screen_bounds_px_and_depth": [
+        [
+          581.357,
+          847.858,
+          0.8989
+        ],
+        [
+          602.728,
+          867.711,
+          1.0966
+        ]
+      ],
+      "visible_shadow": true,
+      "geometry_nodes": [],
+      "actual_min_world_z": 1.6526899337768555
+    },
+    "32 curled lattice rim 06": {
+      "type": "MESH",
+      "parent": null,
+      "origin_world": [
+        2.555039,
+        -1.703968,
+        1.724609
+      ],
+      "matrix_world": [
+        [
+          0.915608,
+          0.33341,
+          0.22472,
+          2.555039
+        ],
+        [
+          0.28054,
+          -0.129384,
+          -0.951082,
+          -1.703968
+        ],
+        [
+          -0.288025,
+          0.933862,
+          -0.212,
+          1.724609
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "local_axis_z_world": [
+        0.22472,
+        -0.951082,
+        -0.212
+      ],
+      "world_bounds": [
+        [
+          2.4214723110198975,
+          -1.7767562866210938,
+          1.5942023992538452
+        ],
+        [
+          2.688605546951294,
+          -1.6311802864074707,
+          1.8550156354904175
+        ]
+      ],
+      "screen_bounds_px_and_depth": [
+        [
+          553.718,
+          851.373,
+          0.966
+        ],
+        [
+          575.088,
+          871.227,
+          1.1637
+        ]
+      ],
+      "visible_shadow": true,
+      "geometry_nodes": [],
+      "actual_min_world_z": 1.6263362169265747
+    },
+    "32 curled lattice rim 07": {
+      "type": "MESH",
+      "parent": null,
+      "origin_world": [
+        2.743983,
+        -1.643761,
+        1.654785
+      ],
+      "matrix_world": [
+        [
+          0.915608,
+          0.33341,
+          0.22472,
+          2.743983
+        ],
+        [
+          0.28054,
+          -0.129384,
+          -0.951082,
+          -1.643761
+        ],
+        [
+          -0.288025,
+          0.933862,
+          -0.212,
+          1.654785
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "local_axis_z_world": [
+        0.22472,
+        -0.951082,
+        -0.212
+      ],
+      "world_bounds": [
+        [
+          2.6104159355163574,
+          -1.7165491580963135,
+          1.5243785381317139
+        ],
+        [
+          2.877549171447754,
+          -1.5709731578826904,
+          1.7851917743682861
+        ]
+      ],
+      "screen_bounds_px_and_depth": [
+        [
+          568.833,
+          855.624,
+          0.8907
+        ],
+        [
+          590.204,
+          875.477,
+          1.0884
+        ]
+      ],
+      "visible_shadow": true,
+      "geometry_nodes": [],
+      "actual_min_world_z": 1.5565123558044434
+    },
+    "35 | Upper fine outline": {
+      "type": "CURVE",
+      "parent": null,
+      "origin_world": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "local_axis_z_world": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "world_bounds": [
+        [
+          -1.0125000476837158,
+          0.5206983089447021,
+          5.604460716247559
+        ],
+        [
+          2.112499952316284,
+          2.7965826988220215,
+          8.707998275756836
+        ]
+      ],
+      "screen_bounds_px_and_depth": [
+        [
+          279.0,
+          231.986,
+          -2.3603
+        ],
+        [
+          529.0,
+          517.014,
+          0.6003
+        ]
+      ],
+      "visible_shadow": false,
+      "geometry_nodes": [],
+      "actual_min_world_z": 6.600822448730469
+    },
+    "36 | Left fine outline": {
+      "type": "CURVE",
+      "parent": null,
+      "origin_world": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "local_axis_z_world": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "world_bounds": [
+        [
+          -4.862500190734863,
+          -0.20266413688659668,
+          2.8347039222717285
+        ],
+        [
+          -1.0625,
+          2.2339000701904297,
+          6.580960273742676
+        ]
+      ],
+      "screen_bounds_px_and_depth": [
+        [
+          -29.0,
+          407.986,
+          -2.4862
+        ],
+        [
+          275.0,
+          746.014,
+          0.7862
+        ]
+      ],
+      "visible_shadow": false,
+      "geometry_nodes": [],
+      "actual_min_world_z": 3.8310658931732178
+    },
+    "37 | Lower peach fine outline": {
+      "type": "CURVE",
+      "parent": null,
+      "origin_world": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "local_axis_z_world": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "world_bounds": [
+        [
+          -2.674999952316284,
+          -1.3383371829986572,
+          -0.7596741318702698
+        ],
+        [
+          0.23750001192092896,
+          0.879944920539856,
+          2.1134543418884277
+        ]
+      ],
+      "screen_bounds_px_and_depth": [
+        [
+          146.0,
+          780.986,
+          -2.0444
+        ],
+        [
+          379.0,
+          1047.014,
+          0.8044
+        ]
+      ],
+      "visible_shadow": false,
+      "geometry_nodes": [],
+      "actual_min_world_z": 0.23668783903121948
+    },
+    "38 | Lower tilted diamond": {
+      "type": "CURVE",
+      "parent": null,
+      "origin_world": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "local_axis_z_world": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "world_bounds": [
+        [
+          -2.487499952316284,
+          -0.9987872838973999,
+          -0.6384062170982361
+        ],
+        [
+          3.112499952316284,
+          1.8137069940567017,
+          4.611571311950684
+        ]
+      ],
+      "screen_bounds_px_and_depth": [
+        [
+          161.0,
+          568.986,
+          -2.9209
+        ],
+        [
+          609.0,
+          1031.014,
+          1.0809
+        ]
+      ],
+      "visible_shadow": false,
+      "geometry_nodes": [],
+      "actual_min_world_z": 0.35269084572792053
+    },
+    "01 | Yellow pleated orbital core": {
+      "type": "MESH",
+      "parent": null,
+      "origin_world": [
+        0.2625,
+        0.386844,
+        6.19215
+      ],
+      "matrix_world": [
+        [
+          0.951057,
+          0.11576,
+          -0.286516,
+          0.2625
+        ],
+        [
+          -0.299791,
+          0.57051,
+          -0.76462,
+          0.386844
+        ],
+        [
+          0.074948,
+          0.813092,
+          0.577291,
+          6.19215
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "local_axis_z_world": [
+        -0.286516,
+        -0.76462,
+        0.577291
+      ],
+      "world_bounds": [
+        [
+          -1.2477620840072632,
+          -1.5133086442947388,
+          4.994935512542725
+        ],
+        [
+          1.5314013957977295,
+          1.642881155014038,
+          7.875674247741699
+        ]
+      ],
+      "screen_bounds_px_and_depth": [
+        [
+          260.179,
+          356.349,
+          -0.9639
+        ],
+        [
+          482.512,
+          566.406,
+          1.9467
+        ]
+      ],
+      "visible_shadow": true,
+      "geometry_nodes": [
+        {
+          "modifier": "Live surface parameters / 实时曲面参数",
+          "group": "01 | Yellow pleated orbital core • Pleated Orb / 密褶鼓球",
+          "inputs": [
+            {
+              "name": "Radius / 外半径",
+              "identifier": "Socket_1",
+              "type": "NodeSocketFloat",
+              "value": 1.0800000429153442,
+              "modifier_override_present": false,
+              "interface_default_animatable": false
+            },
+            {
+              "name": "Ribs / 经向褶数",
+              "identifier": "Socket_2",
+              "type": "NodeSocketInt",
+              "value": 48,
+              "modifier_override_present": false,
+              "interface_default_animatable": false
+            },
+            {
+              "name": "Fold depth / 褶深比例",
+              "identifier": "Socket_3",
+              "type": "NodeSocketFloat",
+              "value": 0.052000001072883606,
+              "modifier_override_present": false,
+              "interface_default_animatable": false
+            },
+            {
+              "name": "Opening / 凹心比例",
+              "identifier": "Socket_4",
+              "type": "NodeSocketFloat",
+              "value": 0.02800000086426735,
+              "modifier_override_present": false,
+              "interface_default_animatable": false
+            },
+            {
+              "name": "Body depth / 鼓身深度",
+              "identifier": "Socket_5",
+              "type": "NodeSocketFloat",
+              "value": 0.6700000166893005,
+              "modifier_override_present": false,
+              "interface_default_animatable": false
+            },
+            {
+              "name": "Dimple lift / 凹心前移",
+              "identifier": "Socket_6",
+              "type": "NodeSocketFloat",
+              "value": 0.7799999713897705,
+              "modifier_override_present": false,
+              "interface_default_animatable": false
+            },
+            {
+              "name": "Pleat sweep / 褶线旋度",
+              "identifier": "Socket_7",
+              "type": "NodeSocketFloat",
+              "value": 0.11500000208616257,
+              "modifier_override_present": false,
+              "interface_default_animatable": false
+            }
+          ]
+        }
+      ],
+      "actual_min_world_z": 5.191551685333252
+    },
+    "01b | Soft recessed yellow dimple closure": {
+      "type": "MESH",
+      "parent": null,
+      "origin_world": [
+        0.076265,
+        -0.110159,
+        6.567389
+      ],
+      "matrix_world": [
+        [
+          0.951057,
+          0.11576,
+          -0.200561,
+          0.076265
+        ],
+        [
+          -0.299791,
+          0.57051,
+          -0.535234,
+          -0.110159
+        ],
+        [
+          0.074948,
+          0.813092,
+          0.404103,
+          6.567389
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "local_axis_z_world": [
+        -0.286516,
+        -0.76462,
+        0.577291
+      ],
+      "world_bounds": [
+        [
+          -0.08849421888589859,
+          -0.29287832975387573,
+          6.399410247802734
+        ],
+        [
+          0.2410239428281784,
+          0.07256071269512177,
+          6.735367774963379
+        ]
+      ],
+      "screen_bounds_px_and_depth": [
+        [
+          352.92,
+          442.151,
+          0.5264
+        ],
+        [
+          379.282,
+          466.89,
+          0.8599
+        ]
+      ],
+      "visible_shadow": true,
+      "geometry_nodes": [],
+      "actual_min_world_z": 6.449263572692871
+    },
+    "06b | Sphere inside cage": {
+      "type": "MESH",
+      "parent": null,
+      "origin_world": [
+        1.5125,
+        -0.215857,
+        3.94627
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          1.5125
+        ],
+        [
+          0.0,
+          0.242536,
+          -0.970142,
+          -0.215857
+        ],
+        [
+          0.0,
+          0.970142,
+          0.242536,
+          3.94627
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "local_axis_z_world": [
+        0.0,
+        -0.970143,
+        0.242536
+      ],
+      "world_bounds": [
+        [
+          1.1124995946884155,
+          -0.7009279727935791,
+          3.4611988067626953
+        ],
+        [
+          1.9125001430511475,
+          0.26921454071998596,
+          4.431341648101807
+        ]
+      ],
+      "screen_bounds_px_and_depth": [
+        [
+          449.0,
+          628.0,
+          -0.24
+        ],
+        [
+          513.0,
+          692.0,
+          0.56
+        ]
+      ],
+      "visible_shadow": true,
+      "geometry_nodes": [],
+      "actual_min_world_z": 3.5463266372680664
+    },
+    "06c | Pink capsule inside cage": {
+      "type": "MESH",
+      "parent": null,
+      "origin_world": [
+        2.16875,
+        -0.409279,
+        4.265204
+      ],
+      "matrix_world": [
+        [
+          0.895506,
+          0.197668,
+          -0.398744,
+          2.16875
+        ],
+        [
+          -0.44505,
+          0.397737,
+          -0.802332,
+          -0.409279
+        ],
+        [
+          0.0,
+          0.895954,
+          0.444147,
+          4.265204
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "local_axis_z_world": [
+        -0.398744,
+        -0.802332,
+        0.444147
+      ],
+      "world_bounds": [
+        [
+          1.7048431634902954,
+          -0.9763811230659485,
+          3.835331916809082
+        ],
+        [
+          2.632657051086426,
+          0.15782341361045837,
+          4.695076942443848
+        ]
+      ],
+      "screen_bounds_px_and_depth": [
+        [
+          496.387,
+          607.81,
+          -0.1121
+        ],
+        [
+          570.613,
+          670.19,
+          0.9621
+        ]
+      ],
+      "visible_shadow": true,
+      "geometry_nodes": [],
+      "actual_min_world_z": 3.8723199367523193
+    },
+    "06d | Lilac lower cage pin": {
+      "type": "MESH",
+      "parent": null,
+      "origin_world": [
+        2.58125,
+        -0.162196,
+        3.81045
+      ],
+      "matrix_world": [
+        [
+          0.671547,
+          -0.34682,
+          0.654783,
+          2.58125
+        ],
+        [
+          0.740962,
+          0.314328,
+          -0.593441,
+          -0.162196
+        ],
+        [
+          0.0,
+          0.883693,
+          0.468066,
+          3.81045
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "local_axis_z_world": [
+        0.654783,
+        -0.593441,
+        0.468067
+      ],
+      "world_bounds": [
+        [
+          2.2893779277801514,
+          -0.44922029972076416,
+          3.5753350257873535
+        ],
+        [
+          2.873122453689575,
+          0.12482890486717224,
+          4.045565605163574
+        ]
+      ],
+      "screen_bounds_px_and_depth": [
+        [
+          543.15,
+          649.86,
+          -0.1876
+        ],
+        [
+          589.85,
+          689.14,
+          0.3376
+        ]
+      ],
+      "visible_shadow": true,
+      "geometry_nodes": [],
+      "actual_min_world_z": 3.5993247032165527
+    },
+    "07 | Pink corrugated floating ribbon": {
+      "type": "MESH",
+      "parent": null,
+      "origin_world": [
+        2.375,
+        -0.763987,
+        6.041778
+      ],
+      "matrix_world": [
+        [
+          0.949427,
+          -0.303829,
+          -0.079225,
+          2.375
+        ],
+        [
+          -0.085735,
+          -0.008124,
+          -0.996285,
+          -0.763987
+        ],
+        [
+          0.302056,
+          0.952692,
+          -0.033762,
+          6.041778
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "local_axis_z_world": [
+        -0.079225,
+        -0.996285,
+        -0.033762
+      ],
+      "world_bounds": [
+        [
+          1.4579893350601196,
+          -1.1839196681976318,
+          5.497885704040527
+        ],
+        [
+          3.2253239154815674,
+          -0.6093246340751648,
+          6.719987392425537
+        ]
+      ],
+      "screen_bounds_px_and_depth": [
+        [
+          476.639,
+          455.111,
+          0.9216
+        ],
+        [
+          618.026,
+          555.611,
+          1.7683
+        ]
+      ],
+      "visible_shadow": true,
+      "geometry_nodes": [
+        {
+          "modifier": "Live surface parameters / 实时曲面参数",
+          "group": "07 | Pink corrugated floating ribbon • Ripple Sheet / 波纹薄片",
+          "inputs": [
+            {
+              "name": "Width / 宽度",
+              "identifier": "Socket_1",
+              "type": "NodeSocketFloat",
+              "value": 1.559999942779541,
+              "modifier_override_present": false,
+              "interface_default_animatable": false
+            },
+            {
+              "name": "Height / 高度",
+              "identifier": "Socket_2",
+              "type": "NodeSocketFloat",
+              "value": 0.6399999856948853,
+              "modifier_override_present": false,
+              "interface_default_animatable": false
+            },
+            {
+              "name": "Ripple depth / 波纹深度",
+              "identifier": "Socket_3",
+              "type": "NodeSocketFloat",
+              "value": 0.14000000059604645,
+              "modifier_override_present": false,
+              "interface_default_animatable": false
+            },
+            {
+              "name": "Ripple count / 波纹数量",
+              "identifier": "Socket_4",
+              "type": "NodeSocketInt",
+              "value": 9,
+              "modifier_override_present": false,
+              "interface_default_animatable": false
+            },
+            {
+              "name": "Bow / 整体弯曲",
+              "identifier": "Socket_5",
+              "type": "NodeSocketFloat",
+              "value": 0.27000001072883606,
+              "modifier_override_present": false,
+              "interface_default_animatable": false
+            }
+          ]
+        }
+      ],
+      "actual_min_world_z": 5.498607635498047
+    },
+    "15b | Pale bevel line across sector": {
+      "type": "MESH",
+      "parent": null,
+      "origin_world": [
+        2.1875,
+        0.854635,
+        6.661457
+      ],
+      "matrix_world": [
+        [
+          -0.351887,
+          -0.763069,
+          0.542127,
+          2.1875
+        ],
+        [
+          0.936043,
+          -0.286861,
+          0.203802,
+          0.854635
+        ],
+        [
+          0.0,
+          0.579169,
+          0.815207,
+          6.661457
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "local_axis_z_world": [
+        0.542127,
+        0.203802,
+        0.815208
+      ],
+      "world_bounds": [
+        [
+          1.7846261262893677,
+          0.683088481426239,
+          6.08308219909668
+        ],
+        [
+          2.590373992919922,
+          1.0261813402175903,
+          7.23983097076416
+        ]
+      ],
+      "screen_bounds_px_and_depth": [
+        [
+          502.77,
+          380.561,
+          -0.2532
+        ],
+        [
+          567.23,
+          476.439,
+          -0.1868
+        ]
+      ],
+      "visible_shadow": true,
+      "geometry_nodes": [],
+      "actual_min_world_z": 6.087079048156738
+    },
+    "16 | Upper pale sphere": {
+      "type": "MESH",
+      "parent": null,
+      "origin_world": [
+        -1.375,
+        1.061093,
+        5.302044
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -1.375
+        ],
+        [
+          0.0,
+          0.242536,
+          -0.970142,
+          1.061093
+        ],
+        [
+          0.0,
+          0.970142,
+          0.242536,
+          5.302044
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "local_axis_z_world": [
+        0.0,
+        -0.970143,
+        0.242536
+      ],
+      "world_bounds": [
+        [
+          -1.9150004386901855,
+          0.406247079372406,
+          4.647197723388672
+        ],
+        [
+          -0.8349998593330383,
+          1.7159395217895508,
+          5.956890106201172
+        ]
+      ],
+      "screen_bounds_px_and_depth": [
+        [
+          206.8,
+          486.8,
+          -1.29
+        ],
+        [
+          293.2,
+          573.2,
+          -0.21
+        ]
+      ],
+      "visible_shadow": true,
+      "geometry_nodes": [],
+      "actual_min_world_z": 4.762119770050049
+    },
+    "17 | Long lilac back rod": {
+      "type": "MESH",
+      "parent": null,
+      "origin_world": [
+        -0.69375,
+        0.630593,
+        5.023129
+      ],
+      "matrix_world": [
+        [
+          0.205583,
+          0.621589,
+          0.755885,
+          -0.69375
+        ],
+        [
+          0.97864,
+          -0.130577,
+          -0.158789,
+          0.630593
+        ],
+        [
+          0.0,
+          0.772384,
+          -0.635156,
+          5.023129
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "local_axis_z_world": [
+        0.755885,
+        -0.158789,
+        -0.635156
+      ],
+      "world_bounds": [
+        [
+          -1.578488826751709,
+          0.34183573722839355,
+          4.271193504333496
+        ],
+        [
+          0.19098886847496033,
+          0.9193494319915771,
+          5.775063514709473
+        ]
+      ],
+      "screen_bounds_px_and_depth": [
+        [
+          233.721,
+          496.596,
+          -0.539
+        ],
+        [
+          375.279,
+          623.404,
+          -0.261
+        ]
+      ],
+      "visible_shadow": false,
+      "geometry_nodes": [],
+      "actual_min_world_z": 4.28973388671875
+    },
+    "21 | Blue studded circular button": {
+      "type": "MESH",
+      "parent": null,
+      "origin_world": [
+        -2.0625,
+        -1.008342,
+        4.569587
+      ],
+      "matrix_world": [
+        [
+          0.936625,
+          -0.306071,
+          -0.170455,
+          -2.0625
+        ],
+        [
+          -0.153096,
+          0.080043,
+          -0.984964,
+          -1.008342
+        ],
+        [
+          0.315113,
+          0.948638,
+          0.028112,
+          4.569587
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "local_axis_z_world": [
+        -0.170455,
+        -0.984964,
+        0.028112
+      ],
+      "world_bounds": [
+        [
+          -2.9036285877227783,
+          -1.2137935161590576,
+          3.721468448638916
+        ],
+        [
+          -1.2213714122772217,
+          -0.8028903007507324,
+          5.417705059051514
+        ]
+      ],
+      "screen_bounds_px_and_depth": [
+        [
+          127.71,
+          561.389,
+          0.779
+        ],
+        [
+          262.29,
+          692.611,
+          1.381
+        ]
+      ],
+      "visible_shadow": false,
+      "geometry_nodes": [],
+      "actual_min_world_z": 3.899163007736206
+    },
+    "21 stud 00": {
+      "type": "MESH",
+      "parent": null,
+      "origin_world": [
+        -2.379854,
+        -1.136938,
+        4.720498
+      ],
+      "matrix_world": [
+        [
+          0.985354,
+          0.004794,
+          -0.170455,
+          -2.379854
+        ],
+        [
+          -0.170522,
+          0.0277,
+          -0.984964,
+          -1.136938
+        ],
+        [
+          -0.0,
+          0.999605,
+          0.028111,
+          4.720498
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "local_axis_z_world": [
+        -0.170455,
+        -0.984964,
+        0.028111
+      ],
+      "world_bounds": [
+        [
+          -2.4800469875335693,
+          -1.2188007831573486,
+          4.628706455230713
+        ],
+        [
+          -2.2796614170074463,
+          -1.0550756454467773,
+          4.812289714813232
+        ]
+      ],
+      "screen_bounds_px_and_depth": [
+        [
+          161.596,
+          609.354,
+          1.1445
+        ],
+        [
+          177.627,
+          626.212,
+          1.3382
+        ]
+      ],
+      "visible_shadow": false,
+      "geometry_nodes": [],
+      "actual_min_world_z": 4.62971830368042
+    },
+    "21 rounded stud cap": {
+      "type": "MESH",
+      "parent": null,
+      "origin_world": [
+        -2.390934,
+        -1.200961,
+        4.722325
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -2.390934
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -1.200961
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          4.722325
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "local_axis_z_world": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "world_bounds": [
+        [
+          -2.480933666229248,
+          -1.2909609079360962,
+          4.632325172424316
+        ],
+        [
+          -2.300933837890625,
+          -1.110960841178894,
+          4.812325477600098
+        ]
+      ],
+      "screen_bounds_px_and_depth": [
+        [
+          161.525,
+          610.152,
+          1.1948
+        ],
+        [
+          175.925,
+          627.614,
+          1.4131
+        ]
+      ],
+      "visible_shadow": false,
+      "geometry_nodes": [],
+      "actual_min_world_z": 4.632325172424316
+    },
+    "21 stud 01": {
+      "type": "MESH",
+      "parent": null,
+      "origin_world": [
+        -2.076153,
+        -1.182378,
+        4.969899
+      ],
+      "matrix_world": [
+        [
+          0.985354,
+          0.004794,
+          -0.170455,
+          -2.076153
+        ],
+        [
+          -0.170522,
+          0.0277,
+          -0.984964,
+          -1.182378
+        ],
+        [
+          -0.0,
+          0.999605,
+          0.028111,
+          4.969899
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "local_axis_z_world": [
+        -0.170455,
+        -0.984964,
+        0.028111
+      ],
+      "world_bounds": [
+        [
+          -2.1763455867767334,
+          -1.2642402648925781,
+          4.87810754776001
+        ],
+        [
+          -1.9759600162506104,
+          -1.1005151271820068,
+          5.061690807342529
+        ]
+      ],
+      "screen_bounds_px_and_depth": [
+        [
+          185.892,
+          590.879,
+          1.2491
+        ],
+        [
+          201.923,
+          607.737,
+          1.4428
+        ]
+      ],
+      "visible_shadow": false,
+      "geometry_nodes": [],
+      "actual_min_world_z": 4.879119396209717
+    },
+    "21 rounded stud cap.001": {
+      "type": "MESH",
+      "parent": null,
+      "origin_world": [
+        -2.087232,
+        -1.2464,
+        4.971726
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -2.087232
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -1.2464
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          4.971726
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "local_axis_z_world": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "world_bounds": [
+        [
+          -2.177232265472412,
+          -1.3364003896713257,
+          4.881726264953613
+        ],
+        [
+          -1.9972323179244995,
+          -1.1564003229141235,
+          5.0617265701293945
+        ]
+      ],
+      "screen_bounds_px_and_depth": [
+        [
+          185.821,
+          591.677,
+          1.2993
+        ],
+        [
+          200.221,
+          609.14,
+          1.5176
+        ]
+      ],
+      "visible_shadow": false,
+      "geometry_nodes": [],
+      "actual_min_world_z": 4.881726264953613
+    },
+    "21 stud 02": {
+      "type": "MESH",
+      "parent": null,
+      "origin_world": [
+        -2.509026,
+        -1.121527,
+        4.477235
+      ],
+      "matrix_world": [
+        [
+          0.985354,
+          0.004794,
+          -0.170455,
+          -2.509026
+        ],
+        [
+          -0.170522,
+          0.0277,
+          -0.984964,
+          -1.121527
+        ],
+        [
+          -0.0,
+          0.999605,
+          0.028111,
+          4.477235
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "local_axis_z_world": [
+        -0.170455,
+        -0.984964,
+        0.028111
+      ],
+      "world_bounds": [
+        [
+          -2.6092183589935303,
+          -1.2033897638320923,
+          4.385443210601807
+        ],
+        [
+          -2.4088327884674072,
+          -1.039664626121521,
+          4.569026470184326
+        ]
+      ],
+      "screen_bounds_px_and_depth": [
+        [
+          151.263,
+          627.935,
+          1.0706
+        ],
+        [
+          167.293,
+          644.792,
+          1.2643
+        ]
+      ],
+      "visible_shadow": false,
+      "geometry_nodes": [],
+      "actual_min_world_z": 4.386455059051514
+    },
+    "21 rounded stud cap.002": {
+      "type": "MESH",
+      "parent": null,
+      "origin_world": [
+        -2.520105,
+        -1.18555,
+        4.479062
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -2.520105
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -1.18555
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          4.479062
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "local_axis_z_world": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "world_bounds": [
+        [
+          -2.610105037689209,
+          -1.2755498886108398,
+          4.38906192779541
+        ],
+        [
+          -2.430105209350586,
+          -1.0955498218536377,
+          4.569062232971191
+        ]
+      ],
+      "screen_bounds_px_and_depth": [
+        [
+          151.192,
+          628.733,
+          1.1208
+        ],
+        [
+          165.592,
+          646.195,
+          1.3391
+        ]
+      ],
+      "visible_shadow": false,
+      "geometry_nodes": [],
+      "actual_min_world_z": 4.38906192779541
+    },
+    "21 stud 03": {
+      "type": "MESH",
+      "parent": null,
+      "origin_world": [
+        -2.15274,
+        -1.177963,
+        4.660198
+      ],
+      "matrix_world": [
+        [
+          0.985354,
+          0.004794,
+          -0.170455,
+          -2.15274
+        ],
+        [
+          -0.170522,
+          0.0277,
+          -0.984964,
+          -1.177963
+        ],
+        [
+          -0.0,
+          0.999605,
+          0.028111,
+          4.660198
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "local_axis_z_world": [
+        -0.170455,
+        -0.984964,
+        0.028111
+      ],
+      "world_bounds": [
+        [
+          -2.2529327869415283,
+          -1.259825587272644,
+          4.568406105041504
+        ],
+        [
+          -2.0525472164154053,
+          -1.0961004495620728,
+          4.751989364624023
+        ]
+      ],
+      "screen_bounds_px_and_depth": [
+        [
+          179.765,
+          614.83,
+          1.1697
+        ],
+        [
+          195.796,
+          631.688,
+          1.3634
+        ]
+      ],
+      "visible_shadow": false,
+      "geometry_nodes": [],
+      "actual_min_world_z": 4.569417953491211
+    },
+    "21 rounded stud cap.003": {
+      "type": "MESH",
+      "parent": null,
+      "origin_world": [
+        -2.16382,
+        -1.241986,
+        4.662025
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -2.16382
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -1.241986
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          4.662025
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "local_axis_z_world": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "world_bounds": [
+        [
+          -2.253819465637207,
+          -1.3319857120513916,
+          4.572024822235107
+        ],
+        [
+          -2.073819637298584,
+          -1.1519856452941895,
+          4.752025127410889
+        ]
+      ],
+      "screen_bounds_px_and_depth": [
+        [
+          179.694,
+          615.628,
+          1.2199
+        ],
+        [
+          194.094,
+          633.09,
+          1.4382
+        ]
+      ],
+      "visible_shadow": false,
+      "geometry_nodes": [],
+      "actual_min_world_z": 4.572024822235107
+    },
+    "21 stud 04": {
+      "type": "MESH",
+      "parent": null,
+      "origin_world": [
+        -1.796823,
+        -1.23614,
+        4.779941
+      ],
+      "matrix_world": [
+        [
+          0.985354,
+          0.004794,
+          -0.170456,
+          -1.796823
+        ],
+        [
+          -0.170523,
+          0.0277,
+          -0.984964,
+          -1.23614
+        ],
+        [
+          0.0,
+          0.999605,
+          0.028111,
+          4.779941
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "local_axis_z_world": [
+        -0.170456,
+        -0.984964,
+        0.028111
+      ],
+      "world_bounds": [
+        [
+          -1.8970156908035278,
+          -1.3180022239685059,
+          4.6881489753723145
+        ],
+        [
+          -1.6966298818588257,
+          -1.1542768478393555,
+          4.871732234954834
+        ]
+      ],
+      "screen_bounds_px_and_depth": [
+        [
+          208.239,
+          606.665,
+          1.2552
+        ],
+        [
+          224.27,
+          623.523,
+          1.4489
+        ]
+      ],
+      "visible_shadow": false,
+      "geometry_nodes": [],
+      "actual_min_world_z": 4.6891608238220215
+    },
+    "21 rounded stud cap.004": {
+      "type": "MESH",
+      "parent": null,
+      "origin_world": [
+        -1.807902,
+        -1.300162,
+        4.781768
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -1.807902
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -1.300162
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          4.781768
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "local_axis_z_world": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "world_bounds": [
+        [
+          -1.8979023694992065,
+          -1.3901622295379639,
+          4.691767692565918
+        ],
+        [
+          -1.7179023027420044,
+          -1.2101621627807617,
+          4.871767997741699
+        ]
+      ],
+      "screen_bounds_px_and_depth": [
+        [
+          208.168,
+          607.463,
+          1.3054
+        ],
+        [
+          222.568,
+          624.926,
+          1.5237
+        ]
+      ],
+      "visible_shadow": false,
+      "geometry_nodes": [],
+      "actual_min_world_z": 4.691767692565918
+    },
+    "21 stud 05": {
+      "type": "MESH",
+      "parent": null,
+      "origin_world": [
+        -2.276342,
+        -1.166764,
+        4.303131
+      ],
+      "matrix_world": [
+        [
+          0.985354,
+          0.004794,
+          -0.170455,
+          -2.276342
+        ],
+        [
+          -0.170522,
+          0.0277,
+          -0.984964,
+          -1.166764
+        ],
+        [
+          -0.0,
+          0.999605,
+          0.028111,
+          4.303131
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "local_axis_z_world": [
+        -0.170455,
+        -0.984964,
+        0.028111
+      ],
+      "world_bounds": [
+        [
+          -2.376535177230835,
+          -1.248626470565796,
+          4.211338996887207
+        ],
+        [
+          -2.176149606704712,
+          -1.0849013328552246,
+          4.394922256469727
+        ]
+      ],
+      "screen_bounds_px_and_depth": [
+        [
+          169.877,
+          642.325,
+          1.0722
+        ],
+        [
+          185.908,
+          659.183,
+          1.2659
+        ]
+      ],
+      "visible_shadow": false,
+      "geometry_nodes": [],
+      "actual_min_world_z": 4.212350845336914
+    },
+    "21 rounded stud cap.005": {
+      "type": "MESH",
+      "parent": null,
+      "origin_world": [
+        -2.287422,
+        -1.230787,
+        4.304958
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -2.287422
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -1.230787
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          4.304958
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "local_axis_z_world": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "world_bounds": [
+        [
+          -2.3774218559265137,
+          -1.3207865953445435,
+          4.2149577140808105
+        ],
+        [
+          -2.1974220275878906,
+          -1.1407865285873413,
+          4.394958019256592
+        ]
+      ],
+      "screen_bounds_px_and_depth": [
+        [
+          169.806,
+          643.123,
+          1.1225
+        ],
+        [
+          184.206,
+          660.586,
+          1.3408
+        ]
+      ],
+      "visible_shadow": false,
+      "geometry_nodes": [],
+      "actual_min_world_z": 4.2149577140808105
+    },
+    "21 stud 06": {
+      "type": "MESH",
+      "parent": null,
+      "origin_world": [
+        -1.889082,
+        -1.229463,
+        4.454451
+      ],
+      "matrix_world": [
+        [
+          0.985354,
+          0.004794,
+          -0.170456,
+          -1.889082
+        ],
+        [
+          -0.170523,
+          0.0277,
+          -0.984964,
+          -1.229463
+        ],
+        [
+          0.0,
+          0.999605,
+          0.028111,
+          4.454451
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "local_axis_z_world": [
+        -0.170456,
+        -0.984964,
+        0.028111
+      ],
+      "world_bounds": [
+        [
+          -1.9892746210098267,
+          -1.3113261461257935,
+          4.362658977508545
+        ],
+        [
+          -1.7888888120651245,
+          -1.147600769996643,
+          4.5462422370910645
+        ]
+      ],
+      "screen_bounds_px_and_depth": [
+        [
+          200.858,
+          631.797,
+          1.1698
+        ],
+        [
+          216.889,
+          648.655,
+          1.3634
+        ]
+      ],
+      "visible_shadow": false,
+      "geometry_nodes": [],
+      "actual_min_world_z": 4.363670825958252
+    },
+    "21 rounded stud cap.006": {
+      "type": "MESH",
+      "parent": null,
+      "origin_world": [
+        -1.900161,
+        -1.293486,
+        4.456278
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -1.900161
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -1.293486
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          4.456278
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "local_axis_z_world": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "world_bounds": [
+        [
+          -1.9901612997055054,
+          -1.3834861516952515,
+          4.366277694702148
+        ],
+        [
+          -1.8101612329483032,
+          -1.2034860849380493,
+          4.54627799987793
+        ]
+      ],
+      "screen_bounds_px_and_depth": [
+        [
+          200.787,
+          632.595,
+          1.22
+        ],
+        [
+          215.187,
+          650.058,
+          1.4383
+        ]
+      ],
+      "visible_shadow": false,
+      "geometry_nodes": [],
+      "actual_min_world_z": 4.366277694702148
+    },
+    "21 stud 07": {
+      "type": "MESH",
+      "parent": null,
+      "origin_world": [
+        -2.021682,
+        -1.214993,
+        4.157453
+      ],
+      "matrix_world": [
+        [
+          0.985354,
+          0.004794,
+          -0.170455,
+          -2.021682
+        ],
+        [
+          -0.170522,
+          0.0277,
+          -0.984964,
+          -1.214993
+        ],
+        [
+          -0.0,
+          0.999605,
+          0.028111,
+          4.157453
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "local_axis_z_world": [
+        -0.170455,
+        -0.984964,
+        0.028111
+      ],
+      "world_bounds": [
+        [
+          -2.1218748092651367,
+          -1.2968553304672241,
+          4.0656609535217285
+        ],
+        [
+          -1.9214892387390137,
+          -1.1331301927566528,
+          4.249244213104248
+        ]
+      ],
+      "screen_bounds_px_and_depth": [
+        [
+          190.25,
+          654.567,
+          1.0837
+        ],
+        [
+          206.281,
+          671.425,
+          1.2774
+        ]
+      ],
+      "visible_shadow": false,
+      "geometry_nodes": [],
+      "actual_min_world_z": 4.0666728019714355
+    },
+    "21 rounded stud cap.007": {
+      "type": "MESH",
+      "parent": null,
+      "origin_world": [
+        -2.032762,
+        -1.279015,
+        4.15928
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -2.032762
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -1.279015
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          4.15928
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "local_axis_z_world": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "world_bounds": [
+        [
+          -2.1227614879608154,
+          -1.3690154552459717,
+          4.069279670715332
+        ],
+        [
+          -1.9427615404129028,
+          -1.1890153884887695,
+          4.249279975891113
+        ]
+      ],
+      "screen_bounds_px_and_depth": [
+        [
+          190.179,
+          655.365,
+          1.1339
+        ],
+        [
+          204.579,
+          672.828,
+          1.3522
+        ]
+      ],
+      "visible_shadow": false,
+      "geometry_nodes": [],
+      "actual_min_world_z": 4.069279670715332
+    },
+    "22 | Arrow shaft": {
+      "type": "MESH",
+      "parent": null,
+      "origin_world": [
+        -2.925,
+        -1.303932,
+        4.211847
+      ],
+      "matrix_world": [
+        [
+          -0.285287,
+          -0.720833,
+          0.631673,
+          -2.925
+        ],
+        [
+          0.958442,
+          -0.214561,
+          0.188022,
+          -1.303932
+        ],
+        [
+          0.0,
+          0.659062,
+          0.752088,
+          4.211847
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "local_axis_z_world": [
+        0.631673,
+        0.188022,
+        0.752088
+      ],
+      "world_bounds": [
+        [
+          -3.1329283714294434,
+          -1.42697012424469,
+          4.00200080871582
+        ],
+        [
+          -2.717071533203125,
+          -1.1808940172195435,
+          4.421692848205566
+        ]
+      ],
+      "screen_bounds_px_and_depth": [
+        [
+          109.366,
+          642.409,
+          1.1892
+        ],
+        [
+          142.634,
+          678.591,
+          1.3708
+        ]
+      ],
+      "visible_shadow": false,
+      "geometry_nodes": [],
+      "actual_min_world_z": 4.014077663421631
+    },
+    "22 arrow head": {
+      "type": "MESH",
+      "parent": null,
+      "origin_world": [
+        -2.7125,
+        -1.240267,
+        4.466509
+      ],
+      "matrix_world": [
+        [
+          -0.296017,
+          -0.729752,
+          0.616309,
+          -2.7125
+        ],
+        [
+          0.955183,
+          -0.226155,
+          0.190998,
+          -1.240267
+        ],
+        [
+          0.0,
+          0.645226,
+          0.763992,
+          4.466509
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "local_axis_z_world": [
+        0.616309,
+        0.190998,
+        0.763992
+      ],
+      "world_bounds": [
+        [
+          -3.006103038787842,
+          -1.4837000370025635,
+          4.213134288787842
+        ],
+        [
+          -2.4188971519470215,
+          -0.996833086013794,
+          4.719883441925049
+        ]
+      ],
+      "screen_bounds_px_and_depth": [
+        [
+          119.512,
+          616.661,
+          1.05
+        ],
+        [
+          166.488,
+          662.339,
+          1.51
+        ]
+      ],
+      "visible_shadow": true,
+      "geometry_nodes": [],
+      "actual_min_world_z": 4.215426921844482
+    },
+    "23b | Fan pale cut edge": {
+      "type": "MESH",
+      "parent": null,
+      "origin_world": [
+        -2.775,
+        -0.683041,
+        3.438158
+      ],
+      "matrix_world": [
+        [
+          0.057172,
+          0.222567,
+          0.97324,
+          -2.775
+        ],
+        [
+          0.998364,
+          -0.012745,
+          -0.055733,
+          -0.683041
+        ],
+        [
+          -0.0,
+          0.974834,
+          -0.222932,
+          3.438158
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "local_axis_z_world": [
+        0.97324,
+        -0.055733,
+        -0.222932
+      ],
+      "world_bounds": [
+        [
+          -3.2314341068267822,
+          -0.7320659160614014,
+          3.31265926361084
+        ],
+        [
+          -2.318566083908081,
+          -0.6340160369873047,
+          3.563656806945801
+        ]
+      ],
+      "screen_bounds_px_and_depth": [
+        [
+          101.485,
+          697.82,
+          0.462
+        ],
+        [
+          174.515,
+          719.18,
+          0.518
+        ]
+      ],
+      "visible_shadow": false,
+      "geometry_nodes": [],
+      "actual_min_world_z": 3.3147101402282715
+    },
+    "26b | White collar plate": {
+      "type": "MESH",
+      "parent": null,
+      "origin_world": [
+        -1.1,
+        -1.362444,
+        1.875016
+      ],
+      "matrix_world": [
+        [
+          0.829516,
+          -0.357911,
+          -0.428722,
+          -1.1
+        ],
+        [
+          -0.471334,
+          -0.03687,
+          -0.881184,
+          -1.362444
+        ],
+        [
+          0.299579,
+          0.933027,
+          -0.19928,
+          1.875016
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "local_axis_z_world": [
+        -0.428722,
+        -0.881184,
+        -0.19928
+      ],
+      "world_bounds": [
+        [
+          -1.6298863887786865,
+          -1.6206245422363281,
+          1.33602774143219
+        ],
+        [
+          -0.5701136589050293,
+          -1.1042630672454834,
+          2.414004325866699
+        ]
+      ],
+      "screen_bounds_px_and_depth": [
+        [
+          229.609,
+          804.639,
+          0.3932
+        ],
+        [
+          314.391,
+          881.361,
+          1.1468
+        ]
+      ],
+      "visible_shadow": true,
+      "geometry_nodes": [],
+      "actual_min_world_z": 1.449657678604126
+    },
+    "27 | Front pink diagonal rod": {
+      "type": "MESH",
+      "parent": null,
+      "origin_world": [
+        1.99375,
+        -1.784456,
+        2.702063
+      ],
+      "matrix_world": [
+        [
+          -0.28238,
+          -0.718259,
+          0.635898,
+          1.99375
+        ],
+        [
+          0.959303,
+          -0.211427,
+          0.187183,
+          -1.784456
+        ],
+        [
+          0.0,
+          0.662875,
+          0.74873,
+          2.702063
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "local_axis_z_world": [
+        0.635898,
+        0.187183,
+        0.74873
+      ],
+      "world_bounds": [
+        [
+          1.1574329137802124,
+          -2.1226327419281006,
+          1.7714593410491943
+        ],
+        [
+          2.8300671577453613,
+          -1.4462788105010986,
+          3.6326658725738525
+        ]
+      ],
+      "screen_bounds_px_and_depth": [
+        [
+          452.595,
+          709.074,
+          1.2439
+        ],
+        [
+          586.405,
+          864.926,
+          1.5161
+        ]
+      ],
+      "visible_shadow": false,
+      "geometry_nodes": [],
+      "actual_min_world_z": 1.7896357774734497
+    },
+    "28 | Short lilac bottom rod": {
+      "type": "MESH",
+      "parent": null,
+      "origin_world": [
+        0.66875,
+        -1.959081,
+        1.096477
+      ],
+      "matrix_world": [
+        [
+          -0.267112,
+          -0.703578,
+          0.658505,
+          0.66875
+        ],
+        [
+          0.963665,
+          -0.195021,
+          0.182527,
+          -1.959081
+        ],
+        [
+          0.0,
+          0.683333,
+          0.730107,
+          1.096477
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "local_axis_z_world": [
+        0.658505,
+        0.182527,
+        0.730107
+      ],
+      "world_bounds": [
+        [
+          0.2654309570789337,
+          -2.159837484359741,
+          0.6885934472084045
+        ],
+        [
+          1.0720691680908203,
+          -1.7583253383636475,
+          1.5043597221374512
+        ]
+      ],
+      "screen_bounds_px_and_depth": [
+        [
+          381.234,
+          880.205,
+          1.031
+        ],
+        [
+          445.766,
+          949.795,
+          1.289
+        ]
+      ],
+      "visible_shadow": false,
+      "geometry_nodes": [],
+      "actual_min_world_z": 0.7062150239944458
+    },
+    "30 | Lower blue coin": {
+      "type": "MESH",
+      "parent": null,
+      "origin_world": [
+        1.35,
+        -1.064125,
+        0.718121
+      ],
+      "matrix_world": [
+        [
+          0.776039,
+          0.315169,
+          0.546289,
+          1.35
+        ],
+        [
+          0.564092,
+          0.040538,
+          -0.824717,
+          -1.064125
+        ],
+        [
+          -0.282071,
+          0.948169,
+          -0.146325,
+          0.718121
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "local_axis_z_world": [
+        0.546289,
+        -0.824717,
+        -0.146325
+      ],
+      "world_bounds": [
+        [
+          0.9639662504196167,
+          -1.2923789024353027,
+          0.2958153188228607
+        ],
+        [
+          1.7360337972640991,
+          -0.8358712792396545,
+          1.140426516532898
+        ]
+      ],
+      "screen_bounds_px_and_depth": [
+        [
+          437.117,
+          897.238,
+          -0.0952
+        ],
+        [
+          498.883,
+          956.762,
+          0.4952
+        ]
+      ],
+      "visible_shadow": true,
+      "geometry_nodes": [],
+      "actual_min_world_z": 0.3815198242664337
+    },
+    "31c | Dish foot": {
+      "type": "MESH",
+      "parent": null,
+      "origin_world": [
+        3.1875,
+        -0.786725,
+        0.384635
+      ],
+      "matrix_world": [
+        [
+          0.554874,
+          0.758502,
+          0.341744,
+          3.1875
+        ],
+        [
+          0.831934,
+          -0.505897,
+          -0.227933,
+          -0.786725
+        ],
+        [
+          0.0,
+          0.410783,
+          -0.911733,
+          0.384635
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "local_axis_z_world": [
+        0.341744,
+        -0.227933,
+        -0.911733
+      ],
+      "world_bounds": [
+        [
+          3.0639967918395996,
+          -0.9037365317344666,
+          0.2871285676956177
+        ],
+        [
+          3.3110032081604004,
+          -0.6697133183479309,
+          0.48214054107666016
+        ]
+      ],
+      "screen_bounds_px_and_depth": [
+        [
+          605.12,
+          939.134,
+          -0.2548
+        ],
+        [
+          624.88,
+          955.866,
+          -0.0452
+        ]
+      ],
+      "visible_shadow": true,
+      "geometry_nodes": [],
+      "actual_min_world_z": 0.29697385430336
+    },
+    "31d | Purple ball over dish": {
+      "type": "MESH",
+      "parent": null,
+      "origin_world": [
+        2.6125,
+        -1.8748,
+        1.268677
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          2.6125
+        ],
+        [
+          0.0,
+          0.242536,
+          -0.970142,
+          -1.8748
+        ],
+        [
+          0.0,
+          0.970142,
+          0.242536,
+          1.268677
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "local_axis_z_world": [
+        0.0,
+        -0.970143,
+        0.242536
+      ],
+      "world_bounds": [
+        [
+          2.3824996948242188,
+          -2.1537163257598877,
+          0.9897606372833252
+        ],
+        [
+          2.8424999713897705,
+          -1.5958843231201172,
+          1.5475929975509644
+        ]
+      ],
+      "screen_bounds_px_and_depth": [
+        [
+          550.6,
+          881.6,
+          0.89
+        ],
+        [
+          587.4,
+          918.4,
+          1.35
+        ]
+      ],
+      "visible_shadow": true,
+      "geometry_nodes": [],
+      "actual_min_world_z": 1.0387091636657715
+    },
+    "32 | Pink waffle disc": {
+      "type": "MESH",
+      "parent": null,
+      "origin_world": [
+        2.75,
+        -1.623776,
+        1.901695
+      ],
+      "matrix_world": [
+        [
+          0.915608,
+          0.33341,
+          0.22472,
+          2.75
+        ],
+        [
+          0.28054,
+          -0.129383,
+          -0.951082,
+          -1.623776
+        ],
+        [
+          -0.288025,
+          0.933862,
+          -0.211999,
+          1.901695
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "local_axis_z_world": [
+        0.22472,
+        -0.951082,
+        -0.211999
+      ],
+      "world_bounds": [
+        [
+          2.17558217048645,
+          -1.8605509996414185,
+          1.3401856422424316
+        ],
+        [
+          3.32441782951355,
+          -1.3870009183883667,
+          2.4632039070129395
+        ]
+      ],
+      "screen_bounds_px_and_depth": [
+        [
+          534.047,
+          804.985,
+          0.6698
+        ],
+        [
+          625.953,
+          887.015,
+          1.3902
+        ]
+      ],
+      "visible_shadow": true,
+      "geometry_nodes": [],
+      "actual_min_world_z": 1.4556127786636353
+    },
+    "Particle 00": {
+      "type": "MESH",
+      "parent": null,
+      "origin_world": [
+        -3.5,
+        1.115664,
+        7.788034
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -3.5
+        ],
+        [
+          0.0,
+          0.242536,
+          -0.970142,
+          1.115664
+        ],
+        [
+          0.0,
+          0.970142,
+          0.242536,
+          7.788034
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "local_axis_z_world": [
+        0.0,
+        -0.970143,
+        0.242536
+      ],
+      "world_bounds": [
+        [
+          -3.6450002193450928,
+          0.9398254156112671,
+          7.6121954917907715
+        ],
+        [
+          -3.3550000190734863,
+          1.2915021181106567,
+          7.96387243270874
+        ]
+      ],
+      "screen_bounds_px_and_depth": [
+        [
+          68.4,
+          324.4,
+          -0.345
+        ],
+        [
+          91.6,
+          347.6,
+          -0.055
+        ]
+      ],
+      "visible_shadow": false,
+      "geometry_nodes": [],
+      "actual_min_world_z": 7.643054485321045
+    },
+    "Particle 01": {
+      "type": "MESH",
+      "parent": null,
+      "origin_world": [
+        -3.5125,
+        0.918604,
+        7.412104
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -3.5125
+        ],
+        [
+          0.0,
+          0.242536,
+          -0.970142,
+          0.918604
+        ],
+        [
+          0.0,
+          0.970142,
+          0.242536,
+          7.412104
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "local_axis_z_world": [
+        0.0,
+        -0.970143,
+        0.242536
+      ],
+      "world_bounds": [
+        [
+          -3.6525001525878906,
+          0.7488287091255188,
+          7.242329120635986
+        ],
+        [
+          -3.372499942779541,
+          1.0883785486221313,
+          7.581879138946533
+        ]
+      ],
+      "screen_bounds_px_and_depth": [
+        [
+          67.8,
+          357.8,
+          -0.24
+        ],
+        [
+          90.2,
+          380.2,
+          0.04
+        ]
+      ],
+      "visible_shadow": false,
+      "geometry_nodes": [],
+      "actual_min_world_z": 7.27212381362915
+    },
+    "Particle 02": {
+      "type": "MESH",
+      "parent": null,
+      "origin_world": [
+        -3.5,
+        0.824621,
+        7.036174
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -3.5
+        ],
+        [
+          0.0,
+          0.242536,
+          -0.970142,
+          0.824621
+        ],
+        [
+          0.0,
+          0.970142,
+          0.242536,
+          7.036174
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "local_axis_z_world": [
+        0.0,
+        -0.970143,
+        0.242536
+      ],
+      "world_bounds": [
+        [
+          -3.6450002193450928,
+          0.6487827897071838,
+          6.860335826873779
+        ],
+        [
+          -3.3550000190734863,
+          1.0004594326019287,
+          7.212012767791748
+        ]
+      ],
+      "screen_bounds_px_and_depth": [
+        [
+          68.4,
+          388.4,
+          -0.245
+        ],
+        [
+          91.6,
+          411.6,
+          0.045
+        ]
+      ],
+      "visible_shadow": false,
+      "geometry_nodes": [],
+      "actual_min_world_z": 6.891194820404053
+    },
+    "Particle 03": {
+      "type": "MESH",
+      "parent": null,
+      "origin_world": [
+        -3.5,
+        0.776114,
+        6.63599
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -3.5
+        ],
+        [
+          0.0,
+          0.242536,
+          -0.970142,
+          0.776114
+        ],
+        [
+          0.0,
+          0.970142,
+          0.242536,
+          6.63599
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "local_axis_z_world": [
+        0.0,
+        -0.970143,
+        0.242536
+      ],
+      "world_bounds": [
+        [
+          -3.640000104904175,
+          0.6063390374183655,
+          6.466215133666992
+        ],
+        [
+          -3.359999895095825,
+          0.9458889365196228,
+          6.805765151977539
+        ]
+      ],
+      "screen_bounds_px_and_depth": [
+        [
+          68.8,
+          420.8,
+          -0.29
+        ],
+        [
+          91.2,
+          443.2,
+          -0.01
+        ]
+      ],
+      "visible_shadow": false,
+      "geometry_nodes": [],
+      "actual_min_world_z": 6.496009826660156
+    },
+    "Particle 04": {
+      "type": "MESH",
+      "parent": null,
+      "origin_world": [
+        -3.4125,
+        -0.682131,
+        5.54458
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -3.4125
+        ],
+        [
+          0.0,
+          0.242536,
+          -0.970142,
+          -0.682131
+        ],
+        [
+          0.0,
+          0.970142,
+          0.242536,
+          5.54458
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "local_axis_z_world": [
+        0.0,
+        -0.970143,
+        0.242536
+      ],
+      "world_bounds": [
+        [
+          -3.6875,
+          -1.0156179666519165,
+          5.211093425750732
+        ],
+        [
+          -3.1374998092651367,
+          -0.34864485263824463,
+          5.878066539764404
+        ]
+      ],
+      "screen_bounds_px_and_depth": [
+        [
+          65.0,
+          523.0,
+          0.725
+        ],
+        [
+          109.0,
+          567.0,
+          1.275
+        ]
+      ],
+      "visible_shadow": false,
+      "geometry_nodes": [],
+      "actual_min_world_z": 5.269618988037109
+    },
+    "Particle 05": {
+      "type": "MESH",
+      "parent": null,
+      "origin_world": [
+        0.475,
+        0.779146,
+        7.678893
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.475
+        ],
+        [
+          0.0,
+          0.242536,
+          -0.970142,
+          0.779146
+        ],
+        [
+          0.0,
+          0.970142,
+          0.242536,
+          7.678893
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "local_axis_z_world": [
+        0.0,
+        -0.970143,
+        0.242536
+      ],
+      "world_bounds": [
+        [
+          0.3849998712539673,
+          0.6700046062469482,
+          7.569752216339111
+        ],
+        [
+          0.565000057220459,
+          0.8882867097854614,
+          7.788034439086914
+        ]
+      ],
+      "screen_bounds_px_and_depth": [
+        [
+          390.8,
+          343.8,
+          0.01
+        ],
+        [
+          405.2,
+          358.2,
+          0.19
+        ]
+      ],
+      "visible_shadow": false,
+      "geometry_nodes": [],
+      "actual_min_world_z": 7.5889058113098145
+    },
+    "Particle 06": {
+      "type": "MESH",
+      "parent": null,
+      "origin_world": [
+        1.6875,
+        0.439596,
+        7.145315
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          1.6875
+        ],
+        [
+          0.0,
+          0.242536,
+          -0.970142,
+          0.439596
+        ],
+        [
+          0.0,
+          0.970142,
+          0.242536,
+          7.145315
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "local_axis_z_world": [
+        0.0,
+        -0.970143,
+        0.242536
+      ],
+      "world_bounds": [
+        [
+          1.5474998950958252,
+          0.2698208689689636,
+          6.9755401611328125
+        ],
+        [
+          1.8274999856948853,
+          0.609370768070221,
+          7.315090179443359
+        ]
+      ],
+      "screen_bounds_px_and_depth": [
+        [
+          483.8,
+          387.8,
+          0.16
+        ],
+        [
+          506.2,
+          410.2,
+          0.44
+        ]
+      ],
+      "visible_shadow": false,
+      "geometry_nodes": [],
+      "actual_min_world_z": 7.005334854125977
+    },
+    "Particle 07": {
+      "type": "MESH",
+      "parent": null,
+      "origin_world": [
+        1.65,
+        0.260726,
+        6.842146
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          1.65
+        ],
+        [
+          0.0,
+          0.242536,
+          -0.970142,
+          0.260726
+        ],
+        [
+          0.0,
+          0.970142,
+          0.242536,
+          6.842146
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "local_axis_z_world": [
+        0.0,
+        -0.970143,
+        0.242536
+      ],
+      "world_bounds": [
+        [
+          1.5149998664855957,
+          0.09701423346996307,
+          6.678434371948242
+        ],
+        [
+          1.784999966621399,
+          0.42443734407424927,
+          7.005857467651367
+        ]
+      ],
+      "screen_bounds_px_and_depth": [
+        [
+          481.2,
+          415.2,
+          0.265
+        ],
+        [
+          502.8,
+          436.8,
+          0.535
+        ]
+      ],
+      "visible_shadow": false,
+      "geometry_nodes": [],
+      "actual_min_world_z": 6.707164764404297
+    },
+    "Particle 08": {
+      "type": "MESH",
+      "parent": null,
+      "origin_world": [
+        3.475,
+        0.742765,
+        7.121061
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          3.475
+        ],
+        [
+          0.0,
+          0.242536,
+          -0.970142,
+          0.742765
+        ],
+        [
+          0.0,
+          0.970142,
+          0.242536,
+          7.121061
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "local_axis_z_world": [
+        0.0,
+        -0.970143,
+        0.242536
+      ],
+      "world_bounds": [
+        [
+          3.4169998168945312,
+          0.6724300384521484,
+          7.050725936889648
+        ],
+        [
+          3.5329999923706055,
+          0.8131006956100464,
+          7.191396713256836
+        ]
+      ],
+      "screen_bounds_px_and_depth": [
+        [
+          633.36,
+          390.36,
+          -0.058
+        ],
+        [
+          642.64,
+          399.64,
+          0.058
+        ]
+      ],
+      "visible_shadow": false,
+      "geometry_nodes": [],
+      "actual_min_world_z": 7.0630693435668945
+    },
+    "Particle 09": {
+      "type": "MESH",
+      "parent": null,
+      "origin_world": [
+        3.55,
+        -0.054571,
+        5.58096
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          3.55
+        ],
+        [
+          0.0,
+          0.242536,
+          -0.970142,
+          -0.054571
+        ],
+        [
+          0.0,
+          0.970142,
+          0.242536,
+          5.58096
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "local_axis_z_world": [
+        0.0,
+        -0.970143,
+        0.242536
+      ],
+      "world_bounds": [
+        [
+          3.364999771118164,
+          -0.27891600131988525,
+          5.356614589691162
+        ],
+        [
+          3.734999895095825,
+          0.16977491974830627,
+          5.8053059577941895
+        ]
+      ],
+      "screen_bounds_px_and_depth": [
+        [
+          629.2,
+          515.2,
+          0.215
+        ],
+        [
+          658.8,
+          544.8,
+          0.585
+        ]
+      ],
+      "visible_shadow": false,
+      "geometry_nodes": [],
+      "actual_min_world_z": 5.395986557006836
+    },
+    "Particle 10": {
+      "type": "MESH",
+      "parent": null,
+      "origin_world": [
+        2.975,
+        -0.003032,
+        4.962494
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          2.975
+        ],
+        [
+          0.0,
+          0.242536,
+          -0.970142,
+          -0.003032
+        ],
+        [
+          0.0,
+          0.970142,
+          0.242536,
+          4.962494
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "local_axis_z_world": [
+        0.0,
+        -0.970143,
+        0.242536
+      ],
+      "world_bounds": [
+        [
+          2.8449997901916504,
+          -0.16067983210086823,
+          4.804846286773682
+        ],
+        [
+          3.1050000190734863,
+          0.15461647510528564,
+          5.120142459869385
+        ]
+      ],
+      "screen_bounds_px_and_depth": [
+        [
+          587.6,
+          566.6,
+          0.07
+        ],
+        [
+          608.4,
+          587.4,
+          0.33
+        ]
+      ],
+      "visible_shadow": false,
+      "geometry_nodes": [],
+      "actual_min_world_z": 4.832512855529785
+    },
+    "Particle 11": {
+      "type": "MESH",
+      "parent": null,
+      "origin_world": [
+        3.375,
+        -0.612402,
+        4.586564
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          3.375
+        ],
+        [
+          0.0,
+          0.242536,
+          -0.970142,
+          -0.612402
+        ],
+        [
+          0.0,
+          0.970142,
+          0.242536,
+          4.586564
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "local_axis_z_world": [
+        0.0,
+        -0.970143,
+        0.242536
+      ],
+      "world_bounds": [
+        [
+          3.1949996948242188,
+          -0.8306845426559448,
+          4.368281841278076
+        ],
+        [
+          3.555000066757202,
+          -0.39412030577659607,
+          4.804846286773682
+        ]
+      ],
+      "screen_bounds_px_and_depth": [
+        [
+          615.6,
+          603.6,
+          0.52
+        ],
+        [
+          644.4,
+          632.4,
+          0.88
+        ]
+      ],
+      "visible_shadow": false,
+      "geometry_nodes": [],
+      "actual_min_world_z": 4.406589508056641
+    },
+    "Particle 12": {
+      "type": "MESH",
+      "parent": null,
+      "origin_world": [
+        -2.125,
+        -0.870097,
+        3.761943
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -2.125
+        ],
+        [
+          0.0,
+          0.242536,
+          -0.970142,
+          -0.870097
+        ],
+        [
+          0.0,
+          0.970142,
+          0.242536,
+          3.761943
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "local_axis_z_world": [
+        0.0,
+        -0.970143,
+        0.242536
+      ],
+      "world_bounds": [
+        [
+          -2.3050003051757812,
+          -1.088378667831421,
+          3.543660879135132
+        ],
+        [
+          -1.9449999332427979,
+          -0.6518144607543945,
+          3.9802255630493164
+        ]
+      ],
+      "screen_bounds_px_and_depth": [
+        [
+          175.6,
+          672.6,
+          0.57
+        ],
+        [
+          204.4,
+          701.4,
+          0.93
+        ]
+      ],
+      "visible_shadow": false,
+      "geometry_nodes": [],
+      "actual_min_world_z": 3.5819685459136963
+    },
+    "Particle 13": {
+      "type": "MESH",
+      "parent": null,
+      "origin_world": [
+        -0.1,
+        -1.694718,
+        2.318856
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -0.1
+        ],
+        [
+          0.0,
+          0.242536,
+          -0.970142,
+          -1.694718
+        ],
+        [
+          0.0,
+          0.970142,
+          0.242536,
+          2.318856
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "local_axis_z_world": [
+        0.0,
+        -0.970143,
+        0.242536
+      ],
+      "world_bounds": [
+        [
+          -0.4500002861022949,
+          -2.119154930114746,
+          1.894418716430664
+        ],
+        [
+          0.25000008940696716,
+          -1.270280361175537,
+          2.743293523788452
+        ]
+      ],
+      "screen_bounds_px_and_depth": [
+        [
+          324.0,
+          787.0,
+          0.85
+        ],
+        [
+          380.0,
+          843.0,
+          1.55
+        ]
+      ],
+      "visible_shadow": false,
+      "geometry_nodes": [],
+      "actual_min_world_z": 1.9689055681228638
+    },
+    "Particle 14": {
+      "type": "MESH",
+      "parent": null,
+      "origin_world": [
+        -3.5,
+        -0.612402,
+        2.731167
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -3.5
+        ],
+        [
+          0.0,
+          0.242536,
+          -0.970142,
+          -0.612402
+        ],
+        [
+          0.0,
+          0.970142,
+          0.242536,
+          2.731167
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "local_axis_z_world": [
+        0.0,
+        -0.970143,
+        0.242536
+      ],
+      "world_bounds": [
+        [
+          -3.620000123977661,
+          -0.7579238414764404,
+          2.5856451988220215
+        ],
+        [
+          -3.379999876022339,
+          -0.46688103675842285,
+          2.876688003540039
+        ]
+      ],
+      "screen_bounds_px_and_depth": [
+        [
+          70.4,
+          752.4,
+          0.13
+        ],
+        [
+          89.6,
+          771.6,
+          0.37
+        ]
+      ],
+      "visible_shadow": false,
+      "geometry_nodes": [],
+      "actual_min_world_z": 2.6111834049224854
+    },
+    "Particle 15": {
+      "type": "MESH",
+      "parent": null,
+      "origin_world": [
+        -3.5,
+        -0.906477,
+        2.37949
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -3.5
+        ],
+        [
+          0.0,
+          0.242536,
+          -0.970142,
+          -0.906477
+        ],
+        [
+          0.0,
+          0.970142,
+          0.242536,
+          2.37949
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "local_axis_z_world": [
+        0.0,
+        -0.970143,
+        0.242536
+      ],
+      "world_bounds": [
+        [
+          -3.620000123977661,
+          -1.051998257637024,
+          2.233968734741211
+        ],
+        [
+          -3.379999876022339,
+          -0.7609554529190063,
+          2.5250115394592285
+        ]
+      ],
+      "screen_bounds_px_and_depth": [
+        [
+          70.4,
+          785.4,
+          0.33
+        ],
+        [
+          89.6,
+          804.6,
+          0.57
+        ]
+      ],
+      "visible_shadow": false,
+      "geometry_nodes": [],
+      "actual_min_world_z": 2.259506940841675
+    },
+    "Particle 16": {
+      "type": "MESH",
+      "parent": null,
+      "origin_world": [
+        2.35,
+        -0.83978,
+        2.440124
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          2.35
+        ],
+        [
+          0.0,
+          0.242536,
+          -0.970142,
+          -0.83978
+        ],
+        [
+          0.0,
+          0.970142,
+          0.242536,
+          2.440124
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "local_axis_z_world": [
+        0.0,
+        -0.970143,
+        0.242536
+      ],
+      "world_bounds": [
+        [
+          2.249999761581421,
+          -0.9610474109649658,
+          2.3188560009002686
+        ],
+        [
+          2.450000047683716,
+          -0.7185118198394775,
+          2.561391592025757
+        ]
+      ],
+      "screen_bounds_px_and_depth": [
+        [
+          540.0,
+          781.0,
+          0.3
+        ],
+        [
+          556.0,
+          797.0,
+          0.5
+        ]
+      ],
+      "visible_shadow": false,
+      "geometry_nodes": [],
+      "actual_min_world_z": 2.3401379585266113
+    },
+    "Particle 17": {
+      "type": "MESH",
+      "parent": null,
+      "origin_world": [
+        1.7875,
+        -0.421406,
+        2.876688
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          1.7875
+        ],
+        [
+          0.0,
+          0.242536,
+          -0.970142,
+          -0.421406
+        ],
+        [
+          0.0,
+          0.970142,
+          0.242536,
+          2.876688
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "local_axis_z_world": [
+        0.0,
+        -0.970143,
+        0.242536
+      ],
+      "world_bounds": [
+        [
+          1.722499966621399,
+          -0.5002297163009644,
+          2.7978641986846924
+        ],
+        [
+          1.852500081062317,
+          -0.342581570148468,
+          2.955512285232544
+        ]
+      ],
+      "screen_bounds_px_and_depth": [
+        [
+          497.8,
+          741.8,
+          0.035
+        ],
+        [
+          508.2,
+          752.2,
+          0.165
+        ]
+      ],
+      "visible_shadow": false,
+      "geometry_nodes": [],
+      "actual_min_world_z": 2.811697483062744
+    },
+    "Faceted fragment 00": {
+      "type": "MESH",
+      "parent": null,
+      "origin_world": [
+        3.1,
+        -0.012127,
+        6.575356
+      ],
+      "matrix_world": [
+        [
+          0.882417,
+          -0.186665,
+          0.431852,
+          3.1
+        ],
+        [
+          0.451938,
+          0.081247,
+          -0.888342,
+          -0.012127
+        ],
+        [
+          0.130735,
+          0.979058,
+          0.156054,
+          6.575356
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "local_axis_z_world": [
+        0.431852,
+        -0.888342,
+        0.156054
+      ],
+      "world_bounds": [
+        [
+          2.843830108642578,
+          -0.25516456365585327,
+          6.361741542816162
+        ],
+        [
+          3.3561697006225586,
+          0.23091092705726624,
+          6.788970470428467
+        ]
+      ],
+      "screen_bounds_px_and_depth": [
+        [
+          587.506,
+          434.854,
+          0.3497
+        ],
+        [
+          628.494,
+          469.146,
+          0.8503
+        ]
+      ],
+      "visible_shadow": true,
+      "geometry_nodes": [],
+      "actual_min_world_z": 6.403825759887695
+    },
+    "Faceted fragment 01": {
+      "type": "MESH",
+      "parent": null,
+      "origin_world": [
+        1.55,
+        -0.148553,
+        6.029651
+      ],
+      "matrix_world": [
+        [
+          0.882417,
+          -0.186665,
+          0.431852,
+          1.55
+        ],
+        [
+          0.451938,
+          0.081247,
+          -0.888342,
+          -0.148553
+        ],
+        [
+          0.130735,
+          0.979058,
+          0.156054,
+          6.029651
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "local_axis_z_world": [
+        0.431852,
+        -0.888342,
+        0.156054
+      ],
+      "world_bounds": [
+        [
+          1.411615014076233,
+          -0.27721911668777466,
+          5.912013053894043
+        ],
+        [
+          1.6883848905563354,
+          -0.019887037575244904,
+          6.1472883224487305
+        ]
+      ],
+      "screen_bounds_px_and_depth": [
+        [
+          472.929,
+          487.521,
+          0.4673
+        ],
+        [
+          495.071,
+          506.48,
+          0.7327
+        ]
+      ],
+      "visible_shadow": true,
+      "geometry_nodes": [],
+      "actual_min_world_z": 5.937727451324463
+    },
+    "Faceted fragment 02": {
+      "type": "MESH",
+      "parent": null,
+      "origin_world": [
+        -3.5,
+        -0.776114,
+        3.519408
+      ],
+      "matrix_world": [
+        [
+          0.882417,
+          -0.186665,
+          0.431852,
+          -3.5
+        ],
+        [
+          0.451938,
+          0.081247,
+          -0.888342,
+          -0.776114
+        ],
+        [
+          0.130735,
+          0.979058,
+          0.156054,
+          3.519408
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "local_axis_z_world": [
+        0.431852,
+        -0.888342,
+        0.156054
+      ],
+      "world_bounds": [
+        [
+          -3.742371082305908,
+          -1.0055350065231323,
+          3.3168511390686035
+        ],
+        [
+          -3.257628917694092,
+          -0.546692967414856,
+          3.721963882446289
+        ]
+      ],
+      "screen_bounds_px_and_depth": [
+        [
+          60.61,
+          687.734,
+          0.3637
+        ],
+        [
+          99.39,
+          720.266,
+          0.8363
+        ]
+      ],
+      "visible_shadow": false,
+      "geometry_nodes": [],
+      "actual_min_world_z": 3.357264995574951
+    },
+    "33 | Upper orange sliver": {
+      "type": "MESH",
+      "parent": null,
+      "origin_world": [
+        -0.325,
+        1.399127,
+        7.272646
+      ],
+      "matrix_world": [
+        [
+          -0.680903,
+          0.687498,
+          -0.252422,
+          -0.325
+        ],
+        [
+          -0.732373,
+          -0.639182,
+          0.234682,
+          1.399127
+        ],
+        [
+          -0.0,
+          0.344663,
+          0.938727,
+          7.272646
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "local_axis_z_world": [
+        -0.252422,
+        0.234682,
+        0.938727
+      ],
+      "world_bounds": [
+        [
+          -0.4240780770778656,
+          1.302542805671692,
+          7.117678642272949
+        ],
+        [
+          -0.2259218990802765,
+          1.4957119226455688,
+          7.427614212036133
+        ]
+      ],
+      "screen_bounds_px_and_depth": [
+        [
+          326.074,
+          357.715,
+          -0.6636
+        ],
+        [
+          341.926,
+          383.285,
+          -0.5364
+        ]
+      ],
+      "visible_shadow": false,
+      "geometry_nodes": [],
+      "actual_min_world_z": 7.123053550720215
+    },
+    "34 | Small left spindle": {
+      "type": "MESH",
+      "parent": null,
+      "origin_world": [
+        -2.95,
+        0.774598,
+        6.011461
+      ],
+      "matrix_world": [
+        [
+          0.088273,
+          0.331646,
+          0.939265,
+          -2.95
+        ],
+        [
+          0.996096,
+          -0.02939,
+          -0.083236,
+          0.774598
+        ],
+        [
+          -0.0,
+          0.942946,
+          -0.332946,
+          6.011461
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "local_axis_z_world": [
+        0.939265,
+        -0.083236,
+        -0.332946
+      ],
+      "world_bounds": [
+        [
+          -3.3232908248901367,
+          0.6278660893440247,
+          5.787817478179932
+        ],
+        [
+          -2.576709270477295,
+          0.9213301539421082,
+          6.235104084014893
+        ]
+      ],
+      "screen_bounds_px_and_depth": [
+        [
+          94.137,
+          460.427,
+          -0.4407
+        ],
+        [
+          153.863,
+          500.573,
+          -0.1593
+        ]
+      ],
+      "visible_shadow": false,
+      "geometry_nodes": [],
+      "actual_min_world_z": 5.801304817199707
+    },
+    "34b | Spindle collar": {
+      "type": "MESH",
+      "parent": null,
+      "origin_world": [
+        -3.0125,
+        0.767019,
+        6.187299
+      ],
+      "matrix_world": [
+        [
+          0.323386,
+          0.325568,
+          0.888497,
+          -3.0125
+        ],
+        [
+          0.884629,
+          0.229322,
+          -0.406008,
+          0.767019
+        ],
+        [
+          -0.335935,
+          0.917288,
+          -0.213847,
+          6.187299
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "local_axis_z_world": [
+        0.888497,
+        -0.406008,
+        -0.213847
+      ],
+      "world_bounds": [
+        [
+          -3.2365851402282715,
+          0.44392162561416626,
+          5.837167263031006
+        ],
+        [
+          -2.78841495513916,
+          1.0901161432266235,
+          6.537431240081787
+        ]
+      ],
+      "screen_bounds_px_and_depth": [
+        [
+          101.073,
+          442.826,
+          -0.5225
+        ],
+        [
+          136.927,
+          491.175,
+          0.0225
+        ]
+      ],
+      "visible_shadow": false,
+      "geometry_nodes": [],
+      "actual_min_world_z": 5.917309284210205
+    },
+    "Upper outline corner marker": {
+      "type": "MESH",
+      "parent": null,
+      "origin_world": [
+        -0.0125,
+        1.786881,
+        7.710423
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -0.0125
+        ],
+        [
+          0.0,
+          0.242536,
+          -0.970142,
+          1.786881
+        ],
+        [
+          0.0,
+          0.970142,
+          0.242536,
+          7.710423
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "local_axis_z_world": [
+        0.0,
+        -0.970143,
+        0.242536
+      ],
+      "world_bounds": [
+        [
+          -0.07249999791383743,
+          1.7141205072402954,
+          7.637662410736084
+        ],
+        [
+          0.04749999940395355,
+          1.8596419095993042,
+          7.783183574676514
+        ]
+      ],
+      "screen_bounds_px_and_depth": [
+        [
+          354.2,
+          324.2,
+          -0.93
+        ],
+        [
+          363.8,
+          333.8,
+          -0.81
+        ]
+      ],
+      "visible_shadow": true,
+      "geometry_nodes": [],
+      "actual_min_world_z": 7.637662410736084
+    },
+    "Upper outline corner marker.001": {
+      "type": "MESH",
+      "parent": null,
+      "origin_world": [
+        1.1125,
+        1.786881,
+        7.710423
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          1.1125
+        ],
+        [
+          0.0,
+          0.242536,
+          -0.970142,
+          1.786881
+        ],
+        [
+          0.0,
+          0.970142,
+          0.242536,
+          7.710423
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "local_axis_z_world": [
+        0.0,
+        -0.970143,
+        0.242536
+      ],
+      "world_bounds": [
+        [
+          1.0525000095367432,
+          1.7141205072402954,
+          7.637662410736084
+        ],
+        [
+          1.1724998950958252,
+          1.8596419095993042,
+          7.783183574676514
+        ]
+      ],
+      "screen_bounds_px_and_depth": [
+        [
+          444.2,
+          324.2,
+          -0.93
+        ],
+        [
+          453.8,
+          333.8,
+          -0.81
+        ]
+      ],
+      "visible_shadow": true,
+      "geometry_nodes": [],
+      "actual_min_world_z": 7.637662410736084
+    }
+  }
+}

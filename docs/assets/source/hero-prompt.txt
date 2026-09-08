@@ -1,0 +1,13 @@
+Use case: ads-marketing.
+Asset type: GitHub repository hero cover for an independent Chinese beginner Blender skill for Codex. Generate one finished landscape image, 2048 x 1024 pixels, 2:1 aspect ratio.
+Project name: Blender 开工助手.
+Style: exceptionally polished contemporary design-studio editorial poster, warm ivory paper background, dark charcoal typography, muted sage green with one restrained burnt-orange accent. Swiss typographic grid, generous whitespace, crisp Chinese lettering. No busy dashboard, no fake application screenshot.
+Composition: left half is powerful clean type, right half a premium conceptual 3D desk-lamp vignette. The desk lamp has a wide conical sage-green matte ceramic shade, slender brass stem, green round base, on a shallow ivory pedestal. Small separate wireframe geometry and two subtle material sample spheres suggest the workflow from geometry to editable material. This is conceptual brand artwork, not a claimed Blender output screenshot. Sculptural composition, soft large studio light, beautiful grounded shadows, tactile surfaces, restrained technical drawing lines.
+Exact text, preserve verbatim, prioritize perfect legibility:
+small top-left: "CODEX SKILL / v04"
+large two-line headline: "Blender" then "开工助手"
+supporting line: "从一句大白话，到可编辑的 .blend"
+small bottom-left: "准备环境  /  看懂参考  /  做出工程"
+tiny lower-right: "概念视觉 · CONCEPT ART"
+Use these texts only. Keep all text inside safe margins, no random microtext.
+Constraints: no OpenAI or Blender logos, no GitHub mascot, no fabricated ratings, no fake UI, no badge claiming official affiliation, no extra slogans. The title must be the visual anchor. Export the finished cover as a single image.

@@ -1,0 +1,14 @@
+{
+  "exposure": 0.0,
+  "saturation": 1.23,
+  "gamma": [1.015, 1.0, 1.02],
+  "gain": [1.025, 1.0, 1.015],
+  "glow_threshold": 2.2,
+  "glow_strength": 0.55,
+  "glow_size": 0.55,
+  "glow_smoothness": 0.25,
+  "glow_saturation": 1.12,
+  "glow_tint": [1.0, 0.95, 1.0],
+  "look": "AgX - Medium High Contrast",
+  "view_exposure": 0.0
+}

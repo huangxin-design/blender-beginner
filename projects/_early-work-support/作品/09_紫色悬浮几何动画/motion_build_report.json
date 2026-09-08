@@ -1,0 +1,535 @@
+{
+  "fps": 30,
+  "loop_frames": 180,
+  "groups": [
+    {
+      "id": "core",
+      "parent": "ANIM | core",
+      "members": [
+        "01 | Yellow pleated orbital core",
+        "01b | Soft recessed yellow dimple closure"
+      ],
+      "ground_lift": 0.0
+    },
+    {
+      "id": "yellow_washer",
+      "parent": "ANIM | yellow_washer",
+      "members": [
+        "02 | Yellow broad recessed washer",
+        "02b | Raised annular lip",
+        "Particle 12"
+      ],
+      "ground_lift": 0.0
+    },
+    {
+      "id": "cage",
+      "parent": "ANIM | cage",
+      "members": [
+        "06 | Spatial lilac cage"
+      ],
+      "ground_lift": 0.0
+    },
+    {
+      "id": "top_pink_pipe",
+      "parent": "ANIM | top_pink_pipe",
+      "members": [
+        "12 | Top right horizontal lower pink tube ring",
+        "12b | Top right pink long tube"
+      ],
+      "ground_lift": 0.0
+    },
+    {
+      "id": "upper_sector",
+      "parent": "ANIM | upper_sector",
+      "members": [
+        "15 | Upper purple circular sector",
+        "15b | Pale bevel line across sector"
+      ],
+      "ground_lift": 0.0
+    },
+    {
+      "id": "gold_pipe",
+      "parent": "ANIM | gold_pipe",
+      "members": [
+        "19 | Left diagonal golden tube",
+        "19b | Navy open end detail"
+      ],
+      "ground_lift": 0.0
+    },
+    {
+      "id": "blue_studded_button",
+      "parent": "ANIM | blue_studded_button",
+      "members": [
+        "21 | Blue studded circular button",
+        "21 stud 00",
+        "21 rounded stud cap",
+        "21 stud 01",
+        "21 rounded stud cap.001",
+        "21 stud 02",
+        "21 rounded stud cap.002",
+        "21 stud 03",
+        "21 rounded stud cap.003",
+        "21 stud 04",
+        "21 rounded stud cap.004",
+        "21 stud 05",
+        "21 rounded stud cap.005",
+        "21 stud 06",
+        "21 rounded stud cap.006",
+        "21 stud 07",
+        "21 rounded stud cap.007"
+      ],
+      "ground_lift": 0.0
+    },
+    {
+      "id": "arrow",
+      "parent": "ANIM | arrow",
+      "members": [
+        "22 | Arrow shaft",
+        "22 arrow head"
+      ],
+      "ground_lift": 0.0
+    },
+    {
+      "id": "lower_fan",
+      "parent": "ANIM | lower_fan",
+      "members": [
+        "23 | Left lower lavender fan",
+        "23b | Fan pale cut edge"
+      ],
+      "ground_lift": 0.0
+    },
+    {
+      "id": "lower_pink_pipe",
+      "parent": "ANIM | lower_pink_pipe",
+      "members": [
+        "26 | Front lower pink hollow pipe",
+        "26b | White collar plate"
+      ],
+      "ground_lift": 0.0
+    },
+    {
+      "id": "gold_dish",
+      "parent": "ANIM | gold_dish",
+      "members": [
+        "31 | Gold curved shallow dish",
+        "31c | Dish foot",
+        "31d | Purple ball over dish"
+      ],
+      "ground_lift": 0.0
+    },
+    {
+      "id": "pink_waffle",
+      "parent": "ANIM | pink_waffle",
+      "members": [
+        "32 curled lattice rim 00",
+        "32 curled lattice rim 01",
+        "32 curled lattice rim 02",
+        "32 curled lattice rim 03",
+        "32 curled lattice rim 04",
+        "32 curled lattice rim 05",
+        "32 curled lattice rim 06",
+        "32 curled lattice rim 07",
+        "32 | Pink waffle disc"
+      ],
+      "ground_lift": 0.0
+    },
+    {
+      "id": "spindle",
+      "parent": "ANIM | spindle",
+      "members": [
+        "34 | Small left spindle",
+        "34b | Spindle collar"
+      ],
+      "ground_lift": 0.0
+    },
+    {
+      "id": "upper_outline",
+      "parent": "ANIM | upper_outline",
+      "members": [
+        "35 | Upper fine outline",
+        "Upper outline corner marker",
+        "Upper outline corner marker.001"
+      ],
+      "ground_lift": 0.0
+    },
+    {
+      "id": "03 | White spherical ring with purple bore",
+      "parent": "ANIM | 03 | White spherical ring with purple bore",
+      "members": [
+        "03 | White spherical ring with purple bore"
+      ],
+      "ground_lift": 0.005272595896157899
+    },
+    {
+      "id": "04 | Large navy diagonal open tube",
+      "parent": "ANIM | 04 | Large navy diagonal open tube",
+      "members": [
+        "04 | Large navy diagonal open tube"
+      ],
+      "ground_lift": 0.0
+    },
+    {
+      "id": "05 | Golden orbital hoop",
+      "parent": "ANIM | 05 | Golden orbital hoop",
+      "members": [
+        "05 | Golden orbital hoop"
+      ],
+      "ground_lift": 0.0
+    },
+    {
+      "id": "08 | Large open parallelogram frame",
+      "parent": "ANIM | 08 | Large open parallelogram frame",
+      "members": [
+        "08 | Large open parallelogram frame"
+      ],
+      "ground_lift": 0.0
+    },
+    {
+      "id": "09 | Upper pink open cylinder",
+      "parent": "ANIM | 09 | Upper pink open cylinder",
+      "members": [
+        "09 | Upper pink open cylinder"
+      ],
+      "ground_lift": 0.0
+    },
+    {
+      "id": "10 | Upper navy open cylinder",
+      "parent": "ANIM | 10 | Upper navy open cylinder",
+      "members": [
+        "10 | Upper navy open cylinder"
+      ],
+      "ground_lift": 0.0
+    },
+    {
+      "id": "11 | Tiny yellow cube",
+      "parent": "ANIM | 11 | Tiny yellow cube",
+      "members": [
+        "11 | Tiny yellow cube"
+      ],
+      "ground_lift": 0.0
+    },
+    {
+      "id": "13 | Top right blue long tube",
+      "parent": "ANIM | 13 | Top right blue long tube",
+      "members": [
+        "13 | Top right blue long tube"
+      ],
+      "ground_lift": 0.0
+    },
+    {
+      "id": "14 | Faceted lavender kite",
+      "parent": "ANIM | 14 | Faceted lavender kite",
+      "members": [
+        "14 | Faceted lavender kite"
+      ],
+      "ground_lift": 0.0
+    },
+    {
+      "id": "18 | Thin pink horizontal pipe",
+      "parent": "ANIM | 18 | Thin pink horizontal pipe",
+      "members": [
+        "18 | Thin pink horizontal pipe"
+      ],
+      "ground_lift": 0.0
+    },
+    {
+      "id": "20 | Small lilac satellite loop",
+      "parent": "ANIM | 20 | Small lilac satellite loop",
+      "members": [
+        "20 | Small lilac satellite loop"
+      ],
+      "ground_lift": 0.0
+    },
+    {
+      "id": "24 | Central pale arc shard",
+      "parent": "ANIM | 24 | Central pale arc shard",
+      "members": [
+        "24 | Central pale arc shard"
+      ],
+      "ground_lift": 0.0
+    },
+    {
+      "id": "25 | Pale triangular shard",
+      "parent": "ANIM | 25 | Pale triangular shard",
+      "members": [
+        "25 | Pale triangular shard"
+      ],
+      "ground_lift": 0.0
+    },
+    {
+      "id": "29 | Right upright purple cup",
+      "parent": "ANIM | 29 | Right upright purple cup",
+      "members": [
+        "29 | Right upright purple cup"
+      ],
+      "ground_lift": 0.0
+    },
+    {
+      "id": "36 | Left fine outline",
+      "parent": "ANIM | 36 | Left fine outline",
+      "members": [
+        "36 | Left fine outline"
+      ],
+      "ground_lift": 0.0
+    },
+    {
+      "id": "37 | Lower peach fine outline",
+      "parent": "ANIM | 37 | Lower peach fine outline",
+      "members": [
+        "37 | Lower peach fine outline"
+      ],
+      "ground_lift": 0.0
+    },
+    {
+      "id": "38 | Lower tilted diamond",
+      "parent": "ANIM | 38 | Lower tilted diamond",
+      "members": [
+        "38 | Lower tilted diamond"
+      ],
+      "ground_lift": 0.0
+    },
+    {
+      "id": "07 | Pink corrugated floating ribbon",
+      "parent": "ANIM | 07 | Pink corrugated floating ribbon",
+      "members": [
+        "07 | Pink corrugated floating ribbon"
+      ],
+      "ground_lift": 0.0
+    },
+    {
+      "id": "16 | Upper pale sphere",
+      "parent": "ANIM | 16 | Upper pale sphere",
+      "members": [
+        "16 | Upper pale sphere"
+      ],
+      "ground_lift": 0.0
+    },
+    {
+      "id": "17 | Long lilac back rod",
+      "parent": "ANIM | 17 | Long lilac back rod",
+      "members": [
+        "17 | Long lilac back rod"
+      ],
+      "ground_lift": 0.0
+    },
+    {
+      "id": "27 | Front pink diagonal rod",
+      "parent": "ANIM | 27 | Front pink diagonal rod",
+      "members": [
+        "27 | Front pink diagonal rod"
+      ],
+      "ground_lift": 0.0
+    },
+    {
+      "id": "28 | Short lilac bottom rod",
+      "parent": "ANIM | 28 | Short lilac bottom rod",
+      "members": [
+        "28 | Short lilac bottom rod"
+      ],
+      "ground_lift": 0.0
+    },
+    {
+      "id": "30 | Lower blue coin",
+      "parent": "ANIM | 30 | Lower blue coin",
+      "members": [
+        "30 | Lower blue coin"
+      ],
+      "ground_lift": 0.0
+    },
+    {
+      "id": "Particle 00",
+      "parent": "ANIM | Particle 00",
+      "members": [
+        "Particle 00"
+      ],
+      "ground_lift": 0.0
+    },
+    {
+      "id": "Particle 01",
+      "parent": "ANIM | Particle 01",
+      "members": [
+        "Particle 01"
+      ],
+      "ground_lift": 0.0
+    },
+    {
+      "id": "Particle 02",
+      "parent": "ANIM | Particle 02",
+      "members": [
+        "Particle 02"
+      ],
+      "ground_lift": 0.0
+    },
+    {
+      "id": "Particle 03",
+      "parent": "ANIM | Particle 03",
+      "members": [
+        "Particle 03"
+      ],
+      "ground_lift": 0.0
+    },
+    {
+      "id": "Particle 04",
+      "parent": "ANIM | Particle 04",
+      "members": [
+        "Particle 04"
+      ],
+      "ground_lift": 0.0
+    },
+    {
+      "id": "Particle 05",
+      "parent": "ANIM | Particle 05",
+      "members": [
+        "Particle 05"
+      ],
+      "ground_lift": 0.0
+    },
+    {
+      "id": "Particle 06",
+      "parent": "ANIM | Particle 06",
+      "members": [
+        "Particle 06"
+      ],
+      "ground_lift": 0.0
+    },
+    {
+      "id": "Particle 07",
+      "parent": "ANIM | Particle 07",
+      "members": [
+        "Particle 07"
+      ],
+      "ground_lift": 0.0
+    },
+    {
+      "id": "Particle 08",
+      "parent": "ANIM | Particle 08",
+      "members": [
+        "Particle 08"
+      ],
+      "ground_lift": 0.0
+    },
+    {
+      "id": "Particle 09",
+      "parent": "ANIM | Particle 09",
+      "members": [
+        "Particle 09"
+      ],
+      "ground_lift": 0.0
+    },
+    {
+      "id": "Particle 10",
+      "parent": "ANIM | Particle 10",
+      "members": [
+        "Particle 10"
+      ],
+      "ground_lift": 0.0
+    },
+    {
+      "id": "Particle 11",
+      "parent": "ANIM | Particle 11",
+      "members": [
+        "Particle 11"
+      ],
+      "ground_lift": 0.0
+    },
+    {
+      "id": "Particle 13",
+      "parent": "ANIM | Particle 13",
+      "members": [
+        "Particle 13"
+      ],
+      "ground_lift": 0.0
+    },
+    {
+      "id": "Particle 14",
+      "parent": "ANIM | Particle 14",
+      "members": [
+        "Particle 14"
+      ],
+      "ground_lift": 0.0
+    },
+    {
+      "id": "Particle 15",
+      "parent": "ANIM | Particle 15",
+      "members": [
+        "Particle 15"
+      ],
+      "ground_lift": 0.0
+    },
+    {
+      "id": "Particle 16",
+      "parent": "ANIM | Particle 16",
+      "members": [
+        "Particle 16"
+      ],
+      "ground_lift": 0.0
+    },
+    {
+      "id": "Particle 17",
+      "parent": "ANIM | Particle 17",
+      "members": [
+        "Particle 17"
+      ],
+      "ground_lift": 0.0
+    },
+    {
+      "id": "Faceted fragment 00",
+      "parent": "ANIM | Faceted fragment 00",
+      "members": [
+        "Faceted fragment 00"
+      ],
+      "ground_lift": 0.0
+    },
+    {
+      "id": "Faceted fragment 01",
+      "parent": "ANIM | Faceted fragment 01",
+      "members": [
+        "Faceted fragment 01"
+      ],
+      "ground_lift": 0.0
+    },
+    {
+      "id": "Faceted fragment 02",
+      "parent": "ANIM | Faceted fragment 02",
+      "members": [
+        "Faceted fragment 02"
+      ],
+      "ground_lift": 0.0
+    },
+    {
+      "id": "33 | Upper orange sliver",
+      "parent": "ANIM | 33 | Upper orange sliver",
+      "members": [
+        "33 | Upper orange sliver"
+      ],
+      "ground_lift": 0.0
+    },
+    {
+      "id": "06b | Sphere inside cage",
+      "parent": "ANIM | 06b | Sphere inside cage",
+      "members": [
+        "06b | Sphere inside cage"
+      ],
+      "ground_lift": 0.0
+    },
+    {
+      "id": "06c | Pink capsule inside cage",
+      "parent": "ANIM | 06c | Pink capsule inside cage",
+      "members": [
+        "06c | Pink capsule inside cage"
+      ],
+      "ground_lift": 0.0
+    },
+    {
+      "id": "06d | Lilac lower cage pin",
+      "parent": "ANIM | 06d | Lilac lower cage pin",
+      "members": [
+        "06d | Lilac lower cage pin"
+      ],
+      "ground_lift": 0.0
+    }
+  ],
+  "constant_ground_lifts": {
+    "03 | White spherical ring with purple bore": 0.005273
+  }
+}

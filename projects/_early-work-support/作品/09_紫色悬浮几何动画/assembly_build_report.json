@@ -1,0 +1,72 @@
+{
+  "master": "C:\\Users\\YOUR_USERNAME\\Documents\\ChatGPT\\Blender\\作品\\09_紫色悬浮几何动画\\09_悬浮几何_五套配色动画.blend",
+  "source_projects": [
+    "C:\\Users\\YOUR_USERNAME\\Documents\\ChatGPT\\Blender\\作品\\09_紫色悬浮几何动画\\09_01_白底彩色.blend",
+    "C:\\Users\\YOUR_USERNAME\\Documents\\ChatGPT\\Blender\\作品\\09_紫色悬浮几何动画\\09_02_黑金.blend",
+    "C:\\Users\\YOUR_USERNAME\\Documents\\ChatGPT\\Blender\\作品\\09_紫色悬浮几何动画\\09_03_冰蓝虹彩.blend",
+    "C:\\Users\\YOUR_USERNAME\\Documents\\ChatGPT\\Blender\\作品\\09_紫色悬浮几何动画\\09_04_紫黄糖果.blend",
+    "C:\\Users\\YOUR_USERNAME\\Documents\\ChatGPT\\Blender\\作品\\09_紫色悬浮几何动画\\09_05_黑白.blend"
+  ],
+  "source_base": "C:\\Users\\YOUR_USERNAME\\Documents\\ChatGPT\\Blender\\作品\\09_紫色悬浮几何动画\\09_基础循环.blend",
+  "resolution": [
+    720,
+    1280
+  ],
+  "fps": 30,
+  "frames": [
+    1,
+    900
+  ],
+  "duration_seconds": 30,
+  "source_scenes": [
+    "09_01_白底彩色_6秒",
+    "09_02_黑金_6秒",
+    "09_03_冰蓝虹彩_6秒",
+    "09_04_紫黄糖果_6秒",
+    "09_05_黑白_6秒"
+  ],
+  "strips": [
+    {
+      "name": "白底彩色",
+      "source_scene": "09_01_白底彩色_6秒",
+      "start": 1,
+      "end_exclusive": 181,
+      "duration": 180,
+      "input": "CAMERA"
+    },
+    {
+      "name": "黑金",
+      "source_scene": "09_02_黑金_6秒",
+      "start": 181,
+      "end_exclusive": 361,
+      "duration": 180,
+      "input": "CAMERA"
+    },
+    {
+      "name": "冰蓝虹彩",
+      "source_scene": "09_03_冰蓝虹彩_6秒",
+      "start": 361,
+      "end_exclusive": 541,
+      "duration": 180,
+      "input": "CAMERA"
+    },
+    {
+      "name": "紫黄糖果",
+      "source_scene": "09_04_紫黄糖果_6秒",
+      "start": 541,
+      "end_exclusive": 721,
+      "duration": 180,
+      "input": "CAMERA"
+    },
+    {
+      "name": "黑白",
+      "source_scene": "09_05_黑白_6秒",
+      "start": 721,
+      "end_exclusive": 901,
+      "duration": 180,
+      "input": "CAMERA"
+    }
+  ],
+  "reload_and_timing_passed": true,
+  "previous_palette_compositor_check": "assembly_previous_color_check.json"
+}

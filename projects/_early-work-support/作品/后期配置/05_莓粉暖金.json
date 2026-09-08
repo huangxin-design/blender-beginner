@@ -1,0 +1,14 @@
+{
+  "exposure": 0.0,
+  "saturation": 1.18,
+  "gamma": [1.01, 1.0, 1.035],
+  "gain": [1.0, 1.0, 1.055],
+  "glow_threshold": 2.8,
+  "glow_strength": 2.80,
+  "glow_size": 0.60,
+  "glow_smoothness": 0.30,
+  "glow_saturation": 1.10,
+  "glow_tint": [1.0, 0.97, 0.87],
+  "look": "None",
+  "view_exposure": 0.20
+}

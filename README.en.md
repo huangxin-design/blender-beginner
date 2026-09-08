@@ -28,27 +28,29 @@ Once installed, try:
 
 > Open this project and make the lampshade look like matte ceramic. Keep the base and composition unchanged, save a new version, and show me a preview.
 
-## What it helps with
+## Where it can help
 
-| Your question | How the skill approaches it |
+| You might ask | How it helps |
 | --- | --- |
-| How do I install Blender and organize the files? | Checks the existing environment and prepares the application, configuration, and project locations as requested |
-| Can my computer handle 4K or animation? | Inspects the target device and runs bounded scene tests when relevant, with separate conclusions for previews, stills, and animation |
-| How feasible is this reference? | Assesses geometry, materials, lighting and camera, asset dependencies, and device budget; explains uncertainties and possible approaches |
-| How do I ask for “frosted,” “soft,” or “dreamlike”? | Translates the description into visual goals, scene or node choices, parameter directions, and acceptance criteria |
-| Why does the result look too plastic or blurry? | Diagnoses the relevant cause and makes a focused revision while preserving a useful comparison view |
-| The file exists—but does it work? | Saves a new project, reopens it independently, checks its structure, renders, and inspects the preview |
+| I'm new to Blender. Where should I put the app and my files? | Checks for an existing Blender installation first. If you need one, sets up the app and projects in your chosen location. |
+| Can my computer handle 4K images or animation? | Looks at your computer and the scene you want to make, runs a small test when needed, and explains what might be demanding and what still needs checking. |
+| Could I make something that looks like this reference? | Explains which parts look straightforward, where the difficulties are, and how the result might differ from the reference. |
+| How do I ask for a frosted, clear, or dreamlike look? | Turns those descriptions into practical choices for materials, lighting, and the camera. |
+| It looks too plastic or blurry. How do I fix it? | Finds what is affecting the result, makes changes based on your feedback, and checks that the parts you already like are preserved. |
+| Can I open the finished file and keep editing it? | Saves and reopens the project, then renders and inspects a preview so you can see the result and any remaining issues. |
+| How many model tokens have been recorded for this project? | Starts recording from a specified conversation, shows the observed amount and how far the record goes, and explains what is still missing. |
+| How much longer will this render take? | Shows progress for the render it starts, estimates the remaining time once enough data is available, and says when it is too early to estimate. |
 
-Codex turns the brief into Blender objects, materials, lighting, and camera settings through scripts. You can keep describing revisions in everyday language without learning node names first.
+Describe the result you want, look at the preview, and tell Codex what to change. Feedback such as “make the light softer” or “blur the background a little” becomes a concrete adjustment in Blender.
 
-## A workflow matched to the request
+## Explore an idea or start making it
 
 ![Workflow: choose the task, check what matters, preview, revise, verify, and deliver](docs/assets/workflow.png)
 
-- **Explanation or assessment:** returns the analysis and missing information. It does not automatically install software or start rendering.
-- **Creation:** resolves information that materially affects the result, starts with an appropriate preview, and develops the scene from there.
-- **Revision:** reads your specified latest saved project, reuses applicable setup and assessment evidence, and saves a new version.
-- **Conflicting requirements:** keeps the original goal separate from proposed simplifications and identifies the specific blocker.
+- **Talk through an idea:** ask “Could we make this?” or “Why does it look like plastic?” You get an explanation and suggestions first. Work begins when you ask for something to be made.
+- **Make a first version:** say “Make something based on this reference.” Codex works out the requirements that affect the result, creates a preview, and builds on it.
+- **Keep editing a project:** say “Only change the lampshade's color.” Codex starts from your specified latest saved file, checks the parts you want to keep, and saves a new version.
+- **Work within your computer and available time:** Codex explains what makes the original request difficult and the tradeoffs of possible changes, so you can decide how to proceed.
 
 A reference's **0–100 feasibility score is a reasoned assessment of an approach**, accompanied by evidence, confidence, and expected differences. It is not a reconstruction percentage or success probability. Missing evidence remains unresolved, and unseen parts of an object require explicit assumptions.
 

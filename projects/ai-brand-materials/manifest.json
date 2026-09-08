@@ -1,0 +1,93 @@
+{
+  "project": "ai-brand-materials",
+  "packaged_at": "2026-09-08",
+  "source_project": "AI brand spheres / approved material portraits and animation",
+  "artwork_files_copied_without_modification": [
+    {
+      "file": "source/scene.blend",
+      "logical_source": "v008-final/HUANGHUAYU_Brand_Wave.blend",
+      "bytes": 11539996,
+      "sha256": "50e494a65ecd2e08f3b4c98087ba4416e094b6e936fe471eee43e7f91e97fb33",
+      "source_sha256": "50e494a65ecd2e08f3b4c98087ba4416e094b6e936fe471eee43e7f91e97fb33",
+      "byte_identical": true
+    },
+    {
+      "file": "source/audio.wav",
+      "logical_source": "v008-final/audio/sound_20s.wav",
+      "bytes": 5760044,
+      "sha256": "352412c11b83a1b745db78efaf194496a7123f0ecd02e6becdffdb9f44d4d168",
+      "source_sha256": "352412c11b83a1b745db78efaf194496a7123f0ecd02e6becdffdb9f44d4d168",
+      "byte_identical": true
+    },
+    {
+      "file": "source/atlas-orientations.json",
+      "logical_source": "v006-brands/atlas-orientations.json",
+      "bytes": 1806,
+      "sha256": "188884b6615f5a62a1640fe8f0256f17b12556b81178e975ebc67e96b62e6524",
+      "source_sha256": "188884b6615f5a62a1640fe8f0256f17b12556b81178e975ebc67e96b62e6524",
+      "byte_identical": true
+    },
+    {
+      "file": "preview.jpg",
+      "logical_source": "v010-ball-assets/Four_Balls_Preview.jpg",
+      "bytes": 111700,
+      "sha256": "b0d32fc714212a576d47854a49a52b2a8d65121c2bb104b8d5b30adc91330841",
+      "source_sha256": "b0d32fc714212a576d47854a49a52b2a8d65121c2bb104b8d5b30adc91330841",
+      "byte_identical": true
+    },
+    {
+      "file": "preview.mp4",
+      "logical_source": "v009-playback-fix/HUANGHUAYU_Clean_Preview_1080.mp4",
+      "bytes": 15895748,
+      "sha256": "c834fa2f4e9f2521e4393342bc4c3918f1d006f150c720d5167cb830831cdb20",
+      "source_sha256": "c834fa2f4e9f2521e4393342bc4c3918f1d006f150c720d5167cb830831cdb20",
+      "byte_identical": true
+    },
+    {
+      "file": "images/openai.png",
+      "logical_source": "v010-ball-assets/openai_960x1280.png",
+      "bytes": 1278068,
+      "sha256": "d276f002623a14c6aa7e224a192281f6ef7f296cee9d33977e1bc4b76ecdd1eb",
+      "source_sha256": "d276f002623a14c6aa7e224a192281f6ef7f296cee9d33977e1bc4b76ecdd1eb",
+      "byte_identical": true
+    },
+    {
+      "file": "images/claude.png",
+      "logical_source": "v010-ball-assets/claude_960x1280.png",
+      "bytes": 1267415,
+      "sha256": "0f9a63aa38dd5ba10c8d027a672c5eaa8a17f969a8197daa60fcbf8baabcb3e5",
+      "source_sha256": "0f9a63aa38dd5ba10c8d027a672c5eaa8a17f969a8197daa60fcbf8baabcb3e5",
+      "byte_identical": true
+    },
+    {
+      "file": "images/deepseek.png",
+      "logical_source": "v010-ball-assets/deepseek_960x1280.png",
+      "bytes": 1300892,
+      "sha256": "a6c2391b46b1abbe97f55c95d5fc852073a92194aa22cae7a54e5d3ab6a16eda",
+      "source_sha256": "a6c2391b46b1abbe97f55c95d5fc852073a92194aa22cae7a54e5d3ab6a16eda",
+      "byte_identical": true
+    },
+    {
+      "file": "images/gemini.png",
+      "logical_source": "v010-ball-assets/gemini_960x1280.png",
+      "bytes": 1125252,
+      "sha256": "80dcbc5a2a771c3fa9379dce352300e1b2137d92c55431c5c926ea6333b0d3b4",
+      "source_sha256": "80dcbc5a2a771c3fa9379dce352300e1b2137d92c55431c5c926ea6333b0d3b4",
+      "byte_identical": true
+    }
+  ],
+  "adapted_script": {
+    "file": "source/render_portraits.py",
+    "logical_source": "v010-ball-assets/render_portraits.py",
+    "changes": [
+      "Adjacent orientation data",
+      "Explicit fresh output directory",
+      "CPU default, optional explicit OPTIX backend",
+      "Optional 240 x 320 / 8 sample preview",
+      "No save of the source scene or user preferences"
+    ],
+    "source_sha256": "fcdfaf67db792dfadaf6d5d1cced469515bbeb6e2d9c27cc68b5e1381cdc5f9a",
+    "sha256": "72bb072bff8bd26dc50554eee10263b315be1a193b003aad3a532ba82d576ac8",
+    "byte_identical": false
+  }
+}

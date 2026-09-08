@@ -1,0 +1,296 @@
+{
+  "project": "ai-brand-materials",
+  "checked_at": "2026-09-08",
+  "archive_integrity": {
+    "files_byte_identical_to_originals": 9,
+    "source_scene_unchanged_after_validation": true,
+    "artwork_png_resolution": [
+      960,
+      1280
+    ],
+    "checksums": "manifest.json"
+  },
+  "scene_dependency_check": {
+    "checked_at": "2026-09-08",
+    "blender_version": "5.2.1 LTS",
+    "opened_scene_copy": "source/scene.blend",
+    "scene_saved": false,
+    "objects": 255,
+    "materials": 133,
+    "images": [
+      {
+        "name": "claude_engraving_depth.png",
+        "file_name": "claude_engraving_depth.png",
+        "packed": true,
+        "source": "FILE",
+        "size": [
+          4096,
+          2048
+        ]
+      },
+      {
+        "name": "claude_engraving_mask.png",
+        "file_name": "claude_engraving_mask.png",
+        "packed": true,
+        "source": "FILE",
+        "size": [
+          4096,
+          2048
+        ]
+      },
+      {
+        "name": "deepseek_engraving_depth.png",
+        "file_name": "deepseek_engraving_depth.png",
+        "packed": true,
+        "source": "FILE",
+        "size": [
+          4096,
+          2048
+        ]
+      },
+      {
+        "name": "deepseek_engraving_mask.png",
+        "file_name": "deepseek_engraving_mask.png",
+        "packed": true,
+        "source": "FILE",
+        "size": [
+          4096,
+          2048
+        ]
+      },
+      {
+        "name": "gemini_engraving_depth.png",
+        "file_name": "gemini_engraving_depth.png",
+        "packed": true,
+        "source": "FILE",
+        "size": [
+          4096,
+          2048
+        ]
+      },
+      {
+        "name": "gemini_engraving_mask.png",
+        "file_name": "gemini_engraving_mask.png",
+        "packed": true,
+        "source": "FILE",
+        "size": [
+          4096,
+          2048
+        ]
+      },
+      {
+        "name": "gemini_sphere_atlas.png.001",
+        "file_name": "gemini_sphere_atlas.png",
+        "packed": true,
+        "source": "FILE",
+        "size": [
+          4096,
+          2048
+        ]
+      },
+      {
+        "name": "openai_engraving_depth.png",
+        "file_name": "openai_engraving_depth.png",
+        "packed": true,
+        "source": "FILE",
+        "size": [
+          4096,
+          2048
+        ]
+      },
+      {
+        "name": "openai_engraving_mask.png",
+        "file_name": "openai_engraving_mask.png",
+        "packed": true,
+        "source": "FILE",
+        "size": [
+          4096,
+          2048
+        ]
+      },
+      {
+        "name": "Render Result",
+        "file_name": null,
+        "packed": false,
+        "source": "VIEWER",
+        "size": [
+          0,
+          0
+        ]
+      },
+      {
+        "name": "studio_small_01_2k.hdr",
+        "file_name": "studio_small_01_2k.hdr",
+        "packed": true,
+        "source": "FILE",
+        "size": [
+          2048,
+          1024
+        ]
+      },
+      {
+        "name": "Viewer Node",
+        "file_name": null,
+        "packed": false,
+        "source": "VIEWER",
+        "size": [
+          256,
+          256
+        ]
+      }
+    ],
+    "fonts": [
+      {
+        "name": "Bahnschrift Regular",
+        "file_name": "bahnschrift.ttf",
+        "packed": true,
+        "built_in": false
+      },
+      {
+        "name": "Bfont Regular",
+        "file_name": "<builtin>",
+        "packed": false,
+        "built_in": true
+      }
+    ],
+    "sounds": [],
+    "libraries": [],
+    "cache_files": [],
+    "movie_clips": [],
+    "volumes": [],
+    "cache_modifiers": [],
+    "compositor_file_output_nodes": [],
+    "scenes": [
+      {
+        "name": "HUANGHUAYU - four brand material wave",
+        "camera": "Camera - fixed long lens reference view",
+        "engine": "CYCLES",
+        "frames": [
+          1,
+          200
+        ],
+        "fps": 30.0,
+        "resolution": [
+          3840,
+          3840
+        ],
+        "use_sequencer": true,
+        "sequencer_strips": [],
+        "use_multiview": false
+      }
+    ],
+    "scope": "Independent reopen of the public .blend copy with automatic script execution disabled. All file textures and the HDRI are packed; the scene has no linked library, external animation cache, video clip or audio strip. The separate WAV belongs to post-production."
+  },
+  "current_static_render_check": {
+    "passed": true,
+    "device": "CPU",
+    "samples": 8,
+    "resolution": [
+      240,
+      320
+    ],
+    "frames": [
+      13,
+      63,
+      113,
+      163
+    ],
+    "process_seconds_including_startup": 17.918,
+    "rendered_images": [
+      {
+        "brand": "openai",
+        "resolution": [
+          240,
+          320
+        ],
+        "sha256": "48aea2136f5b3e8673d609d96b5c5968b6292a1a6c470be0b82a7872c291112d"
+      },
+      {
+        "brand": "claude",
+        "resolution": [
+          240,
+          320
+        ],
+        "sha256": "2c667cecd8107cbbb0e197927ef893df97064512da26c39d29e5b8194a37c751"
+      },
+      {
+        "brand": "deepseek",
+        "resolution": [
+          240,
+          320
+        ],
+        "sha256": "7c3da6684fe5b0c10ccfe4ff996486104949f70af7bd77d908333547c5ea72f6"
+      },
+      {
+        "brand": "gemini",
+        "resolution": [
+          240,
+          320
+        ],
+        "sha256": "466c44863fd95673e1d04ab84fa4a1d3aac6069684e849de85128715f9c67265"
+      }
+    ],
+    "visual_inspection": "Each of the four actual validation renders was opened and inspected: brand shapes, distinct metal/wood/stone/glass surfaces, pink floor and shadows are present; no missing-texture magenta or blank image observed. The 8-sample previews are readability checks, not final-quality replacements.",
+    "validation_previews_published_as_artwork": false,
+    "normal_960x1280_render_rerun_in_this_check": false,
+    "preferences_saved": false,
+    "source_scene_saved": false
+  },
+  "existing_output_directory_guard": {
+    "passed": true,
+    "observed_exit_code": 2,
+    "observed_behavior": "The script rejects a previously existing output directory before entering its render loop."
+  },
+  "animation_and_audio": {
+    "scene_frames": [
+      1,
+      200
+    ],
+    "scene_fps": 30,
+    "scene_loop_seconds": 6.666666666666667,
+    "published_video_seconds": 20,
+    "published_video_loop_repetitions": 3,
+    "audio": {
+      "sample_rate_hz": 48000,
+      "channels": 2,
+      "bit_depth": 24,
+      "duration_seconds": 20.0
+    },
+    "audio_embedded_in_scene": false,
+    "audio_file": "source/audio.wav"
+  },
+  "previous_video_validation": {
+    "provenance": "Existing 2026-09-08 v009 playback-fix records, reviewed when packaging. No video was exported or re-encoded in this publication update.",
+    "published_file": "preview.mp4",
+    "sha256": "c834fa2f4e9f2521e4393342bc4c3918f1d006f150c720d5167cb830831cdb20",
+    "software_and_hardware_comparison": {
+      "source_record": "v009-playback-fix/qa/fixed/preview/analysis.json",
+      "resolution": [
+        1080,
+        1080
+      ],
+      "fps": "30/1",
+      "format": "yuv420p",
+      "codec": "h264",
+      "software_decoder": "FFmpeg H.264 software decoding",
+      "hardware_decoder": "h264_cuvid",
+      "software_frames": 600,
+      "hardware_frames": 600,
+      "differing_frame_count": 0,
+      "scope": "All 600 frames compared at the native 1080 x 1080 resolution as YUV420P checksums. Representative frames 12, 168 and 175 also had zero RGB differences."
+    },
+    "target_player": {
+      "published_1080_preview_actual_player_check": "not verified by the available player-window record",
+      "related_4k_master_previous_check": "QQPlayer 4.6.3.1104 reached 20/20 seconds; actual window images at 3, 7, 11, 18 and 20 seconds showed intact geometry, shading and signature.",
+      "scope": "The available player-window record concerns the related 3840 x 3840 master, not this 1080 preview. Internal QQPlayer decoder mode and other devices were not independently verified."
+    }
+  },
+  "not_verified_in_this_update": [
+    "Mac or Linux execution",
+    "OPTIX execution of the adapted script",
+    "A new complete animation export",
+    "An actual player-window check of the published 1080 preview",
+    "Audio listening",
+    "Unpacked original file paths, which are not needed for the packed assets"
+  ]
+}

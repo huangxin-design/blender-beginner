@@ -1,14 +1,25 @@
 # Blender 开工助手 · Blender Beginner
 
-**A Codex skill that helps beginners set up Blender, assess references and rendering requirements, and create editable `.blend` projects using everyday language.**
+**Start with a reference and everyday words—even if you're new to 3D.**
 
-[简体中文](README.md) · [Quick start](docs/quickstart.md) · [Example project](projects/green-desk-lamp/README.md)
+[简体中文](README.md) · [Quick start](docs/quickstart.md) · [AI material spheres](projects/ai-brand-materials/README.md) · [All projects](projects/README.md)
 
-![Blender Beginner: from an idea or reference to an editable Blender project](docs/assets/hero.png)
+**v05 / Early Preview.** This Codex skill helps beginners set up Blender, assess their computer and references, create previews, and keep refining an editable `.blend` project.
 
-*The cover is AI-generated concept art. The downloadable lamp project and actual Blender renders appear in the example below.*
+## What if AI had a texture?
 
-**v05 / Early Preview.** Describe the result you want, share a reference, or provide an existing project. Codex uses this skill to select the relevant setup, assessment, scripting, and preview checks for that request.
+![Actual Blender work: OpenAI metal, Claude wood, DeepSeek stone, and Gemini frosted glass spheres](projects/ai-brand-materials/preview.jpg)
+
+**Prompt · a reusable example based on the project**
+
+> Make four AI brand spheres: metal for OpenAI, wood for Claude, stone for DeepSeek, and frosted glass for Gemini. Engrave the logos into the surface and use a pink background. Show me small previews first so I can decide what to change.
+
+**Token usage:** Not recorded separately for these portraits. A related production task has a historical snapshot; see the [usage notes](docs/showcase-measurements.md).<br>
+**GPU render time:** The production device inventory lists an **RTX 4070 Ti / 12 GB**. About **15.1 seconds for all four originals** (historical process timing, including startup, scene loading, and saving; Cycles / OptiX, 960 × 1280 and 128 samples per image). See [usage and timing records](docs/showcase-measurements.md) for device evidence and scope.
+
+**[Explore the process and editable source →](projects/ai-brand-materials/README.md)** · [Download the 20-second animation preview](projects/ai-brand-materials/preview.mp4) · [Try the example prompts](projects/ai-brand-materials/prompts.md)
+
+*The image combines four native Blender renders without AI retouching. The prompt is a retrospective example. This timing covers the portrait export, not modeling, revisions, or production of the full animation. [References and credits](projects/ai-brand-materials/credits.md).*
 
 ## Install
 
@@ -26,7 +37,7 @@ Once installed, try:
 
 > Assess how we could recreate this reference and whether my computer is suitable for a 4K still. Give me an assessment and recommendations before creating anything.
 
-> Open this project and make the lampshade look like matte ceramic. Keep the base and composition unchanged, save a new version, and show me a preview.
+> Open the AI sphere project and reduce the reflections inside the wood grooves. Keep the other spheres and composition unchanged, save a new version, and show me a preview.
 
 ## Where it can help
 
@@ -49,7 +60,7 @@ Describe the result you want, look at the preview, and tell Codex what to change
 
 - **Talk through an idea:** ask “Could we make this?” or “Why does it look like plastic?” You get an explanation and suggestions first. Work begins when you ask for something to be made.
 - **Make a first version:** say “Make something based on this reference.” Codex works out the requirements that affect the result, creates a preview, and builds on it.
-- **Keep editing a project:** say “Only change the lampshade's color.” Codex starts from your specified latest saved file, checks the parts you want to keep, and saves a new version.
+- **Keep editing a project:** say “Make the wood grooves less shiny.” Codex starts from your specified latest saved file, checks the parts you want to keep, and saves a new version.
 - **Work within your computer and available time:** Codex explains what makes the original request difficult and the tradeoffs of possible changes, so you can decide how to proceed.
 
 A reference's **0–100 feasibility score is a reasoned assessment of an approach**, accompanied by evidence, confidence, and expected differences. It is not a reconstruction percentage or success probability. Missing evidence remains unresolved, and unseen parts of an object require explicit assumptions.
@@ -66,38 +77,54 @@ The local progress page shows the render launched by the runner, without a model
 
 See [usage, boundaries, and verification](docs/usage-progress.md) (Chinese). v05 adds boundary tests, actual tiny PNG renders, timeout/failure integration checks, and desktop/mobile browser checks. Real Mac execution and complex animation remain unverified.
 
-## A real material revision
-
-Request: **“Make the shade look like green matte ceramic. Keep the base and composition unchanged.”**
-
-![Actual Blender renders before and after the lampshade material revision](docs/assets/material-comparison.png)
-
-This trial continued from a lamp project with an adjusted camera. Codex read that file, separated the relevant material shared with the base, updated the shade and green cap, then saved, reopened, and rendered the new version.
-
-The recorded checks confirmed preservation of the camera, aspect ratio, geometry, transforms, and other parts within their scope. Both previews were inspected: the shade's concentrated highlights became softer, while the fine surface texture was difficult to see at preview size. The result demonstrates the revision workflow for this particular project.
-
-**[Explore the example and its source files →](projects/green-desk-lamp/README.md)**
-
-To download an individual project, open a version's `scene.blend` on GitHub and choose **Download raw file**. Both versions are also included in the repository ZIP under `projects/green-desk-lamp/versions/`; open the desired `scene.blend` in Blender. The example uses Blender 5.2.1. See the project README for commands that recreate each version from its Python script.
-
 ## Projects, source files, and condensed conversations
 
-These are the author's GitHub showcase materials, independent of the installable skill. The three earliest projects come from the September 6, 2026 archive, followed by the lamp revision demo.
+The three early projects below also include prompts, editable sources, and production records. Like the AI spheres above, they are the author's separate GitHub showcase materials, not evidence of the current skill producing each result in one pass.
 
-![Three early projects: a pink installation, a plush rabbit knight, and floating geometry animation](docs/assets/early-works.jpg)
+### Pink installation
 
-| Project | Included material |
-| --- | --- |
-| [Pink installation · early practice](projects/pink-installation/README.md) | Retouched image, editable 3D base, native render, prompts, process summary, and credits |
-| [Plush rabbit knight · early practice](projects/plush-rabbit-knight/README.md) | Retouched image, editable fur scene, native render, prompts, and credits |
-| [Floating geometry · early practice](projects/floating-geometry-animation/README.md) | 30-second film, five-palette animation project, prompts, process summary, and credits |
-| [Green desk lamp · v001 / v002](projects/green-desk-lamp/README.md) | Versioned `.blend` files, scripts, previews, briefs, and a [production recap](projects/green-desk-lamp/conversation.md) |
+<img src="projects/pink-installation/preview.png" width="560" alt="Pink toy installation, rendered in Blender and retouched as an image">
 
-The two early stills received generative image edits that were not written back to their `.blend` files. Their six-round prompts are retrospective rewrites. These works document early practice, not validation of the current Skill. See the [project index](projects/README.md) for downloads and source details.
+**Prompt · retrospective example**
+
+> Build a pink toy installation from the reference: a coral ribbed column, a blue backboard, mint beads, and a gold-and-white floating sphere. Give the ceramic a soft glaze, the metal clear reflections, and the plush parts a soft texture. Check the shapes first, then refine materials and lighting.
+
+**Token usage:** Not recorded.<br>
+**GPU and render time:** GPU model not recorded; the native base render took **4.75 seconds** (1080 × 1048, 128 samples). This excludes the subsequent image retouching shown above. [Timing scope](docs/showcase-measurements.md).
+
+[Source and native render](projects/pink-installation/README.md) · [Full prompts](projects/pink-installation/prompts.md) · [Process and references](projects/pink-installation/conversation.md)
+
+### Plush rabbit knight
+
+<img src="projects/plush-rabbit-knight/preview.png" width="560" alt="Pink plush rabbit knight, rendered in Blender and retouched as an image">
+
+**Prompt · retrospective example**
+
+> Make a pink plush rabbit knight standing on a tree stump, holding a golden crystal sword and a wooden shield. Keep the fur soft, let the sword light gently reach its face and hand, and add three rounded clouds behind it. Show a small preview before refining the fur and glow.
+
+**Token usage:** Not recorded.<br>
+**GPU and render time:** GPU model not recorded; the native base render took **71.04 seconds** (1000 × 1000, 1024 samples). This excludes the sword glow and cloud image edits, which were not written back to the `.blend`. [Timing scope](docs/showcase-measurements.md).
+
+[Source and native render](projects/plush-rabbit-knight/README.md) · [Full prompts](projects/plush-rabbit-knight/prompts.md) · [Process and references](projects/plush-rabbit-knight/conversation.md)
+
+### Floating geometry animation
+
+<img src="projects/floating-geometry-animation/preview.jpg" width="760" alt="Five color palettes for the floating geometry animation">
+
+**Prompt · retrospective example**
+
+> Keep the camera fixed while the ribbed sphere, hollow tubes, rings, and frame rotate and float independently. Make five palettes: colorful on white, black and gold, icy blue, purple and yellow, and monochrome. Give each palette six seconds in a 30-second film. Check intersections and tube openings before rendering the whole film.
+
+**Token usage:** Not recorded.<br>
+**GPU render time:** A complete production total is not recorded. The film is 720 × 1280, 30 fps, and 900 frames; see [usage and timing records](docs/showcase-measurements.md) for settings and the scope of available records.
+
+[Source and film](projects/floating-geometry-animation/README.md) · [Full prompts](projects/floating-geometry-animation/prompts.md) · [Process and references](projects/floating-geometry-animation/conversation.md)
+
+*These short prompts are retrospective examples, not verbatim chat excerpts. The two retouched stills contain image changes absent from their `.blend` sources. Missing timing does not mean zero time, and these records cannot predict another GPU or Mac's speed. [All projects](projects/README.md) · [Usage and timing records](docs/showcase-measurements.md).*
 
 Repository maintainers can use the [project archive convention](docs/project-archive.md) when preparing showcase materials. Ordinary use of the skill does not require this process.
 
-A project's `conversation.md` connects key requests, revisions, and feedback to the corresponding versions. The [conversation guide](docs/conversation-archive.md) explains how to distinguish direct excerpts from summaries and preserve meaningful failed attempts. The lamp example is a retrospective recap based on its version records; no original chat excerpts are included.
+A project's `conversation.md` connects key requests, revisions, and feedback to the corresponding versions. The [conversation guide](docs/conversation-archive.md) explains how to distinguish direct excerpts from summaries and preserve meaningful failed attempts. The AI sphere story was compiled from existing production records; see its [production recap](projects/ai-brand-materials/conversation.md).
 
 ## Support and verification
 

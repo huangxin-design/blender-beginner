@@ -1,14 +1,25 @@
 # Blender 开工助手
 
-**让新手用日常语言准备 Blender、判断参考图与设备的可行性，并制作可继续修改的 `.blend` 工程。**
+**不会建模，也可以从一张参考图、一句大白话开始。**
 
-[English](README.en.md) · [开始使用](docs/quickstart.md) · [示例工程](projects/green-desk-lamp/README.md)
+[English](README.en.md) · [开始使用](docs/quickstart.md) · [AI 材质球案例](projects/ai-brand-materials/README.md) · [全部作品](projects/README.md)
 
-![Blender 开工助手：从想法与参考，到可编辑的 Blender 工程](docs/assets/hero.png)
+这是一个给 Codex 使用的 Blender 新手 Skill，当前为 **v05 / Early Preview**。从准备软件、评估电脑和参考图，到制作、看预览、继续修改，帮助你把想法做成可编辑的 `.blend` 工程。
 
-<sub>封面为 AI 概念视觉；下方台灯案例使用真实 Blender 渲染，并提供对应源文件。</sub>
+## 当 AI 有了触感
 
-这是一个给 Codex 使用的 Skill，当前为 **v05 / Early Preview**。你描述想要的效果、提供参考或现有工程，Codex 按需处理环境检查、制作方案、Blender 脚本和预览复核。
+![真实 Blender 作品：OpenAI 金属球、Claude 木纹球、DeepSeek 石材球与 Gemini 磨砂玻璃球](projects/ai-brand-materials/preview.jpg)
+
+**提示词 · 根据本案例整理的示例**
+
+> 给这四个 AI 品牌做一组材质球：OpenAI 像金属，Claude 像木头，DeepSeek 像石头，Gemini 像磨砂玻璃。标识要刻进球面，背景用粉色。先给我看小样，再决定哪里要改。
+
+**Token 用量：** 这组单图未单独记录；相关制作任务的历史统计见 [用量说明](docs/showcase-measurements.md)。<br>
+**显卡渲染耗时：** 制作设备档案为 **RTX 4070 Ti / 12 GB**；四张原图合计约 **15.1 秒**（历史整组进程计时，含启动、场景载入和保存；Cycles / OptiX，每张 960 × 1280、128 samples）。显卡型号与计时口径见 [用量与耗时说明](docs/showcase-measurements.md)。
+
+**[看制作过程与源文件 →](projects/ai-brand-materials/README.md)** · [下载 20 秒动画预览](projects/ai-brand-materials/preview.mp4) · [试试这组提示词](projects/ai-brand-materials/prompts.md)
+
+<sub>四张原生 Blender 渲染拼图，未做 AI 图像精修。提示词是制作回顾中的整理稿；计时仅覆盖这次静图输出，不含前期建模、修改或整段动画制作。[参考与素材出处](projects/ai-brand-materials/credits.md)</sub>
 
 ## 从这三句话开始
 
@@ -18,7 +29,7 @@
 
 > 看看这张参考图能做到什么程度，我的电脑适不适合出 4K 静帧。先给评估和建议，暂时不制作。
 
-> 打开我这份工程，把灯罩改成哑光陶瓷，底座和构图保持不变，另存一版并给我看预览。
+> 打开这组 AI 材质球工程，把木头凹槽里的反光减弱一些，其他球和构图保持不变。另存一版，给我看预览。
 
 ## 这些地方，它能帮上忙
 
@@ -43,7 +54,7 @@
 
 - **先聊聊想法**：比如“这张图能不能做”“为什么看起来像塑料”。先给解释和建议，等你提出制作需求，再开始动手。
 - **开始做一个版本**：你说“按这张图帮我做出来”，它会把影响结果的关键要求弄清楚，先出预览，再逐步完善。
-- **接着改已有作品**：比如“只改灯罩颜色”。从你指定的最新版工程继续，检查需要保留的部分，并另存一版。
+- **接着改已有作品**：比如“木头凹槽别那么亮”。从你指定的最新版工程继续，检查需要保留的部分，并另存一版。
 - **电脑或时间有点吃紧**：先说清楚按原要求做会卡在哪里，再给出可以调整的地方和相应取舍，由你决定怎么继续。
 
 参考图的 **0–100 分属于方案评估**，应附依据、置信度和预计差异。它不表示还原百分比或成功概率，缺少关键证据时保留待评估项。看不到的模型背面也需要明确假设。
@@ -60,38 +71,54 @@
 
 [查看使用方法、限制与验证记录 →](docs/usage-progress.md)
 
-## 一个真实的局部修改案例
-
-请求：**“灯罩改成绿色哑光陶瓷，底座和构图保持不变。”**
-
-![实际 Blender 渲染对比：灯罩材质修改前与修改后](docs/assets/material-comparison.png)
-
-本次试用从一份已调整相机的台灯工程继续。Codex 读取该文件，分离与底座共享的相关材质，再修改灯罩及绿色顶盖，另存后重新打开并渲染。
-
-在记录的检查范围内，相机、画幅、几何、变换和其他部件得到保留。前后预览均已实际查看：灯罩的集中高光变得柔和，细微肌理在小图中不明显。这个案例验证了该工程的局部修改流程。
-
-**[查看案例与完整源文件 →](projects/green-desk-lamp/README.md)**
-
-点击版本中的 `scene.blend` 后选择 **Download raw file** 下载；也可以下载整个仓库 ZIP，再打开对应版本文件夹中的工程。
-
 ## 作品、源文件与精简对话
 
-这部分是作者单独整理的 GitHub 展示资料，独立于 Skill。最早的三个作品来自 2026-09-06 资料包；下方另保留台灯修改演示。
+下面三个早期作品也保留了提示词、工程与制作记录。它们与上面的 AI 材质球都是作者单独整理的 GitHub 展示资料，独立于 Skill，不作为当前版本一次生成的效果验证。
 
-![三个早期作品：粉色装置、毛绒兔骑士与悬浮几何动画](docs/assets/early-works.jpg)
+### 粉色装置
 
-| 作品 | 可查看内容 |
-| --- | --- |
-| [粉色装置 · 早期实践](projects/pink-installation/README.md) | 精修成品、三维底稿、原生渲染、提示词、过程摘要与原作者出处 |
-| [毛绒兔骑士 · 早期实践](projects/plush-rabbit-knight/README.md) | 精修成品、含毛发的三维底稿、原生渲染、提示词与出处 |
-| [悬浮几何动画 · 早期实践](projects/floating-geometry-animation/README.md) | 30 秒成片、五套配色完整工程、提示词、过程摘要与出处 |
-| [绿色台灯 · v001 / v002](projects/green-desk-lamp/README.md) | 两版 `.blend`、生成或修改脚本、预览、任务说明与 [制作回顾](projects/green-desk-lamp/conversation.md) |
+<img src="projects/pink-installation/preview.png" width="560" alt="粉色玩具装置，Blender 底稿加图像精修成品">
 
-两张早期静图经过图像精修，效果未写回 `.blend`；六轮提示词为事后优化稿。它们用于展示实践过程，不作为当前 Skill 的效果验证。文件下载和更多说明见 [完整作品索引](projects/README.md)。
+**提示词 · 整理示例**
+
+> 按参考图做一个粉色玩具装置：珊瑚粉褶柱、蓝色背板、薄荷色珠子和金白悬球。陶瓷温润、金属有反光、绒面柔软。先确认造型，再调整材质和灯光。
+
+**Token 用量：** 未记录。<br>
+**显卡与渲染耗时：** 显卡型号未记录；原生底稿 **4.75 秒**（1080 × 1048、128 采样）。上图另含图像精修，这个时间不含精修步骤。[计时说明](docs/showcase-measurements.md)
+
+[源文件与原生渲染](projects/pink-installation/README.md) · [完整提示词](projects/pink-installation/prompts.md) · [制作过程与出处](projects/pink-installation/conversation.md)
+
+### 毛绒兔骑士
+
+<img src="projects/plush-rabbit-knight/preview.png" width="560" alt="粉色毛绒兔骑士，Blender 底稿加图像精修成品">
+
+**提示词 · 整理示例**
+
+> 做一只站在树墩上的粉色毛绒兔骑士，举着金色水晶剑，拿着木盾。绒毛要柔软，剑光轻轻照到脸和手，背景放三朵圆润的云。先看小样，再检查毛发和发光效果。
+
+**Token 用量：** 未记录。<br>
+**显卡与渲染耗时：** 显卡型号未记录；原生底稿 **1 分 11.04 秒**（1000 × 1000、1024 采样）。剑光与云朵另经图像精修，未写回 `.blend`，不计入这里的时间。[计时说明](docs/showcase-measurements.md)
+
+[源文件与原生渲染](projects/plush-rabbit-knight/README.md) · [完整提示词](projects/plush-rabbit-knight/prompts.md) · [制作过程与出处](projects/plush-rabbit-knight/conversation.md)
+
+### 悬浮几何动画
+
+<img src="projects/floating-geometry-animation/preview.jpg" width="760" alt="悬浮几何动画的五套配色预览">
+
+**提示词 · 整理示例**
+
+> 让密褶球、空心管、圆环和方框各自转动、起伏，镜头保持不动。做白底彩色、黑金、冰蓝、紫黄和黑白五套配色，每套 6 秒，连成 30 秒动画。先检查穿插和管口，再出整片。
+
+**Token 用量：** 未记录。<br>
+**显卡渲染耗时：** 完整成片总耗时未记录；成片为 720 × 1280、30 fps、900 帧。渲染设置与记录范围见 [用量与耗时说明](docs/showcase-measurements.md)。
+
+[源文件与成片](projects/floating-geometry-animation/README.md) · [完整提示词](projects/floating-geometry-animation/prompts.md) · [制作过程与出处](projects/floating-geometry-animation/conversation.md)
+
+<sub>上面的短提示词是根据已有记录整理的示例，不是逐字聊天。两张早期静图的图像精修效果未写回 `.blend`。耗时缺失不代表零耗时，也不能据此推算其他显卡或 Mac 的速度。[全部作品](projects/README.md) · [用量与耗时说明](docs/showcase-measurements.md)</sub>
 
 准备分享作品时，维护者可按 [作品归档约定](docs/project-archive.md) 整理源文件和输入来源。日常使用 Skill 无需执行这些资料整理步骤。
 
-每个作品的 `conversation.md` 保留关键需求、修改反馈与对应版本，让你能看到“大白话怎样变成结果”。按 [精简对话方法](docs/conversation-archive.md) 保留有意义的返工，区分原话与摘要。现有台灯依据版本文件整理为制作回顾，没有原始聊天摘录。
+每个作品的 `conversation.md` 保留关键需求、修改反馈与对应版本，让你能看到“大白话怎样变成结果”。按 [精简对话方法](docs/conversation-archive.md) 保留有意义的返工，区分原话与摘要。AI 材质球的过程依据现有制作记录整理，完整说明见 [制作回顾](projects/ai-brand-materials/conversation.md)。
 
 ## 设备支持与验证范围
 

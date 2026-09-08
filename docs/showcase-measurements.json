@@ -1,0 +1,177 @@
+{
+  "checked_at": "2026-09-08",
+  "scope": "Sanitized extracts from existing production records; see showcase-measurements.md for timing and attribution boundaries.",
+  "ai_portraits": [
+    {
+      "brand": "openai",
+      "file": "projects/ai-brand-materials/images/openai.png",
+      "sha256": "d276f002623a14c6aa7e224a192281f6ef7f296cee9d33977e1bc4b76ecdd1eb",
+      "render_time": "00:04.30",
+      "resolution": [
+        960,
+        1280
+      ],
+      "samples": 128,
+      "backend": "Cycles / OptiX",
+      "tokens_for_this_image": null
+    },
+    {
+      "brand": "claude",
+      "file": "projects/ai-brand-materials/images/claude.png",
+      "sha256": "0f9a63aa38dd5ba10c8d027a672c5eaa8a17f969a8197daa60fcbf8baabcb3e5",
+      "render_time": "00:03.06",
+      "resolution": [
+        960,
+        1280
+      ],
+      "samples": 128,
+      "backend": "Cycles / OptiX",
+      "tokens_for_this_image": null
+    },
+    {
+      "brand": "deepseek",
+      "file": "projects/ai-brand-materials/images/deepseek.png",
+      "sha256": "a6c2391b46b1abbe97f55c95d5fc852073a92194aa22cae7a54e5d3ab6a16eda",
+      "render_time": "00:01.94",
+      "resolution": [
+        960,
+        1280
+      ],
+      "samples": 128,
+      "backend": "Cycles / OptiX",
+      "tokens_for_this_image": null
+    },
+    {
+      "brand": "gemini",
+      "file": "projects/ai-brand-materials/images/gemini.png",
+      "sha256": "80dcbc5a2a771c3fa9379dce352300e1b2137d92c55431c5c926ea6333b0d3b4",
+      "render_time": "00:02.91",
+      "resolution": [
+        960,
+        1280
+      ],
+      "samples": 128,
+      "backend": "Cycles / OptiX",
+      "tokens_for_this_image": null
+    }
+  ],
+  "ai_portrait_batch": {
+    "process_seconds": 15.124,
+    "scope": "Four portraits including startup, loading and saving",
+    "source_record_sha256": "7d1e3668762e929a22170865683e43a2e44d0a8e6e9c02117334645a5b428c3b"
+  },
+  "ai_animation": {
+    "resolution": [
+      3840,
+      3840
+    ],
+    "samples": 64,
+    "backend": "OPTIX",
+    "unique_rendered_frames": 200,
+    "loop_elapsed_seconds": 3880.3,
+    "process_seconds_including_startup_and_extra_seam_frame": 3899.525,
+    "scope_note": "200帧原生循环约64分40秒；展示600帧/20秒视频重复该循环三次，不是另渲染600帧。额外201帧用于接缝检查，渲染+接缝3897.5秒；编码/音效另计。",
+    "source_record_sha256": "725b0cbc4a47851eb4e51beb329d993ece8816807b6d25fd4403ad384c075289"
+  },
+  "hardware_context": {
+    "measured_at_utc": "2026-09-07T07:27:28.515063+00:00",
+    "cpu_name": "13th Gen Intel(R) Core(TM) i7-13700F",
+    "gpu_name": "NVIDIA GeForce RTX 4070 Ti",
+    "gpu_memory_bytes": 12878610432,
+    "scope_note": "同工作区设备档案为RTX4070Ti，四球渲染日志未单独写显卡型号；设备关联是上下文证据，不是逐次渲染硬件记录。不得归属到前一天在另一历史路径制作的早期作品。",
+    "source_record_sha256": "d2e532e0f4983820ad6b1be754f3fe1216839303054da8156a4f6eec6a37f920"
+  },
+  "related_task_token_snapshot": {
+    "cutoff_utc": "2026-09-08T01:46:00Z",
+    "cutoff_beijing": "2026-09-08 09:46:00 +08:00",
+    "own": {
+      "input_tokens": 22717479,
+      "cached_input_tokens": 21785984,
+      "output_tokens": 113091,
+      "reasoning_output_tokens": 43908,
+      "total_tokens": 22830570
+    },
+    "children": {
+      "input_tokens": 10695394,
+      "cached_input_tokens": 10103936,
+      "output_tokens": 63784,
+      "reasoning_output_tokens": 17811,
+      "total_tokens": 10759178
+    },
+    "usage": {
+      "input_tokens": 33412873,
+      "cached_input_tokens": 31889920,
+      "output_tokens": 176875,
+      "reasoning_output_tokens": 61719,
+      "total_tokens": 33589748
+    },
+    "child_count": 8,
+    "response_count": 361,
+    "start_of_coverage": null,
+    "aggregation_method": "从所选任务及其后代可读文件中的逐请求token_usage_record累计；没有begin基线，也没有归档最早请求时间，故不可声称精确起始区间或完整项目全生命周期。",
+    "dedup_review": "parser仅接受payload.thread_id等于所处理任务ID的逐请求记录，以response_id去重；不读取累计token_count，也不把cache/reasoning子项加到total。后代按set遍历，全局assigned防止同一子任务分配给多个根任务；另配置为根的任务不再纳入后代。",
+    "verification_limit": "已复核当前统计脚本和归档汇总算术；快照没有完整子任务ID、response_id清单或原始源文件哈希，本次未重读原始会话，因此不能独立复算33,589,748或确认任务全是同一作品内容。",
+    "publication_note": "截点早于v010图片元数据的2026/09/08 14:00，故不覆盖这组后来导出的单图全部制作过程；只能与图卡分开列为相关历史任务快照。",
+    "aggregate_arithmetic_checks": {
+      "own_input_plus_output_equals_total": true,
+      "own_cached_is_subset": true,
+      "own_reasoning_is_subset": true,
+      "children_input_plus_output_equals_total": true,
+      "children_cached_is_subset": true,
+      "children_reasoning_is_subset": true,
+      "usage_input_plus_output_equals_total": true,
+      "usage_cached_is_subset": true,
+      "usage_reasoning_is_subset": true,
+      "own_plus_children_matches_every_field": true
+    },
+    "source_record_sha256": "1deb27ef7d4c10c6aa275ca92b1d07dbd5bfcc86b7e36fdfe690585edb6b4cde",
+    "is_current_skill_v05_measurement": false
+  },
+  "early_stills": [
+    {
+      "project": "pink-installation",
+      "file": "projects/pink-installation/source/beauty.exr",
+      "sha256": "a38b3cf778d7c9656dabb355e2d96a556f34681ab044821f50691be722555d11",
+      "render_time": "00:04.75",
+      "resolution": [
+        1080,
+        1048
+      ],
+      "samples": 128,
+      "gpu_model": null,
+      "tokens": null,
+      "scope": "主页展示终图经过AI精修；本时间仅对应原生EXR母版，AI精修用量与耗时未知。"
+    },
+    {
+      "project": "plush-rabbit-knight",
+      "file": "projects/plush-rabbit-knight/source/beauty.exr",
+      "sha256": "706aee54da14f2338777f162ffd2d414321fb843d8a57276f8cb8ec9cc8e1354",
+      "render_time": "01:11.04",
+      "resolution": [
+        1000,
+        1000
+      ],
+      "samples": 1024,
+      "gpu_model": null,
+      "tokens": null,
+      "scope": "主页展示终图经过AI精修；本时间仅对应原生EXR母版，AI精修用量与耗时未知。"
+    }
+  ],
+  "early_animation": {
+    "project": "floating-geometry-animation",
+    "model_tokens": null,
+    "gpu_model": null,
+    "render_elapsed_seconds": null,
+    "resolution": [
+      720,
+      1280
+    ],
+    "samples": 64,
+    "backend": "Cycles OptiX",
+    "fps": 30,
+    "total_frames": 900,
+    "duration_seconds": 30,
+    "encode_elapsed_seconds": 11.774,
+    "scope_note": "编码记录的11.774秒不是Blender渲染耗时。未找到可靠的任务Token归属。"
+  }
+}

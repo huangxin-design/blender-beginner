@@ -1,37 +1,37 @@
 # Blender 开工助手
 
-**不会建模，也可以从一张参考图、一句大白话开始。**
+**零基础也能开始做 3D。你说想法，Codex 帮你安装 Blender、做作品、记用量、看渲染进度。**
 
-[English](README.en.md) · [开始使用](docs/quickstart.md) · [AI 材质球案例](projects/ai-brand-materials/README.md) · [全部作品](projects/README.md)
+[English](README.en.md) · [开始使用](docs/quickstart.md) · [作品与源文件](#作品源文件与精简对话) · [Token 与渲染进度](docs/usage-progress.md)
 
-这是一个给 Codex 使用的 Blender 新手 Skill，当前为 **v05 / Early Preview**。从准备软件、评估电脑和参考图，到制作、看预览、继续修改，帮助你把想法做成可编辑的 `.blend` 工程。
-
-## 当 AI 有了触感
-
-![真实 Blender 作品：OpenAI 金属球、Claude 木纹球、DeepSeek 石材球与 Gemini 磨砂玻璃球](projects/ai-brand-materials/preview.jpg)
-
-**提示词 · 根据本案例整理的示例**
-
-> 给这四个 AI 品牌做一组材质球：OpenAI 像金属，Claude 像木头，DeepSeek 像石头，Gemini 像磨砂玻璃。标识要刻进球面，背景用粉色。先给我看小样，再决定哪里要改。
-
-**Token 用量：** 这组单图未单独记录；相关制作任务的历史统计见 [用量说明](docs/showcase-measurements.md)。<br>
-**显卡渲染耗时：** 制作设备档案为 **RTX 4070 Ti / 12 GB**；四张原图合计约 **15.1 秒**（历史整组进程计时，含启动、场景载入和保存；Cycles / OptiX，每张 960 × 1280、128 samples）。显卡型号与计时口径见 [用量与耗时说明](docs/showcase-measurements.md)。
-
-**[看制作过程与源文件 →](projects/ai-brand-materials/README.md)** · [下载 20 秒动画预览](projects/ai-brand-materials/preview.mp4) · [试试这组提示词](projects/ai-brand-materials/prompts.md)
-
-<sub>四张原生 Blender 渲染拼图，未做 AI 图像精修。提示词是制作回顾中的整理稿；计时仅覆盖这次静图输出，不含前期建模、修改或整段动画制作。[参考与素材出处](projects/ai-brand-materials/credits.md)</sub>
-
-## 从这三句话开始
-
-安装与启用方法见 [快速开始](docs/quickstart.md)。启用后，可以直接说：
-
-> 帮我准备 Blender，把软件和项目放到我指定的盘里。先看看有没有可用的安装。
-
-> 看看这张参考图能做到什么程度，我的电脑适不适合出 4K 静帧。先给评估和建议，暂时不制作。
-
-> 打开这组 AI 材质球工程，把木头凹槽里的反光减弱一些，其他球和构图保持不变。另存一版，给我看预览。
+这是给 Codex 使用的 Blender 新手 Skill，当前为 **v05 / Early Preview**。[启用后](docs/quickstart.md)，直接把下面这些话交给它。
 
 ## 这些地方，它能帮上忙
+
+**零基础安装｜“我从没用过 Blender，帮我装到 D 盘，项目也放这里。”**
+
+→ 帮你下载安装，设好中文界面和自动保存，建好项目与渲染目录，交付能打开、能出图的起步工程。
+
+**参考图变作品｜“照这张图，帮我做一个能继续修改的 3D 作品。”**
+
+→ 拆解造型、材质和灯光，告诉你难点与预计差别；先出小样，再按反馈完善，交付可编辑的 `.blend` 和预览图。
+
+**Token 有记录｜“从现在开始，帮我记下这个会话做项目用的 Token。”**
+
+→ 建好记录起点，随时查看已记录用量、统计截至时间和待补记状态，做作品也能看清用量。
+
+**渲染倒计时｜“开始渲染，把进度和预计还要等多久显示出来。”**
+
+→ 打开本地进度页，持续更新阶段、已用时间和完成帧数；有足够完整帧后，显示动态的预计剩余时间范围。
+
+**先测电脑｜“我的电脑能做 4K 或动画吗？用这个工程测一下。”**
+
+→ 测出显卡、显存和内存，验证 GPU 加速，跑限时试渲染，给你实测耗时和适合这台电脑的设置建议。
+
+**[我也想试试 →](docs/quickstart.md)**
+
+<details>
+<summary>展开完整用法：参考图评分、材质调整、局部修改、源文件交付等</summary>
 
 | 你想解决的事 | 你只要这样说，Skill 就会动手 |
 | --- | --- |
@@ -46,7 +46,11 @@
 
 你负责说效果、看预览，Codex 负责动手；当前自动安装适用于 Windows，Mac 仍需真机验证，评分不是还原百分比，用量只覆盖指定会话的记录区间，剩余时间依据本次受控渲染的完整帧估计，具体范围见 [快速开始](docs/quickstart.md) 与 [用量和进度说明](docs/usage-progress.md)。
 
-![把奶油色、磨砂、背景虚化和光晕转成制作方向的示例](docs/assets/language-to-blender.png)
+</details>
+
+## 大白话，也能变成 Blender 里的具体效果
+
+![用大白话描述 AI 材质球，让 Codex 设置磨砂、透光、光晕与景深](docs/assets/language-to-blender.png)
 
 ## 想先问问，还是直接开做？
 
@@ -73,6 +77,24 @@
 
 ## 作品、源文件与精简对话
 
+以下任务用量读取于 **2026-09-09 16:59（北京时间）**。数字对应已记录的制作任务，各作品的覆盖范围分别说明。[用量来源与统计方法](docs/showcase-measurements.md)
+
+### 当 AI 有了触感
+
+
+![真实 Blender 作品：OpenAI 金属球、Claude 木纹球、DeepSeek 石材球与 Gemini 磨砂玻璃球](projects/ai-brand-materials/preview.jpg)
+
+**提示词 · 根据本案例整理的示例**
+
+> 给这四个 AI 品牌做一组材质球：OpenAI 像金属，Claude 像木头，DeepSeek 像石头，Gemini 像磨砂玻璃。标识要刻进球面，背景用粉色。先给我看小样，再决定哪里要改。
+
+**Token 用量：** 相关制作任务已记录 **40,779,249**（含主任务与 10 个子任务；未单独拆分到这四张图）。[统计范围](docs/showcase-measurements.md)<br>
+**显卡渲染耗时：** 制作设备档案为 **RTX 4070 Ti / 12 GB**；四张原图合计约 **15.1 秒**（历史整组进程计时，含启动、场景载入和保存；Cycles / OptiX，每张 960 × 1280、128 samples）。显卡型号与计时口径见 [用量与耗时说明](docs/showcase-measurements.md)。
+
+**[看制作过程与源文件 →](projects/ai-brand-materials/README.md)** · [下载 20 秒动画预览](projects/ai-brand-materials/preview.mp4) · [试试这组提示词](projects/ai-brand-materials/prompts.md)
+
+<sub>四张原生 Blender 渲染拼图，未做 AI 图像精修。提示词是制作回顾中的整理稿；计时仅覆盖这次静图输出，不含前期建模、修改或整段动画制作。[参考与素材出处](projects/ai-brand-materials/credits.md)</sub>
+
 ### 粉色波浪 · 20 秒解压动画
 
 https://github.com/user-attachments/assets/09e1b56e-4b11-4e15-ac81-7e638166a24d
@@ -81,7 +103,7 @@ https://github.com/user-attachments/assets/09e1b56e-4b11-4e15-ac81-7e638166a24d
 
 > 做一片粉色圆柱阵列，让金属和陶瓷小球轮流滚过，柱子跟着起伏成波浪。光线柔和、接触自然，输出方形 4K 循环动画，重复到 20 秒，保留可编辑工程。
 
-**Token 用量：** 尚无这版作品的完整记录。<br>
+**Token 用量：** 关联分叉任务已记录 **3,810,251**（含 1 个子任务；不包含继承的前期制作历史）。[统计范围](docs/showcase-measurements.md)<br>
 **显卡与历史渲染耗时：** RTX 4070 Ti / 12 GB，**58 分 7.7 秒**（3840 × 3840、64 采样、200 帧原生循环）。循环三遍合成 20 秒，播放器展示 1080 预览；计时不含建模与编码。
 
 [案例与源工程](projects/pink-wave-original/README.md) · [提示词](projects/pink-wave-original/prompts.md) · [制作回顾](projects/pink-wave-original/conversation.md) · [计时与验收](projects/pink-wave-original/verification.json)
@@ -94,7 +116,7 @@ https://github.com/user-attachments/assets/60e3e618-b5af-4ed9-bbdb-2656ff3a2128
 
 > 让一棵树从石台上生长出来，叶片展开、花苞打开，再出现跟随花叶的数字标记。用横向切片做转场，配上古典与电子融合的音乐，给我 7 秒竖屏动画和完整可编辑工程。
 
-**Token 用量：** 尚无这版作品的完整记录。<br>
+**Token 用量：** 关联制作任务已记录 **60,165,814**（含 6 个子任务与后续版本，不是第 6 版单独用量）。[统计范围](docs/showcase-measurements.md)<br>
 **显卡与历史渲染耗时：** RTX 4070 Ti / 12 GB，累计 **10 分 57.8 秒**（720 × 1280、48 采样，175 帧主镜头 + 20 帧转场近景）；两个渲染进程含启动、载入共 **11 分 9.8 秒**，不含合成与配乐制作。
 
 [第 6 版案例](projects/tree-study/README.md) · [完整工程包](https://github.com/huangxin-design/blender-beginner/releases/download/showcase-2026-09-08/tree-study-v006-project.zip) · [提示词](projects/tree-study/prompts.md) · [制作回顾](projects/tree-study/conversation.md) · [计时与验收](projects/tree-study/verification.json)

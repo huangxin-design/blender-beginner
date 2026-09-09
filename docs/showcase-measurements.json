@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-09-08",
+  "checked_at": "2026-09-09",
   "scope": "Sanitized extracts from existing production records; see showcase-measurements.md for timing and attribution boundaries.",
   "ai_portraits": [
     {
@@ -233,5 +233,120 @@
       "model_tokens": null,
       "scope": "Historical sum of two render jobs; final video contains 175 frames, with close frames used in the transition. Excludes modeling, music, composition and encoding."
     }
-  ]
+  ],
+  "related_task_snapshots_2026_09_09": {
+    "observed_at": "2026-09-09T16:59:20+08:00",
+    "exact_cutoff": null,
+    "source": "统计项目 Token 消耗任务所维护的本地用量监控，固定一次读取；只摘录这三个作品关联任务。",
+    "source_snapshot_sha256": "fc81aa98aad86d6043bca0c44c699b72f8dcd77857313fa16ed0de1d3db3a391",
+    "methodology": [
+      "来源监控按任务编号与请求编号去重，读取逐请求记录，不累加继承的累计快照。",
+      "总量为输入加输出；缓存属于输入，推理属于输出，不重复相加。",
+      "进行中的请求尚未写入日志时不包含在内；接口没有提供精确结算截止时间。",
+      "本次复核摘录的主任务、子任务、总量和子项汇总算术，没有重新逐条审计完整私人请求日志。",
+      "这是记录中的 Token 处理量，不等于现金费用、订阅额度或完整项目成本，也不包含外部工具费用。",
+      "作者的多任务监控独立于当前 Skill v05 的单会话计量功能。"
+    ],
+    "tasks": [
+      {
+        "project": "ai-brand-materials",
+        "source_task_title": "作品-AI品牌动画",
+        "scope": "关联制作任务，含动画、修改与单图输出；未拆分到四张单图。",
+        "own": {
+          "input_tokens": 27442960,
+          "cached_input_tokens": 26030336,
+          "output_tokens": 143980,
+          "reasoning_output_tokens": 54406,
+          "total_tokens": 27586940
+        },
+        "children": {
+          "input_tokens": 13112550,
+          "cached_input_tokens": 12397568,
+          "output_tokens": 79759,
+          "reasoning_output_tokens": 20623,
+          "total_tokens": 13192309
+        },
+        "usage": {
+          "input_tokens": 40555510,
+          "cached_input_tokens": 38427904,
+          "output_tokens": 223739,
+          "reasoning_output_tokens": 75029,
+          "total_tokens": 40779249
+        },
+        "child_count": 10,
+        "response_count": 450,
+        "last_activity": "2026-09-08T10:05:32.519Z",
+        "arithmetic_verified": true,
+        "complete_project_lifecycle": false
+      },
+      {
+        "project": "tree-study",
+        "source_task_title": "作品-科幻数字盆景动画",
+        "scope": "整条制作任务包含后续版本；不是公开归档的 v006 单版用量。",
+        "own": {
+          "input_tokens": 33367869,
+          "cached_input_tokens": 32315520,
+          "output_tokens": 135320,
+          "reasoning_output_tokens": 38784,
+          "total_tokens": 33503189
+        },
+        "children": {
+          "input_tokens": 26444611,
+          "cached_input_tokens": 24782336,
+          "output_tokens": 218014,
+          "reasoning_output_tokens": 85339,
+          "total_tokens": 26662625
+        },
+        "usage": {
+          "input_tokens": 59812480,
+          "cached_input_tokens": 57097856,
+          "output_tokens": 353334,
+          "reasoning_output_tokens": 124123,
+          "total_tokens": 60165814
+        },
+        "child_count": 6,
+        "response_count": 610,
+        "last_activity": "2026-09-09T03:14:14.788Z",
+        "arithmetic_verified": true,
+        "complete_project_lifecycle": false
+      },
+      {
+        "project": "pink-wave-original",
+        "source_task_title": "作品-AI风格动画",
+        "scope": "关联分叉任务；只包含分叉后实际请求及其子任务，不包含继承的前期制作历史。",
+        "own": {
+          "input_tokens": 2192436,
+          "cached_input_tokens": 1732992,
+          "output_tokens": 16752,
+          "reasoning_output_tokens": 4042,
+          "total_tokens": 2209188
+        },
+        "children": {
+          "input_tokens": 1594044,
+          "cached_input_tokens": 1538304,
+          "output_tokens": 7019,
+          "reasoning_output_tokens": 645,
+          "total_tokens": 1601063
+        },
+        "usage": {
+          "input_tokens": 3786480,
+          "cached_input_tokens": 3271296,
+          "output_tokens": 23771,
+          "reasoning_output_tokens": 4687,
+          "total_tokens": 3810251
+        },
+        "child_count": 1,
+        "response_count": 60,
+        "last_activity": "2026-09-08T02:07:22.548Z",
+        "arithmetic_verified": true,
+        "complete_project_lifecycle": false
+      }
+    ],
+    "unmatched_projects": [
+      "pink-installation",
+      "plush-rabbit-knight",
+      "floating-geometry-animation"
+    ],
+    "unmatched_note": "没有可靠的制作任务对应，不分摊 GitHub 维护或其他项目的用量。"
+  }
 }

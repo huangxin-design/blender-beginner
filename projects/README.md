@@ -2,13 +2,15 @@
 
 这里收录作者的早期 Blender 实践和后续演示：成品、可编辑源文件、提示词与精简制作过程。它们是 GitHub 展示资料，独立于 Skill；安装 Skill 只需要 `skills/blender-beginner/`。
 
+任务用量读取于 **2026-09-09 16:59（北京时间）**，覆盖范围见各案例与[统计说明](../docs/showcase-measurements.md)。
+
 ## 当 AI 有了触感
 
 [![OpenAI 金属、Claude 木纹、DeepSeek 石材与 Gemini 磨砂玻璃材质球](ai-brand-materials/preview.jpg)](ai-brand-materials/README.md)
 
 > 把这段解压动画里的小球换成四个 AI 品牌：OpenAI 做银色金属，Claude 做温暖木纹，DeepSeek 做浅色石材，Gemini 做磨砂玻璃。让标识真的凹进球面，小球滚过粉色柱阵时，柱子也跟着变色。再各拍一张单球海报，保留原生 Blender 工程。
 
-**Token 用量：** 单图未单独记录；相关制作任务的历史用量见[统计说明](../docs/showcase-measurements.md)。<br>
+**Token 用量：** 相关制作任务已记录 **40,779,249**（含主任务与 10 个子任务；未单独拆分到这四张图）。[统计范围](../docs/showcase-measurements.md)<br>
 **显卡渲染时间：** 四张单球共 15.124 秒，含工程加载与图片保存；960 × 1280，Cycles / OptiX，128 samples。<br>
 **显卡记录：** 制作设备档案为 RTX 4070 Ti 12 GB；这批渲染日志未单独写入显卡型号。<br>
 **展示规格：** 四张单球图各为 960 × 1280；动画预览为 1080 × 1080、30 fps、20 秒。
@@ -25,7 +27,7 @@ https://github.com/user-attachments/assets/09e1b56e-4b11-4e15-ac81-7e638166a24d
 
 > 做一片粉色圆柱阵列，让金属和陶瓷小球轮流滚过，柱子跟着起伏成波浪。光线柔和、接触自然，输出方形 4K 循环动画，重复到 20 秒，保留可编辑工程。
 
-**Token 用量：** 尚无这版作品的完整记录。<br>
+**Token 用量：** 关联分叉任务已记录 **3,810,251**（含 1 个子任务；不包含继承的前期制作历史）。[统计范围](../docs/showcase-measurements.md)<br>
 **显卡与历史渲染耗时：** RTX 4070 Ti / 12 GB，**58 分 7.7 秒**（3840 × 3840、64 采样、200 帧原生循环）。循环三遍合成 20 秒，播放器展示 1080 预览；计时不含建模与编码。
 
 [案例与源工程](pink-wave-original/README.md) · [提示词](pink-wave-original/prompts.md) · [制作回顾](pink-wave-original/conversation.md) · [计时与验收](pink-wave-original/verification.json)
@@ -38,7 +40,7 @@ https://github.com/user-attachments/assets/60e3e618-b5af-4ed9-bbdb-2656ff3a2128
 
 > 让一棵树从石台上生长出来，叶片展开、花苞打开，再出现跟随花叶的数字标记。用横向切片做转场，配上古典与电子融合的音乐，给我 7 秒竖屏动画和完整可编辑工程。
 
-**Token 用量：** 尚无这版作品的完整记录。<br>
+**Token 用量：** 关联制作任务已记录 **60,165,814**（含 6 个子任务与后续版本，不是第 6 版单独用量）。[统计范围](../docs/showcase-measurements.md)<br>
 **显卡与历史渲染耗时：** RTX 4070 Ti / 12 GB，累计 **10 分 57.8 秒**（720 × 1280、48 采样，175 帧主镜头 + 20 帧转场近景）；两个渲染进程含启动、载入共 **11 分 9.8 秒**，不含合成与配乐制作。
 
 [第 6 版案例](tree-study/README.md) · [完整工程包](https://github.com/huangxin-design/blender-beginner/releases/download/showcase-2026-09-08/tree-study-v006-project.zip) · [提示词](tree-study/prompts.md) · [制作回顾](tree-study/conversation.md) · [计时与验收](tree-study/verification.json)

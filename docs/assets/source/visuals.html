@@ -8,7 +8,22 @@
 #social{width:1280px;height:640px;padding:45px 52px}.social-title{font-size:85px;margin-top:62px;margin-bottom:25px}.social-sub{font-size:25px;line-height:1.7}.social-case{position:absolute;right:52px;top:130px;width:438px;border:1px solid #cbd1c4;background:#fffdf8;padding:18px 18px 20px;box-shadow:10px 12px 0 #e3e7dc}.social-case img{display:block;width:400px;height:300px;object-fit:contain}.casebar{display:flex;align-items:center;justify-content:space-between;font-size:15px;margin-bottom:15px}.social-case .meta{font-size:17px;margin-top:15px;color:var(--dark)}#social .foot{left:52px;right:52px;bottom:30px;font-size:16px}
 #workflow{width:1600px;height:760px}#workflow .title{font-size:52px}.lead{font-size:23px;line-height:1.65;margin:0;color:var(--muted)}.steps{display:grid;grid-template-columns:repeat(6,1fr);gap:18px;margin-top:50px}.step{position:relative;border-top:2px solid var(--dark);padding-top:24px;min-height:260px}.num{font:400 60px Arial;letter-spacing:-3px;color:#a2b09a;line-height:1}.step h3{font-size:26px;margin:29px 0 19px;letter-spacing:-1px}.step p{font-size:19px;line-height:1.8;margin:0;color:var(--muted)}.step:not(:last-child):after{content:'→';position:absolute;right:0;top:23px;color:var(--accent);font-size:29px}.workflow-note{margin-top:31px;background:#e8ecdf;padding:20px 24px;font-size:21px;color:var(--dark)}
 #comparison{width:1600px;height:1070px}#comparison .title{font-size:48px}.compare{display:grid;grid-template-columns:1fr 1fr;gap:48px;margin-top:32px}.compare figure{margin:0}.compare .caption{display:flex;justify-content:space-between;align-items:center;padding:0 0 17px;font-size:22px}.compare img{display:block;width:100%;height:auto;border:1px solid #d9d7ca}.compare .detail{font-size:19px;color:var(--muted);margin-top:17px;line-height:1.7}.retained{display:flex;gap:16px;margin-top:27px;align-items:center}.retained .caption{font-size:19px;margin-right:7px}.compare .version{color:var(--accent)}
-#language{width:1600px;height:900px}#language .title{font-size:52px}.ask{background:var(--dark);color:#faf9f0;padding:27px 32px;margin-top:33px;font-size:31px;line-height:1.6}.ask .tag{display:block;font-size:15px;letter-spacing:3px;color:#cbd8bf;margin-bottom:10px}.translations{display:grid;grid-template-columns:1fr 1fr;gap:0 50px;margin-top:20px}.translation{display:grid;grid-template-columns:160px 1fr;gap:16px;border-bottom:1px solid var(--line);padding:28px 0}.translation .from{font-size:25px;font-weight:700;color:var(--accent)}.translation .to{font-size:25px;font-weight:700}.translation p{font-size:19px;line-height:1.7;margin:9px 0 0;color:var(--muted)}
+#language{--paper:#090809;--ink:#f5eff0;--muted:#b5a6ad;--line:#ffffff18;--accent:#ff6574;width:1600px;height:900px;padding:52px 68px;background:linear-gradient(115deg,#090809 28%,#170b10 100%);color:var(--ink);font-family:"Segoe UI","Microsoft YaHei",sans-serif}
+#language .eyebrow{display:flex;justify-content:space-between;color:#dcb9c0;font-size:20px;letter-spacing:1.5px}
+#language .eyebrow span:last-child{color:var(--accent);letter-spacing:0}
+#language .title{font-size:62px;letter-spacing:-2px;margin:24px 0 28px;line-height:1.2;font-weight:700}
+#language .title em{font-style:normal;color:var(--accent)}
+#language .ask{background:linear-gradient(110deg,#3b080f,#241016 65%,#171014);border:1px solid #b5010466;border-left:5px solid var(--accent);color:var(--ink);padding:23px 29px;margin:0;font-size:36px;line-height:1.55}
+#language .ask .tag{display:block;font-size:20px;line-height:1.4;color:#ed9ca9;margin-bottom:10px}
+#language .ask strong{font-weight:600;color:#fff}
+#language .translations{display:grid;grid-template-columns:1fr 1fr;gap:0 48px;margin-top:26px}
+#language .translation{display:grid;grid-template-columns:176px 1fr;gap:18px;border-bottom:1px solid var(--line);padding:24px 0 26px}
+#language .translation .from{font-size:30px;font-weight:650;line-height:1.5;color:var(--accent)}
+#language .translation .to{font-size:28px;line-height:1.5;font-weight:600;color:var(--ink)}
+#language .translation p{font-size:22px;line-height:1.6;margin:8px 0 0;color:var(--muted)}
+#language .foot{bottom:42px;left:68px;right:68px;font-size:24px;line-height:1.5;color:var(--ink)}
+#language .foot strong{font-weight:650;color:var(--accent)}
+#language .foot small{font-size:20px;color:var(--muted)}
 </style>
 
 <section class="board" id="social">
@@ -52,15 +67,15 @@
 </section>
 
 <section class="board" id="language">
-  <div class="eyebrow">NATURAL LANGUAGE / 方案示例 · 未渲染</div>
-  <h2 class="title">你说感受，Codex 拆成制作动作。</h2>
-  <div class="ask"><span class="tag">用户的大白话</span>“奶油色磨砂花瓶，背景虚一点，边缘带一点光晕。”</div>
+  <div class="eyebrow"><span>BLENDER 开工助手</span><span>AI 风格 3D 需求示例</span></div>
+  <h2 class="title">你说“想要什么”，<em>Codex 帮你做出来</em></h2>
+  <div class="ask"><span class="tag">你只要说</span>“做一颗 AI 材质球：<strong>磨砂玻璃，里面透一点光，</strong><br><strong>边缘有柔和光晕，背景虚一点。</strong>”</div>
   <div class="translations">
-    <article class="translation"><div class="from">奶油色</div><div><div class="to">低饱和暖白</div><p>在中性照明下检查底色，避免整件偏黄。</p></div></article>
-    <article class="translation"><div class="from">磨砂</div><div><div class="to">粗糙度 + 细微肌理</div><p>先明确材料，再检查柔和高光与纹理尺度。</p></div></article>
-    <article class="translation"><div class="from">背景虚一点</div><div><div class="to">对焦 + 光圈 + 前后距离</div><p>主体关键部位清晰，背景适度失焦。</p></div></article>
-    <article class="translation"><div class="from">一点光晕</div><div><div class="to">亮部的合成光晕</div><p>区分物体发光与画面光晕，保住轮廓。</p></div></article>
+    <article class="translation"><div class="from">磨砂玻璃</div><div><div class="to">粗糙度 + 细微肌理</div><p>调柔高光，让表面有细腻的颗粒感。</p></div></article>
+    <article class="translation"><div class="from">里面透点光</div><div><div class="to">透射 + 折射率（IOR）</div><p>调整透光与折射，必要时混合材质。</p></div></article>
+    <article class="translation"><div class="from">边缘有光晕</div><div><div class="to">发光 + 合成光晕</div><p>先布置亮部，再加柔和光晕，保住轮廓。</p></div></article>
+    <article class="translation"><div class="from">背景虚一点</div><div><div class="to">景深 + 对焦距离 + 光圈</div><p>让主体清晰，背景自然失焦。</p></div></article>
   </div>
-  <div class="foot"><span>实现方向需在实际工程中验证。</span><span>让用户描述效果，让 Codex 处理节点。</span></div>
+  <div class="foot"><span>制作后交付 <strong>可编辑 .blend + 预览图</strong></span><small>此处为需求示例，具体效果以实际渲染为准</small></div>
 </section>
 </html>

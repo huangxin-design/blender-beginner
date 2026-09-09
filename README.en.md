@@ -1,45 +1,37 @@
 # Blender 开工助手 · Blender Beginner
 
-**Start with a reference and everyday words—even if you're new to 3D.**
+**New to 3D? Describe your idea. Codex helps set up Blender, build an editable project, track tokens, and show render progress.**
 
-[简体中文](README.md) · [Quick start](docs/quickstart.md) · [AI material spheres](projects/ai-brand-materials/README.md) · [All projects](projects/README.md)
+[简体中文](README.md) · [Quick start](docs/quickstart.md) · [Projects and source files](#projects-source-files-and-condensed-conversations) · [Usage and progress](docs/usage-progress.md)
 
-**v05 / Early Preview.** This Codex skill helps beginners set up Blender, assess their computer and references, create previews, and keep refining an editable `.blend` project.
-
-## What if AI had a texture?
-
-![Actual Blender work: OpenAI metal, Claude wood, DeepSeek stone, and Gemini frosted glass spheres](projects/ai-brand-materials/preview.jpg)
-
-**Prompt · a reusable example based on the project**
-
-> Make four AI brand spheres: metal for OpenAI, wood for Claude, stone for DeepSeek, and frosted glass for Gemini. Engrave the logos into the surface and use a pink background. Show me small previews first so I can decide what to change.
-
-**Token usage:** Not recorded separately for these portraits. A related production task has a historical snapshot; see the [usage notes](docs/showcase-measurements.md).<br>
-**GPU render time:** The production device inventory lists an **RTX 4070 Ti / 12 GB**. About **15.1 seconds for all four originals** (historical process timing, including startup, scene loading, and saving; Cycles / OptiX, 960 × 1280 and 128 samples per image). See [usage and timing records](docs/showcase-measurements.md) for device evidence and scope.
-
-**[Explore the process and editable source →](projects/ai-brand-materials/README.md)** · [Download the 20-second animation preview](projects/ai-brand-materials/preview.mp4) · [Try the example prompts](projects/ai-brand-materials/prompts.md)
-
-*The image combines four native Blender renders without AI retouching. The prompt is a retrospective example. This timing covers the portrait export, not modeling, revisions, or production of the full animation. [References and credits](projects/ai-brand-materials/credits.md).*
-
-## Install
-
-1. Download this repository using **Code → Download ZIP**, then extract it.
-2. Copy the entire `skills/blender-beginner` folder into `$HOME/.agents/skills/` for personal use, or into `.agents/skills/` inside your working project. Keep the `scripts`, `references`, `assets`, and `agents` folders alongside `SKILL.md`.
-3. In Codex, ask it to use `$blender-beginner` and describe your task. If the skill is not detected, restart Codex.
-
-These locations follow the [official Codex skill instructions](https://learn.chatgpt.com/docs/build-skills). The [detailed quick start](docs/quickstart.md) is currently in Chinese.
-
-## Start with a request
-
-Once installed, try:
-
-> Set up Blender and put the application and projects in my chosen location. Check for an existing installation first.
-
-> Assess how we could recreate this reference and whether my computer is suitable for a 4K still. Give me an assessment and recommendations before creating anything.
-
-> Open the AI sphere project and reduce the reflections inside the wood grooves. Keep the other spheres and composition unchanged, save a new version, and show me a preview.
+A Blender skill for Codex, currently **v05 / Early Preview**. Once enabled, start with one of these requests.
 
 ## Where it can help
+
+**Start from zero | “I've never used Blender. Install it on D and keep my projects there too.”**
+
+→ Get Blender installed, its Chinese interface and autosave configured, project and render folders created, and a starter file that opens and renders.
+
+**Make a reference editable | “Use this reference to make a 3D project I can keep editing.”**
+
+→ Get a breakdown of shapes, materials and lighting, with the difficult parts and expected differences explained. Review a small preview, refine it, and receive the editable `.blend` and rendered image.
+
+**Record token usage | “Start recording the tokens this conversation uses for this project from now on.”**
+
+→ Get a recording baseline and an updated usage record showing the observed total, cutoff time and pending usage.
+
+**Watch render progress | “Start rendering and show the progress and estimated time remaining.”**
+
+→ Get a local page with the current stage, elapsed time and completed frames. Once enough full frames are available, it updates an estimated remaining-time range.
+
+**Test your computer | “Can this computer handle 4K or animation? Test it with this project.”**
+
+→ Get GPU, VRAM and RAM details, an acceleration check, measured sample-render time, and settings recommendations for your computer.
+
+**[Try it →](docs/quickstart.md)**
+
+<details>
+<summary>More examples: reference scores, materials, targeted revisions, and editable delivery</summary>
 
 | What you need | Say this, and the skill gets to work |
 | --- | --- |
@@ -53,6 +45,21 @@ Once installed, try:
 | See render progress and remaining time | Say **“Start rendering and show me the progress and time remaining”** → Opens a local page for this render with its stage, elapsed time and completed frames; once enough full frames are available, updates an estimated remaining-time range. |
 
 You describe the result and review previews; Codex does the work. Automatic installation currently targets Windows, Mac execution still needs real-device validation, scores are not reconstruction percentages, usage covers the specified conversation's recorded interval, and remaining time is estimated from complete frames in the render launched by the skill. See the [quick start](docs/quickstart.md) and [usage and progress details](docs/usage-progress.md).
+
+</details>
+
+## Describe the look; Codex sets it up in Blender
+
+![Everyday words for an AI material sphere mapped to frost, transmission, glow and depth of field; Chinese example](docs/assets/language-to-blender.png)
+
+## Install
+
+
+1. Download this repository using **Code → Download ZIP**, then extract it.
+2. Copy the entire `skills/blender-beginner` folder into `$HOME/.agents/skills/` for personal use, or into `.agents/skills/` inside your working project. Keep the `scripts`, `references`, `assets`, and `agents` folders alongside `SKILL.md`.
+3. In Codex, ask it to use `$blender-beginner` and describe your task. If the skill is not detected, restart Codex.
+
+These locations follow the [official Codex skill instructions](https://learn.chatgpt.com/docs/build-skills). The [detailed quick start](docs/quickstart.md) is currently in Chinese.
 
 ## Explore an idea or start making it
 
@@ -79,6 +86,24 @@ See [usage, boundaries, and verification](docs/usage-progress.md) (Chinese). v05
 
 ## Projects, source files, and condensed conversations
 
+These task-usage records were read at **16:59 China Standard Time on September 9, 2026**. Each case states what the recorded task covers. [Sources and methodology](docs/showcase-measurements.md)
+
+### What if AI had a texture?
+
+
+![Actual Blender work: OpenAI metal, Claude wood, DeepSeek stone, and Gemini frosted glass spheres](projects/ai-brand-materials/preview.jpg)
+
+**Prompt · a reusable example based on the project**
+
+> Make four AI brand spheres: metal for OpenAI, wood for Claude, stone for DeepSeek, and frosted glass for Gemini. Engrave the logos into the surface and use a pink background. Show me small previews first so I can decide what to change.
+
+**Token usage:** **40,779,249** observed for the related production task, including its main task and 10 subagents; not allocated to these four portraits. [Scope](docs/showcase-measurements.md)<br>
+**GPU render time:** The production device inventory lists an **RTX 4070 Ti / 12 GB**. About **15.1 seconds for all four originals** (historical process timing, including startup, scene loading, and saving; Cycles / OptiX, 960 × 1280 and 128 samples per image). See [usage and timing records](docs/showcase-measurements.md) for device evidence and scope.
+
+**[Explore the process and editable source →](projects/ai-brand-materials/README.md)** · [Download the 20-second animation preview](projects/ai-brand-materials/preview.mp4) · [Try the example prompts](projects/ai-brand-materials/prompts.md)
+
+*The image combines four native Blender renders without AI retouching. The prompt is a retrospective example. This timing covers the portrait export, not modeling, revisions, or production of the full animation. [References and credits](projects/ai-brand-materials/credits.md).*
+
 ### Pink wave · a 20-second animation
 
 https://github.com/user-attachments/assets/09e1b56e-4b11-4e15-ac81-7e638166a24d
@@ -87,7 +112,7 @@ https://github.com/user-attachments/assets/09e1b56e-4b11-4e15-ac81-7e638166a24d
 
 > Make a field of pink columns rise and fall as metal and ceramic spheres roll across it. Keep the light soft and the contact natural. Render a square 4K loop, repeat it into a 20-second film, and keep the editable project.
 
-**Token usage:** A complete record for this version is unavailable.<br>
+**Token usage:** **3,810,251** observed for the related forked task, including one subagent. Inherited earlier production history is excluded. [Scope](docs/showcase-measurements.md)<br>
 **GPU and historical render time:** RTX 4070 Ti / 12 GB, **58 minutes 7.7 seconds** for 200 native frames at 3840 × 3840 and 64 samples. The loop repeats three times; the player shows a 1080 preview. Timing excludes modeling and encoding.
 
 [Case and editable source](projects/pink-wave-original/README.md) · [Prompts](projects/pink-wave-original/prompts.md) · [Production recap](projects/pink-wave-original/conversation.md) · [Timing and verification](projects/pink-wave-original/verification.json)
@@ -100,7 +125,7 @@ https://github.com/user-attachments/assets/60e3e618-b5af-4ed9-bbdb-2656ff3a2128
 
 > Grow a tree from a stone plinth, unfold its leaves and flowers, then bring in digital markers that follow the foliage. Add a horizontal slice transition and music combining classical and electronic sounds. Deliver a seven-second vertical film and the complete editable project.
 
-**Token usage:** A complete record for this version is unavailable.<br>
+**Token usage:** **60,165,814** observed for the related production task, including six subagents and later revisions; not a separate v006 total. [Scope](docs/showcase-measurements.md)<br>
 **GPU and historical render time:** RTX 4070 Ti / 12 GB, **10 minutes 57.8 seconds** summed over 175 main frames and 20 transition closeups at 720 × 1280 and 48 samples. The two render processes total **11 minutes 9.8 seconds** including startup and loading, excluding compositing and music production.
 
 [Version 6 case](projects/tree-study/README.md) · [Complete project archive](https://github.com/huangxin-design/blender-beginner/releases/download/showcase-2026-09-08/tree-study-v006-project.zip) · [Prompts](projects/tree-study/prompts.md) · [Production recap](projects/tree-study/conversation.md) · [Timing and verification](projects/tree-study/verification.json)

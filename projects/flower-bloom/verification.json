@@ -1,0 +1,322 @@
+{
+  "project": "flower-bloom",
+  "archive_checked_at": "2026-09-09",
+  "final_source_version": "v006-4k-delivery",
+  "existing_delivery_report": {
+    "logical_source": "v006-4k-delivery/delivery-verification.json",
+    "sha256": "cc6a96e530591ff3edf762ac64750991f5253bdd025c1c87f3373bde30ca5a47",
+    "passed": true,
+    "videos_unchanged_since_existing_validation": true
+  },
+  "relocated_scene_check": {
+    "checked_at": "2026-09-09",
+    "blender_version": "5.2.1 LTS",
+    "independent_reopen": true,
+    "autoexec_enabled": false,
+    "resolution": [
+      2160,
+      3840
+    ],
+    "percentage": 100,
+    "frames": [
+      1,
+      240
+    ],
+    "fps": 30.0,
+    "engine": "CYCLES",
+    "samples": 64,
+    "camera_depth_of_field": true,
+    "font_texts": [
+      "HUANGHUAYU"
+    ],
+    "images": [
+      {
+        "name": "Render Result",
+        "source": "VIEWER",
+        "packed": false
+      },
+      {
+        "name": "Viewer Node",
+        "source": "VIEWER",
+        "packed": false
+      }
+    ],
+    "fonts": [
+      {
+        "name": "Bfont Regular",
+        "built_in": true,
+        "packed": false
+      }
+    ],
+    "external_library_count": 0,
+    "cache_file_count": 0,
+    "movie_clip_count": 0,
+    "sound_count": 0,
+    "volume_file_count": 0,
+    "shape_key_sets": 54,
+    "driver_count": 216,
+    "all_drivers_simple_expressions": true,
+    "checked_frame_states": [
+      {
+        "frame": 1,
+        "drivers_valid": true,
+        "focus_distance": 10.0,
+        "shape_key_values": [
+          0.638635,
+          0.87073,
+          0.994484,
+          0.951396,
+          0.762436,
+          0.511753,
+          0.287764,
+          0.135547
+        ]
+      },
+      {
+        "frame": 155,
+        "drivers_valid": true,
+        "focus_distance": 10.0,
+        "shape_key_values": [
+          0.65347,
+          0.881792,
+          0.996756,
+          0.943762,
+          0.748539,
+          0.497256,
+          0.276736,
+          0.129012
+        ]
+      },
+      {
+        "frame": 240,
+        "drivers_valid": true,
+        "focus_distance": 10.0,
+        "shape_key_values": [
+          0.001226,
+          0.005238,
+          0.018759,
+          0.056254,
+          0.141317,
+          0.297436,
+          0.524281,
+          0.774128
+        ]
+      }
+    ],
+    "saved_scene": false,
+    "rendered": false,
+    "scope": "Independent relocated-scene reopen and metadata/driver evaluation; this archive check does not rerender or repeat video decoding.",
+    "passed": true
+  },
+  "archive_integrity": {
+    "original_files_byte_identical": 5,
+    "source_scene_saved_during_archive": false,
+    "original_sources_modified": false,
+    "checksums": "manifest.json"
+  },
+  "preview_image": {
+    "file": "preview.jpg",
+    "resolution": [
+      864,
+      1536
+    ],
+    "original_jpeg_copied_without_modification": true,
+    "final_poster_frame": 155,
+    "final_poster_equals_approved_sample_and_final_sequence_frame": true,
+    "mean_rgb_difference_from_downscaled_final_poster_0_to_255": 0.7921358587319959,
+    "scope": "The approved JPEG was opened and visually inspected, then compared numerically against a resized final poster. Small differences reflect JPEG/resizing; this is the same final composition with depth of field, haze and HUANGHUAYU watermark, not a newly generated artwork."
+  },
+  "recorded_render_timing": {
+    "backend": "Cycles OptiX",
+    "samples": 64,
+    "resolution": [
+      2160,
+      3840
+    ],
+    "final_resume_frames": 238,
+    "final_resume_render_loop_seconds": 3001.1,
+    "final_resume_process_seconds_including_startup": 3002.665,
+    "reused_approved_samples": [
+      {
+        "frame": 155,
+        "seconds": 14.69,
+        "samples": 64,
+        "resolution": [
+          2160,
+          3840
+        ]
+      },
+      {
+        "frame": 240,
+        "seconds": 14.55,
+        "samples": 64,
+        "resolution": [
+          2160,
+          3840
+        ]
+      }
+    ],
+    "sample_process_seconds_including_startup": 30.726,
+    "recorded_render_segments_total_seconds": 3030.34,
+    "recorded_processes_total_seconds": 3033.391,
+    "scope": "238-frame final continuation plus two previously approved 4K sample frames reused byte for byte. Excludes modeling, look development, earlier rejected versions, encoding and player checks; this was not one uninterrupted 240-frame run.",
+    "gpu_context": {
+      "model": "NVIDIA GeForce RTX 4070 Ti",
+      "memory_gb_recorded": 12,
+      "evidence": "Project task record and the same project v002 build-info.json; final render batch does not independently name the GPU."
+    },
+    "evidence": [
+      {
+        "logical_source": "v006-4k-delivery/render-progress.json",
+        "sha256": "111ab49073fc07a8af7a546fb2bb3d2c3c799a39fff5126688ad9a04adc40791"
+      },
+      {
+        "logical_source": "v006-4k-delivery/logs/render-02/run.json",
+        "sha256": "f810fd7581fd93bbb7caf5ed8dd31e9a9cd6afd38f2e4ac1e75fbdc3e1a6c298"
+      },
+      {
+        "logical_source": "v006-4k-delivery/logs/render-02/blender.log",
+        "sha256": "f5c07076041dfbcc02d00d0598f0581e046dc1826d4b969838dcf314196fc0e8"
+      },
+      {
+        "logical_source": "v006-4k-delivery/4k-sample-timings.json",
+        "sha256": "4c7cf291b039b03bffd3a11a67b1791b89c5e31873e1f16a86f25afeb45323a1"
+      },
+      {
+        "logical_source": "v006-4k-delivery/logs/samples-01/run.json",
+        "sha256": "f855c5e355eef96345592bc8f4cf75eb55e5b386da833e9cb1b704aa4416df30"
+      }
+    ]
+  },
+  "previous_final_video_checks": [
+    {
+      "logical_source": "v006-4k-delivery/HUANGHUAYU_Flower_4K.mp4",
+      "sha256": "e58cc6b2eb7c42915671a4fbf6462dac4ba5e59bfe585dc8851707bbb8bec5f2",
+      "bytes": 12318637,
+      "resolution": [
+        2160,
+        3840
+      ],
+      "fps": "30/1",
+      "duration_seconds": 8,
+      "frames": 240,
+      "audio_tracks": 0,
+      "codec": "h264",
+      "profile": "High",
+      "pixel_format": "yuv420p",
+      "transfer": "iec61966-2-1",
+      "software_decoder": "h264",
+      "hardware_decoder": "h264_cuvid",
+      "comparison_resolution": [
+        2160,
+        3840
+      ],
+      "decoded_frame_counts": {
+        "h264": 240,
+        "h264_cuvid": 240
+      },
+      "frames_compared": 240,
+      "mean_rgb_difference": 0,
+      "maximum_channel_difference": 0,
+      "comparison_note": "NV12/planar layout is unified as YUV420P before both paths use the same RGB conversion. No resizing, spatial filtering, denoising or change to comparison thresholds.",
+      "per_frame_record": {
+        "logical_source": "v006-4k-delivery/logs/delivery-normalized/HUANGHUAYU_Flower_4K-native-frame-differences.json",
+        "sha256": "89c746c9bd92c39bef35e7becb84e8d0ccdb88a02e254f562d0eafa850b19e02"
+      },
+      "previous_player_check": {
+        "player": "QQ影音 4.6.3.1104",
+        "passed": true,
+        "observed_timestamps_seconds": [
+          1,
+          3,
+          5,
+          8
+        ],
+        "scope": "Actual QQ Player desktop UI playback of the 2160x3840 master, viewed at fitted window size. Native-resolution pixel-by-pixel software/hardware decoder comparison is a separate report.",
+        "record_sha256": "75c8e79dc24dad12567b4f42d5b2feab4f414a8ac93ad8ceeb87d896a5f55060"
+      },
+      "previous_visual_check": "Both decoder paths viewed side by side in representative-frame contact sheets. The 4K frame 235 from the earlier conversion-path diagnostic was additionally inspected at native crop scale; no corruption was visible."
+    },
+    {
+      "logical_source": "v006-4k-delivery/HUANGHUAYU_Flower_Preview_1080.mp4",
+      "sha256": "7005175293a7e3932582fddf95b1fae9e139cbfc0b7fc705e301b3c4c3c311cd",
+      "bytes": 3114101,
+      "resolution": [
+        1080,
+        1920
+      ],
+      "fps": "30/1",
+      "duration_seconds": 8,
+      "frames": 240,
+      "audio_tracks": 0,
+      "codec": "h264",
+      "profile": "High",
+      "pixel_format": "yuv420p",
+      "transfer": "iec61966-2-1",
+      "software_decoder": "h264",
+      "hardware_decoder": "h264_cuvid",
+      "comparison_resolution": [
+        1080,
+        1920
+      ],
+      "decoded_frame_counts": {
+        "h264": 240,
+        "h264_cuvid": 240
+      },
+      "frames_compared": 240,
+      "mean_rgb_difference": 0,
+      "maximum_channel_difference": 0,
+      "comparison_note": "NV12/planar layout is unified as YUV420P before both paths use the same RGB conversion. No resizing, spatial filtering, denoising or change to comparison thresholds.",
+      "per_frame_record": {
+        "logical_source": "v006-4k-delivery/logs/delivery-normalized/HUANGHUAYU_Flower_Preview_1080-native-frame-differences.json",
+        "sha256": "51883bf57d094d023ffa960daa35c77560a8ea6a049316a7d5390d6bcadd7f8b"
+      },
+      "previous_player_check": {
+        "player": "QQ影音 4.6.3.1104",
+        "passed": true,
+        "observed_timestamps_seconds": [
+          1,
+          3,
+          5,
+          7
+        ],
+        "scope": "Actual QQ Player desktop playback, reviewed at fitted window size (1400x1060 screenshots). Visual inspection at 1, 3, 5, 7 seconds shows advancing animation, correct focus, background blur, haze and watermark, without visible breakup. Native-resolution complete-frame decoder comparison is recorded separately; this UI check does not validate every player or device.",
+        "record_sha256": "94c2d00b5d0ba6e96d9f0eb52072a46c036b8b3acedadb9d7aec17c546d15dfb"
+      },
+      "previous_visual_check": "Both decoder paths viewed side by side in representative-frame contact sheets; no corruption was visible."
+    }
+  ],
+  "token_usage": {
+    "status": "recorded_task_snapshot",
+    "read_at": "2026-09-09T19:20:44+08:00",
+    "explicit_cutoff": null,
+    "usage": {
+      "input_tokens": 24453414,
+      "cached_input_tokens": 23401984,
+      "output_tokens": 121164,
+      "reasoning_output_tokens": 33879,
+      "total_tokens": 24574578
+    },
+    "main_task_total": 12324244,
+    "children_total": 12250334,
+    "child_count": 3,
+    "request_count": 241,
+    "source_summary_sha256": "fead3809503b6ae477f36f16e46eaa6b9797cd8f089802a102b4828a294bbc36",
+    "scope": "Recorded requests for the related main task and 3 child tasks, spanning multiple versions; not an independently allocated cost of v006, one image or the render process. Cached input is included in input; reasoning output is included in output. This is not a monetary charge or subscription-quota measurement. Read time is the snapshot generation time, not an explicit request cutoff."
+  },
+  "limits": [
+    "This archive operation did not rerender, reencode or repeat video decoding.",
+    "Actual prior QQ Player playback was fitted to a window, separate from full native-resolution per-frame comparison.",
+    "Other players, devices, Mac and Linux were not tested in this archive operation.",
+    "The clip has no audio and is a single upward blooming sequence, not a seamless loop.",
+    "Original render and encoder scripts target NVIDIA OptiX / h264_cuvid and retain their existing output names and resume behavior."
+  ],
+  "github_attachment_2026_09_09": {
+    "url": "https://github.com/user-attachments/assets/3afd119c-94a4-4a06-8d26-1b859ca1b54d",
+    "bytes": 3114101,
+    "sha256": "7005175293a7e3932582fddf95b1fae9e139cbfc0b7fc705e301b3c4c3c311cd",
+    "anonymous_download_matches": true,
+    "archive_issue_comment": "https://github.com/huangxin-design/blender-beginner/issues/1#issuecomment-5611935037",
+    "original_video_not_reencoded": true
+  }
+}

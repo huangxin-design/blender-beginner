@@ -1,0 +1,85 @@
+{
+  "project": "tree-study",
+  "packaged_at": "2026-09-08",
+  "artwork_files_copied_without_modification": [
+    {
+      "file": "preview.png",
+      "logical_source": "v006/Tree_Study.png",
+      "bytes": 1085559,
+      "sha256": "6a3ac8fa36d20740c8586f2048b50803423d410f549cee2eb5287e85f09a5ee6",
+      "source_sha256": "6a3ac8fa36d20740c8586f2048b50803423d410f549cee2eb5287e85f09a5ee6",
+      "byte_identical": true
+    },
+    {
+      "file": "preview.mp4",
+      "logical_source": "v006/Tree_Study.mp4",
+      "bytes": 2447232,
+      "sha256": "c469e783c59ae235a9444ea1abb3e8afc9a3b1e97a5e0b146adec702d61e01e8",
+      "source_sha256": "c469e783c59ae235a9444ea1abb3e8afc9a3b1e97a5e0b146adec702d61e01e8",
+      "byte_identical": true
+    }
+  ],
+  "release_archive": {
+    "file": "tree-study-v006-project.zip",
+    "url": "https://github.com/huangxin-design/blender-beginner/releases/download/showcase-2026-09-08/tree-study-v006-project.zip",
+    "bytes": 341740523,
+    "sha256": "c526c1c67291432cf85a12c711f57924e13c26fdff30e559e0e3c9a5424ae82b",
+    "entries": 250,
+    "main_frames": 175,
+    "close_frames": 20,
+    "blend_files": 3,
+    "crc_pass": true,
+    "all_manifest_hashes_match": true,
+    "text_privacy_scan_matches": [],
+    "changes": [
+      {
+        "file": "Tree_Study_Project/decode-qa/decode-report.json",
+        "change": "Replace local machine paths and local file URLs with package-relative locations; preserve measurements and acceptance scope."
+      },
+      {
+        "file": "Tree_Study_Project/player-check/player-report.json",
+        "change": "Replace local machine paths and local file URLs with package-relative locations; preserve measurements and acceptance scope."
+      },
+      {
+        "file": "Tree_Study_Project/decode-qa/hardware-decode.log",
+        "change": "Remove the local project prefix from decoder input/output paths; preserve decoder messages and measurements."
+      },
+      {
+        "file": "Tree_Study_Project/decode-qa/software-decode.log",
+        "change": "Remove the local project prefix from decoder input/output paths; preserve decoder messages and measurements."
+      },
+      {
+        "file": "Tree_Study_Project/revision-audit.json",
+        "change": "Replace local machine paths and local file URLs with package-relative locations; preserve measurements and acceptance scope."
+      },
+      {
+        "file": "Tree_Study_Project/Tree_Study_Render.blend",
+        "change": "Add existing v006 source or render record without modification."
+      },
+      {
+        "file": "Tree_Study_Project/render_film.py",
+        "change": "Add existing v006 source or render record without modification."
+      },
+      {
+        "file": "Tree_Study_Project/finish_film.py",
+        "change": "Add existing v006 source or render record without modification."
+      },
+      {
+        "file": "Tree_Study_Project/attach_edit.py",
+        "change": "Add existing v006 source or render record without modification."
+      },
+      {
+        "file": "Tree_Study_Project/frames-timings.json",
+        "change": "Add existing v006 source or render record without modification."
+      },
+      {
+        "file": "Tree_Study_Project/transition_close-timings.json",
+        "change": "Add existing v006 source or render record without modification."
+      },
+      {
+        "file": "Tree_Study_Project/build-info.json",
+        "change": "Add existing v006 source or render record without modification."
+      }
+    ]
+  }
+}

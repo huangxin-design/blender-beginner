@@ -1,56 +1,843 @@
 {
   "project": "tree-study",
-  "version": "v006",
-  "recorded_at": "2026-09-08",
+  "version": "v007",
+  "recorded_at": "2026-09-09",
   "this_archive_check": {
     "poster_and_video_copied_byte_identical": true,
     "poster_visually_inspected": true,
+    "source_movie_hash_matches_final_decode_and_player_reports": true,
     "manifest": "manifest.json",
-    "release_package_integrity": "See manifest.json release_archive for CRC, hash and sequence counts.",
+    "release_package_integrity": "All ZIP CRC checks, all manifest hashes, 3 blend files and 175 + 20 sequence image counts passed.",
     "rerendered": false,
     "video_reencoded": false,
     "relocated_release_source_reopened": true,
-    "new_video_decode_or_player_verification": true,
-    "reread_one_vse_frame": 100,
-    "vse_frame_100_pixel_identical": true,
-    "three_dimensional_animation_rerendered": false
+    "new_video_decode_or_player_verification": false,
+    "reread_one_vse_frame": null,
+    "scope": "Local package and source-portability verification. Existing native decode and visible Edge records reused only after original movie SHA256 equality was established. GitHub checks are recorded separately after publication."
   },
   "historical_render": {
-    "blender": "5.2.1 LTS",
+    "version": "v007",
+    "date": "2026-09-08",
+    "main_frames": 175,
+    "close_frames": 20,
+    "main_render_call_seconds": 601.102,
+    "close_render_call_seconds": 107.405,
+    "summed_render_call_seconds": 708.507,
+    "opening_process_seconds": 126.062,
+    "main_process_seconds": 487.598,
+    "close_process_seconds": 110.032,
+    "summed_process_seconds": 723.692,
+    "main_timings": [
+      {
+        "frame": 1,
+        "seconds": 4.071
+      },
+      {
+        "frame": 2,
+        "seconds": 2.612
+      },
+      {
+        "frame": 3,
+        "seconds": 2.577
+      },
+      {
+        "frame": 4,
+        "seconds": 2.597
+      },
+      {
+        "frame": 5,
+        "seconds": 2.558
+      },
+      {
+        "frame": 6,
+        "seconds": 2.652
+      },
+      {
+        "frame": 7,
+        "seconds": 2.899
+      },
+      {
+        "frame": 8,
+        "seconds": 2.392
+      },
+      {
+        "frame": 9,
+        "seconds": 2.314
+      },
+      {
+        "frame": 10,
+        "seconds": 2.418
+      },
+      {
+        "frame": 11,
+        "seconds": 2.42
+      },
+      {
+        "frame": 12,
+        "seconds": 2.428
+      },
+      {
+        "frame": 13,
+        "seconds": 2.544
+      },
+      {
+        "frame": 14,
+        "seconds": 2.429
+      },
+      {
+        "frame": 15,
+        "seconds": 3.013
+      },
+      {
+        "frame": 16,
+        "seconds": 3.151
+      },
+      {
+        "frame": 17,
+        "seconds": 3.281
+      },
+      {
+        "frame": 18,
+        "seconds": 3.5
+      },
+      {
+        "frame": 19,
+        "seconds": 3.262
+      },
+      {
+        "frame": 20,
+        "seconds": 3.426
+      },
+      {
+        "frame": 21,
+        "seconds": 3.331
+      },
+      {
+        "frame": 22,
+        "seconds": 3.395
+      },
+      {
+        "frame": 23,
+        "seconds": 3.464
+      },
+      {
+        "frame": 24,
+        "seconds": 3.338
+      },
+      {
+        "frame": 25,
+        "seconds": 3.415
+      },
+      {
+        "frame": 26,
+        "seconds": 3.333
+      },
+      {
+        "frame": 27,
+        "seconds": 3.412
+      },
+      {
+        "frame": 28,
+        "seconds": 3.36
+      },
+      {
+        "frame": 29,
+        "seconds": 3.501
+      },
+      {
+        "frame": 30,
+        "seconds": 3.284
+      },
+      {
+        "frame": 31,
+        "seconds": 4.187
+      },
+      {
+        "frame": 32,
+        "seconds": 3.514
+      },
+      {
+        "frame": 33,
+        "seconds": 3.605
+      },
+      {
+        "frame": 34,
+        "seconds": 3.69
+      },
+      {
+        "frame": 35,
+        "seconds": 3.702
+      },
+      {
+        "frame": 36,
+        "seconds": 3.454
+      },
+      {
+        "frame": 37,
+        "seconds": 3.642
+      },
+      {
+        "frame": 38,
+        "seconds": 3.666
+      },
+      {
+        "frame": 39,
+        "seconds": 3.663
+      },
+      {
+        "frame": 40,
+        "seconds": 6.809
+      },
+      {
+        "frame": 41,
+        "seconds": 3.708
+      },
+      {
+        "frame": 42,
+        "seconds": 4.012
+      },
+      {
+        "frame": 43,
+        "seconds": 4.208
+      },
+      {
+        "frame": 44,
+        "seconds": 4.567
+      },
+      {
+        "frame": 45,
+        "seconds": 4.696
+      },
+      {
+        "frame": 46,
+        "seconds": 4.079
+      },
+      {
+        "frame": 47,
+        "seconds": 3.947
+      },
+      {
+        "frame": 48,
+        "seconds": 3.759
+      },
+      {
+        "frame": 49,
+        "seconds": 3.841
+      },
+      {
+        "frame": 50,
+        "seconds": 3.872
+      },
+      {
+        "frame": 51,
+        "seconds": 3.832
+      },
+      {
+        "frame": 52,
+        "seconds": 3.985
+      },
+      {
+        "frame": 53,
+        "seconds": 3.969
+      },
+      {
+        "frame": 54,
+        "seconds": 3.566
+      },
+      {
+        "frame": 55,
+        "seconds": 3.427
+      },
+      {
+        "frame": 56,
+        "seconds": 3.672
+      },
+      {
+        "frame": 57,
+        "seconds": 3.549
+      },
+      {
+        "frame": 58,
+        "seconds": 3.883
+      },
+      {
+        "frame": 59,
+        "seconds": 3.779
+      },
+      {
+        "frame": 60,
+        "seconds": 3.622
+      },
+      {
+        "frame": 61,
+        "seconds": 3.192
+      },
+      {
+        "frame": 62,
+        "seconds": 3.264
+      },
+      {
+        "frame": 63,
+        "seconds": 3.295
+      },
+      {
+        "frame": 64,
+        "seconds": 3.34
+      },
+      {
+        "frame": 65,
+        "seconds": 3.42
+      },
+      {
+        "frame": 66,
+        "seconds": 3.298
+      },
+      {
+        "frame": 67,
+        "seconds": 3.326
+      },
+      {
+        "frame": 68,
+        "seconds": 3.359
+      },
+      {
+        "frame": 69,
+        "seconds": 3.239
+      },
+      {
+        "frame": 70,
+        "seconds": 3.284
+      },
+      {
+        "frame": 71,
+        "seconds": 3.36
+      },
+      {
+        "frame": 72,
+        "seconds": 3.531
+      },
+      {
+        "frame": 73,
+        "seconds": 3.27
+      },
+      {
+        "frame": 74,
+        "seconds": 3.335
+      },
+      {
+        "frame": 75,
+        "seconds": 3.463
+      },
+      {
+        "frame": 76,
+        "seconds": 3.256
+      },
+      {
+        "frame": 77,
+        "seconds": 3.514
+      },
+      {
+        "frame": 78,
+        "seconds": 3.887
+      },
+      {
+        "frame": 79,
+        "seconds": 4.294
+      },
+      {
+        "frame": 80,
+        "seconds": 4.617
+      },
+      {
+        "frame": 81,
+        "seconds": 3.988
+      },
+      {
+        "frame": 82,
+        "seconds": 3.764
+      },
+      {
+        "frame": 83,
+        "seconds": 3.876
+      },
+      {
+        "frame": 84,
+        "seconds": 3.551
+      },
+      {
+        "frame": 85,
+        "seconds": 3.452
+      },
+      {
+        "frame": 86,
+        "seconds": 3.431
+      },
+      {
+        "frame": 87,
+        "seconds": 3.343
+      },
+      {
+        "frame": 88,
+        "seconds": 3.272
+      },
+      {
+        "frame": 89,
+        "seconds": 3.346
+      },
+      {
+        "frame": 90,
+        "seconds": 3.361
+      },
+      {
+        "frame": 91,
+        "seconds": 3.246
+      },
+      {
+        "frame": 92,
+        "seconds": 3.285
+      },
+      {
+        "frame": 93,
+        "seconds": 3.208
+      },
+      {
+        "frame": 94,
+        "seconds": 3.44
+      },
+      {
+        "frame": 95,
+        "seconds": 3.239
+      },
+      {
+        "frame": 96,
+        "seconds": 3.248
+      },
+      {
+        "frame": 97,
+        "seconds": 3.32
+      },
+      {
+        "frame": 98,
+        "seconds": 3.314
+      },
+      {
+        "frame": 99,
+        "seconds": 3.262
+      },
+      {
+        "frame": 100,
+        "seconds": 3.277
+      },
+      {
+        "frame": 101,
+        "seconds": 3.456
+      },
+      {
+        "frame": 102,
+        "seconds": 3.31
+      },
+      {
+        "frame": 103,
+        "seconds": 3.302
+      },
+      {
+        "frame": 104,
+        "seconds": 3.315
+      },
+      {
+        "frame": 105,
+        "seconds": 3.218
+      },
+      {
+        "frame": 106,
+        "seconds": 3.412
+      },
+      {
+        "frame": 107,
+        "seconds": 3.738
+      },
+      {
+        "frame": 108,
+        "seconds": 3.454
+      },
+      {
+        "frame": 109,
+        "seconds": 3.289
+      },
+      {
+        "frame": 110,
+        "seconds": 3.326
+      },
+      {
+        "frame": 111,
+        "seconds": 3.262
+      },
+      {
+        "frame": 112,
+        "seconds": 3.214
+      },
+      {
+        "frame": 113,
+        "seconds": 3.214
+      },
+      {
+        "frame": 114,
+        "seconds": 3.274
+      },
+      {
+        "frame": 115,
+        "seconds": 3.212
+      },
+      {
+        "frame": 116,
+        "seconds": 3.21
+      },
+      {
+        "frame": 117,
+        "seconds": 3.403
+      },
+      {
+        "frame": 118,
+        "seconds": 3.265
+      },
+      {
+        "frame": 119,
+        "seconds": 3.201
+      },
+      {
+        "frame": 120,
+        "seconds": 3.438
+      },
+      {
+        "frame": 121,
+        "seconds": 3.359
+      },
+      {
+        "frame": 122,
+        "seconds": 3.307
+      },
+      {
+        "frame": 123,
+        "seconds": 3.332
+      },
+      {
+        "frame": 124,
+        "seconds": 3.318
+      },
+      {
+        "frame": 125,
+        "seconds": 3.282
+      },
+      {
+        "frame": 126,
+        "seconds": 3.253
+      },
+      {
+        "frame": 127,
+        "seconds": 3.248
+      },
+      {
+        "frame": 128,
+        "seconds": 3.286
+      },
+      {
+        "frame": 129,
+        "seconds": 3.324
+      },
+      {
+        "frame": 130,
+        "seconds": 3.218
+      },
+      {
+        "frame": 131,
+        "seconds": 3.466
+      },
+      {
+        "frame": 132,
+        "seconds": 3.268
+      },
+      {
+        "frame": 133,
+        "seconds": 3.204
+      },
+      {
+        "frame": 134,
+        "seconds": 3.375
+      },
+      {
+        "frame": 135,
+        "seconds": 3.365
+      },
+      {
+        "frame": 136,
+        "seconds": 3.549
+      },
+      {
+        "frame": 137,
+        "seconds": 3.466
+      },
+      {
+        "frame": 138,
+        "seconds": 3.346
+      },
+      {
+        "frame": 139,
+        "seconds": 3.36
+      },
+      {
+        "frame": 140,
+        "seconds": 3.43
+      },
+      {
+        "frame": 141,
+        "seconds": 3.449
+      },
+      {
+        "frame": 142,
+        "seconds": 3.366
+      },
+      {
+        "frame": 143,
+        "seconds": 3.375
+      },
+      {
+        "frame": 144,
+        "seconds": 3.595
+      },
+      {
+        "frame": 145,
+        "seconds": 3.806
+      },
+      {
+        "frame": 146,
+        "seconds": 3.822
+      },
+      {
+        "frame": 147,
+        "seconds": 3.866
+      },
+      {
+        "frame": 148,
+        "seconds": 3.685
+      },
+      {
+        "frame": 149,
+        "seconds": 3.424
+      },
+      {
+        "frame": 150,
+        "seconds": 3.453
+      },
+      {
+        "frame": 151,
+        "seconds": 3.753
+      },
+      {
+        "frame": 152,
+        "seconds": 3.616
+      },
+      {
+        "frame": 153,
+        "seconds": 3.622
+      },
+      {
+        "frame": 154,
+        "seconds": 3.604
+      },
+      {
+        "frame": 155,
+        "seconds": 3.502
+      },
+      {
+        "frame": 156,
+        "seconds": 3.526
+      },
+      {
+        "frame": 157,
+        "seconds": 3.481
+      },
+      {
+        "frame": 158,
+        "seconds": 3.535
+      },
+      {
+        "frame": 159,
+        "seconds": 3.323
+      },
+      {
+        "frame": 160,
+        "seconds": 3.361
+      },
+      {
+        "frame": 161,
+        "seconds": 3.384
+      },
+      {
+        "frame": 162,
+        "seconds": 3.342
+      },
+      {
+        "frame": 163,
+        "seconds": 3.352
+      },
+      {
+        "frame": 164,
+        "seconds": 3.323
+      },
+      {
+        "frame": 165,
+        "seconds": 3.382
+      },
+      {
+        "frame": 166,
+        "seconds": 3.439
+      },
+      {
+        "frame": 167,
+        "seconds": 3.355
+      },
+      {
+        "frame": 168,
+        "seconds": 3.332
+      },
+      {
+        "frame": 169,
+        "seconds": 3.368
+      },
+      {
+        "frame": 170,
+        "seconds": 3.365
+      },
+      {
+        "frame": 171,
+        "seconds": 3.34
+      },
+      {
+        "frame": 172,
+        "seconds": 3.368
+      },
+      {
+        "frame": 173,
+        "seconds": 3.552
+      },
+      {
+        "frame": 174,
+        "seconds": 3.325
+      },
+      {
+        "frame": 175,
+        "seconds": 3.393
+      }
+    ],
+    "close_timings": [
+      {
+        "frame": 91,
+        "seconds": 4.771
+      },
+      {
+        "frame": 92,
+        "seconds": 2.996
+      },
+      {
+        "frame": 93,
+        "seconds": 3.658
+      },
+      {
+        "frame": 94,
+        "seconds": 5.41
+      },
+      {
+        "frame": 95,
+        "seconds": 6.833
+      },
+      {
+        "frame": 96,
+        "seconds": 3.745
+      },
+      {
+        "frame": 97,
+        "seconds": 4.24
+      },
+      {
+        "frame": 98,
+        "seconds": 6.135
+      },
+      {
+        "frame": 99,
+        "seconds": 6.045
+      },
+      {
+        "frame": 100,
+        "seconds": 6.134
+      },
+      {
+        "frame": 101,
+        "seconds": 8.792
+      },
+      {
+        "frame": 102,
+        "seconds": 4.657
+      },
+      {
+        "frame": 103,
+        "seconds": 4.831
+      },
+      {
+        "frame": 104,
+        "seconds": 5.927
+      },
+      {
+        "frame": 105,
+        "seconds": 5.925
+      },
+      {
+        "frame": 106,
+        "seconds": 5.87
+      },
+      {
+        "frame": 107,
+        "seconds": 6.025
+      },
+      {
+        "frame": 108,
+        "seconds": 8.248
+      },
+      {
+        "frame": 109,
+        "seconds": 3.806
+      },
+      {
+        "frame": 110,
+        "seconds": 3.357
+      }
+    ],
+    "scope": "Sum of the historical render calls including PNG save. Excludes frame_set, source loading, startup, modeling, revisions, BGM, compositing, encoding and acceptance.",
+    "process_scope": "Sum of three historical Blender processes; not an end-to-end stopwatch.",
+    "reconstruction": "frames-timings.json contains only frames 1-39 because the later opening render overwrote it. Recover frames 40-175 from render-main-run/blender.log; all 175 main and 20 close frame IDs are complete and unique within their sequences.",
+    "evidence": [
+      "render-opening-run/blender.log",
+      "render-main-run/blender.log",
+      "render-close-run/blender.log",
+      "render-opening-run/run.json",
+      "render-main-run/run.json",
+      "render-close-run/run.json",
+      "render_film.py"
+    ],
     "engine": "Cycles",
     "backend": "OptiX GPU",
-    "gpu": "NVIDIA GeForce RTX 4070 Ti",
-    "vram_gb": 12,
-    "gpu_evidence": "v006/build-info.json names RTX 4070 Ti; render_film.py selects OptiX devices. 12 GB VRAM from same-machine setup note.",
+    "samples": 48,
+    "adaptive_threshold": 0.04,
     "resolution": [
       720,
       1280
     ],
-    "samples": 48,
-    "adaptive_threshold": 0.04,
-    "main_frames": 175,
-    "main_render_call_seconds": 599.496,
-    "close_frames": 20,
-    "close_render_call_seconds": 58.291,
-    "summed_render_call_seconds": 657.787,
-    "main_process_seconds": 609.264,
-    "close_process_seconds": 60.532,
-    "summed_process_seconds": 669.796,
-    "render_call_scope": "Sum of bpy.ops.render.render(write_still=True) timers; includes render and PNG save, excludes frame_set outside timers, source load/process startup, compositing, video encoding, sound creation, revisions and acceptance.",
-    "process_scope": "Sum of two completed Blender processes, not one end-to-end stopwatch.",
-    "evidence": [
-      "v006/frames-timings.json",
-      "v006/transition_close-timings.json",
-      "v006/render-main-run/run.json",
-      "v006/render-close-run/run.json",
-      "v006/render_film.py",
-      "v006/build-info.json"
-    ],
-    "token_total": null,
-    "token_scope": "No complete per-case token record established for this archive."
+    "gpu": "NVIDIA GeForce RTX 4070 Ti",
+    "vram_gb": 12,
+    "gpu_evidence": "Same-machine v006/build-info.json names RTX 4070 Ti; v007/render_film.py selects OptiX GPU. 12 GB VRAM from the previously recorded same-machine setup. v007 run logs do not independently name the card."
   },
   "historical_acceptance": {
-    "source_movie_sha256": "c469e783c59ae235a9444ea1abb3e8afc9a3b1e97a5e0b146adec702d61e01e8",
+    "date": "2026-09-08",
+    "source_movie_sha256": "9602a7cf3e9796037d331c0f74f5b3990ec7f7897c86d99196e0b3f8d2ed0cd7",
     "resolution": [
       720,
       1280
@@ -61,13 +848,45 @@
     "codec": "H.264 High / yuv420p",
     "audio": "AAC, 48000 Hz, stereo, 7 seconds",
     "decode": {
-      "software_decoder": "FFmpeg 9.0.1 h264, hardware acceleration disabled",
-      "hardware_decoder": "NVIDIA NVDEC h264_cuvid, CUDA output surface confirmed",
-      "comparison": "All 175 frames, native 720×1280, YUV420 8-bit samples",
+      "software_decoder": "h264 (FFmpeg software; hwaccel none)",
+      "hardware_decoder": "h264_cuvid (NVIDIA NVDEC), CUDA output, mandatory hwdownload",
+      "ffmpeg_version": "ffmpeg version 9.0.1-full_build-www.gyan.dev Copyright (c) 2000-2026 the FFmpeg developers",
+      "hardware_path_confirmed": true,
+      "comparison": "All 175 frames at native 720 x 1280; 241920000 YUV420 8-bit samples; no scaling.",
+      "checked_frame_range_inclusive": [
+        1,
+        175
+      ],
       "software_frames": 175,
       "hardware_frames": 175,
       "different_samples": 0,
-      "max_abs_difference": 0
+      "max_abs_difference": 0,
+      "mean_abs_difference": 0,
+      "visual_review": {
+        "status": "completed_for_listed_native_pairs",
+        "reviewers": [
+          "primary assistant",
+          "independent material review assistant"
+        ],
+        "checked_pair_frames": [
+          1,
+          55,
+          100,
+          165,
+          175
+        ],
+        "image_size": [
+          720,
+          1280
+        ],
+        "image_count": 10,
+        "observations": [
+          "Software and NVIDIA hardware pairs visually agree; no extra decoder corruption or ghosting observed.",
+          "Frame 55 clearly shows coordinates during growth, before fully open flowers. Frames 100 and 165 show coral/rose flowers with pale rims.",
+          "Frame 100 horizontal split is the authored scan transition and is consistent between decoders.",
+          "White lettering on the pale front of the concrete has lower contrast than lettering against blue or dark areas."
+        ]
+      }
     },
     "player": {
       "application": "Visible Microsoft Edge 143.0.3650.96",
@@ -82,34 +901,54 @@
       "error": null,
       "visually_reviewed_screenshots_seconds": [
         1.3,
+        2.2,
         3.0,
         4.1,
         6.7
-      ]
+      ],
+      "visual_review": {
+        "status": "completed_for_all_five_playback_screenshots",
+        "reviewer": "primary assistant",
+        "screenshots": [
+          "edge-1.3s.png",
+          "edge-2.2s.png",
+          "edge-3.0s.png",
+          "edge-4.1s.png",
+          "edge-6.7s.png"
+        ],
+        "observations": [
+          "Visible native 720x1280 video reviewed at 1.3, 2.2, 3.0, 4.1 and 6.7 seconds.",
+          "Early growth-stage coordinates and red/rose flower variation are visible.",
+          "No extra macroblock corruption or ghosting; the 4.1-second horizontal split is the authored transition."
+        ]
+      },
+      "source_sha256": "9602a7cf3e9796037d331c0f74f5b3990ec7f7897c86d99196e0b3f8d2ed0cd7"
     },
     "original_source": {
       "independent_reopen": true,
       "edit_strips": 18,
       "sequence_dependencies_found": true,
       "packed_textures": 6,
-      "edit_frame_100_pixel_identical": true
+      "edit_frame_100_pixel_identical": true,
+      "psnr_all_channels": "infinity"
     },
     "unverified": [
       "Codex embedded player",
       "other players and devices",
-      "subjective speaker audio listening"
+      "subjective speaker/audio listening"
     ],
     "evidence": [
-      "v006/验收说明.md",
-      "v006/final-qa.json",
-      "v006/decode-qa/decode-report.json",
-      "v006/player-check/player-report.json"
-    ]
+      "验收说明.md",
+      "final-qa.json",
+      "decode-qa/decode-report.json",
+      "decode-qa/per-frame-differences.csv",
+      "player-check/player-report.json"
+    ],
+    "evidence_location": "Paths are relative to the Tree_Study_Project folder inside the v007 release ZIP."
   },
-  "version_boundary": "v007 has subsequent color/graphics previews but no completed accepted movie at archival selection; this archive contains v006 only.",
   "relocated_source_check": {
-    "date": "2026-09-08",
-    "archive_sha256": "c526c1c67291432cf85a12c711f57924e13c26fdff30e559e0e3c9a5424ae82b",
+    "date": "2026-09-09",
+    "archive_sha256": "a891ca855f018ceee0ab30d33bb9dfb513a35b3f34bf174a4c6383b14ddec94d",
     "safe_extraction": true,
     "process": {
       "blender": "5.2.1 LTS",
@@ -125,43 +964,43 @@
         720,
         1280
       ],
-      "objects": 1085,
+      "objects": 1143,
       "images": [
         {
           "name": "bark_willow_diff_2k.jpg",
           "source": "FILE",
           "packed": true,
-          "external_exists": true
+          "external_exists": false
         },
         {
           "name": "bark_willow_disp_2k.jpg",
           "source": "FILE",
           "packed": true,
-          "external_exists": true
+          "external_exists": false
         },
         {
           "name": "bark_willow_rough_2k.jpg",
           "source": "FILE",
           "packed": true,
-          "external_exists": true
+          "external_exists": false
         },
         {
           "name": "concrete_floor_worn_001_diff_2k.jpg",
           "source": "FILE",
           "packed": true,
-          "external_exists": true
+          "external_exists": false
         },
         {
           "name": "concrete_floor_worn_001_disp_2k.jpg",
           "source": "FILE",
           "packed": true,
-          "external_exists": true
+          "external_exists": false
         },
         {
           "name": "concrete_floor_worn_001_rough_2k.jpg",
           "source": "FILE",
           "packed": true,
-          "external_exists": true
+          "external_exists": false
         }
       ],
       "fonts": [
@@ -171,7 +1010,7 @@
           "builtin": true
         },
         {
-          "name": "Consolas Regular",
+          "name": "Consolas Bold",
           "packed": true,
           "builtin": false
         }
@@ -193,151 +1032,26 @@
         ],
         "packed_textures": 6
       },
-      "reread_vse_frame": 100,
-      "reread_vse_resolution": [
-        720,
-        1280
-      ],
+      "reread_vse_frame": null,
+      "rendered": false,
       "three_dimensional_animation_rerendered": false,
-      "source_sha256_unchanged": "d2d8f56652edffee0e7df598943d661b0a680b89b3ec0fa1a11928bde97f10e6"
+      "source_sha256_unchanged": "0981fcf2df635e1f01f50f8ec92552cbb3b9ceda0a86d0447cd82ef019f6ff71"
     },
-    "vse_frame_comparison": {
-      "frame": 100,
-      "resolution": [
-        720,
-        1280
-      ],
-      "comparison": "FFmpeg decoded RGB pixels against original v006 final_frames/frame_0100.png",
-      "pixel_identical": true,
-      "visually_inspected": true,
-      "observation": "Expected horizontal slice transition with wide canopy above and closeup below; no additional corruption observed.",
-      "reference": "Existing accepted v006 composite; no video encode or 3D animation render"
-    },
-    "scope": "Opened a fresh extraction of the public release ZIP, checked every VSE dependency and one native VSE frame. Source files were not saved. No full animation render, movie encode or new video player/decoder verification."
+    "scope": "Fresh local public ZIP extraction, independent background Blender reopen with factory startup and auto-execution disabled. Checked all VSE media dependencies and packed textures; no save, frame reread, 3D render, video encode, full decode or player verification."
   },
-  "published_preview_check_2026_09_08": {
-    "source": {
-      "bytes": 2447232,
-      "sha256": "c469e783c59ae235a9444ea1abb3e8afc9a3b1e97a5e0b146adec702d61e01e8",
-      "matches_prior_verified_source": true,
-      "prior_decode_summary": {
-        "width": 720,
-        "height": 1280,
-        "software_frames": 175,
-        "hardware_frames": 175,
-        "max_abs_sample_error": 0,
-        "mean_abs_sample_error": 0.0,
-        "changed_samples": 0,
-        "hardware_path_confirmed": true,
-        "checked_frame_range_inclusive": [
-          1,
-          175
-        ]
-      }
-    },
-    "player": {
-      "name": "Google Chrome Chromium HTML5 video, automated headless browser",
-      "version": "152.0.7977.76",
-      "video_decoder": "D3D11VideoDecoder",
-      "state": {
-        "duration": 7,
-        "currentTime": 7,
-        "ended": true,
-        "width": 720,
-        "height": 1280,
-        "error": null,
-        "muted": true,
-        "playbackRate": 1,
-        "totalVideoFrames": 175,
-        "droppedVideoFrames": 0,
-        "webkitDecodedFrameCount": 175
-      },
-      "checked_seconds": [
-        0,
-        7
-      ],
-      "screenshots": [
-        "chrome-1.3s.png",
-        "chrome-3.0s.png",
-        "chrome-4.1s.png",
-        "chrome-6.7s.png"
-      ],
-      "visual_review": {
-        "status": "completed_for_listed_screenshots",
-        "screenshots": [
-          "chrome-1.3s.png",
-          "chrome-3.0s.png",
-          "chrome-4.1s.png",
-          "chrome-6.7s.png"
-        ],
-        "observations": [
-          "No block corruption or residual image ghosting seen in the listed native-size browser screenshots.",
-          "The 4.1-second horizontal image split is the authored wipe transition, also identified in the existing v006 acceptance record."
-        ]
-      },
-      "unverified": [
-        "Codex embedded player",
-        "other players and devices",
-        "audio listening (muted)"
-      ]
-    },
-    "decode": {
-      "scope": "Reused existing full native-frame software/hardware pixel comparison after verifying repository preview SHA256 equals the accepted source; no redundant decode run this turn",
-      "width": 720,
-      "height": 1280,
-      "software_frames": 175,
-      "hardware_frames": 175,
-      "max_abs_sample_error": 0,
-      "mean_abs_sample_error": 0.0,
-      "changed_samples": 0,
-      "hardware_path_confirmed": true,
-      "checked_frame_range_inclusive": [
-        1,
-        175
-      ]
-    }
+  "token_usage": {
+    "recorded_total": 63990527,
+    "recorded_at_beijing": "2026-09-09 19:20:44 +08:00",
+    "scope": "Verified snapshot of the cumulative total for the main task and 6 child tasks across historical versions. Not the independent cost of v007. Request records are deduplicated by request ID.",
+    "evidence": "../../docs/showcase-measurements.md"
   },
-  "github_attachment_check_2026_09_08": {
-    "page": "https://github.com/huangxin-design/blender-beginner/issues/1",
-    "http_status": 200,
-    "anonymous_access": true,
-    "player": "GitHub public issue native video player in background Chrome",
-    "browser_version": "152.0.7977.76",
-    "decoder_names": [
-      "D3D11VideoDecoder"
-    ],
-    "downloaded_attachment_sha256_matches_source": true,
-    "project": "tree-study",
-    "attachment_url": "https://github.com/user-attachments/assets/60e3e618-b5af-4ed9-bbdb-2656ff3a2128",
-    "source_sha256": "c469e783c59ae235a9444ea1abb3e8afc9a3b1e97a5e0b146adec702d61e01e8",
-    "source_unique_frames": 175,
-    "player_final_state": {
-      "duration": 7,
-      "currentTime": 7,
-      "ended": true,
-      "width": 720,
-      "height": 1280,
-      "error": null,
-      "totalVideoFrames": 179,
-      "droppedVideoFrames": 0,
-      "decodedFrames": 179,
-      "muted": true
-    },
-    "frame_counter_scope": "Browser lifetime decoded/total counters may include preroll or repeated decoding after seeking; they do not replace source unique-frame counts.",
-    "visual_review": {
-      "status": "completed_for_listed_screenshots",
-      "observations": [
-        "Viewed the live GitHub issue page screenshots during playback and after playback ended. The correct project is visible in each player; no block corruption or residual image ghosting seen."
-      ],
-      "screenshots": [
-        "issue-video-2-playing.png",
-        "issue-video-2-ended.png"
-      ]
-    },
-    "unverified": [
-      "Repository README page",
-      "Codex embedded player",
-      "audio listening (muted)"
-    ]
+  "version_boundary": "v007 was completed and accepted on 2026-09-08. This page publishes v007 source and media. The previous v006 release and its manifest / verification remain available from versions/v006/README.md.",
+  "github_attachment_2026_09_09": {
+    "url": "https://github.com/user-attachments/assets/39fd6bea-291f-4274-95b8-5e4cbbbeaf30",
+    "bytes": 2765516,
+    "sha256": "9602a7cf3e9796037d331c0f74f5b3990ec7f7897c86d99196e0b3f8d2ed0cd7",
+    "anonymous_download_matches": true,
+    "archive_issue_comment": "https://github.com/huangxin-design/blender-beginner/issues/1#issuecomment-5611935037",
+    "original_video_not_reencoded": true
   }
 }

@@ -1,84 +1,126 @@
 {
   "project": "tree-study",
-  "packaged_at": "2026-09-08",
+  "version": "v007",
+  "packaged_at": "2026-09-09",
   "artwork_files_copied_without_modification": [
     {
       "file": "preview.png",
-      "logical_source": "v006/Tree_Study.png",
-      "bytes": 1085559,
-      "sha256": "6a3ac8fa36d20740c8586f2048b50803423d410f549cee2eb5287e85f09a5ee6",
-      "source_sha256": "6a3ac8fa36d20740c8586f2048b50803423d410f549cee2eb5287e85f09a5ee6",
+      "logical_source": "v007/Tree_Study.png",
+      "bytes": 1121239,
+      "sha256": "a486f4e0ad5eb501cab227ba77907c7da8b2106c5a2432144d3f2071fed17658",
+      "source_sha256": "a486f4e0ad5eb501cab227ba77907c7da8b2106c5a2432144d3f2071fed17658",
       "byte_identical": true
     },
     {
       "file": "preview.mp4",
-      "logical_source": "v006/Tree_Study.mp4",
-      "bytes": 2447232,
-      "sha256": "c469e783c59ae235a9444ea1abb3e8afc9a3b1e97a5e0b146adec702d61e01e8",
-      "source_sha256": "c469e783c59ae235a9444ea1abb3e8afc9a3b1e97a5e0b146adec702d61e01e8",
+      "logical_source": "v007/Tree_Study.mp4",
+      "bytes": 2765516,
+      "sha256": "9602a7cf3e9796037d331c0f74f5b3990ec7f7897c86d99196e0b3f8d2ed0cd7",
+      "source_sha256": "9602a7cf3e9796037d331c0f74f5b3990ec7f7897c86d99196e0b3f8d2ed0cd7",
       "byte_identical": true
     }
   ],
   "release_archive": {
-    "file": "tree-study-v006-project.zip",
-    "url": "https://github.com/huangxin-design/blender-beginner/releases/download/showcase-2026-09-08/tree-study-v006-project.zip",
-    "bytes": 341740523,
-    "sha256": "c526c1c67291432cf85a12c711f57924e13c26fdff30e559e0e3c9a5424ae82b",
-    "entries": 250,
+    "file": "tree-study-v007-project.zip",
+    "url": "https://github.com/huangxin-design/blender-beginner/releases/download/works-2026-09-09/tree-study-v007-project.zip",
+    "bytes": 353086916,
+    "sha256": "a891ca855f018ceee0ab30d33bb9dfb513a35b3f34bf174a4c6383b14ddec94d",
+    "entries": 260,
     "main_frames": 175,
     "close_frames": 20,
     "blend_files": 3,
     "crc_pass": true,
     "all_manifest_hashes_match": true,
     "text_privacy_scan_matches": [],
+    "source_media_and_three_blends_byte_identical": true,
     "changes": [
       {
+        "file": "Tree_Study_Project/textures/source.json",
+        "change": "copied; normalize public JSON and remove private paths"
+      },
+      {
+        "file": "Tree_Study_Project/textures/concrete-source.json",
+        "change": "copied; normalize public JSON and remove private paths"
+      },
+      {
+        "file": "Tree_Study_Project/final-qa.json",
+        "change": "copied; normalize public JSON and remove private paths"
+      },
+      {
         "file": "Tree_Study_Project/decode-qa/decode-report.json",
-        "change": "Replace local machine paths and local file URLs with package-relative locations; preserve measurements and acceptance scope."
+        "change": "copied; normalize public JSON and remove private paths"
       },
       {
         "file": "Tree_Study_Project/player-check/player-report.json",
-        "change": "Replace local machine paths and local file URLs with package-relative locations; preserve measurements and acceptance scope."
+        "change": "copied; normalize public JSON and remove private paths"
       },
       {
         "file": "Tree_Study_Project/decode-qa/hardware-decode.log",
-        "change": "Remove the local project prefix from decoder input/output paths; preserve decoder messages and measurements."
+        "change": "copied; remove private paths"
       },
       {
         "file": "Tree_Study_Project/decode-qa/software-decode.log",
-        "change": "Remove the local project prefix from decoder input/output paths; preserve decoder messages and measurements."
+        "change": "copied; remove private paths"
       },
       {
         "file": "Tree_Study_Project/revision-audit.json",
-        "change": "Replace local machine paths and local file URLs with package-relative locations; preserve measurements and acceptance scope."
+        "change": "copied; normalize public JSON and remove private paths"
+      },
+      {
+        "file": "Tree_Study_Project/bgm-report.json",
+        "change": "copied; normalize public JSON and remove private paths"
+      },
+      {
+        "file": "Tree_Study_Project/color-revision.json",
+        "change": "copied; normalize public JSON and remove private paths"
       },
       {
         "file": "Tree_Study_Project/Tree_Study_Render.blend",
-        "change": "Add existing v006 source or render record without modification."
+        "change": "added; preserve source bytes"
       },
       {
         "file": "Tree_Study_Project/render_film.py",
-        "change": "Add existing v006 source or render record without modification."
+        "change": "added; preserve source bytes"
       },
       {
         "file": "Tree_Study_Project/finish_film.py",
-        "change": "Add existing v006 source or render record without modification."
+        "change": "added; preserve source bytes"
       },
       {
         "file": "Tree_Study_Project/attach_edit.py",
-        "change": "Add existing v006 source or render record without modification."
+        "change": "added; preserve source bytes"
       },
       {
         "file": "Tree_Study_Project/frames-timings.json",
-        "change": "Add existing v006 source or render record without modification."
+        "change": "added; normalize public JSON and remove private paths"
       },
       {
         "file": "Tree_Study_Project/transition_close-timings.json",
-        "change": "Add existing v006 source or render record without modification."
+        "change": "added; normalize public JSON and remove private paths"
       },
       {
-        "file": "Tree_Study_Project/build-info.json",
-        "change": "Add existing v006 source or render record without modification."
+        "file": "Tree_Study_Project/render-opening-run/run.json",
+        "change": "added; normalize public JSON and remove private paths"
+      },
+      {
+        "file": "Tree_Study_Project/render-opening-run/blender.log",
+        "change": "added; remove private paths"
+      },
+      {
+        "file": "Tree_Study_Project/render-main-run/run.json",
+        "change": "added; normalize public JSON and remove private paths"
+      },
+      {
+        "file": "Tree_Study_Project/render-main-run/blender.log",
+        "change": "added; remove private paths"
+      },
+      {
+        "file": "Tree_Study_Project/render-close-run/run.json",
+        "change": "added; normalize public JSON and remove private paths"
+      },
+      {
+        "file": "Tree_Study_Project/render-close-run/blender.log",
+        "change": "added; remove private paths"
       }
     ]
   }

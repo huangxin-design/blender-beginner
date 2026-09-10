@@ -1,0 +1,66 @@
+{
+  "project": "flower-bloom",
+  "archived_at": "2026-09-09",
+  "version": "v006-4k-delivery",
+  "files": [
+    {
+      "file": "preview.mp4",
+      "logical_source": "v006-4k-delivery/HUANGHUAYU_Flower_Preview_1080.mp4",
+      "bytes": 3114101,
+      "sha256": "7005175293a7e3932582fddf95b1fae9e139cbfc0b7fc705e301b3c4c3c311cd",
+      "source_sha256": "7005175293a7e3932582fddf95b1fae9e139cbfc0b7fc705e301b3c4c3c311cd",
+      "byte_identical": true
+    },
+    {
+      "file": "preview.jpg",
+      "logical_source": "v006-4k-delivery/Approved_4K_Preview.jpg",
+      "bytes": 145961,
+      "sha256": "e95b93765b046660c93b1bd85363a66d1044b37283baf37dbb2b09933811e6db",
+      "source_sha256": "e95b93765b046660c93b1bd85363a66d1044b37283baf37dbb2b09933811e6db",
+      "byte_identical": true
+    },
+    {
+      "file": "source/scene.blend",
+      "logical_source": "v006-4k-delivery/HUANGHUAYU_Flower_4K.blend",
+      "bytes": 3874825,
+      "sha256": "62282615818107b52f48252f08b021ff6335d4e212eb411b5ae98b696c324b42",
+      "source_sha256": "62282615818107b52f48252f08b021ff6335d4e212eb411b5ae98b696c324b42",
+      "byte_identical": true
+    },
+    {
+      "file": "source/render_final.py",
+      "logical_source": "v006-4k-delivery/render_final.py",
+      "bytes": 1958,
+      "sha256": "c5d2304033dee678694bfaab849c039edf56bdb527eb2042af5dd102bb552879",
+      "source_sha256": "c5d2304033dee678694bfaab849c039edf56bdb527eb2042af5dd102bb552879",
+      "byte_identical": true
+    },
+    {
+      "file": "source/encode_and_verify.py",
+      "logical_source": "v006-4k-delivery/encode_and_verify.py",
+      "bytes": 14129,
+      "sha256": "b3faa5d18564ac8a41e8e4ad9e9162721bd61056bbd7f1387d2c368b7e7f6ba2",
+      "source_sha256": "b3faa5d18564ac8a41e8e4ad9e9162721bd61056bbd7f1387d2c368b7e7f6ba2",
+      "byte_identical": true
+    }
+  ],
+  "release_downloads": [
+    {
+      "file": "huanghuayu-flower-4k.mp4",
+      "logical_source": "v006-4k-delivery/HUANGHUAYU_Flower_4K.mp4",
+      "url": "https://github.com/huangxin-design/blender-beginner/releases/download/works-2026-09-09/huanghuayu-flower-4k.mp4",
+      "bytes": 12318637,
+      "sha256": "e58cc6b2eb7c42915671a4fbf6462dac4ba5e59bfe585dc8851707bbb8bec5f2",
+      "included_in_git": false
+    },
+    {
+      "file": "huanghuayu-flower-poster-4k.png",
+      "logical_source": "v006-4k-delivery/HUANGHUAYU_Flower_Poster_4K.png",
+      "url": "https://github.com/huangxin-design/blender-beginner/releases/download/works-2026-09-09/huanghuayu-flower-poster-4k.png",
+      "bytes": 7749102,
+      "sha256": "034e55b02ee223d26abce9160d9280413f5b50255694e455b21679d3d0c07312",
+      "included_in_git": false
+    }
+  ],
+  "scope": "Original approved scene, previews and two scripts copied byte for byte. Text documentation is newly summarized. No original source file is modified; no historical version asset bundle is copied."
+}

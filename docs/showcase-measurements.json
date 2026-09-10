@@ -219,7 +219,7 @@
     {
       "project": "tree-study",
       "version": "v006",
-      "record": "projects/tree-study/verification.json",
+      "record": "projects/tree-study/versions/v006/verification.json",
       "gpu": "NVIDIA GeForce RTX 4070 Ti",
       "resolution": [
         720,
@@ -348,5 +348,117 @@
       "floating-geometry-animation"
     ],
     "unmatched_note": "没有可靠的制作任务对应，不分摊 GitHub 维护或其他项目的用量。"
+  },
+  "updated_work_renders_2026_09_09": [
+    {
+      "project": "flower-bloom",
+      "version": "v006-4k-delivery",
+      "record": "projects/flower-bloom/verification.json",
+      "resolution": [
+        2160,
+        3840
+      ],
+      "samples": 64,
+      "frames": 240,
+      "recorded_render_segments_total_seconds": 3030.34,
+      "recorded_processes_total_seconds": 3033.391,
+      "scope": "238-frame continuation plus two reused approved 4K samples; excludes modeling, revisions, rejected versions and encoding."
+    },
+    {
+      "project": "tree-study",
+      "version": "v007",
+      "record": "projects/tree-study/verification.json",
+      "resolution": [
+        720,
+        1280
+      ],
+      "samples": 48,
+      "main_frames": 175,
+      "close_frames": 20,
+      "render_call_seconds_sum": 708.507,
+      "process_seconds_sum": 723.692,
+      "scope": "Sum of main frames 1-39, main frames 40-175, and 20 closeups; excludes modeling, music, composition and encoding."
+    }
+  ],
+  "updated_work_task_snapshots_2026_09_09": {
+    "observed_at": "2026-09-09T19:20:44+08:00",
+    "exact_cutoff": null,
+    "source_snapshot_sha256": "fead3809503b6ae477f36f16e46eaa6b9797cd8f089802a102b4828a294bbc36",
+    "methodology": [
+      "来源监控按任务编号与请求编号去重，读取逐请求记录，不累加继承的累计快照。",
+      "总量为输入加输出；缓存属于输入，推理属于输出，不重复相加。",
+      "进行中的请求尚未写入日志时不包含在内；接口没有提供精确结算截止时间。",
+      "本次复核摘录的主任务、子任务、总量和子项汇总算术，没有重新逐条审计完整私人请求日志。",
+      "这是记录中的 Token 处理量，不等于现金费用、订阅额度或完整项目成本，也不包含外部工具费用。",
+      "作者的多任务监控独立于当前 Skill v05 的单会话计量功能。"
+    ],
+    "tasks": [
+      {
+        "own": {
+          "input_tokens": 12265943,
+          "cached_input_tokens": 11578240,
+          "output_tokens": 58301,
+          "reasoning_output_tokens": 14392,
+          "total_tokens": 12324244
+        },
+        "children": {
+          "input_tokens": 12187471,
+          "cached_input_tokens": 11823744,
+          "output_tokens": 62863,
+          "reasoning_output_tokens": 19487,
+          "total_tokens": 12250334
+        },
+        "usage": {
+          "input_tokens": 24453414,
+          "cached_input_tokens": 23401984,
+          "output_tokens": 121164,
+          "reasoning_output_tokens": 33879,
+          "total_tokens": 24574578
+        },
+        "child_count": 3,
+        "response_count": 241,
+        "last_activity": "2026-09-09T10:48:21.468Z",
+        "records_source": "逐次请求记录（按请求编号去重）",
+        "warnings": [],
+        "project": "flower-bloom",
+        "source_task_title": "作品-花卉粒子效果动画",
+        "scope": "Related main and child tasks across historical versions; not the cost of the published version alone.",
+        "arithmetic_verified": true,
+        "complete_project_lifecycle": false
+      },
+      {
+        "own": {
+          "input_tokens": 36041249,
+          "cached_input_tokens": 34826112,
+          "output_tokens": 142889,
+          "reasoning_output_tokens": 43018,
+          "total_tokens": 36184138
+        },
+        "children": {
+          "input_tokens": 27582205,
+          "cached_input_tokens": 25569792,
+          "output_tokens": 224184,
+          "reasoning_output_tokens": 89219,
+          "total_tokens": 27806389
+        },
+        "usage": {
+          "input_tokens": 63623454,
+          "cached_input_tokens": 60395904,
+          "output_tokens": 367073,
+          "reasoning_output_tokens": 132237,
+          "total_tokens": 63990527
+        },
+        "child_count": 6,
+        "response_count": 632,
+        "last_activity": "2026-09-09T11:02:29.298Z",
+        "records_source": "逐次请求记录（按请求编号去重）",
+        "warnings": [],
+        "project": "tree-study",
+        "source_task_title": "作品-科幻数字盆景动画",
+        "scope": "Related main and child tasks across historical versions; not the cost of the published version alone.",
+        "arithmetic_verified": true,
+        "complete_project_lifecycle": false
+      }
+    ]
   }
 }

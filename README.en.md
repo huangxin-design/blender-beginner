@@ -86,7 +86,7 @@ See [usage, boundaries, and verification](docs/usage-progress.md) (Chinese). v05
 
 ## Projects, source files, and condensed conversations
 
-These task-usage records were read at **16:59 China Standard Time on September 9, 2026**. Each case states what the recorded task covers. [Sources and methodology](docs/showcase-measurements.md)
+Flower bloom and Tree Study now show their latest completed versions, with usage read at **19:20 China Standard Time on September 9, 2026**. The AI spheres and Pink Wave retain their 16:59 snapshots from the same day. Each case states the coverage of its cumulative task record. [Sources and methodology](docs/showcase-measurements.md)
 
 ### What if AI had a texture?
 
@@ -117,18 +117,31 @@ https://github.com/user-attachments/assets/09e1b56e-4b11-4e15-ac81-7e638166a24d
 
 [Case and editable source](projects/pink-wave-original/README.md) · [Prompts](projects/pink-wave-original/prompts.md) · [Production recap](projects/pink-wave-original/conversation.md) · [Timing and verification](projects/pink-wave-original/verification.json)
 
-### Tree study · a digital garden
+### Flower bloom · a few seconds of spring in the mist
 
-https://github.com/user-attachments/assets/60e3e618-b5af-4ed9-bbdb-2656ff3a2128
+https://github.com/user-attachments/assets/3afd119c-94a4-4a06-8d26-1b859ca1b54d
 
 **Prompt · retrospective example**
 
-> Grow a tree from a stone plinth, unfold its leaves and flowers, then bring in digital markers that follow the foliage. Add a horizontal slice transition and music combining classical and electronic sounds. Deliver a seven-second vertical film and the complete editable project.
+> Open coral and pale peach petals up a slender stem, layer by layer, like a rising wave of flowers. Keep the front flowers sharp, soften the plants behind them, and add a little mist. Include a HUANGHUAYU watermark and deliver an eight-second vertical 4K film with its editable Blender project.
 
-**Token usage:** **60,165,814** observed for the related production task, including six subagents and later revisions; not a separate v006 total. [Scope](docs/showcase-measurements.md)<br>
-**GPU and historical render time:** RTX 4070 Ti / 12 GB, **10 minutes 57.8 seconds** summed over 175 main frames and 20 transition closeups at 720 × 1280 and 48 samples. The two render processes total **11 minutes 9.8 seconds** including startup and loading, excluding compositing and music production.
+**Token usage:** **24,574,578** observed across the main task and three subagents, spanning multiple versions. Read at **19:20 China Standard Time on September 9, 2026**. [Scope](docs/showcase-measurements.md)<br>
+**GPU and measured render time:** The production inventory lists an RTX 4070 Ti / 12 GB. Recorded render segments for all 240 frames total about **50 minutes 30 seconds**, at 2160 × 3840, 64 samples, Cycles / OptiX. This combines a 238-frame continuation and two reused approved 4K samples, excluding modeling, revisions, and encoding. The player shows the 1080 preview.
 
-[Version 6 case](projects/tree-study/README.md) · [Complete project archive](https://github.com/huangxin-design/blender-beginner/releases/download/showcase-2026-09-08/tree-study-v006-project.zip) · [Prompts](projects/tree-study/prompts.md) · [Production recap](projects/tree-study/conversation.md) · [Timing and verification](projects/tree-study/verification.json)
+[Final 4K case](projects/flower-bloom/README.md) · [4K film](https://github.com/huangxin-design/blender-beginner/releases/download/works-2026-09-09/huanghuayu-flower-4k.mp4) · [Editable source](projects/flower-bloom/source/scene.blend) · [Prompts](projects/flower-bloom/prompts.md) · [Production recap](projects/flower-bloom/conversation.md) · [Timing and verification](projects/flower-bloom/verification.json)
+
+### Tree study · a digital garden
+
+https://github.com/user-attachments/assets/39fd6bea-291f-4274-95b8-5e4cbbbeaf30
+
+**Prompt · retrospective example**
+
+> Grow a tree from a stone plinth, unfolding its leaves and flowers. Bring in digital markers and lines during growth, make the text clearer, and add rose pink and coral red flowers. Keep the horizontal slice transition and classical-electronic music. Deliver a seven-second vertical film and the complete editable project.
+
+**Token usage:** **63,990,527** observed across the main task and six subagents, spanning multiple versions; not a separate v007 cost. Read at **19:20 China Standard Time on September 9, 2026**. [Scope](docs/showcase-measurements.md)<br>
+**GPU and v007 measured render time:** Same-machine records list an RTX 4070 Ti / 12 GB. **11 minutes 48.5 seconds** summed over 175 main frames and 20 transition closeups at 720 × 1280, 48 samples, Cycles / OptiX. Three render processes total **12 minutes 3.7 seconds** including startup and loading. Modeling, music, compositing, and encoding are separate.
+
+[Version 7 case](projects/tree-study/README.md) · [Complete project archive](https://github.com/huangxin-design/blender-beginner/releases/download/works-2026-09-09/tree-study-v007-project.zip) · [Prompts](projects/tree-study/prompts.md) · [Production recap](projects/tree-study/conversation.md) · [Timing and verification](projects/tree-study/verification.json) · [Preserved version 6](projects/tree-study/versions/v006/README.md)
 
 The three early projects below also include prompts, editable sources, and production records. Like the AI spheres above, they are the author's separate GitHub showcase materials, not evidence of the current skill producing each result in one pass.
 

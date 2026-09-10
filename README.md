@@ -77,7 +77,7 @@
 
 ## 作品、源文件与精简对话
 
-以下任务用量读取于 **2026-09-09 16:59（北京时间）**。数字对应已记录的制作任务，各作品的覆盖范围分别说明。[用量来源与统计方法](docs/showcase-measurements.md)
+花卉与数字盆景已更新至最新完成版，用量读取于 **2026-09-09 19:20（北京时间）**；AI 材质球与粉色波浪保留当天 16:59 的快照。数字对应关联制作任务的累计记录，各案例分别说明覆盖范围。[用量来源与统计方法](docs/showcase-measurements.md)
 
 ### 当 AI 有了触感
 
@@ -108,18 +108,31 @@ https://github.com/user-attachments/assets/09e1b56e-4b11-4e15-ac81-7e638166a24d
 
 [案例与源工程](projects/pink-wave-original/README.md) · [提示词](projects/pink-wave-original/prompts.md) · [制作回顾](projects/pink-wave-original/conversation.md) · [计时与验收](projects/pink-wave-original/verification.json)
 
-### 数字盆景 · 让一棵树长出数字花园
+### 花卉粒子 · 把开花的几秒钟，留在薄雾里
 
-https://github.com/user-attachments/assets/60e3e618-b5af-4ed9-bbdb-2656ff3a2128
+https://github.com/user-attachments/assets/3afd119c-94a4-4a06-8d26-1b859ca1b54d
 
 **提示词 · 整理示例**
 
-> 让一棵树从石台上生长出来，叶片展开、花苞打开，再出现跟随花叶的数字标记。用横向切片做转场，配上古典与电子融合的音乐，给我 7 秒竖屏动画和完整可编辑工程。
+> 让珊瑚红和浅桃色的花瓣沿细茎一层层展开，像一股向上流动的开花波。前面的花清楚，后面的植物虚一点，周围留一点薄雾。加上 HUANGHUAYU 水印，给我 8 秒竖屏 4K 动画和能继续修改的 Blender 工程。
 
-**Token 用量：** 关联制作任务已记录 **60,165,814**（含 6 个子任务与后续版本，不是第 6 版单独用量）。[统计范围](docs/showcase-measurements.md)<br>
-**显卡与历史渲染耗时：** RTX 4070 Ti / 12 GB，累计 **10 分 57.8 秒**（720 × 1280、48 采样，175 帧主镜头 + 20 帧转场近景）；两个渲染进程含启动、载入共 **11 分 9.8 秒**，不含合成与配乐制作。
+**Token 用量：** 相关制作任务已记录 **24,574,578**（主任务 + 3 个子任务；跨版本累计）。读取于 **2026-09-09 19:20（北京时间）**。[统计范围](docs/showcase-measurements.md)<br>
+**显卡与实测渲染耗时：** 制作档案为 RTX 4070 Ti / 12 GB，全部 240 帧的渲染段累计约 **50 分 30 秒**（2160 × 3840、64 采样、Cycles / OptiX）。包含续跑 238 帧与复用的两张 4K 样张，不含建模、修改与编码；播放器展示 1080 预览。
 
-[第 6 版案例](projects/tree-study/README.md) · [完整工程包](https://github.com/huangxin-design/blender-beginner/releases/download/showcase-2026-09-08/tree-study-v006-project.zip) · [提示词](projects/tree-study/prompts.md) · [制作回顾](projects/tree-study/conversation.md) · [计时与验收](projects/tree-study/verification.json)
+[4K 最终版案例](projects/flower-bloom/README.md) · [下载 4K 成片](https://github.com/huangxin-design/blender-beginner/releases/download/works-2026-09-09/huanghuayu-flower-4k.mp4) · [源工程](projects/flower-bloom/source/scene.blend) · [提示词](projects/flower-bloom/prompts.md) · [制作回顾](projects/flower-bloom/conversation.md) · [计时与验收](projects/flower-bloom/verification.json)
+
+### 数字盆景 · 让一棵树长出数字花园
+
+https://github.com/user-attachments/assets/39fd6bea-291f-4274-95b8-5e4cbbbeaf30
+
+**提示词 · 整理示例**
+
+> 让一棵树从石台上生长出来，叶片展开、花苞打开。数字和连线在生长阶段就出现，文字再清楚一点，花朵加上玫瑰粉和珊瑚红。保留横向切片转场和古典电子配乐，给我 7 秒竖屏动画与完整可编辑工程。
+
+**Token 用量：** 相关制作任务已记录 **63,990,527**（主任务 + 6 个子任务；跨版本累计，不是第 7 版单独成本）。读取于 **2026-09-09 19:20（北京时间）**。[统计范围](docs/showcase-measurements.md)<br>
+**显卡与 v007 实测渲染耗时：** 同机设备记录为 RTX 4070 Ti / 12 GB，累计 **11 分 48.5 秒**（720 × 1280、48 采样、Cycles / OptiX，175 帧主镜头 + 20 帧转场近景）。三次渲染进程含启动、载入共 **12 分 3.7 秒**；建模、配乐与合成编码另计。
+
+[第 7 版案例](projects/tree-study/README.md) · [完整工程包](https://github.com/huangxin-design/blender-beginner/releases/download/works-2026-09-09/tree-study-v007-project.zip) · [提示词](projects/tree-study/prompts.md) · [制作回顾](projects/tree-study/conversation.md) · [计时与验收](projects/tree-study/verification.json) · [保留的第 6 版](projects/tree-study/versions/v006/README.md)
 
 下面三个早期作品也保留了提示词、工程与制作记录。它们与上面的 AI 材质球都是作者单独整理的 GitHub 展示资料，独立于 Skill，不作为当前版本一次生成的效果验证。
 

@@ -1,0 +1,343 @@
+{
+  "project": "tree-study",
+  "version": "v006",
+  "recorded_at": "2026-09-08",
+  "this_archive_check": {
+    "poster_and_video_copied_byte_identical": true,
+    "poster_visually_inspected": true,
+    "manifest": "manifest.json",
+    "release_package_integrity": "See manifest.json release_archive for CRC, hash and sequence counts.",
+    "rerendered": false,
+    "video_reencoded": false,
+    "relocated_release_source_reopened": true,
+    "new_video_decode_or_player_verification": true,
+    "reread_one_vse_frame": 100,
+    "vse_frame_100_pixel_identical": true,
+    "three_dimensional_animation_rerendered": false
+  },
+  "historical_render": {
+    "blender": "5.2.1 LTS",
+    "engine": "Cycles",
+    "backend": "OptiX GPU",
+    "gpu": "NVIDIA GeForce RTX 4070 Ti",
+    "vram_gb": 12,
+    "gpu_evidence": "v006/build-info.json names RTX 4070 Ti; render_film.py selects OptiX devices. 12 GB VRAM from same-machine setup note.",
+    "resolution": [
+      720,
+      1280
+    ],
+    "samples": 48,
+    "adaptive_threshold": 0.04,
+    "main_frames": 175,
+    "main_render_call_seconds": 599.496,
+    "close_frames": 20,
+    "close_render_call_seconds": 58.291,
+    "summed_render_call_seconds": 657.787,
+    "main_process_seconds": 609.264,
+    "close_process_seconds": 60.532,
+    "summed_process_seconds": 669.796,
+    "render_call_scope": "Sum of bpy.ops.render.render(write_still=True) timers; includes render and PNG save, excludes frame_set outside timers, source load/process startup, compositing, video encoding, sound creation, revisions and acceptance.",
+    "process_scope": "Sum of two completed Blender processes, not one end-to-end stopwatch.",
+    "evidence": [
+      "v006/frames-timings.json",
+      "v006/transition_close-timings.json",
+      "v006/render-main-run/run.json",
+      "v006/render-close-run/run.json",
+      "v006/render_film.py",
+      "v006/build-info.json"
+    ],
+    "token_total": null,
+    "token_scope": "No complete per-case token record established for this archive."
+  },
+  "historical_acceptance": {
+    "source_movie_sha256": "c469e783c59ae235a9444ea1abb3e8afc9a3b1e97a5e0b146adec702d61e01e8",
+    "resolution": [
+      720,
+      1280
+    ],
+    "fps": 25,
+    "frames": 175,
+    "seconds": 7,
+    "codec": "H.264 High / yuv420p",
+    "audio": "AAC, 48000 Hz, stereo, 7 seconds",
+    "decode": {
+      "software_decoder": "FFmpeg 9.0.1 h264, hardware acceleration disabled",
+      "hardware_decoder": "NVIDIA NVDEC h264_cuvid, CUDA output surface confirmed",
+      "comparison": "All 175 frames, native 720×1280, YUV420 8-bit samples",
+      "software_frames": 175,
+      "hardware_frames": 175,
+      "different_samples": 0,
+      "max_abs_difference": 0
+    },
+    "player": {
+      "application": "Visible Microsoft Edge 143.0.3650.96",
+      "decoder": "D3D11VideoDecoder",
+      "playback_seconds": [
+        0,
+        7
+      ],
+      "presented_frames": 175,
+      "dropped_frames": 0,
+      "ended": true,
+      "error": null,
+      "visually_reviewed_screenshots_seconds": [
+        1.3,
+        3.0,
+        4.1,
+        6.7
+      ]
+    },
+    "original_source": {
+      "independent_reopen": true,
+      "edit_strips": 18,
+      "sequence_dependencies_found": true,
+      "packed_textures": 6,
+      "edit_frame_100_pixel_identical": true
+    },
+    "unverified": [
+      "Codex embedded player",
+      "other players and devices",
+      "subjective speaker audio listening"
+    ],
+    "evidence": [
+      "v006/验收说明.md",
+      "v006/final-qa.json",
+      "v006/decode-qa/decode-report.json",
+      "v006/player-check/player-report.json"
+    ]
+  },
+  "version_boundary": "v007 has subsequent color/graphics previews but no completed accepted movie at archival selection; this archive contains v006 only.",
+  "relocated_source_check": {
+    "date": "2026-09-08",
+    "archive_sha256": "c526c1c67291432cf85a12c711f57924e13c26fdff30e559e0e3c9a5424ae82b",
+    "safe_extraction": true,
+    "process": {
+      "blender": "5.2.1 LTS",
+      "mode": "factory startup, disabled automatic execution, no source save",
+      "kind": "tree-study",
+      "source_basename": "Tree_Study_Final.blend",
+      "default_scene": "TREE | procedural scene",
+      "frame_range": [
+        1,
+        175
+      ],
+      "resolution": [
+        720,
+        1280
+      ],
+      "objects": 1085,
+      "images": [
+        {
+          "name": "bark_willow_diff_2k.jpg",
+          "source": "FILE",
+          "packed": true,
+          "external_exists": true
+        },
+        {
+          "name": "bark_willow_disp_2k.jpg",
+          "source": "FILE",
+          "packed": true,
+          "external_exists": true
+        },
+        {
+          "name": "bark_willow_rough_2k.jpg",
+          "source": "FILE",
+          "packed": true,
+          "external_exists": true
+        },
+        {
+          "name": "concrete_floor_worn_001_diff_2k.jpg",
+          "source": "FILE",
+          "packed": true,
+          "external_exists": true
+        },
+        {
+          "name": "concrete_floor_worn_001_disp_2k.jpg",
+          "source": "FILE",
+          "packed": true,
+          "external_exists": true
+        },
+        {
+          "name": "concrete_floor_worn_001_rough_2k.jpg",
+          "source": "FILE",
+          "packed": true,
+          "external_exists": true
+        }
+      ],
+      "fonts": [
+        {
+          "name": "Bfont Regular",
+          "packed": false,
+          "builtin": true
+        },
+        {
+          "name": "Consolas Regular",
+          "packed": true,
+          "builtin": false
+        }
+      ],
+      "linked_libraries": [],
+      "edit": {
+        "strips": 18,
+        "image_strips": 17,
+        "sound_strips": 1,
+        "unique_sequence_images": 195,
+        "all_paths_relative_and_inside_package": true,
+        "audio": [
+          {
+            "file": "bgm.wav",
+            "relative_path": true,
+            "packed": true,
+            "exists": true
+          }
+        ],
+        "packed_textures": 6
+      },
+      "reread_vse_frame": 100,
+      "reread_vse_resolution": [
+        720,
+        1280
+      ],
+      "three_dimensional_animation_rerendered": false,
+      "source_sha256_unchanged": "d2d8f56652edffee0e7df598943d661b0a680b89b3ec0fa1a11928bde97f10e6"
+    },
+    "vse_frame_comparison": {
+      "frame": 100,
+      "resolution": [
+        720,
+        1280
+      ],
+      "comparison": "FFmpeg decoded RGB pixels against original v006 final_frames/frame_0100.png",
+      "pixel_identical": true,
+      "visually_inspected": true,
+      "observation": "Expected horizontal slice transition with wide canopy above and closeup below; no additional corruption observed.",
+      "reference": "Existing accepted v006 composite; no video encode or 3D animation render"
+    },
+    "scope": "Opened a fresh extraction of the public release ZIP, checked every VSE dependency and one native VSE frame. Source files were not saved. No full animation render, movie encode or new video player/decoder verification."
+  },
+  "published_preview_check_2026_09_08": {
+    "source": {
+      "bytes": 2447232,
+      "sha256": "c469e783c59ae235a9444ea1abb3e8afc9a3b1e97a5e0b146adec702d61e01e8",
+      "matches_prior_verified_source": true,
+      "prior_decode_summary": {
+        "width": 720,
+        "height": 1280,
+        "software_frames": 175,
+        "hardware_frames": 175,
+        "max_abs_sample_error": 0,
+        "mean_abs_sample_error": 0.0,
+        "changed_samples": 0,
+        "hardware_path_confirmed": true,
+        "checked_frame_range_inclusive": [
+          1,
+          175
+        ]
+      }
+    },
+    "player": {
+      "name": "Google Chrome Chromium HTML5 video, automated headless browser",
+      "version": "152.0.7977.76",
+      "video_decoder": "D3D11VideoDecoder",
+      "state": {
+        "duration": 7,
+        "currentTime": 7,
+        "ended": true,
+        "width": 720,
+        "height": 1280,
+        "error": null,
+        "muted": true,
+        "playbackRate": 1,
+        "totalVideoFrames": 175,
+        "droppedVideoFrames": 0,
+        "webkitDecodedFrameCount": 175
+      },
+      "checked_seconds": [
+        0,
+        7
+      ],
+      "screenshots": [
+        "chrome-1.3s.png",
+        "chrome-3.0s.png",
+        "chrome-4.1s.png",
+        "chrome-6.7s.png"
+      ],
+      "visual_review": {
+        "status": "completed_for_listed_screenshots",
+        "screenshots": [
+          "chrome-1.3s.png",
+          "chrome-3.0s.png",
+          "chrome-4.1s.png",
+          "chrome-6.7s.png"
+        ],
+        "observations": [
+          "No block corruption or residual image ghosting seen in the listed native-size browser screenshots.",
+          "The 4.1-second horizontal image split is the authored wipe transition, also identified in the existing v006 acceptance record."
+        ]
+      },
+      "unverified": [
+        "Codex embedded player",
+        "other players and devices",
+        "audio listening (muted)"
+      ]
+    },
+    "decode": {
+      "scope": "Reused existing full native-frame software/hardware pixel comparison after verifying repository preview SHA256 equals the accepted source; no redundant decode run this turn",
+      "width": 720,
+      "height": 1280,
+      "software_frames": 175,
+      "hardware_frames": 175,
+      "max_abs_sample_error": 0,
+      "mean_abs_sample_error": 0.0,
+      "changed_samples": 0,
+      "hardware_path_confirmed": true,
+      "checked_frame_range_inclusive": [
+        1,
+        175
+      ]
+    }
+  },
+  "github_attachment_check_2026_09_08": {
+    "page": "https://github.com/huangxin-design/blender-beginner/issues/1",
+    "http_status": 200,
+    "anonymous_access": true,
+    "player": "GitHub public issue native video player in background Chrome",
+    "browser_version": "152.0.7977.76",
+    "decoder_names": [
+      "D3D11VideoDecoder"
+    ],
+    "downloaded_attachment_sha256_matches_source": true,
+    "project": "tree-study",
+    "attachment_url": "https://github.com/user-attachments/assets/60e3e618-b5af-4ed9-bbdb-2656ff3a2128",
+    "source_sha256": "c469e783c59ae235a9444ea1abb3e8afc9a3b1e97a5e0b146adec702d61e01e8",
+    "source_unique_frames": 175,
+    "player_final_state": {
+      "duration": 7,
+      "currentTime": 7,
+      "ended": true,
+      "width": 720,
+      "height": 1280,
+      "error": null,
+      "totalVideoFrames": 179,
+      "droppedVideoFrames": 0,
+      "decodedFrames": 179,
+      "muted": true
+    },
+    "frame_counter_scope": "Browser lifetime decoded/total counters may include preroll or repeated decoding after seeking; they do not replace source unique-frame counts.",
+    "visual_review": {
+      "status": "completed_for_listed_screenshots",
+      "observations": [
+        "Viewed the live GitHub issue page screenshots during playback and after playback ended. The correct project is visible in each player; no block corruption or residual image ghosting seen."
+      ],
+      "screenshots": [
+        "issue-video-2-playing.png",
+        "issue-video-2-ended.png"
+      ]
+    },
+    "unverified": [
+      "Repository README page",
+      "Codex embedded player",
+      "audio listening (muted)"
+    ]
+  }
+}

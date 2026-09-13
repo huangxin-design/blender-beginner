@@ -72,17 +72,30 @@ These locations follow the [official Codex skill instructions](https://learn.cha
 
 A reference's **0–100 feasibility score is a reasoned assessment of an approach**, accompanied by evidence, confidence, and expected differences. It is not a reconstruction percentage or success probability. Missing evidence remains unresolved, and unseen parts of an object require explicit assumptions.
 
-## v05: observed usage and render progress
+## Usage monitoring and render progress
 
-![Local progress panel with illustrative render and token data](docs/assets/progress-panel-v05.png)
+![Codex Monitor Fish v0.3.1 with project tokens, estimated subscription cost in CNY, and the next reset time; all data is simulated](docs/assets/codex-monitor-fish-v0.3.1.png)
 
-*This interface example uses simulated data, not measured usage or render times for the showcased projects.*
+*This example comes from [Codex Monitor Fish](https://github.com/huangxin-design/codex-monitor-fish). Tasks, usage, amounts, and reset times are simulated, not actual measurements or account data for the showcased projects.*
 
-Token records cover one explicitly supplied local Codex source from a recorded baseline. Reports distinguish cached input and reasoning output as subsets, pending usage, and untracked sources. They cannot reconstruct usage from old `.blend` files, separate mixed-project turns, merge subagents automatically, or calculate subscription credits or fees.
+**Project dashboard:** use the companion Codex Monitor Fish v0.3.1 Skill, select your Blender project, and view cumulative task and subtask tokens. It supports full integers or 100-million-token units, CSV export, and automatic refresh. Total tokens, estimated subscription cost in CNY, and the next weekly reset appear together at the top.
 
-The local progress page shows the render launched by the runner, without a model call every second. Controlled PNG frame plans enable output counts and a low-confidence ETA range after the first frame plus three further complete frames. Estimates can rise or be withdrawn. Process exit and file presence do not establish visual acceptance. GUI-started renders and video encoding are outside this first version.
+**Cost and reset time:** the CNY amount allocates subscription cost using a user-defined 20x account formula and an editable exchange rate. It is not a per-request charge, additional spending, or an official fixed token allowance. The reset card shows a known Codex weekly reset time and countdown; it does not predict the chance of receiving a bonus reset.
 
-See [usage, boundaries, and verification](docs/usage-progress.md) (Chinese). v05 adds boundary tests, actual tiny PNG renders, timeout/failure integration checks, and desktop/mobile browser checks. Real Mac execution and complex animation remain unverified.
+**The built-in v05 session recorder** still covers one explicitly supplied local Codex source from a recorded baseline. Reports distinguish cached input and reasoning output as subsets, pending usage, and untracked sources. This recorder does not merge subtasks automatically or calculate fees, and old projects without source records remain unknown.
+
+**Blender render progress** runs in its own local page, without a model call every second. Controlled PNG frame plans enable output counts and a low-confidence ETA range after the first frame plus three further complete frames. Estimates can rise or be withdrawn. Process exit and file presence do not establish visual acceptance. GUI-started renders and video encoding are outside this first version.
+
+<details>
+<summary>View the Blender v05 render progress page (simulated data)</summary>
+
+![Blender v05 render progress and single-session token records, using simulated data](docs/assets/progress-panel-v05.png)
+
+*This page shows Blender render stages, frame counts, and estimated remaining time. The companion dashboard above shows project usage; the two run separately.*
+
+</details>
+
+See [usage, boundaries, and verification](docs/usage-progress.md) (Chinese), or the [Monitor Fish guide](https://github.com/huangxin-design/codex-monitor-fish/blob/main/docs/使用说明.md). v05 adds boundary tests, actual tiny PNG renders, timeout/failure integration checks, and desktop/mobile browser checks. Real Mac execution and complex animation remain unverified.
 
 ## Projects, source files, and condensed conversations
 

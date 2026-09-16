@@ -2,15 +2,29 @@
 
 目标是先做出一个能打开、能修改、有真实预览的 `.blend` 工程。当前验证环境是 **Windows x64 + Blender 5.2.1**；Mac 的设备评估流程已编写，Metal 与实际制作仍待真机验证。Windows 自动安装脚本不适用于 Mac。
 
-## 1. 下载并安装 Skill
+## 1. 复制一段话，安装 Skill
 
-从本仓库的 **Code → Download ZIP** 下载并解压；也可以使用本地克隆。找到其中的 `skills/blender-beginner` 文件夹。
+在电脑上的 Codex 本地任务中直接发送下面整段话，无需预先下载仓库：
 
-在 Codex 的本地项目中打开这个解压后的仓库，发送：
+```text
+请帮我安装这个 Blender Skill：
+https://github.com/huangxin-design/blender-beginner/tree/main/skills/blender-beginner
+将完整的 blender-beginner 文件夹安装到本机 Codex 可识别的个人 Skill 目录，保留所有附带文件。
+如果已有同名 Skill，先比较；相同就复用，需要更新时先备份旧版并保留我的自定义修改。
+请替我完成下载和文件放置，核验文件完整性，读取安装后的 SKILL.md，告诉我实际安装路径和下一条消息怎么使用。
+这次只安装 Skill，不安装 Blender、不开始建模或渲染；如果无法完成，请说明原因。
+```
 
-> 请把当前仓库的 skills/blender-beginner 完整安装到我的个人 Skill 目录 .agents/skills 中。先确认实际用户目录；复制整个文件夹，保留 scripts、references、assets 和 agents。如果已有同名 Skill，先比较版本并保留旧副本。完成后告诉我实际安装路径，并确认能读取这个 Skill。
+安装的是本仓库 `main` 分支中的 **`skills/blender-beginner` 完整目录**，不是整个作品仓库，也不只是 `SKILL.md`。它应保留 `scripts/`、`references/`、`assets/` 和 `agents/`；已有的本地修改先核对，旧版备份放在 Skill 扫描目录之外。
 
-也可以手动复制：
+下载与文件放置由 Codex 完成。如果仓库不可访问或目录不可写，它应说明具体问题，并报告尚未完成的步骤。
+
+安装完成后，应报告实际路径、完整目录核验结果，并能读取该路径下的 `SKILL.md`。**文件已安装与当前任务是否已识别分开确认**；下一条消息按第 2 步调用，尚未出现时重启 Codex 再检查。
+
+<details>
+<summary>已有下载副本或需要手动放置时</summary>
+
+从本仓库的 **Code → Download ZIP** 下载并解压，或使用已有克隆；找到其中的 `skills/blender-beginner`，复制完整文件夹：
 
 | 使用范围 | 放置位置 |
 | --- | --- |
@@ -19,7 +33,9 @@
 
 Windows 的个人目录通常为 `C:\Users\你的用户名\.agents\skills\blender-beginner\`；Mac 为 `/Users/你的用户名/.agents/skills/blender-beginner/`。以实际用户主目录为准。最终应直接看到 `blender-beginner/SKILL.md`，不要多嵌套一层文件夹，也不要只复制这个文件。
 
-Codex 会自动检测本地 Skill；若未出现，重启后再检查。以上发现路径依据 [OpenAI 官方 Skill 文档](https://learn.chatgpt.com/docs/build-skills#where-codex-loads-local-skills)，核验于 2026-09-07。
+</details>
+
+个人 Skill 通常放在实际用户主目录下的 `.agents/skills`。Codex 支持通过安装器从其他仓库添加 Skill，并自动检测本地 Skill；若未出现，重启后再检查。安装方式与发现路径依据 [OpenAI 官方 Skill 文档](https://learn.chatgpt.com/docs/build-skills#where-codex-loads-local-skills)，核验于 **2026-09-16**。
 
 ## 2. 确认生效，检查制作环境
 

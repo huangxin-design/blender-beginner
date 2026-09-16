@@ -2,9 +2,32 @@
 
 **New to 3D? Describe your idea. Codex helps set up Blender, build an editable project, track tokens, and show render progress.**
 
-[简体中文](README.md) · [Quick start](docs/quickstart.md) · [Projects and source files](#projects-source-files-and-condensed-conversations) · [Usage and progress](docs/usage-progress.md)
+[简体中文](README.md) · [Install with one message](#install-the-skill-with-one-message) · [Quick start](docs/quickstart.md) · [Projects and source files](#projects-source-files-and-condensed-conversations) · [Usage and progress](docs/usage-progress.md)
 
-A Blender skill for Codex, currently **v05 / Early Preview**. Once enabled, start with one of these requests.
+A Blender skill for Codex, currently **v05 / Early Preview**.
+
+## Install the Skill with one message
+
+In a local Codex task on your computer, **copy and send this entire message**:
+
+```text
+Please install this Blender Skill:
+https://github.com/huangxin-design/blender-beginner/tree/main/skills/blender-beginner
+Install the complete blender-beginner folder, including every bundled file, into a personal Skill directory this Codex installation can discover.
+If a Skill with the same name exists, compare it first. Reuse an identical version; back up the old version and preserve my custom changes before updating.
+Handle the download and file placement for me, verify the complete folder, read the installed SKILL.md, and report the actual installation path and how to use it in my next message.
+Only install the Skill this time. Do not install Blender or start modeling or rendering. If you cannot complete the installation, explain why.
+```
+
+**Copy the message → send it to Codex → verify installation → describe your project.** Codex handles the download and file placement; you do not need to download a ZIP, copy files, or enter terminal commands yourself. It needs access to the repository and permission to write to a local Skill directory.
+
+After installation, send this as your next message:
+
+```text
+Use blender-beginner to check the Blender and Python environments on my computer. Tell me whether I can start a project and what is still missing.
+```
+
+If the Skill does not appear in the list, restart Codex and check again. See the [quick start](docs/quickstart.md) (Chinese) for first use, updating an existing version, and manual placement.
 
 ## Where it can help
 

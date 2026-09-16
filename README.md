@@ -2,9 +2,32 @@
 
 **零基础也能开始做 3D。你说想法，Codex 帮你安装 Blender、做作品、记用量、看渲染进度。**
 
-[English](README.en.md) · [开始使用](docs/quickstart.md) · [作品与源文件](#作品源文件与精简对话) · [Token 与渲染进度](docs/usage-progress.md)
+[English](README.en.md) · [一句话安装](#一句话安装-skill) · [开始使用](docs/quickstart.md) · [作品与源文件](#作品源文件与精简对话) · [Token 与渲染进度](docs/usage-progress.md)
 
-这是给 Codex 使用的 Blender 新手 Skill，当前为 **v05 / Early Preview**。[启用后](docs/quickstart.md)，直接把下面这些话交给它。
+这是给 Codex 使用的 Blender 新手 Skill，当前为 **v05 / Early Preview**。
+
+## 一句话安装 Skill
+
+在电脑上的 Codex 本地任务中，**复制下面整段话发送**，让它帮你完成 Skill 安装：
+
+```text
+请帮我安装这个 Blender Skill：
+https://github.com/huangxin-design/blender-beginner/tree/main/skills/blender-beginner
+将完整的 blender-beginner 文件夹安装到本机 Codex 可识别的个人 Skill 目录，保留所有附带文件。
+如果已有同名 Skill，先比较；相同就复用，需要更新时先备份旧版并保留我的自定义修改。
+请替我完成下载和文件放置，核验文件完整性，读取安装后的 SKILL.md，告诉我实际安装路径和下一条消息怎么使用。
+这次只安装 Skill，不安装 Blender、不开始建模或渲染；如果无法完成，请说明原因。
+```
+
+**复制对话 → 发给 Codex → 核验安装 → 发出制作需求。** 无需先下载 ZIP、手动复制文件或输入终端命令；下载与安装由 Codex 执行，需要它能访问仓库并写入本地 Skill 目录。
+
+安装完成后，下一条消息可以发：
+
+```text
+使用 blender-beginner，先检查我电脑上的 Blender 和 Python 环境，告诉我能否开始做作品、还缺什么。
+```
+
+Skill 尚未出现在列表时，重启 Codex 再检查。首次使用、已有版本更新和手动放置方式见 [快速开始](docs/quickstart.md)。
 
 ## 这些地方，它能帮上忙
 

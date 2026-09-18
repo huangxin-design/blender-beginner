@@ -1,0 +1,62 @@
+[
+  {
+    "id": "A",
+    "name": "极简 · 留白",
+    "en": "QUIET MODERN",
+    "cnfont": "MiSans-Light.ttf",
+    "latin": "calibril.ttf",
+    "cnsize": 565,
+    "cntrack": 128,
+    "cnscale": 1.0,
+    "enheight": 128,
+    "enwidth": 1390,
+    "gap": 230,
+    "dy": 0,
+    "desc": "纤细黑体，舒展字距；英文退后，气质安静。"
+  },
+  {
+    "id": "B",
+    "name": "宋韵 · 玫瑰",
+    "en": "CONTEMPORARY SERIF",
+    "cnfont": "胡晓波浪漫宋.ttf",
+    "latin": "times.ttf",
+    "cnsize": 645,
+    "cntrack": 66,
+    "cnscale": 1.08,
+    "enheight": 132,
+    "enwidth": 1440,
+    "gap": 205,
+    "dy": 0,
+    "desc": "细横粗竖与尖收笔，搭配宽字距衬线英文。"
+  },
+  {
+    "id": "C",
+    "name": "书写 · 署名",
+    "en": "PERSONAL SIGNATURE",
+    "cnfont": "喜鹊燕书体(简+繁体).ttf",
+    "latin": "timesi.ttf",
+    "cnsize": 680,
+    "cntrack": 8,
+    "cnscale": 1.0,
+    "enheight": 127,
+    "enwidth": 1150,
+    "gap": 200,
+    "dy": 22,
+    "desc": "连贯的书写节奏，轻微错落，像片尾签名。"
+  },
+  {
+    "id": "D",
+    "name": "几何 · 未来",
+    "en": "GEOMETRIC SIGNAL",
+    "cnfont": "胡晓波机甲体.ttf",
+    "latin": "DIN-Medium.otf",
+    "cnsize": 610,
+    "cntrack": 46,
+    "cnscale": 0.87,
+    "enheight": 143,
+    "enwidth": 1550,
+    "gap": 193,
+    "dy": 0,
+    "desc": "斜切字面与紧凑重心，英文采用工业感比例。"
+  }
+]

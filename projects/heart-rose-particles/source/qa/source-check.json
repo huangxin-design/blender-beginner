@@ -1,0 +1,86 @@
+{
+  "resolution": [
+    3072,
+    4096
+  ],
+  "fps": 30,
+  "frames": 600,
+  "particles": 67579,
+  "rose_petals": 21,
+  "text": "黄花鱼\nBLENDER",
+  "framing": [
+    {
+      "frame": 105,
+      "shape": "Heart",
+      "bounds_normalized": [
+        [
+          0.21292678429201023,
+          0.1350656395830041
+        ],
+        [
+          0.7990985420083669,
+          0.8679492785982217
+        ]
+      ]
+    },
+    {
+      "frame": 145,
+      "shape": "Heart",
+      "bounds_normalized": [
+        [
+          0.21822955417740095,
+          0.12713584657321625
+        ],
+        [
+          0.7877796529833995,
+          0.8701025560424813
+        ]
+      ]
+    },
+    {
+      "frame": 367,
+      "shape": "REFERENCE / fully open rose",
+      "bounds_normalized": [
+        [
+          0.1323743191049419,
+          0.10545582731590764
+        ],
+        [
+          0.8256653937086489,
+          0.8858851727078323
+        ]
+      ]
+    },
+    {
+      "frame": 490,
+      "shape": "Text / 黄花鱼 / BLENDER",
+      "bounds_normalized": [
+        [
+          0.2100867834127034,
+          0.36728794891645955
+        ],
+        [
+          0.7895088760054119,
+          0.6620426392476264
+        ]
+      ]
+    }
+  ],
+  "shape_checks": [
+    {
+      "frame": 367,
+      "max_coordinate_error": 3.5762786865234375e-07
+    },
+    {
+      "frame": 490,
+      "max_coordinate_error": 4.172325134277344e-07
+    }
+  ],
+  "wind_onset_range": [
+    509.90252685546875,
+    541.998046875
+  ],
+  "last_particle_end_frame": 585.9673688411713,
+  "external_bitmap_dependencies": 0,
+  "extra_orbits": 0
+}

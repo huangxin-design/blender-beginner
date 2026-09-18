@@ -1,0 +1,16 @@
+{
+  "selected_direction": "07 璃光细线",
+  "text": "黄花鱼\nBLENDER",
+  "source_resolution": [
+    3072,
+    4096
+  ],
+  "edge_particles": 64200,
+  "interior_particles": 3379,
+  "mask_bounds": [
+    644,
+    1383,
+    2427,
+    2592
+  ]
+}

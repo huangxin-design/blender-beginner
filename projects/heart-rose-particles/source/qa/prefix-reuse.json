@@ -1,0 +1,24 @@
+{
+  "native_frames_reused": 380,
+  "resolution": [
+    3072,
+    4096
+  ],
+  "source": "V8 native heart and growing-rose frames",
+  "method": "Read-only hardlinks preserve the original opening bytes; subsequent rendering starts at frame 381",
+  "reference_checks": [
+    {
+      "frame": 367,
+      "maximum_channel_difference": 9,
+      "mean_absolute_difference": 0.00020575523376464844
+    },
+    {
+      "frame": 380,
+      "maximum_channel_difference": 9,
+      "mean_absolute_difference": 0.00018058882819281684
+    }
+  ],
+  "state_checks": "qa/prefix-state.json",
+  "note": "The reference renders have a tiny measured raster difference; reused opening frames are the original V8 files, not those reference rerenders.",
+  "title_changes_start_at_frame": 381
+}

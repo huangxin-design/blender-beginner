@@ -1,0 +1,63 @@
+{
+  "native_pixel_grid_alignment": {
+    "dx": 0,
+    "dy": 0,
+    "mean_absolute_difference": 0.16169068965517241
+  },
+  "full_frame_mean_absolute_difference": 0.03734890619913737,
+  "maximum_difference": 10,
+  "native_canvas": [
+    3072,
+    4096
+  ],
+  "render_region_is_not_upscaled": true,
+  "method": "Same native camera grid, active-particle bounds plus 100 pixel overscan; assemble on a native black frame",
+  "comparison_frame": 490,
+  "offset_checks": [
+    {
+      "dx": -1,
+      "dy": -1,
+      "mean_absolute_difference": 3.675679540229885
+    },
+    {
+      "dx": 0,
+      "dy": -1,
+      "mean_absolute_difference": 2.6425794252873565
+    },
+    {
+      "dx": 1,
+      "dy": -1,
+      "mean_absolute_difference": 3.558883218390805
+    },
+    {
+      "dx": -1,
+      "dy": 0,
+      "mean_absolute_difference": 2.9008266666666667
+    },
+    {
+      "dx": 0,
+      "dy": 0,
+      "mean_absolute_difference": 0.16169068965517241
+    },
+    {
+      "dx": 1,
+      "dy": 0,
+      "mean_absolute_difference": 2.9010549425287357
+    },
+    {
+      "dx": -1,
+      "dy": 1,
+      "mean_absolute_difference": 3.558984482758621
+    },
+    {
+      "dx": 0,
+      "dy": 1,
+      "mean_absolute_difference": 2.64291
+    },
+    {
+      "dx": 1,
+      "dy": 1,
+      "mean_absolute_difference": 3.6758314942528734
+    }
+  ]
+}

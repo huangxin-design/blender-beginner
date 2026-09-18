@@ -115,6 +115,22 @@ Skill 尚未出现在列表时，重启 Codex 再检查。首次使用、已有�
 
 花卉与数字盆景已更新至最新完成版，用量读取于 **2026-09-09 19:20（北京时间）**；AI 材质球与粉色波浪保留当天 16:59 的快照。数字对应关联制作任务的累计记录，各案例分别说明覆盖范围。[用量来源与统计方法](docs/showcase-measurements.md)
 
+### 心脏与玫瑰 · 璃光细线
+
+[![心脏、玫瑰与细线片尾，原生 Blender 画面](projects/heart-rose-particles/preview.jpg)](projects/heart-rose-particles/README.md)
+
+**提示词 · 整理示例**
+
+> 做一段 20 秒、3:4 竖版的 4K 粒子动画：心脏聚合与搏动，接着长出玫瑰，再汇成「黄花鱼 / BLENDER」两排细线文字，最后随风消散到黑场。先确认花朵与字体，保留可编辑工程。
+
+**成片：** 原生 3072 × 4096 · 30 FPS · 600 帧 · 无声。<br>
+**Token：** 未独立统计；没有从本作品起点建立的用量基线。<br>
+**已记录渲染批次：** V11 后段 165 张区域帧约 15 分 0.3 秒，含载入、范围计算和保存；其余帧沿用前版或复用静帧。这不是全片从零渲染时间。[范围与验收](projects/heart-rose-particles/verification.json)
+
+从作者指定的“20 秒竖版心脏与花朵”需求开始，保留生长玫瑰返工、四款 / 十款字形提案与最终选定 07 的过程。原生 4K 全片软硬解码逐采样差异为 0，并已实际播放至黑场。
+
+[完整案例](projects/heart-rose-particles/README.md) · [20 秒预览](projects/heart-rose-particles/preview.mp4) · [制作对话](projects/heart-rose-particles/conversation.md) · [经验总结](projects/heart-rose-particles/lessons.md) · [源工程](projects/heart-rose-particles/source/HuangHuaYu_Outline07_4K.blend)
+
 ### 当 AI 有了触感
 
 

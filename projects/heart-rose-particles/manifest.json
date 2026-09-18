@@ -1,0 +1,434 @@
+{
+  "project": "heart-rose-particles",
+  "archived_at": "2026-09-18",
+  "files": [
+    {
+      "file": ".gitattributes",
+      "bytes": 91,
+      "sha256": "615084ee3c3ea82728e49845c5f11216ac3041729d4187d7d750c7ee6e40fc02"
+    },
+    {
+      "file": "conversation.md",
+      "bytes": 3124,
+      "sha256": "aaef6fa245a3858163acdbd5897df1f1315f028a8719d607a0aa5afb582c65e1"
+    },
+    {
+      "file": "credits.md",
+      "bytes": 1711,
+      "sha256": "46e46b7430edc08ad9754ead6b60bac90a4b17e8d61f315997d372d9daef7c98"
+    },
+    {
+      "file": "images/heart.jpg",
+      "bytes": 91735,
+      "sha256": "7b3f52ebc3789f3de1d64bfccc0629d22087cde93343cb27ec1ff6ab52aedd89"
+    },
+    {
+      "file": "images/rose.jpg",
+      "bytes": 61643,
+      "sha256": "5bee299a249e9c9dfb4fb022755ee9e4b15435189767c193a590019cb44a19d7"
+    },
+    {
+      "file": "images/text.jpg",
+      "bytes": 20485,
+      "sha256": "9ea62527589bedaf5c5b2d59ebd21199fa14644b1afdea61b103c1dc2a8bdc81"
+    },
+    {
+      "file": "lessons.md",
+      "bytes": 6294,
+      "sha256": "67eafab7129f3b18c36223036bfc0925cab08dea3155eea0b19cf06269f0a4ed"
+    },
+    {
+      "file": "preview.jpg",
+      "bytes": 179159,
+      "sha256": "c1488a98ab62dacbd912cc08b85244d59fb5839a74eb356862e82c814ef46d6b"
+    },
+    {
+      "file": "preview.mp4",
+      "bytes": 41383829,
+      "sha256": "58c5cc11fcf6943efc2ae0a6183902e4dde39cb438800ebbae4d28483744df60",
+      "logical_source": "heart-rose-outline-v11-4k/HuangHuaYu_Outline07_Preview_1080.mp4",
+      "byte_identical": true
+    },
+    {
+      "file": "prompts.md",
+      "bytes": 2010,
+      "sha256": "46c866067e9e19b6882fd9899fa9d94197ca1f389e98f122fe8e85024e2b8120"
+    },
+    {
+      "file": "publication-check.json",
+      "bytes": 1282,
+      "sha256": "511746aace681184f07d7c8e160656aa8b8624790b2c9813d2c08c596481c945"
+    },
+    {
+      "file": "README.md",
+      "bytes": 5290,
+      "sha256": "3719245fed406bfe4dde48dec72cfc2e10a5cea68cbd2787a8cf9cf5fc4efca0"
+    },
+    {
+      "file": "source/assemble_regions.py",
+      "bytes": 1134,
+      "sha256": "4be6fea79c65aa795fa5f04a08b16f425463ae469dfea2ce7d4664b1c15f09d3",
+      "logical_source": "heart-rose-outline-v11-4k/assemble_regions.py",
+      "byte_identical": true
+    },
+    {
+      "file": "source/audit_prefix.py",
+      "bytes": 2230,
+      "sha256": "cad49ffe0ed6c627501054a55f2e602af5a0e22ec9df26b6a1abc44bd4a66f55",
+      "logical_source": "heart-rose-outline-v11-4k/audit_prefix.py",
+      "byte_identical": true
+    },
+    {
+      "file": "source/build_v11.py",
+      "bytes": 5020,
+      "sha256": "5f661c69a9d7ba520ce37cccb516ecca6ea885522c93144803c23ea4a2c7e333",
+      "logical_source": "heart-rose-outline-v11-4k/build_v11.py",
+      "byte_identical": true
+    },
+    {
+      "file": "source/encode_v11.py",
+      "bytes": 1719,
+      "sha256": "83d2cbda75bb6ea5e900e47b2537c31dbd470e07139deb866e888430fb75113e",
+      "logical_source": "heart-rose-outline-v11-4k/encode_v11.py",
+      "byte_identical": true
+    },
+    {
+      "file": "source/HuangHuaYu_Outline07_4K.blend",
+      "bytes": 11398443,
+      "sha256": "44f00a78b640a7f470906b852f49b39e41187ec92358845aaf4644aaa004f0dc",
+      "logical_source": "heart-rose-outline-v11-4k/HuangHuaYu_Outline07_4K.blend",
+      "byte_identical": true
+    },
+    {
+      "file": "source/prepare_targets.py",
+      "bytes": 1344,
+      "sha256": "2c08708aea2bc4ccff24a94d32646d5b4a2165befdf145d155651bae7b1f76a2",
+      "logical_source": "heart-rose-outline-v11-4k/prepare_targets.py",
+      "byte_identical": true
+    },
+    {
+      "file": "source/qa/browser-check.json",
+      "bytes": 2303,
+      "sha256": "f250e0e892148469c2eb22b57acdbfe13180c0f0037f8f5f96d4d44255b3de12"
+    },
+    {
+      "file": "source/qa/build.json",
+      "bytes": 350,
+      "sha256": "ad255c40ad20ad230fc1173268fcb931a25f07653fa18fca6b2fa949f561891b",
+      "logical_source": "heart-rose-outline-v11-4k/qa/build.json",
+      "byte_identical": true
+    },
+    {
+      "file": "source/qa/full-film-contact.jpg",
+      "bytes": 162647,
+      "sha256": "160f39ea2208ef41a625f443bc9bb1df5dcd01818b9cfab4ad5fb3ce483f883a",
+      "logical_source": "heart-rose-outline-v11-4k/qa/full-film-contact.jpg",
+      "byte_identical": true
+    },
+    {
+      "file": "source/qa/prefix-reuse.json",
+      "bytes": 788,
+      "sha256": "c5fe085c565dceb66fb0a2cba4edf99adffc067fb9f7063b0a50f7c63d56e3ac",
+      "logical_source": "heart-rose-outline-v11-4k/qa/prefix-reuse.json",
+      "byte_identical": true
+    },
+    {
+      "file": "source/qa/prefix-state.json",
+      "bytes": 613,
+      "sha256": "c445f9a92b39b3ffe94484b9078597ffa80bc6050157f9a63712b5e196b01c45",
+      "logical_source": "heart-rose-outline-v11-4k/qa/prefix-state.json",
+      "byte_identical": true
+    },
+    {
+      "file": "source/qa/region-check.json",
+      "bytes": 1388,
+      "sha256": "14ed6d755abfcf3c5d35ea97d24af14e2b06e589ad081ecf0f3240cc086cd165",
+      "logical_source": "heart-rose-outline-v11-4k/qa/region-check.json",
+      "byte_identical": true
+    },
+    {
+      "file": "source/qa/regions-full.json",
+      "bytes": 20094,
+      "sha256": "d233e97166f32e986b0943ceb36198aa84e0d592c11d601600fa26b88d2a7069",
+      "logical_source": "heart-rose-outline-v11-4k/qa/regions-full.json",
+      "byte_identical": true
+    },
+    {
+      "file": "source/qa/render-timing.json",
+      "bytes": 14076,
+      "sha256": "4e8c66123a5f29cd800df92265a246212321db07c423ed4b47670160f9f2dfa6"
+    },
+    {
+      "file": "source/qa/source-check.json",
+      "bytes": 1685,
+      "sha256": "07f315f11a515ae6c28791073458dfa1c263bb12b4dc5feadbbbd80fb4c707b3",
+      "logical_source": "heart-rose-outline-v11-4k/qa/source-check.json",
+      "byte_identical": true
+    },
+    {
+      "file": "source/qa/target-mask.json",
+      "bytes": 260,
+      "sha256": "d16a27fd7f3f79de0abab5e5a6a1a3e76bf6bc525f93858a27eb786f59876c33",
+      "logical_source": "heart-rose-outline-v11-4k/qa/target-mask.json",
+      "byte_identical": true
+    },
+    {
+      "file": "source/qa/transition-check.jpg",
+      "bytes": 156288,
+      "sha256": "871863ba6458bfd141f6194bac5df6457b2d10f228a9d0dc1a9a6f0f655f45fe",
+      "logical_source": "heart-rose-outline-v11-4k/qa/transition-check.jpg",
+      "byte_identical": true
+    },
+    {
+      "file": "source/qa/video-check.json",
+      "bytes": 130889,
+      "sha256": "f912f00213697d7d69c77f66859326eb0a8f1139b8e6502125350db68d5a3206"
+    },
+    {
+      "file": "source/README.md",
+      "bytes": 3183,
+      "sha256": "e901067653e2676488f0e7a55c18319d1262fe30b08bed707c7d1d54ea6c6446"
+    },
+    {
+      "file": "source/render_region.py",
+      "bytes": 2886,
+      "sha256": "f5d89aaed031696b79c2297f876414bf4e4028eb34d7d6fe65d9b3ea9029d2fd",
+      "logical_source": "heart-rose-outline-v11-4k/render_region.py",
+      "byte_identical": true
+    },
+    {
+      "file": "source/render_v11.py",
+      "bytes": 978,
+      "sha256": "9b423bda9da01cb9dc7667f7fca40c0dd91ca18cd7d927c64ffea68915be4f90",
+      "logical_source": "heart-rose-outline-v11-4k/render_v11.py",
+      "byte_identical": true
+    },
+    {
+      "file": "source/source/07_mask.png",
+      "bytes": 61949,
+      "sha256": "195c57600dea26644732a5ce1d65a476a2f8198771f44482789ed321cb3a695b",
+      "logical_source": "heart-rose-outline-v11-4k/source/07_mask.png",
+      "byte_identical": true
+    },
+    {
+      "file": "source/source/07_styled_mask.png",
+      "bytes": 82940,
+      "sha256": "8d000192ad1b069f29817e39edc8643f5f934b45e45fd2c70f00dc9e16b3e1cf",
+      "logical_source": "heart-rose-outline-v11-4k/source/07_styled_mask.png",
+      "byte_identical": true
+    },
+    {
+      "file": "source/source/Approved_07.png",
+      "bytes": 181154,
+      "sha256": "269586e7db07a848d18f3e013afb75e0dac81e27b27f58e6911038cc3e122e69",
+      "logical_source": "heart-rose-outline-v11-4k/source/Approved_07.png",
+      "byte_identical": true
+    },
+    {
+      "file": "source/source/Heart_Rose_V8.blend",
+      "bytes": 11549777,
+      "sha256": "5d9cde77cf0b31def5e9945ff61a731fc82b135d2d3529013d070ad0e3d5d9cc",
+      "logical_source": "heart-rose-outline-v11-4k/source/Heart_Rose_V8.blend",
+      "byte_identical": true
+    },
+    {
+      "file": "source/source/title_targets.npz",
+      "bytes": 1514313,
+      "sha256": "7b354158a86f39a4a5705d6fe5db08ffc7ab7015d29055f6ca2d84e4ab9cea11",
+      "logical_source": "heart-rose-outline-v11-4k/source/title_targets.npz",
+      "byte_identical": true
+    },
+    {
+      "file": "source/stills/bloom_0490.png",
+      "bytes": 2917182,
+      "sha256": "7d418879a58ecd1fff7c12c06f15830403f5d21d7308e33558939ae98ed0adc2",
+      "logical_source": "heart-rose-outline-v11-4k/stills/bloom_0490.png",
+      "byte_identical": true
+    },
+    {
+      "file": "source/stills/native_490.png",
+      "bytes": 3278085,
+      "sha256": "e492a07ad44006da3190f08f7c93db98a2f70a9fc7b44dbd936fffd197b055ab"
+    },
+    {
+      "file": "source/stills/native_600.png",
+      "bytes": 2479260,
+      "sha256": "7e87b90e71ca1c42fbd4455535c74a529875ada77120abc178bdea0af4359b20"
+    },
+    {
+      "file": "source/verify_movie.py",
+      "bytes": 4657,
+      "sha256": "d189e561f68db17cbd993be54184f1b8c2c960bb5ce0a5b30e74c92b7cc7be8c",
+      "logical_source": "heart-rose-outline-v11-4k/verify_movie.py",
+      "byte_identical": true
+    },
+    {
+      "file": "source/verify_region.py",
+      "bytes": 1197,
+      "sha256": "80808673173656e95e96da3f9f8ff041dd0a6ff794948c6bce2be14f3aac0013",
+      "logical_source": "heart-rose-outline-v11-4k/verify_region.py",
+      "byte_identical": true
+    },
+    {
+      "file": "source/verify_source.py",
+      "bytes": 3270,
+      "sha256": "9db3faa2da4d4cc0b0432b2e6a98ab36451465958188a981fcfa98cf2dc59ffe",
+      "logical_source": "heart-rose-outline-v11-4k/verify_source.py",
+      "byte_identical": true
+    },
+    {
+      "file": "verification.json",
+      "bytes": 3448,
+      "sha256": "ea17d72ab6a0e6496ea32343af527399d79c665798d7fe9fb31d66f841c29e8a"
+    },
+    {
+      "file": "versions/v007/README.md",
+      "bytes": 721,
+      "sha256": "04b1a0e10592f0a6c30706808fc3124c157c43f18a6be4d58addcf59ddb2d02d"
+    },
+    {
+      "file": "versions/v008/build_v8.py",
+      "bytes": 12092,
+      "sha256": "a307d1265c639bfdc4951ebc3ec5b2083c737ace7568a57405e8498250fbd3e9",
+      "logical_source": "heart-growing-rose-v8-4k/build_v8.py",
+      "byte_identical": true
+    },
+    {
+      "file": "versions/v008/contact.jpg",
+      "bytes": 192102,
+      "sha256": "ef7e10d9fffd245a7975d9b323e74267f891bfdf1f36e4209fc458b13e0a23e0",
+      "logical_source": "heart-growing-rose-v8-4k/qa/full-film-contact.jpg",
+      "byte_identical": true
+    },
+    {
+      "file": "versions/v008/encode_v8.py",
+      "bytes": 1725,
+      "sha256": "8bef691bc33f09144e2839f0bb71e85ccf3fb68d89b79d340a59ddb7508167e7",
+      "logical_source": "heart-growing-rose-v8-4k/encode_v8.py",
+      "byte_identical": true
+    },
+    {
+      "file": "versions/v008/HuangHuaYu_Growing_Rose_4K.blend",
+      "bytes": 11549777,
+      "sha256": "5d9cde77cf0b31def5e9945ff61a731fc82b135d2d3529013d070ad0e3d5d9cc",
+      "logical_source": "heart-growing-rose-v8-4k/HuangHuaYu_Growing_Rose_4K.blend",
+      "byte_identical": true
+    },
+    {
+      "file": "versions/v008/qa/source-check.json",
+      "bytes": 1688,
+      "sha256": "2707ec45bc96b3160f9778f8bd98a5c35f5549dd69f6a82dbad51a3f85d7075e",
+      "logical_source": "heart-growing-rose-v8-4k/qa/source-check.json",
+      "byte_identical": true
+    },
+    {
+      "file": "versions/v008/README.md",
+      "bytes": 1309,
+      "sha256": "7142f6905cb349560f5098b5da8de42ac129232fd8a4c44b3495e12b8791be41"
+    },
+    {
+      "file": "versions/v008/render_v8.py",
+      "bytes": 971,
+      "sha256": "7f31a36165df0e8ddceadf0c0a43a9c5cd94f9d1ad90a1475ffef31c1c4f2b44",
+      "logical_source": "heart-growing-rose-v8-4k/render_v8.py",
+      "byte_identical": true
+    },
+    {
+      "file": "versions/v008/rose_geometry.py",
+      "bytes": 8950,
+      "sha256": "9fa9c11104b7c15dff7456fba81131e152aa93a6eaab78ca51b9f367bd57988f",
+      "logical_source": "heart-growing-rose-v8-4k/rose_geometry.py",
+      "byte_identical": true
+    },
+    {
+      "file": "versions/v009/01_四种字形对比.png",
+      "bytes": 475894,
+      "sha256": "1c19bf08580161717540a6df0f80f908cff5ebc594229fcbb34c81b3bc914296",
+      "logical_source": "typography-v9-studies/01_四种字形对比.png",
+      "byte_identical": true
+    },
+    {
+      "file": "versions/v009/02_粒子落版对比.png",
+      "bytes": 637775,
+      "sha256": "118fa92eb62909fa00333cbecfd545e83cdf39c833c1102b220bcf6b276a2636",
+      "logical_source": "typography-v9-studies/02_粒子落版对比.png",
+      "byte_identical": true
+    },
+    {
+      "file": "versions/v009/README.md",
+      "bytes": 798,
+      "sha256": "eb80005c922520a79218f0ad7a01615001bf5bf06ac5fd6998813249abb96903"
+    },
+    {
+      "file": "versions/v009/styles.json",
+      "bytes": 1496,
+      "sha256": "e45852e8aee0e28ae5fe17e67f60e86032740470de4f95cb4a668c01f18b9b60",
+      "logical_source": "typography-v9-studies/styles.json",
+      "byte_identical": true
+    },
+    {
+      "file": "versions/v009/设计说明.md",
+      "bytes": 1345,
+      "sha256": "0b220d61355158d50de73c3a674ea28b50f45578c0c456f64674e83994ab0aa2",
+      "logical_source": "typography-v9-studies/设计说明.md",
+      "byte_identical": true
+    },
+    {
+      "file": "versions/v010/01_艺术字方案_01-05.png",
+      "bytes": 643280,
+      "sha256": "9e00111d2fd665cb80e39c43593410af14b758cd5eabc9e32a6e3530fb35621f",
+      "logical_source": "typography-v10-artful-10/01_艺术字方案_01-05.png",
+      "byte_identical": true
+    },
+    {
+      "file": "versions/v010/02_艺术字方案_06-10.png",
+      "bytes": 788412,
+      "sha256": "4645ab6ddba4b93074abeb4c43f335f20741f9c9422af513237e0d2db0ba933a",
+      "logical_source": "typography-v10-artful-10/02_艺术字方案_06-10.png",
+      "byte_identical": true
+    },
+    {
+      "file": "versions/v010/03_粒子预案_01-05.png",
+      "bytes": 1027677,
+      "sha256": "3aff0dcf3d4428809a9cfbe221e59873c8e8beaef1e5a2cd77f4b4c89051d87f",
+      "logical_source": "typography-v10-artful-10/03_粒子预案_01-05.png",
+      "byte_identical": true
+    },
+    {
+      "file": "versions/v010/04_粒子预案_06-10.png",
+      "bytes": 1088771,
+      "sha256": "5d0605120d3e563c2ee7cf0780a8344d8514fc53015a32ddcb91c39de8740a76",
+      "logical_source": "typography-v10-artful-10/04_粒子预案_06-10.png",
+      "byte_identical": true
+    },
+    {
+      "file": "versions/v010/README.md",
+      "bytes": 911,
+      "sha256": "313ec739b3234d95e6823748a137f866eae7b1fc558d7cb8d1ff10053f15e7e2"
+    },
+    {
+      "file": "versions/v010/styles.json",
+      "bytes": 4938,
+      "sha256": "cd50a6c59c94d832f2856c1f5047a2441efe99d73bc4aca2d9a2554ed5260e2a",
+      "logical_source": "typography-v10-artful-10/styles.json",
+      "byte_identical": true
+    },
+    {
+      "file": "versions/v010/设计说明.md",
+      "bytes": 1842,
+      "sha256": "9be844ce30e262a3b02c80fd3d626f07affd861c3344b1a1afecb4214b757676",
+      "logical_source": "typography-v10-artful-10/设计说明.md",
+      "byte_identical": true
+    }
+  ],
+  "release_downloads": [
+    {
+      "file": "heart-rose-outline07-4k.mp4",
+      "url": "https://github.com/huangxin-design/blender-beginner/releases/download/works-heart-rose-2026-09-18/heart-rose-outline07-4k.mp4",
+      "bytes": 241602096,
+      "sha256": "d4254c0d96b06d3d619e144e97f8a30c2d6a2a0d29513645bcc058345710ba82",
+      "byte_identical_to_original": true
+    }
+  ],
+  "self_reference_note": "The manifest excludes its own hash. Current source files are available from the repository; the former source ZIP is withdrawn."
+}

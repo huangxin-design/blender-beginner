@@ -1,0 +1,87 @@
+{
+  "status": "passed",
+  "surface": "Codex Browser / HTML5 video",
+  "checks": [
+    {
+      "stage": "native-heart",
+      "currentTime": 3.557634,
+      "duration": 20,
+      "ended": false,
+      "error": null,
+      "height": 4096,
+      "loop": false,
+      "paused": true,
+      "readyState": 4,
+      "width": 3072
+    },
+    {
+      "stage": "native-rose",
+      "currentTime": 12.396834,
+      "duration": 20,
+      "ended": false,
+      "error": null,
+      "height": 4096,
+      "loop": false,
+      "paused": true,
+      "readyState": 4,
+      "width": 3072
+    },
+    {
+      "stage": "native-selected-title",
+      "currentTime": 16.265459,
+      "duration": 20,
+      "ended": false,
+      "error": null,
+      "height": 4096,
+      "loop": false,
+      "paused": true,
+      "readyState": 4,
+      "width": 3072
+    },
+    {
+      "stage": "native-wind-fade",
+      "currentTime": 17.791571,
+      "duration": 20,
+      "ended": false,
+      "error": null,
+      "height": 4096,
+      "loop": false,
+      "paused": true,
+      "readyState": 4,
+      "width": 3072
+    },
+    {
+      "stage": "native-end",
+      "currentTime": 20,
+      "duration": 20,
+      "ended": true,
+      "error": null,
+      "height": 4096,
+      "loop": false,
+      "paused": true,
+      "readyState": 4,
+      "width": 3072
+    },
+    {
+      "stage": "preview-end",
+      "currentTime": 20,
+      "duration": 20,
+      "ended": true,
+      "error": null,
+      "height": 1440,
+      "loop": false,
+      "paused": true,
+      "readyState": 4,
+      "width": 1080
+    }
+  ],
+  "visual_review": {
+    "native_heart": "Particle heart visible, intact and centered",
+    "native_rose": "Growing rose and stem visible without broken blocks",
+    "selected_title": "Approved fine outline 黄花鱼 / BLENDER, two lines, pale rose-gold",
+    "wind_fade": "Characters loosen progressively into drifting particles",
+    "native_ending": "Black ending at 20 seconds, no loop",
+    "preview_ending": "Lightweight version plays to 20 seconds, black ending, no loop"
+  },
+  "scope": "Actual playback of native 3072x4096 and preview 1080x1440 files; representative native screenshots inspected. Not a guarantee for other players."
+}

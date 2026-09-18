@@ -124,6 +124,18 @@ See [usage, boundaries, and verification](docs/usage-progress.md) (Chinese), or 
 
 Flower bloom and Tree Study now show their latest completed versions, with usage read at **19:20 China Standard Time on September 9, 2026**. The AI spheres and Pink Wave retain their 16:59 snapshots from the same day. Each case states the coverage of its cumulative task record. [Sources and methodology](docs/showcase-measurements.md)
 
+### Heart and rose · fine particle lettering
+
+[![Native Blender frames: anatomical heart, growing rose, and fine outline lettering](projects/heart-rose-particles/preview.jpg)](projects/heart-rose-particles/README.md)
+
+**20 seconds · portrait 3:4 · native 3072 × 4096 · 30 fps · silent.** Particles form a beating heart, grow into a rose, become two lines of Chinese / English lettering, and drift away to black.
+
+This separate work starts at the author's request for a 20-second portrait heart-and-flower film. Its record preserves the rose revision, four typography studies, ten further proposals, and selection of outline style 07. Final sources, reusable prompts, practical lessons, and measured verification are included.
+
+**Tokens:** not independently recorded. **Recorded V11 render batch:** 165 native-grid region frames, about 15 minutes, including loading and saving; earlier frames and static holds were reused. This is not the full film's rendering time. All 600 native frames matched between software and NVIDIA hardware decoding, and both delivery sizes were played to the black ending.
+
+[Case](projects/heart-rose-particles/README.md) · [Preview](projects/heart-rose-particles/preview.mp4) · [Lessons](projects/heart-rose-particles/lessons.md) · [Editable project](projects/heart-rose-particles/source/HuangHuaYu_Outline07_4K.blend) · [Verification and timing scope](projects/heart-rose-particles/verification.json)
+
 ### What if AI had a texture?
 
 

@@ -1,0 +1,7244 @@
+{
+  "native_video": {
+    "width": 3072,
+    "height": 4096,
+    "aspect": "3:4",
+    "fps": "30/1",
+    "frame_count": 600,
+    "duration_seconds": 20.0,
+    "codec": "h264",
+    "pixel_format": "yuv420p",
+    "color_space": "bt709",
+    "audio": false
+  },
+  "native_pngs": {
+    "count": 600,
+    "dimensions_verified_for_all": true
+  },
+  "full_decode_comparison": {
+    "software_decoder": "FFmpeg h264",
+    "hardware_decoder": "NVIDIA h264_cuvid",
+    "comparison": "Every native YUV420P sample at 3072x4096, all 600 frames",
+    "max_sample_difference_8bit": 0,
+    "mean_absolute_sample_difference": 0.0,
+    "different_frames": 0,
+    "unexpected_blank_frames_before_fade": 0,
+    "exit_codes": [
+      0,
+      0
+    ]
+  },
+  "ending_check": {
+    "type": "Wind fade to black, no loop",
+    "intentional_black_frames": [
+      584,
+      585,
+      586,
+      587,
+      588,
+      589,
+      590,
+      591,
+      592,
+      593,
+      594,
+      595,
+      596,
+      597,
+      598,
+      599,
+      600
+    ],
+    "last_frame_luma_max": 18,
+    "black_tolerance_8bit_luma": {
+      "reference_black": 16,
+      "maximum": 20,
+      "mean_below": 16.1,
+      "source_tail_rgb_maximum": 1,
+      "reason": "All 13 source tail frames are checked for RGB 0/1 dithering only; the video allows black-level PNG dithering and H.264 quantization."
+    }
+  },
+  "browser_playback": {
+    "status": "passed",
+    "surface": "Codex Browser / HTML5 video",
+    "checks": [
+      {
+        "stage": "native-heart",
+        "currentTime": 3.557634,
+        "duration": 20,
+        "ended": false,
+        "error": null,
+        "height": 4096,
+        "loop": false,
+        "paused": true,
+        "readyState": 4,
+        "width": 3072
+      },
+      {
+        "stage": "native-rose",
+        "currentTime": 12.396834,
+        "duration": 20,
+        "ended": false,
+        "error": null,
+        "height": 4096,
+        "loop": false,
+        "paused": true,
+        "readyState": 4,
+        "width": 3072
+      },
+      {
+        "stage": "native-selected-title",
+        "currentTime": 16.265459,
+        "duration": 20,
+        "ended": false,
+        "error": null,
+        "height": 4096,
+        "loop": false,
+        "paused": true,
+        "readyState": 4,
+        "width": 3072
+      },
+      {
+        "stage": "native-wind-fade",
+        "currentTime": 17.791571,
+        "duration": 20,
+        "ended": false,
+        "error": null,
+        "height": 4096,
+        "loop": false,
+        "paused": true,
+        "readyState": 4,
+        "width": 3072
+      },
+      {
+        "stage": "native-end",
+        "currentTime": 20,
+        "duration": 20,
+        "ended": true,
+        "error": null,
+        "height": 4096,
+        "loop": false,
+        "paused": true,
+        "readyState": 4,
+        "width": 3072
+      },
+      {
+        "stage": "preview-end",
+        "currentTime": 20,
+        "duration": 20,
+        "ended": true,
+        "error": null,
+        "height": 1440,
+        "loop": false,
+        "paused": true,
+        "readyState": 4,
+        "width": 1080
+      }
+    ],
+    "visual_review": {
+      "native_heart": "Particle heart visible, intact and centered",
+      "native_rose": "Growing rose and stem visible without broken blocks",
+      "selected_title": "Approved fine outline 黄花鱼 / BLENDER, two lines, pale rose-gold",
+      "wind_fade": "Characters loosen progressively into drifting particles",
+      "native_ending": "Black ending at 20 seconds, no loop",
+      "preview_ending": "Lightweight version plays to 20 seconds, black ending, no loop"
+    },
+    "scope": "Actual playback of native 3072x4096 and preview 1080x1440 files; representative native screenshots inspected. Not a guarantee for other players."
+  },
+  "per_frame_luma_scan": [
+    {
+      "frame": 1,
+      "lit_pixels": 2402060,
+      "luma_mean": 33.73005930582682,
+      "luma_max": 255,
+      "bounds": [
+        359,
+        574,
+        2554,
+        3643
+      ]
+    },
+    {
+      "frame": 2,
+      "lit_pixels": 2487770,
+      "luma_mean": 34.06104556719462,
+      "luma_max": 255,
+      "bounds": [
+        364,
+        491,
+        2572,
+        3567
+      ]
+    },
+    {
+      "frame": 3,
+      "lit_pixels": 2540253,
+      "luma_mean": 34.35455950101217,
+      "luma_max": 255,
+      "bounds": [
+        401,
+        464,
+        2609,
+        3551
+      ]
+    },
+    {
+      "frame": 4,
+      "lit_pixels": 2534722,
+      "luma_mean": 34.516969521840416,
+      "luma_max": 251,
+      "bounds": [
+        352,
+        460,
+        2615,
+        3521
+      ]
+    },
+    {
+      "frame": 5,
+      "lit_pixels": 2461715,
+      "luma_mean": 33.986261208852135,
+      "luma_max": 255,
+      "bounds": [
+        402,
+        481,
+        2635,
+        3504
+      ]
+    },
+    {
+      "frame": 6,
+      "lit_pixels": 2431036,
+      "luma_mean": 33.744582732518516,
+      "luma_max": 255,
+      "bounds": [
+        445,
+        485,
+        2588,
+        3471
+      ]
+    },
+    {
+      "frame": 7,
+      "lit_pixels": 2488616,
+      "luma_mean": 34.17880400021871,
+      "luma_max": 249,
+      "bounds": [
+        458,
+        496,
+        2746,
+        3494
+      ]
+    },
+    {
+      "frame": 8,
+      "lit_pixels": 2487314,
+      "luma_mean": 34.14178450902303,
+      "luma_max": 253,
+      "bounds": [
+        377,
+        433,
+        2753,
+        3503
+      ]
+    },
+    {
+      "frame": 9,
+      "lit_pixels": 2550714,
+      "luma_mean": 34.51768350601196,
+      "luma_max": 255,
+      "bounds": [
+        330,
+        348,
+        2688,
+        3546
+      ]
+    },
+    {
+      "frame": 10,
+      "lit_pixels": 2576988,
+      "luma_mean": 34.70176990826925,
+      "luma_max": 251,
+      "bounds": [
+        312,
+        398,
+        2721,
+        3578
+      ]
+    },
+    {
+      "frame": 11,
+      "lit_pixels": 2504933,
+      "luma_mean": 34.10566894213358,
+      "luma_max": 253,
+      "bounds": [
+        336,
+        444,
+        2797,
+        3566
+      ]
+    },
+    {
+      "frame": 12,
+      "lit_pixels": 2432532,
+      "luma_mean": 33.696141401926674,
+      "luma_max": 255,
+      "bounds": [
+        432,
+        446,
+        2850,
+        3548
+      ]
+    },
+    {
+      "frame": 13,
+      "lit_pixels": 2490124,
+      "luma_mean": 33.98564966519674,
+      "luma_max": 249,
+      "bounds": [
+        470,
+        402,
+        2764,
+        3585
+      ]
+    },
+    {
+      "frame": 14,
+      "lit_pixels": 2618327,
+      "luma_mean": 34.7337478796641,
+      "luma_max": 254,
+      "bounds": [
+        428,
+        394,
+        2784,
+        3677
+      ]
+    },
+    {
+      "frame": 15,
+      "lit_pixels": 2606492,
+      "luma_mean": 34.62549432118734,
+      "luma_max": 255,
+      "bounds": [
+        424,
+        449,
+        2841,
+        3634
+      ]
+    },
+    {
+      "frame": 16,
+      "lit_pixels": 2684243,
+      "luma_mean": 35.0832200050354,
+      "luma_max": 249,
+      "bounds": [
+        370,
+        532,
+        2918,
+        3602
+      ]
+    },
+    {
+      "frame": 17,
+      "lit_pixels": 2720239,
+      "luma_mean": 35.14581219355265,
+      "luma_max": 255,
+      "bounds": [
+        410,
+        462,
+        3007,
+        3606
+      ]
+    },
+    {
+      "frame": 18,
+      "lit_pixels": 2622471,
+      "luma_mean": 34.83171820640564,
+      "luma_max": 255,
+      "bounds": [
+        414,
+        360,
+        3054,
+        3666
+      ]
+    },
+    {
+      "frame": 19,
+      "lit_pixels": 2634790,
+      "luma_mean": 34.95471962292989,
+      "luma_max": 248,
+      "bounds": [
+        466,
+        354,
+        2883,
+        3698
+      ]
+    },
+    {
+      "frame": 20,
+      "lit_pixels": 2549853,
+      "luma_mean": 34.36499778429667,
+      "luma_max": 254,
+      "bounds": [
+        377,
+        343,
+        2748,
+        3731
+      ]
+    },
+    {
+      "frame": 21,
+      "lit_pixels": 2516915,
+      "luma_mean": 34.39220984776815,
+      "luma_max": 255,
+      "bounds": [
+        358,
+        317,
+        2729,
+        3742
+      ]
+    },
+    {
+      "frame": 22,
+      "lit_pixels": 2551448,
+      "luma_mean": 34.57396459579468,
+      "luma_max": 248,
+      "bounds": [
+        405,
+        311,
+        2755,
+        3725
+      ]
+    },
+    {
+      "frame": 23,
+      "lit_pixels": 2549251,
+      "luma_mean": 34.58063213030497,
+      "luma_max": 255,
+      "bounds": [
+        410,
+        328,
+        2840,
+        3746
+      ]
+    },
+    {
+      "frame": 24,
+      "lit_pixels": 2575877,
+      "luma_mean": 34.713119983673096,
+      "luma_max": 255,
+      "bounds": [
+        444,
+        410,
+        2868,
+        3736
+      ]
+    },
+    {
+      "frame": 25,
+      "lit_pixels": 2566192,
+      "luma_mean": 34.62499761581421,
+      "luma_max": 249,
+      "bounds": [
+        447,
+        387,
+        2939,
+        3742
+      ]
+    },
+    {
+      "frame": 26,
+      "lit_pixels": 2646960,
+      "luma_mean": 35.096038023630776,
+      "luma_max": 255,
+      "bounds": [
+        417,
+        366,
+        2937,
+        3682
+      ]
+    },
+    {
+      "frame": 27,
+      "lit_pixels": 2712008,
+      "luma_mean": 35.49672842025757,
+      "luma_max": 255,
+      "bounds": [
+        393,
+        394,
+        2938,
+        3622
+      ]
+    },
+    {
+      "frame": 28,
+      "lit_pixels": 2731363,
+      "luma_mean": 35.673097372055054,
+      "luma_max": 250,
+      "bounds": [
+        396,
+        457,
+        2984,
+        3640
+      ]
+    },
+    {
+      "frame": 29,
+      "lit_pixels": 2675481,
+      "luma_mean": 35.155460357666016,
+      "luma_max": 255,
+      "bounds": [
+        392,
+        469,
+        2943,
+        3710
+      ]
+    },
+    {
+      "frame": 30,
+      "lit_pixels": 2526876,
+      "luma_mean": 34.27152609825134,
+      "luma_max": 255,
+      "bounds": [
+        384,
+        383,
+        2849,
+        3608
+      ]
+    },
+    {
+      "frame": 31,
+      "lit_pixels": 2538571,
+      "luma_mean": 34.545923948287964,
+      "luma_max": 249,
+      "bounds": [
+        366,
+        393,
+        2824,
+        3587
+      ]
+    },
+    {
+      "frame": 32,
+      "lit_pixels": 2585359,
+      "luma_mean": 34.85841234525045,
+      "luma_max": 255,
+      "bounds": [
+        421,
+        474,
+        2801,
+        3567
+      ]
+    },
+    {
+      "frame": 33,
+      "lit_pixels": 2565890,
+      "luma_mean": 34.9676730632782,
+      "luma_max": 255,
+      "bounds": [
+        394,
+        457,
+        2752,
+        3586
+      ]
+    },
+    {
+      "frame": 34,
+      "lit_pixels": 2515782,
+      "luma_mean": 34.84406344095866,
+      "luma_max": 249,
+      "bounds": [
+        369,
+        413,
+        2698,
+        3617
+      ]
+    },
+    {
+      "frame": 35,
+      "lit_pixels": 2468223,
+      "luma_mean": 34.40622687339783,
+      "luma_max": 255,
+      "bounds": [
+        415,
+        365,
+        2666,
+        3650
+      ]
+    },
+    {
+      "frame": 36,
+      "lit_pixels": 2505989,
+      "luma_mean": 34.717767318089805,
+      "luma_max": 255,
+      "bounds": [
+        435,
+        334,
+        2668,
+        3653
+      ]
+    },
+    {
+      "frame": 37,
+      "lit_pixels": 2527664,
+      "luma_mean": 34.86584631601969,
+      "luma_max": 249,
+      "bounds": [
+        396,
+        330,
+        2635,
+        3605
+      ]
+    },
+    {
+      "frame": 38,
+      "lit_pixels": 2530654,
+      "luma_mean": 34.86066095034281,
+      "luma_max": 255,
+      "bounds": [
+        388,
+        336,
+        2600,
+        3595
+      ]
+    },
+    {
+      "frame": 39,
+      "lit_pixels": 2565212,
+      "luma_mean": 35.30586282412211,
+      "luma_max": 255,
+      "bounds": [
+        429,
+        377,
+        2596,
+        3585
+      ]
+    },
+    {
+      "frame": 40,
+      "lit_pixels": 2542204,
+      "luma_mean": 35.34137749671936,
+      "luma_max": 249,
+      "bounds": [
+        395,
+        468,
+        2542,
+        3604
+      ]
+    },
+    {
+      "frame": 41,
+      "lit_pixels": 2527248,
+      "luma_mean": 35.21183331807455,
+      "luma_max": 255,
+      "bounds": [
+        380,
+        482,
+        2489,
+        3646
+      ]
+    },
+    {
+      "frame": 42,
+      "lit_pixels": 2570819,
+      "luma_mean": 35.469242572784424,
+      "luma_max": 255,
+      "bounds": [
+        396,
+        481,
+        2495,
+        3616
+      ]
+    },
+    {
+      "frame": 43,
+      "lit_pixels": 2572983,
+      "luma_mean": 35.325570821762085,
+      "luma_max": 249,
+      "bounds": [
+        414,
+        572,
+        2494,
+        3620
+      ]
+    },
+    {
+      "frame": 44,
+      "lit_pixels": 2581610,
+      "luma_mean": 35.27457992235819,
+      "luma_max": 255,
+      "bounds": [
+        400,
+        611,
+        2509,
+        3646
+      ]
+    },
+    {
+      "frame": 45,
+      "lit_pixels": 2614881,
+      "luma_mean": 35.43541979789734,
+      "luma_max": 254,
+      "bounds": [
+        403,
+        639,
+        2489,
+        3655
+      ]
+    },
+    {
+      "frame": 46,
+      "lit_pixels": 2603457,
+      "luma_mean": 35.56781721115112,
+      "luma_max": 248,
+      "bounds": [
+        433,
+        638,
+        2519,
+        3677
+      ]
+    },
+    {
+      "frame": 47,
+      "lit_pixels": 2601441,
+      "luma_mean": 35.48711816469828,
+      "luma_max": 255,
+      "bounds": [
+        445,
+        618,
+        2534,
+        3649
+      ]
+    },
+    {
+      "frame": 48,
+      "lit_pixels": 2613348,
+      "luma_mean": 35.467979431152344,
+      "luma_max": 255,
+      "bounds": [
+        456,
+        589,
+        2492,
+        3592
+      ]
+    },
+    {
+      "frame": 49,
+      "lit_pixels": 2644448,
+      "luma_mean": 35.68062353134155,
+      "luma_max": 250,
+      "bounds": [
+        470,
+        623,
+        2503,
+        3564
+      ]
+    },
+    {
+      "frame": 50,
+      "lit_pixels": 2666902,
+      "luma_mean": 35.93123690287272,
+      "luma_max": 254,
+      "bounds": [
+        498,
+        628,
+        2515,
+        3536
+      ]
+    },
+    {
+      "frame": 51,
+      "lit_pixels": 2713903,
+      "luma_mean": 36.398450215657554,
+      "luma_max": 255,
+      "bounds": [
+        473,
+        644,
+        2535,
+        3498
+      ]
+    },
+    {
+      "frame": 52,
+      "lit_pixels": 2746075,
+      "luma_mean": 36.74360513687134,
+      "luma_max": 250,
+      "bounds": [
+        460,
+        646,
+        2534,
+        3499
+      ]
+    },
+    {
+      "frame": 53,
+      "lit_pixels": 2716242,
+      "luma_mean": 36.69388588269552,
+      "luma_max": 255,
+      "bounds": [
+        464,
+        602,
+        2517,
+        3527
+      ]
+    },
+    {
+      "frame": 54,
+      "lit_pixels": 2675769,
+      "luma_mean": 36.584784746170044,
+      "luma_max": 255,
+      "bounds": [
+        504,
+        610,
+        2498,
+        3523
+      ]
+    },
+    {
+      "frame": 55,
+      "lit_pixels": 2662099,
+      "luma_mean": 36.67087928454081,
+      "luma_max": 249,
+      "bounds": [
+        538,
+        592,
+        2502,
+        3520
+      ]
+    },
+    {
+      "frame": 56,
+      "lit_pixels": 2729327,
+      "luma_mean": 37.15337483088175,
+      "luma_max": 254,
+      "bounds": [
+        547,
+        615,
+        2493,
+        3511
+      ]
+    },
+    {
+      "frame": 57,
+      "lit_pixels": 2726165,
+      "luma_mean": 37.04654049873352,
+      "luma_max": 255,
+      "bounds": [
+        545,
+        596,
+        2476,
+        3504
+      ]
+    },
+    {
+      "frame": 58,
+      "lit_pixels": 2687989,
+      "luma_mean": 36.70420138041178,
+      "luma_max": 249,
+      "bounds": [
+        597,
+        578,
+        2470,
+        3507
+      ]
+    },
+    {
+      "frame": 59,
+      "lit_pixels": 2657080,
+      "luma_mean": 36.53609331448873,
+      "luma_max": 254,
+      "bounds": [
+        627,
+        551,
+        2444,
+        3517
+      ]
+    },
+    {
+      "frame": 60,
+      "lit_pixels": 2639525,
+      "luma_mean": 36.464990536371864,
+      "luma_max": 253,
+      "bounds": [
+        635,
+        537,
+        2424,
+        3521
+      ]
+    },
+    {
+      "frame": 61,
+      "lit_pixels": 2602835,
+      "luma_mean": 36.15950401624044,
+      "luma_max": 249,
+      "bounds": [
+        649,
+        537,
+        2425,
+        3528
+      ]
+    },
+    {
+      "frame": 62,
+      "lit_pixels": 2599196,
+      "luma_mean": 36.09634041786194,
+      "luma_max": 255,
+      "bounds": [
+        656,
+        526,
+        2421,
+        3543
+      ]
+    },
+    {
+      "frame": 63,
+      "lit_pixels": 2589647,
+      "luma_mean": 35.9949471950531,
+      "luma_max": 254,
+      "bounds": [
+        653,
+        508,
+        2425,
+        3543
+      ]
+    },
+    {
+      "frame": 64,
+      "lit_pixels": 2585648,
+      "luma_mean": 35.907609144846596,
+      "luma_max": 255,
+      "bounds": [
+        656,
+        509,
+        2437,
+        3553
+      ]
+    },
+    {
+      "frame": 65,
+      "lit_pixels": 2580834,
+      "luma_mean": 35.92527023951212,
+      "luma_max": 255,
+      "bounds": [
+        670,
+        500,
+        2437,
+        3558
+      ]
+    },
+    {
+      "frame": 66,
+      "lit_pixels": 2587684,
+      "luma_mean": 35.983608404795326,
+      "luma_max": 255,
+      "bounds": [
+        676,
+        503,
+        2428,
+        3564
+      ]
+    },
+    {
+      "frame": 67,
+      "lit_pixels": 2605045,
+      "luma_mean": 36.05223639806112,
+      "luma_max": 255,
+      "bounds": [
+        668,
+        506,
+        2425,
+        3568
+      ]
+    },
+    {
+      "frame": 68,
+      "lit_pixels": 2605415,
+      "luma_mean": 36.061867475509644,
+      "luma_max": 255,
+      "bounds": [
+        670,
+        514,
+        2420,
+        3570
+      ]
+    },
+    {
+      "frame": 69,
+      "lit_pixels": 2612282,
+      "luma_mean": 36.13595159848531,
+      "luma_max": 255,
+      "bounds": [
+        670,
+        516,
+        2419,
+        3569
+      ]
+    },
+    {
+      "frame": 70,
+      "lit_pixels": 2612954,
+      "luma_mean": 36.17267632484436,
+      "luma_max": 255,
+      "bounds": [
+        665,
+        511,
+        2423,
+        3565
+      ]
+    },
+    {
+      "frame": 71,
+      "lit_pixels": 2608170,
+      "luma_mean": 36.17608563105265,
+      "luma_max": 255,
+      "bounds": [
+        661,
+        507,
+        2425,
+        3561
+      ]
+    },
+    {
+      "frame": 72,
+      "lit_pixels": 2602975,
+      "luma_mean": 36.157284100850426,
+      "luma_max": 255,
+      "bounds": [
+        658,
+        503,
+        2426,
+        3560
+      ]
+    },
+    {
+      "frame": 73,
+      "lit_pixels": 2609657,
+      "luma_mean": 36.23501364390055,
+      "luma_max": 253,
+      "bounds": [
+        653,
+        504,
+        2431,
+        3555
+      ]
+    },
+    {
+      "frame": 74,
+      "lit_pixels": 2631270,
+      "luma_mean": 36.459089279174805,
+      "luma_max": 255,
+      "bounds": [
+        643,
+        516,
+        2445,
+        3544
+      ]
+    },
+    {
+      "frame": 75,
+      "lit_pixels": 2673573,
+      "luma_mean": 36.87966616948446,
+      "luma_max": 255,
+      "bounds": [
+        625,
+        540,
+        2475,
+        3528
+      ]
+    },
+    {
+      "frame": 76,
+      "lit_pixels": 2711095,
+      "luma_mean": 37.23023502031962,
+      "luma_max": 255,
+      "bounds": [
+        615,
+        553,
+        2491,
+        3520
+      ]
+    },
+    {
+      "frame": 77,
+      "lit_pixels": 2715919,
+      "luma_mean": 37.16428470611572,
+      "luma_max": 255,
+      "bounds": [
+        626,
+        537,
+        2472,
+        3531
+      ]
+    },
+    {
+      "frame": 78,
+      "lit_pixels": 2715781,
+      "luma_mean": 37.09957273801168,
+      "luma_max": 250,
+      "bounds": [
+        639,
+        522,
+        2453,
+        3542
+      ]
+    },
+    {
+      "frame": 79,
+      "lit_pixels": 2722152,
+      "luma_mean": 37.10575524965922,
+      "luma_max": 254,
+      "bounds": [
+        638,
+        523,
+        2454,
+        3541
+      ]
+    },
+    {
+      "frame": 80,
+      "lit_pixels": 2732326,
+      "luma_mean": 37.15803074836731,
+      "luma_max": 252,
+      "bounds": [
+        633,
+        530,
+        2461,
+        3537
+      ]
+    },
+    {
+      "frame": 81,
+      "lit_pixels": 2733992,
+      "luma_mean": 37.16805601119995,
+      "luma_max": 252,
+      "bounds": [
+        634,
+        530,
+        2460,
+        3538
+      ]
+    },
+    {
+      "frame": 82,
+      "lit_pixels": 2717682,
+      "luma_mean": 37.058227141698204,
+      "luma_max": 255,
+      "bounds": [
+        641,
+        521,
+        2451,
+        3544
+      ]
+    },
+    {
+      "frame": 83,
+      "lit_pixels": 2698535,
+      "luma_mean": 36.93733310699463,
+      "luma_max": 252,
+      "bounds": [
+        650,
+        511,
+        2441,
+        3551
+      ]
+    },
+    {
+      "frame": 84,
+      "lit_pixels": 2678171,
+      "luma_mean": 36.833849589029946,
+      "luma_max": 251,
+      "bounds": [
+        654,
+        505,
+        2435,
+        3555
+      ]
+    },
+    {
+      "frame": 85,
+      "lit_pixels": 2671473,
+      "luma_mean": 36.78828636805216,
+      "luma_max": 252,
+      "bounds": [
+        653,
+        503,
+        2432,
+        3557
+      ]
+    },
+    {
+      "frame": 86,
+      "lit_pixels": 2674634,
+      "luma_mean": 36.759085734685264,
+      "luma_max": 250,
+      "bounds": [
+        652,
+        503,
+        2431,
+        3557
+      ]
+    },
+    {
+      "frame": 87,
+      "lit_pixels": 2675500,
+      "luma_mean": 36.706336418787636,
+      "luma_max": 252,
+      "bounds": [
+        651,
+        503,
+        2430,
+        3558
+      ]
+    },
+    {
+      "frame": 88,
+      "lit_pixels": 2672050,
+      "luma_mean": 36.61057416598002,
+      "luma_max": 254,
+      "bounds": [
+        651,
+        503,
+        2430,
+        3560
+      ]
+    },
+    {
+      "frame": 89,
+      "lit_pixels": 2670736,
+      "luma_mean": 36.534695068995156,
+      "luma_max": 252,
+      "bounds": [
+        650,
+        503,
+        2430,
+        3562
+      ]
+    },
+    {
+      "frame": 90,
+      "lit_pixels": 2686674,
+      "luma_mean": 36.59561045964559,
+      "luma_max": 252,
+      "bounds": [
+        649,
+        504,
+        2430,
+        3563
+      ]
+    },
+    {
+      "frame": 91,
+      "lit_pixels": 2704655,
+      "luma_mean": 36.6448769569397,
+      "luma_max": 244,
+      "bounds": [
+        650,
+        504,
+        2430,
+        3564
+      ]
+    },
+    {
+      "frame": 92,
+      "lit_pixels": 2703308,
+      "luma_mean": 36.685104052225746,
+      "luma_max": 254,
+      "bounds": [
+        651,
+        504,
+        2430,
+        3566
+      ]
+    },
+    {
+      "frame": 93,
+      "lit_pixels": 2705850,
+      "luma_mean": 36.71207086245219,
+      "luma_max": 252,
+      "bounds": [
+        654,
+        505,
+        2430,
+        3568
+      ]
+    },
+    {
+      "frame": 94,
+      "lit_pixels": 2707945,
+      "luma_mean": 36.74402197202047,
+      "luma_max": 255,
+      "bounds": [
+        657,
+        505,
+        2431,
+        3568
+      ]
+    },
+    {
+      "frame": 95,
+      "lit_pixels": 2704988,
+      "luma_mean": 36.75633382797241,
+      "luma_max": 254,
+      "bounds": [
+        663,
+        505,
+        2433,
+        3568
+      ]
+    },
+    {
+      "frame": 96,
+      "lit_pixels": 2699938,
+      "luma_mean": 36.76368594169617,
+      "luma_max": 254,
+      "bounds": [
+        667,
+        506,
+        2435,
+        3568
+      ]
+    },
+    {
+      "frame": 97,
+      "lit_pixels": 2690224,
+      "luma_mean": 36.75670878092448,
+      "luma_max": 255,
+      "bounds": [
+        668,
+        509,
+        2438,
+        3566
+      ]
+    },
+    {
+      "frame": 98,
+      "lit_pixels": 2688914,
+      "luma_mean": 36.81192890803019,
+      "luma_max": 255,
+      "bounds": [
+        659,
+        523,
+        2450,
+        3558
+      ]
+    },
+    {
+      "frame": 99,
+      "lit_pixels": 2712440,
+      "luma_mean": 37.06568741798401,
+      "luma_max": 255,
+      "bounds": [
+        633,
+        550,
+        2470,
+        3540
+      ]
+    },
+    {
+      "frame": 100,
+      "lit_pixels": 2733290,
+      "luma_mean": 37.26467235883077,
+      "luma_max": 253,
+      "bounds": [
+        619,
+        564,
+        2483,
+        3531
+      ]
+    },
+    {
+      "frame": 101,
+      "lit_pixels": 2745275,
+      "luma_mean": 37.28648885091146,
+      "luma_max": 253,
+      "bounds": [
+        634,
+        548,
+        2467,
+        3542
+      ]
+    },
+    {
+      "frame": 102,
+      "lit_pixels": 2744869,
+      "luma_mean": 37.25747092564901,
+      "luma_max": 255,
+      "bounds": [
+        651,
+        531,
+        2450,
+        3554
+      ]
+    },
+    {
+      "frame": 103,
+      "lit_pixels": 2760914,
+      "luma_mean": 37.33502721786499,
+      "luma_max": 252,
+      "bounds": [
+        648,
+        533,
+        2451,
+        3553
+      ]
+    },
+    {
+      "frame": 104,
+      "lit_pixels": 2786812,
+      "luma_mean": 37.46380774180094,
+      "luma_max": 254,
+      "bounds": [
+        641,
+        540,
+        2457,
+        3549
+      ]
+    },
+    {
+      "frame": 105,
+      "lit_pixels": 2795783,
+      "luma_mean": 37.46708186467489,
+      "luma_max": 255,
+      "bounds": [
+        641,
+        539,
+        2456,
+        3550
+      ]
+    },
+    {
+      "frame": 106,
+      "lit_pixels": 2779268,
+      "luma_mean": 37.26099181175232,
+      "luma_max": 250,
+      "bounds": [
+        650,
+        531,
+        2447,
+        3555
+      ]
+    },
+    {
+      "frame": 107,
+      "lit_pixels": 2743229,
+      "luma_mean": 36.921223402023315,
+      "luma_max": 251,
+      "bounds": [
+        661,
+        521,
+        2437,
+        3560
+      ]
+    },
+    {
+      "frame": 108,
+      "lit_pixels": 2710578,
+      "luma_mean": 36.63376752535502,
+      "luma_max": 249,
+      "bounds": [
+        667,
+        515,
+        2431,
+        3565
+      ]
+    },
+    {
+      "frame": 109,
+      "lit_pixels": 2689957,
+      "luma_mean": 36.45004288355509,
+      "luma_max": 248,
+      "bounds": [
+        670,
+        513,
+        2428,
+        3567
+      ]
+    },
+    {
+      "frame": 110,
+      "lit_pixels": 2683366,
+      "luma_mean": 36.38733466466268,
+      "luma_max": 250,
+      "bounds": [
+        671,
+        512,
+        2427,
+        3568
+      ]
+    },
+    {
+      "frame": 111,
+      "lit_pixels": 2675839,
+      "luma_mean": 36.34901213645935,
+      "luma_max": 251,
+      "bounds": [
+        672,
+        513,
+        2427,
+        3569
+      ]
+    },
+    {
+      "frame": 112,
+      "lit_pixels": 2660516,
+      "luma_mean": 36.300501585006714,
+      "luma_max": 253,
+      "bounds": [
+        673,
+        513,
+        2427,
+        3569
+      ]
+    },
+    {
+      "frame": 113,
+      "lit_pixels": 2646633,
+      "luma_mean": 36.26050059000651,
+      "luma_max": 251,
+      "bounds": [
+        672,
+        514,
+        2426,
+        3569
+      ]
+    },
+    {
+      "frame": 114,
+      "lit_pixels": 2636561,
+      "luma_mean": 36.21939333279928,
+      "luma_max": 250,
+      "bounds": [
+        671,
+        514,
+        2426,
+        3569
+      ]
+    },
+    {
+      "frame": 115,
+      "lit_pixels": 2631042,
+      "luma_mean": 36.182045698165894,
+      "luma_max": 251,
+      "bounds": [
+        671,
+        515,
+        2426,
+        3569
+      ]
+    },
+    {
+      "frame": 116,
+      "lit_pixels": 2626411,
+      "luma_mean": 36.14139533042908,
+      "luma_max": 251,
+      "bounds": [
+        670,
+        515,
+        2426,
+        3569
+      ]
+    },
+    {
+      "frame": 117,
+      "lit_pixels": 2626742,
+      "luma_mean": 36.121951262156166,
+      "luma_max": 252,
+      "bounds": [
+        669,
+        516,
+        2426,
+        3569
+      ]
+    },
+    {
+      "frame": 118,
+      "lit_pixels": 2628723,
+      "luma_mean": 36.12019292513529,
+      "luma_max": 250,
+      "bounds": [
+        667,
+        516,
+        2426,
+        3569
+      ]
+    },
+    {
+      "frame": 119,
+      "lit_pixels": 2628681,
+      "luma_mean": 36.115425268809,
+      "luma_max": 255,
+      "bounds": [
+        665,
+        517,
+        2426,
+        3569
+      ]
+    },
+    {
+      "frame": 120,
+      "lit_pixels": 2626999,
+      "luma_mean": 36.11046918233236,
+      "luma_max": 254,
+      "bounds": [
+        664,
+        517,
+        2425,
+        3569
+      ]
+    },
+    {
+      "frame": 121,
+      "lit_pixels": 2628976,
+      "luma_mean": 36.12415377298991,
+      "luma_max": 246,
+      "bounds": [
+        661,
+        520,
+        2428,
+        3568
+      ]
+    },
+    {
+      "frame": 122,
+      "lit_pixels": 2653799,
+      "luma_mean": 36.28451728820801,
+      "luma_max": 253,
+      "bounds": [
+        649,
+        534,
+        2440,
+        3560
+      ]
+    },
+    {
+      "frame": 123,
+      "lit_pixels": 2694648,
+      "luma_mean": 36.58138187726339,
+      "luma_max": 254,
+      "bounds": [
+        624,
+        560,
+        2467,
+        3543
+      ]
+    },
+    {
+      "frame": 124,
+      "lit_pixels": 2714683,
+      "luma_mean": 36.75583140055338,
+      "luma_max": 255,
+      "bounds": [
+        611,
+        575,
+        2480,
+        3535
+      ]
+    },
+    {
+      "frame": 125,
+      "lit_pixels": 2680833,
+      "luma_mean": 36.558419624964394,
+      "luma_max": 253,
+      "bounds": [
+        627,
+        559,
+        2464,
+        3546
+      ]
+    },
+    {
+      "frame": 126,
+      "lit_pixels": 2643785,
+      "luma_mean": 36.35313630104065,
+      "luma_max": 255,
+      "bounds": [
+        645,
+        542,
+        2446,
+        3558
+      ]
+    },
+    {
+      "frame": 127,
+      "lit_pixels": 2644352,
+      "luma_mean": 36.37572701772054,
+      "luma_max": 252,
+      "bounds": [
+        644,
+        543,
+        2448,
+        3557
+      ]
+    },
+    {
+      "frame": 128,
+      "lit_pixels": 2653287,
+      "luma_mean": 36.45627347628275,
+      "luma_max": 254,
+      "bounds": [
+        638,
+        551,
+        2456,
+        3553
+      ]
+    },
+    {
+      "frame": 129,
+      "lit_pixels": 2653220,
+      "luma_mean": 36.48083941141764,
+      "luma_max": 255,
+      "bounds": [
+        639,
+        550,
+        2455,
+        3554
+      ]
+    },
+    {
+      "frame": 130,
+      "lit_pixels": 2637853,
+      "luma_mean": 36.40228796005249,
+      "luma_max": 251,
+      "bounds": [
+        646,
+        542,
+        2445,
+        3560
+      ]
+    },
+    {
+      "frame": 131,
+      "lit_pixels": 2618750,
+      "luma_mean": 36.30216415723165,
+      "luma_max": 252,
+      "bounds": [
+        654,
+        532,
+        2435,
+        3567
+      ]
+    },
+    {
+      "frame": 132,
+      "lit_pixels": 2609371,
+      "luma_mean": 36.25450015068054,
+      "luma_max": 250,
+      "bounds": [
+        659,
+        526,
+        2429,
+        3572
+      ]
+    },
+    {
+      "frame": 133,
+      "lit_pixels": 2608143,
+      "luma_mean": 36.25174434979757,
+      "luma_max": 248,
+      "bounds": [
+        660,
+        523,
+        2426,
+        3574
+      ]
+    },
+    {
+      "frame": 134,
+      "lit_pixels": 2610800,
+      "luma_mean": 36.27242716153463,
+      "luma_max": 249,
+      "bounds": [
+        660,
+        523,
+        2426,
+        3575
+      ]
+    },
+    {
+      "frame": 135,
+      "lit_pixels": 2613185,
+      "luma_mean": 36.29958804448446,
+      "luma_max": 251,
+      "bounds": [
+        659,
+        523,
+        2427,
+        3575
+      ]
+    },
+    {
+      "frame": 136,
+      "lit_pixels": 2616952,
+      "luma_mean": 36.32589109738668,
+      "luma_max": 252,
+      "bounds": [
+        658,
+        524,
+        2427,
+        3576
+      ]
+    },
+    {
+      "frame": 137,
+      "lit_pixels": 2620006,
+      "luma_mean": 36.350191831588745,
+      "luma_max": 251,
+      "bounds": [
+        658,
+        524,
+        2428,
+        3576
+      ]
+    },
+    {
+      "frame": 138,
+      "lit_pixels": 2623981,
+      "luma_mean": 36.37594723701477,
+      "luma_max": 251,
+      "bounds": [
+        657,
+        523,
+        2429,
+        3577
+      ]
+    },
+    {
+      "frame": 139,
+      "lit_pixels": 2627781,
+      "luma_mean": 36.40165901184082,
+      "luma_max": 250,
+      "bounds": [
+        656,
+        522,
+        2430,
+        3577
+      ]
+    },
+    {
+      "frame": 140,
+      "lit_pixels": 2631953,
+      "luma_mean": 36.42908318837484,
+      "luma_max": 251,
+      "bounds": [
+        655,
+        522,
+        2430,
+        3578
+      ]
+    },
+    {
+      "frame": 141,
+      "lit_pixels": 2635404,
+      "luma_mean": 36.45758326848348,
+      "luma_max": 253,
+      "bounds": [
+        655,
+        522,
+        2431,
+        3578
+      ]
+    },
+    {
+      "frame": 142,
+      "lit_pixels": 2640336,
+      "luma_mean": 36.48871946334839,
+      "luma_max": 251,
+      "bounds": [
+        654,
+        522,
+        2432,
+        3579
+      ]
+    },
+    {
+      "frame": 143,
+      "lit_pixels": 2645326,
+      "luma_mean": 36.52086083094279,
+      "luma_max": 254,
+      "bounds": [
+        653,
+        522,
+        2433,
+        3579
+      ]
+    },
+    {
+      "frame": 144,
+      "lit_pixels": 2651621,
+      "luma_mean": 36.555519024531044,
+      "luma_max": 252,
+      "bounds": [
+        653,
+        523,
+        2434,
+        3579
+      ]
+    },
+    {
+      "frame": 145,
+      "lit_pixels": 2664022,
+      "luma_mean": 36.63730581601461,
+      "luma_max": 254,
+      "bounds": [
+        651,
+        527,
+        2437,
+        3578
+      ]
+    },
+    {
+      "frame": 146,
+      "lit_pixels": 2700151,
+      "luma_mean": 36.845672289530434,
+      "luma_max": 255,
+      "bounds": [
+        640,
+        545,
+        2450,
+        3570
+      ]
+    },
+    {
+      "frame": 147,
+      "lit_pixels": 2754365,
+      "luma_mean": 37.1973447004954,
+      "luma_max": 255,
+      "bounds": [
+        615,
+        574,
+        2481,
+        3554
+      ]
+    },
+    {
+      "frame": 148,
+      "lit_pixels": 2771699,
+      "luma_mean": 37.314238707224526,
+      "luma_max": 255,
+      "bounds": [
+        600,
+        592,
+        2498,
+        3547
+      ]
+    },
+    {
+      "frame": 149,
+      "lit_pixels": 2724918,
+      "luma_mean": 36.93120495478312,
+      "luma_max": 255,
+      "bounds": [
+        617,
+        583,
+        2477,
+        3561
+      ]
+    },
+    {
+      "frame": 150,
+      "lit_pixels": 2653610,
+      "luma_mean": 36.39655979474386,
+      "luma_max": 255,
+      "bounds": [
+        636,
+        572,
+        2457,
+        3575
+      ]
+    },
+    {
+      "frame": 151,
+      "lit_pixels": 2622959,
+      "luma_mean": 36.1040366490682,
+      "luma_max": 248,
+      "bounds": [
+        636,
+        584,
+        2456,
+        3579
+      ]
+    },
+    {
+      "frame": 152,
+      "lit_pixels": 2589961,
+      "luma_mean": 35.858848651250206,
+      "luma_max": 253,
+      "bounds": [
+        633,
+        601,
+        2460,
+        3577
+      ]
+    },
+    {
+      "frame": 153,
+      "lit_pixels": 2529088,
+      "luma_mean": 35.47668703397115,
+      "luma_max": 255,
+      "bounds": [
+        639,
+        611,
+        2457,
+        3584
+      ]
+    },
+    {
+      "frame": 154,
+      "lit_pixels": 2472794,
+      "luma_mean": 35.010860522588096,
+      "luma_max": 255,
+      "bounds": [
+        652,
+        614,
+        2446,
+        3591
+      ]
+    },
+    {
+      "frame": 155,
+      "lit_pixels": 2391058,
+      "luma_mean": 34.320589542388916,
+      "luma_max": 255,
+      "bounds": [
+        660,
+        620,
+        2434,
+        3595
+      ]
+    },
+    {
+      "frame": 156,
+      "lit_pixels": 2302335,
+      "luma_mean": 33.63812184333801,
+      "luma_max": 255,
+      "bounds": [
+        672,
+        640,
+        2426,
+        3601
+      ]
+    },
+    {
+      "frame": 157,
+      "lit_pixels": 2211157,
+      "luma_mean": 32.91838598251343,
+      "luma_max": 247,
+      "bounds": [
+        690,
+        669,
+        2419,
+        3603
+      ]
+    },
+    {
+      "frame": 158,
+      "lit_pixels": 2128254,
+      "luma_mean": 32.31657648086548,
+      "luma_max": 253,
+      "bounds": [
+        696,
+        710,
+        2410,
+        3605
+      ]
+    },
+    {
+      "frame": 159,
+      "lit_pixels": 2036509,
+      "luma_mean": 31.66686733563741,
+      "luma_max": 255,
+      "bounds": [
+        703,
+        749,
+        2395,
+        3602
+      ]
+    },
+    {
+      "frame": 160,
+      "lit_pixels": 1956804,
+      "luma_mean": 31.128129084904987,
+      "luma_max": 255,
+      "bounds": [
+        707,
+        769,
+        2374,
+        3592
+      ]
+    },
+    {
+      "frame": 161,
+      "lit_pixels": 1910943,
+      "luma_mean": 30.72195227940877,
+      "luma_max": 248,
+      "bounds": [
+        703,
+        788,
+        2363,
+        3587
+      ]
+    },
+    {
+      "frame": 162,
+      "lit_pixels": 1860120,
+      "luma_mean": 30.254610538482666,
+      "luma_max": 255,
+      "bounds": [
+        693,
+        796,
+        2345,
+        3592
+      ]
+    },
+    {
+      "frame": 163,
+      "lit_pixels": 1822746,
+      "luma_mean": 29.89158256848653,
+      "luma_max": 253,
+      "bounds": [
+        705,
+        830,
+        2336,
+        3602
+      ]
+    },
+    {
+      "frame": 164,
+      "lit_pixels": 1781306,
+      "luma_mean": 29.525385697682697,
+      "luma_max": 248,
+      "bounds": [
+        705,
+        848,
+        2337,
+        3613
+      ]
+    },
+    {
+      "frame": 165,
+      "lit_pixels": 1735287,
+      "luma_mean": 29.125919739405315,
+      "luma_max": 255,
+      "bounds": [
+        711,
+        853,
+        2358,
+        3612
+      ]
+    },
+    {
+      "frame": 166,
+      "lit_pixels": 1696201,
+      "luma_mean": 28.682271162668865,
+      "luma_max": 255,
+      "bounds": [
+        695,
+        900,
+        2343,
+        3633
+      ]
+    },
+    {
+      "frame": 167,
+      "lit_pixels": 1569617,
+      "luma_mean": 27.87563665707906,
+      "luma_max": 248,
+      "bounds": [
+        711,
+        1036,
+        2316,
+        3616
+      ]
+    },
+    {
+      "frame": 168,
+      "lit_pixels": 1433233,
+      "luma_mean": 27.06002155939738,
+      "luma_max": 255,
+      "bounds": [
+        723,
+        1126,
+        2303,
+        3611
+      ]
+    },
+    {
+      "frame": 169,
+      "lit_pixels": 1321397,
+      "luma_mean": 26.26607863108317,
+      "luma_max": 255,
+      "bounds": [
+        736,
+        1234,
+        2290,
+        3598
+      ]
+    },
+    {
+      "frame": 170,
+      "lit_pixels": 1214727,
+      "luma_mean": 25.505876461664837,
+      "luma_max": 253,
+      "bounds": [
+        746,
+        1301,
+        2278,
+        3607
+      ]
+    },
+    {
+      "frame": 171,
+      "lit_pixels": 1123686,
+      "luma_mean": 24.837312539418537,
+      "luma_max": 255,
+      "bounds": [
+        738,
+        1374,
+        2262,
+        3619
+      ]
+    },
+    {
+      "frame": 172,
+      "lit_pixels": 1015869,
+      "luma_mean": 24.108264764149983,
+      "luma_max": 248,
+      "bounds": [
+        754,
+        1433,
+        2251,
+        3638
+      ]
+    },
+    {
+      "frame": 173,
+      "lit_pixels": 924929,
+      "luma_mean": 23.405919949213665,
+      "luma_max": 255,
+      "bounds": [
+        793,
+        1506,
+        2215,
+        3646
+      ]
+    },
+    {
+      "frame": 174,
+      "lit_pixels": 849748,
+      "luma_mean": 22.738494793574016,
+      "luma_max": 255,
+      "bounds": [
+        862,
+        1597,
+        2197,
+        3676
+      ]
+    },
+    {
+      "frame": 175,
+      "lit_pixels": 751215,
+      "luma_mean": 21.99442394574483,
+      "luma_max": 255,
+      "bounds": [
+        900,
+        1670,
+        2240,
+        3676
+      ]
+    },
+    {
+      "frame": 176,
+      "lit_pixels": 667954,
+      "luma_mean": 21.356757322947185,
+      "luma_max": 252,
+      "bounds": [
+        918,
+        1749,
+        2240,
+        3648
+      ]
+    },
+    {
+      "frame": 177,
+      "lit_pixels": 609716,
+      "luma_mean": 20.834367513656616,
+      "luma_max": 252,
+      "bounds": [
+        961,
+        1872,
+        2183,
+        3626
+      ]
+    },
+    {
+      "frame": 178,
+      "lit_pixels": 553389,
+      "luma_mean": 20.350138584772747,
+      "luma_max": 255,
+      "bounds": [
+        997,
+        1967,
+        2098,
+        3613
+      ]
+    },
+    {
+      "frame": 179,
+      "lit_pixels": 501934,
+      "luma_mean": 19.950448910395306,
+      "luma_max": 253,
+      "bounds": [
+        1017,
+        2055,
+        2063,
+        3631
+      ]
+    },
+    {
+      "frame": 180,
+      "lit_pixels": 441791,
+      "luma_mean": 19.52150797843933,
+      "luma_max": 250,
+      "bounds": [
+        1047,
+        2106,
+        2017,
+        3638
+      ]
+    },
+    {
+      "frame": 181,
+      "lit_pixels": 377095,
+      "luma_mean": 18.989952723185223,
+      "luma_max": 255,
+      "bounds": [
+        1083,
+        2235,
+        1967,
+        3625
+      ]
+    },
+    {
+      "frame": 182,
+      "lit_pixels": 298186,
+      "luma_mean": 18.376271565755207,
+      "luma_max": 253,
+      "bounds": [
+        1133,
+        2338,
+        1928,
+        3619
+      ]
+    },
+    {
+      "frame": 183,
+      "lit_pixels": 243670,
+      "luma_mean": 17.943052530288696,
+      "luma_max": 248,
+      "bounds": [
+        1156,
+        2389,
+        1896,
+        3615
+      ]
+    },
+    {
+      "frame": 184,
+      "lit_pixels": 211521,
+      "luma_mean": 17.722930590311687,
+      "luma_max": 247,
+      "bounds": [
+        1234,
+        2463,
+        1877,
+        3643
+      ]
+    },
+    {
+      "frame": 185,
+      "lit_pixels": 184637,
+      "luma_mean": 17.51647186279297,
+      "luma_max": 249,
+      "bounds": [
+        1248,
+        2536,
+        1844,
+        3635
+      ]
+    },
+    {
+      "frame": 186,
+      "lit_pixels": 160658,
+      "luma_mean": 17.29512333869934,
+      "luma_max": 247,
+      "bounds": [
+        1255,
+        2572,
+        1818,
+        3607
+      ]
+    },
+    {
+      "frame": 187,
+      "lit_pixels": 154488,
+      "luma_mean": 17.24400019645691,
+      "luma_max": 248,
+      "bounds": [
+        1273,
+        2624,
+        1802,
+        3590
+      ]
+    },
+    {
+      "frame": 188,
+      "lit_pixels": 139483,
+      "luma_mean": 17.16169309616089,
+      "luma_max": 253,
+      "bounds": [
+        1299,
+        2699,
+        1819,
+        3589
+      ]
+    },
+    {
+      "frame": 189,
+      "lit_pixels": 127253,
+      "luma_mean": 17.07332746187846,
+      "luma_max": 250,
+      "bounds": [
+        1313,
+        2753,
+        1805,
+        3585
+      ]
+    },
+    {
+      "frame": 190,
+      "lit_pixels": 105712,
+      "luma_mean": 16.89376099904378,
+      "luma_max": 247,
+      "bounds": [
+        1364,
+        2798,
+        1792,
+        3613
+      ]
+    },
+    {
+      "frame": 191,
+      "lit_pixels": 98567,
+      "luma_mean": 16.82386525472005,
+      "luma_max": 245,
+      "bounds": [
+        1363,
+        2837,
+        1795,
+        3642
+      ]
+    },
+    {
+      "frame": 192,
+      "lit_pixels": 88390,
+      "luma_mean": 16.73921052614848,
+      "luma_max": 253,
+      "bounds": [
+        1394,
+        2878,
+        1799,
+        3639
+      ]
+    },
+    {
+      "frame": 193,
+      "lit_pixels": 76428,
+      "luma_mean": 16.66129247347514,
+      "luma_max": 247,
+      "bounds": [
+        1409,
+        2973,
+        1805,
+        3625
+      ]
+    },
+    {
+      "frame": 194,
+      "lit_pixels": 72385,
+      "luma_mean": 16.648877143859863,
+      "luma_max": 246,
+      "bounds": [
+        1436,
+        3012,
+        1782,
+        3635
+      ]
+    },
+    {
+      "frame": 195,
+      "lit_pixels": 68580,
+      "luma_mean": 16.65485421816508,
+      "luma_max": 250,
+      "bounds": [
+        1460,
+        3066,
+        1767,
+        3643
+      ]
+    },
+    {
+      "frame": 196,
+      "lit_pixels": 54271,
+      "luma_mean": 16.53076497713725,
+      "luma_max": 245,
+      "bounds": [
+        1475,
+        3097,
+        1746,
+        3646
+      ]
+    },
+    {
+      "frame": 197,
+      "lit_pixels": 47151,
+      "luma_mean": 16.453686873118084,
+      "luma_max": 246,
+      "bounds": [
+        1486,
+        3140,
+        1735,
+        3659
+      ]
+    },
+    {
+      "frame": 198,
+      "lit_pixels": 33092,
+      "luma_mean": 16.3272762298584,
+      "luma_max": 245,
+      "bounds": [
+        1497,
+        3191,
+        1706,
+        3652
+      ]
+    },
+    {
+      "frame": 199,
+      "lit_pixels": 24772,
+      "luma_mean": 16.24016825358073,
+      "luma_max": 245,
+      "bounds": [
+        1503,
+        3203,
+        1683,
+        3630
+      ]
+    },
+    {
+      "frame": 200,
+      "lit_pixels": 21718,
+      "luma_mean": 16.211307605107624,
+      "luma_max": 246,
+      "bounds": [
+        1494,
+        3203,
+        1690,
+        3637
+      ]
+    },
+    {
+      "frame": 201,
+      "lit_pixels": 17769,
+      "luma_mean": 16.181097666422527,
+      "luma_max": 243,
+      "bounds": [
+        1490,
+        3198,
+        1694,
+        3647
+      ]
+    },
+    {
+      "frame": 202,
+      "lit_pixels": 12259,
+      "luma_mean": 16.146629095077515,
+      "luma_max": 240,
+      "bounds": [
+        1477,
+        3173,
+        1683,
+        3633
+      ]
+    },
+    {
+      "frame": 203,
+      "lit_pixels": 11605,
+      "luma_mean": 16.147391001383465,
+      "luma_max": 244,
+      "bounds": [
+        1463,
+        3162,
+        1673,
+        3632
+      ]
+    },
+    {
+      "frame": 204,
+      "lit_pixels": 10520,
+      "luma_mean": 16.146304766337078,
+      "luma_max": 247,
+      "bounds": [
+        1451,
+        3157,
+        1671,
+        3639
+      ]
+    },
+    {
+      "frame": 205,
+      "lit_pixels": 8448,
+      "luma_mean": 16.12892770767212,
+      "luma_max": 243,
+      "bounds": [
+        1437,
+        3128,
+        1676,
+        3647
+      ]
+    },
+    {
+      "frame": 206,
+      "lit_pixels": 8733,
+      "luma_mean": 16.13905644416809,
+      "luma_max": 242,
+      "bounds": [
+        1439,
+        3101,
+        1693,
+        3674
+      ]
+    },
+    {
+      "frame": 207,
+      "lit_pixels": 9609,
+      "luma_mean": 16.151105403900146,
+      "luma_max": 243,
+      "bounds": [
+        1445,
+        3072,
+        1692,
+        3686
+      ]
+    },
+    {
+      "frame": 208,
+      "lit_pixels": 9139,
+      "luma_mean": 16.14905309677124,
+      "luma_max": 245,
+      "bounds": [
+        1443,
+        3038,
+        1690,
+        3687
+      ]
+    },
+    {
+      "frame": 209,
+      "lit_pixels": 9956,
+      "luma_mean": 16.160136381785076,
+      "luma_max": 242,
+      "bounds": [
+        1432,
+        2997,
+        1690,
+        3693
+      ]
+    },
+    {
+      "frame": 210,
+      "lit_pixels": 9425,
+      "luma_mean": 16.15664807955424,
+      "luma_max": 242,
+      "bounds": [
+        1438,
+        2963,
+        1692,
+        3693
+      ]
+    },
+    {
+      "frame": 211,
+      "lit_pixels": 8367,
+      "luma_mean": 16.147245407104492,
+      "luma_max": 243,
+      "bounds": [
+        1407,
+        2944,
+        1668,
+        3679
+      ]
+    },
+    {
+      "frame": 212,
+      "lit_pixels": 9021,
+      "luma_mean": 16.15663766860962,
+      "luma_max": 251,
+      "bounds": [
+        1394,
+        2903,
+        1672,
+        3678
+      ]
+    },
+    {
+      "frame": 213,
+      "lit_pixels": 9882,
+      "luma_mean": 16.17016299565633,
+      "luma_max": 244,
+      "bounds": [
+        1516,
+        2851,
+        1629,
+        3675
+      ]
+    },
+    {
+      "frame": 214,
+      "lit_pixels": 9096,
+      "luma_mean": 16.165683428446453,
+      "luma_max": 245,
+      "bounds": [
+        1558,
+        3278,
+        1616,
+        3674
+      ]
+    },
+    {
+      "frame": 215,
+      "lit_pixels": 9461,
+      "luma_mean": 16.173064311345417,
+      "luma_max": 243,
+      "bounds": [
+        1556,
+        3239,
+        1604,
+        3674
+      ]
+    },
+    {
+      "frame": 216,
+      "lit_pixels": 10135,
+      "luma_mean": 16.1800483862559,
+      "luma_max": 243,
+      "bounds": [
+        1556,
+        3186,
+        1603,
+        3674
+      ]
+    },
+    {
+      "frame": 217,
+      "lit_pixels": 10205,
+      "luma_mean": 16.17940100034078,
+      "luma_max": 244,
+      "bounds": [
+        1552,
+        3157,
+        1598,
+        3674
+      ]
+    },
+    {
+      "frame": 218,
+      "lit_pixels": 11276,
+      "luma_mean": 16.191117842992146,
+      "luma_max": 247,
+      "bounds": [
+        1549,
+        3112,
+        1599,
+        3675
+      ]
+    },
+    {
+      "frame": 219,
+      "lit_pixels": 12618,
+      "luma_mean": 16.206926266352337,
+      "luma_max": 254,
+      "bounds": [
+        1542,
+        3061,
+        1603,
+        3674
+      ]
+    },
+    {
+      "frame": 220,
+      "lit_pixels": 13764,
+      "luma_mean": 16.218064467112224,
+      "luma_max": 241,
+      "bounds": [
+        1509,
+        3014,
+        1655,
+        3674
+      ]
+    },
+    {
+      "frame": 221,
+      "lit_pixels": 15429,
+      "luma_mean": 16.232995827992756,
+      "luma_max": 245,
+      "bounds": [
+        1499,
+        2964,
+        1676,
+        3669
+      ]
+    },
+    {
+      "frame": 222,
+      "lit_pixels": 17179,
+      "luma_mean": 16.24876316388448,
+      "luma_max": 243,
+      "bounds": [
+        1492,
+        2918,
+        1687,
+        3668
+      ]
+    },
+    {
+      "frame": 223,
+      "lit_pixels": 19092,
+      "luma_mean": 16.26585594813029,
+      "luma_max": 244,
+      "bounds": [
+        1478,
+        2865,
+        1696,
+        3669
+      ]
+    },
+    {
+      "frame": 224,
+      "lit_pixels": 21363,
+      "luma_mean": 16.285431305567425,
+      "luma_max": 243,
+      "bounds": [
+        1468,
+        2815,
+        1707,
+        3671
+      ]
+    },
+    {
+      "frame": 225,
+      "lit_pixels": 23362,
+      "luma_mean": 16.300231615702312,
+      "luma_max": 245,
+      "bounds": [
+        1457,
+        2763,
+        1720,
+        3670
+      ]
+    },
+    {
+      "frame": 226,
+      "lit_pixels": 25593,
+      "luma_mean": 16.31739083925883,
+      "luma_max": 243,
+      "bounds": [
+        1443,
+        2707,
+        1734,
+        3667
+      ]
+    },
+    {
+      "frame": 227,
+      "lit_pixels": 28278,
+      "luma_mean": 16.338868379592896,
+      "luma_max": 246,
+      "bounds": [
+        1432,
+        2654,
+        1753,
+        3666
+      ]
+    },
+    {
+      "frame": 228,
+      "lit_pixels": 31431,
+      "luma_mean": 16.364777723948162,
+      "luma_max": 245,
+      "bounds": [
+        1415,
+        2615,
+        1771,
+        3665
+      ]
+    },
+    {
+      "frame": 229,
+      "lit_pixels": 34669,
+      "luma_mean": 16.39100980758667,
+      "luma_max": 247,
+      "bounds": [
+        1399,
+        2579,
+        1785,
+        3664
+      ]
+    },
+    {
+      "frame": 230,
+      "lit_pixels": 37767,
+      "luma_mean": 16.417672793070476,
+      "luma_max": 248,
+      "bounds": [
+        1381,
+        2543,
+        1797,
+        3664
+      ]
+    },
+    {
+      "frame": 231,
+      "lit_pixels": 40889,
+      "luma_mean": 16.445047696431477,
+      "luma_max": 249,
+      "bounds": [
+        1363,
+        2505,
+        1813,
+        3665
+      ]
+    },
+    {
+      "frame": 232,
+      "lit_pixels": 44205,
+      "luma_mean": 16.472947120666504,
+      "luma_max": 241,
+      "bounds": [
+        1346,
+        2470,
+        1829,
+        3664
+      ]
+    },
+    {
+      "frame": 233,
+      "lit_pixels": 47634,
+      "luma_mean": 16.502268314361572,
+      "luma_max": 240,
+      "bounds": [
+        1329,
+        2435,
+        1847,
+        3664
+      ]
+    },
+    {
+      "frame": 234,
+      "lit_pixels": 50878,
+      "luma_mean": 16.53094967206319,
+      "luma_max": 247,
+      "bounds": [
+        1312,
+        2400,
+        1865,
+        3663
+      ]
+    },
+    {
+      "frame": 235,
+      "lit_pixels": 54370,
+      "luma_mean": 16.563024202982586,
+      "luma_max": 245,
+      "bounds": [
+        1292,
+        2366,
+        1884,
+        3664
+      ]
+    },
+    {
+      "frame": 236,
+      "lit_pixels": 58053,
+      "luma_mean": 16.59553599357605,
+      "luma_max": 245,
+      "bounds": [
+        1273,
+        2330,
+        1903,
+        3664
+      ]
+    },
+    {
+      "frame": 237,
+      "lit_pixels": 61641,
+      "luma_mean": 16.62809665997823,
+      "luma_max": 248,
+      "bounds": [
+        1253,
+        2296,
+        1922,
+        3664
+      ]
+    },
+    {
+      "frame": 238,
+      "lit_pixels": 65476,
+      "luma_mean": 16.66223971048991,
+      "luma_max": 249,
+      "bounds": [
+        1233,
+        2262,
+        1940,
+        3664
+      ]
+    },
+    {
+      "frame": 239,
+      "lit_pixels": 69514,
+      "luma_mean": 16.697964191436768,
+      "luma_max": 245,
+      "bounds": [
+        1213,
+        2230,
+        1959,
+        3664
+      ]
+    },
+    {
+      "frame": 240,
+      "lit_pixels": 73599,
+      "luma_mean": 16.733888149261475,
+      "luma_max": 246,
+      "bounds": [
+        1192,
+        2198,
+        1979,
+        3665
+      ]
+    },
+    {
+      "frame": 241,
+      "lit_pixels": 77603,
+      "luma_mean": 16.77013111114502,
+      "luma_max": 244,
+      "bounds": [
+        1171,
+        2167,
+        2002,
+        3665
+      ]
+    },
+    {
+      "frame": 242,
+      "lit_pixels": 81667,
+      "luma_mean": 16.806783596674602,
+      "luma_max": 244,
+      "bounds": [
+        1150,
+        2137,
+        2022,
+        3665
+      ]
+    },
+    {
+      "frame": 243,
+      "lit_pixels": 85816,
+      "luma_mean": 16.84377996126811,
+      "luma_max": 247,
+      "bounds": [
+        1129,
+        2108,
+        2043,
+        3665
+      ]
+    },
+    {
+      "frame": 244,
+      "lit_pixels": 89877,
+      "luma_mean": 16.88101617495219,
+      "luma_max": 248,
+      "bounds": [
+        1108,
+        2080,
+        2063,
+        3665
+      ]
+    },
+    {
+      "frame": 245,
+      "lit_pixels": 94105,
+      "luma_mean": 16.918482621510822,
+      "luma_max": 244,
+      "bounds": [
+        1086,
+        2053,
+        2083,
+        3665
+      ]
+    },
+    {
+      "frame": 246,
+      "lit_pixels": 98160,
+      "luma_mean": 16.95590289433797,
+      "luma_max": 248,
+      "bounds": [
+        1065,
+        2016,
+        2104,
+        3665
+      ]
+    },
+    {
+      "frame": 247,
+      "lit_pixels": 102495,
+      "luma_mean": 16.99448521931966,
+      "luma_max": 246,
+      "bounds": [
+        1044,
+        1587,
+        2125,
+        3665
+      ]
+    },
+    {
+      "frame": 248,
+      "lit_pixels": 106664,
+      "luma_mean": 17.03355860710144,
+      "luma_max": 245,
+      "bounds": [
+        1023,
+        1529,
+        2145,
+        3665
+      ]
+    },
+    {
+      "frame": 249,
+      "lit_pixels": 111164,
+      "luma_mean": 17.073099931081135,
+      "luma_max": 245,
+      "bounds": [
+        1002,
+        1500,
+        2165,
+        3665
+      ]
+    },
+    {
+      "frame": 250,
+      "lit_pixels": 115481,
+      "luma_mean": 17.11287522315979,
+      "luma_max": 244,
+      "bounds": [
+        982,
+        1467,
+        2185,
+        3665
+      ]
+    },
+    {
+      "frame": 251,
+      "lit_pixels": 119793,
+      "luma_mean": 17.15303381284078,
+      "luma_max": 244,
+      "bounds": [
+        961,
+        1442,
+        2204,
+        3665
+      ]
+    },
+    {
+      "frame": 252,
+      "lit_pixels": 124219,
+      "luma_mean": 17.192843755086262,
+      "luma_max": 246,
+      "bounds": [
+        941,
+        1418,
+        2223,
+        3665
+      ]
+    },
+    {
+      "frame": 253,
+      "lit_pixels": 128522,
+      "luma_mean": 17.232181469599407,
+      "luma_max": 246,
+      "bounds": [
+        921,
+        1002,
+        2242,
+        3665
+      ]
+    },
+    {
+      "frame": 254,
+      "lit_pixels": 132417,
+      "luma_mean": 17.27070689201355,
+      "luma_max": 244,
+      "bounds": [
+        876,
+        974,
+        2261,
+        3665
+      ]
+    },
+    {
+      "frame": 255,
+      "lit_pixels": 136848,
+      "luma_mean": 17.310829639434814,
+      "luma_max": 245,
+      "bounds": [
+        852,
+        942,
+        2279,
+        3665
+      ]
+    },
+    {
+      "frame": 256,
+      "lit_pixels": 142155,
+      "luma_mean": 17.354447682698567,
+      "luma_max": 246,
+      "bounds": [
+        847,
+        925,
+        2297,
+        3665
+      ]
+    },
+    {
+      "frame": 257,
+      "lit_pixels": 148215,
+      "luma_mean": 17.40299145380656,
+      "luma_max": 246,
+      "bounds": [
+        842,
+        910,
+        2314,
+        3665
+      ]
+    },
+    {
+      "frame": 258,
+      "lit_pixels": 155671,
+      "luma_mean": 17.461652755737305,
+      "luma_max": 244,
+      "bounds": [
+        828,
+        899,
+        2331,
+        3665
+      ]
+    },
+    {
+      "frame": 259,
+      "lit_pixels": 164930,
+      "luma_mean": 17.53141983350118,
+      "luma_max": 243,
+      "bounds": [
+        810,
+        891,
+        2348,
+        3665
+      ]
+    },
+    {
+      "frame": 260,
+      "lit_pixels": 175995,
+      "luma_mean": 17.61592984199524,
+      "luma_max": 245,
+      "bounds": [
+        794,
+        885,
+        2364,
+        3665
+      ]
+    },
+    {
+      "frame": 261,
+      "lit_pixels": 188685,
+      "luma_mean": 17.7120836575826,
+      "luma_max": 245,
+      "bounds": [
+        778,
+        884,
+        2379,
+        3665
+      ]
+    },
+    {
+      "frame": 262,
+      "lit_pixels": 201152,
+      "luma_mean": 17.802603880564373,
+      "luma_max": 241,
+      "bounds": [
+        762,
+        883,
+        2393,
+        3665
+      ]
+    },
+    {
+      "frame": 263,
+      "lit_pixels": 215346,
+      "luma_mean": 17.90505091349284,
+      "luma_max": 244,
+      "bounds": [
+        747,
+        883,
+        2407,
+        3665
+      ]
+    },
+    {
+      "frame": 264,
+      "lit_pixels": 227928,
+      "luma_mean": 18.001092672348022,
+      "luma_max": 243,
+      "bounds": [
+        733,
+        883,
+        2421,
+        3665
+      ]
+    },
+    {
+      "frame": 265,
+      "lit_pixels": 239544,
+      "luma_mean": 18.092039108276367,
+      "luma_max": 243,
+      "bounds": [
+        719,
+        883,
+        2434,
+        3665
+      ]
+    },
+    {
+      "frame": 266,
+      "lit_pixels": 250532,
+      "luma_mean": 18.17793846130371,
+      "luma_max": 244,
+      "bounds": [
+        706,
+        883,
+        2447,
+        3665
+      ]
+    },
+    {
+      "frame": 267,
+      "lit_pixels": 261000,
+      "luma_mean": 18.25808850924174,
+      "luma_max": 243,
+      "bounds": [
+        693,
+        883,
+        2458,
+        3665
+      ]
+    },
+    {
+      "frame": 268,
+      "lit_pixels": 270827,
+      "luma_mean": 18.333048582077026,
+      "luma_max": 244,
+      "bounds": [
+        682,
+        882,
+        2470,
+        3665
+      ]
+    },
+    {
+      "frame": 269,
+      "lit_pixels": 280665,
+      "luma_mean": 18.40432596206665,
+      "luma_max": 243,
+      "bounds": [
+        671,
+        883,
+        2480,
+        3665
+      ]
+    },
+    {
+      "frame": 270,
+      "lit_pixels": 290243,
+      "luma_mean": 18.47192406654358,
+      "luma_max": 244,
+      "bounds": [
+        660,
+        883,
+        2490,
+        3665
+      ]
+    },
+    {
+      "frame": 271,
+      "lit_pixels": 300274,
+      "luma_mean": 18.53897015253703,
+      "luma_max": 243,
+      "bounds": [
+        651,
+        883,
+        2499,
+        3665
+      ]
+    },
+    {
+      "frame": 272,
+      "lit_pixels": 312460,
+      "luma_mean": 18.614907105763752,
+      "luma_max": 242,
+      "bounds": [
+        642,
+        882,
+        2507,
+        3665
+      ]
+    },
+    {
+      "frame": 273,
+      "lit_pixels": 322909,
+      "luma_mean": 18.68840702374776,
+      "luma_max": 245,
+      "bounds": [
+        635,
+        881,
+        2514,
+        3665
+      ]
+    },
+    {
+      "frame": 274,
+      "lit_pixels": 333349,
+      "luma_mean": 18.761534611384075,
+      "luma_max": 250,
+      "bounds": [
+        628,
+        880,
+        2521,
+        3665
+      ]
+    },
+    {
+      "frame": 275,
+      "lit_pixels": 343105,
+      "luma_mean": 18.832664092381794,
+      "luma_max": 245,
+      "bounds": [
+        622,
+        878,
+        2526,
+        3665
+      ]
+    },
+    {
+      "frame": 276,
+      "lit_pixels": 351996,
+      "luma_mean": 18.900108575820923,
+      "luma_max": 246,
+      "bounds": [
+        617,
+        875,
+        2531,
+        3665
+      ]
+    },
+    {
+      "frame": 277,
+      "lit_pixels": 360183,
+      "luma_mean": 18.965690692265827,
+      "luma_max": 247,
+      "bounds": [
+        613,
+        871,
+        2534,
+        3665
+      ]
+    },
+    {
+      "frame": 278,
+      "lit_pixels": 367397,
+      "luma_mean": 19.024027585983276,
+      "luma_max": 252,
+      "bounds": [
+        611,
+        867,
+        2537,
+        3665
+      ]
+    },
+    {
+      "frame": 279,
+      "lit_pixels": 374242,
+      "luma_mean": 19.079627990722656,
+      "luma_max": 245,
+      "bounds": [
+        609,
+        863,
+        2539,
+        3665
+      ]
+    },
+    {
+      "frame": 280,
+      "lit_pixels": 379556,
+      "luma_mean": 19.12543288866679,
+      "luma_max": 247,
+      "bounds": [
+        608,
+        858,
+        2539,
+        3665
+      ]
+    },
+    {
+      "frame": 281,
+      "lit_pixels": 384683,
+      "luma_mean": 19.172250986099243,
+      "luma_max": 247,
+      "bounds": [
+        608,
+        853,
+        2539,
+        3665
+      ]
+    },
+    {
+      "frame": 282,
+      "lit_pixels": 389442,
+      "luma_mean": 19.213539044062298,
+      "luma_max": 245,
+      "bounds": [
+        608,
+        847,
+        2539,
+        3665
+      ]
+    },
+    {
+      "frame": 283,
+      "lit_pixels": 394324,
+      "luma_mean": 19.257049878438313,
+      "luma_max": 247,
+      "bounds": [
+        608,
+        841,
+        2539,
+        3665
+      ]
+    },
+    {
+      "frame": 284,
+      "lit_pixels": 398553,
+      "luma_mean": 19.299054940541584,
+      "luma_max": 245,
+      "bounds": [
+        608,
+        834,
+        2539,
+        3665
+      ]
+    },
+    {
+      "frame": 285,
+      "lit_pixels": 403443,
+      "luma_mean": 19.346697568893433,
+      "luma_max": 247,
+      "bounds": [
+        608,
+        826,
+        2539,
+        3665
+      ]
+    },
+    {
+      "frame": 286,
+      "lit_pixels": 409129,
+      "luma_mean": 19.399469057718914,
+      "luma_max": 245,
+      "bounds": [
+        608,
+        818,
+        2539,
+        3665
+      ]
+    },
+    {
+      "frame": 287,
+      "lit_pixels": 414002,
+      "luma_mean": 19.44502552350362,
+      "luma_max": 248,
+      "bounds": [
+        608,
+        810,
+        2539,
+        3665
+      ]
+    },
+    {
+      "frame": 288,
+      "lit_pixels": 419021,
+      "luma_mean": 19.490808725357056,
+      "luma_max": 248,
+      "bounds": [
+        608,
+        802,
+        2539,
+        3665
+      ]
+    },
+    {
+      "frame": 289,
+      "lit_pixels": 426585,
+      "luma_mean": 19.54552936553955,
+      "luma_max": 249,
+      "bounds": [
+        608,
+        793,
+        2539,
+        3665
+      ]
+    },
+    {
+      "frame": 290,
+      "lit_pixels": 433259,
+      "luma_mean": 19.598323424657185,
+      "luma_max": 249,
+      "bounds": [
+        608,
+        783,
+        2539,
+        3665
+      ]
+    },
+    {
+      "frame": 291,
+      "lit_pixels": 438781,
+      "luma_mean": 19.643223603566486,
+      "luma_max": 249,
+      "bounds": [
+        608,
+        772,
+        2539,
+        3665
+      ]
+    },
+    {
+      "frame": 292,
+      "lit_pixels": 441056,
+      "luma_mean": 19.66584038734436,
+      "luma_max": 244,
+      "bounds": [
+        608,
+        760,
+        2539,
+        3665
+      ]
+    },
+    {
+      "frame": 293,
+      "lit_pixels": 446440,
+      "luma_mean": 19.69396487871806,
+      "luma_max": 247,
+      "bounds": [
+        608,
+        749,
+        2539,
+        3665
+      ]
+    },
+    {
+      "frame": 294,
+      "lit_pixels": 448891,
+      "luma_mean": 19.7113299369812,
+      "luma_max": 247,
+      "bounds": [
+        608,
+        737,
+        2539,
+        3665
+      ]
+    },
+    {
+      "frame": 295,
+      "lit_pixels": 449336,
+      "luma_mean": 19.712803999582928,
+      "luma_max": 247,
+      "bounds": [
+        608,
+        725,
+        2539,
+        3665
+      ]
+    },
+    {
+      "frame": 296,
+      "lit_pixels": 442057,
+      "luma_mean": 19.666114966074627,
+      "luma_max": 246,
+      "bounds": [
+        608,
+        713,
+        2539,
+        3665
+      ]
+    },
+    {
+      "frame": 297,
+      "lit_pixels": 431444,
+      "luma_mean": 19.5896479288737,
+      "luma_max": 248,
+      "bounds": [
+        608,
+        701,
+        2539,
+        3665
+      ]
+    },
+    {
+      "frame": 298,
+      "lit_pixels": 419571,
+      "luma_mean": 19.505009810129803,
+      "luma_max": 248,
+      "bounds": [
+        608,
+        688,
+        2539,
+        3665
+      ]
+    },
+    {
+      "frame": 299,
+      "lit_pixels": 405852,
+      "luma_mean": 19.41240652402242,
+      "luma_max": 249,
+      "bounds": [
+        608,
+        676,
+        2539,
+        3665
+      ]
+    },
+    {
+      "frame": 300,
+      "lit_pixels": 391835,
+      "luma_mean": 19.31774338086446,
+      "luma_max": 250,
+      "bounds": [
+        608,
+        664,
+        2539,
+        3665
+      ]
+    },
+    {
+      "frame": 301,
+      "lit_pixels": 379810,
+      "luma_mean": 19.237279733022053,
+      "luma_max": 248,
+      "bounds": [
+        608,
+        653,
+        2539,
+        3665
+      ]
+    },
+    {
+      "frame": 302,
+      "lit_pixels": 371696,
+      "luma_mean": 19.17147382100423,
+      "luma_max": 249,
+      "bounds": [
+        608,
+        641,
+        2539,
+        3665
+      ]
+    },
+    {
+      "frame": 303,
+      "lit_pixels": 369287,
+      "luma_mean": 19.124778827031452,
+      "luma_max": 246,
+      "bounds": [
+        608,
+        629,
+        2539,
+        3665
+      ]
+    },
+    {
+      "frame": 304,
+      "lit_pixels": 380307,
+      "luma_mean": 19.22638773918152,
+      "luma_max": 247,
+      "bounds": [
+        608,
+        616,
+        2539,
+        3665
+      ]
+    },
+    {
+      "frame": 305,
+      "lit_pixels": 400372,
+      "luma_mean": 19.390789826711018,
+      "luma_max": 246,
+      "bounds": [
+        608,
+        604,
+        2539,
+        3665
+      ]
+    },
+    {
+      "frame": 306,
+      "lit_pixels": 424277,
+      "luma_mean": 19.545291503270466,
+      "luma_max": 249,
+      "bounds": [
+        606,
+        592,
+        2539,
+        3665
+      ]
+    },
+    {
+      "frame": 307,
+      "lit_pixels": 445866,
+      "luma_mean": 19.682772397994995,
+      "luma_max": 245,
+      "bounds": [
+        587,
+        581,
+        2539,
+        3665
+      ]
+    },
+    {
+      "frame": 308,
+      "lit_pixels": 464568,
+      "luma_mean": 19.805642048517864,
+      "luma_max": 245,
+      "bounds": [
+        568,
+        569,
+        2539,
+        3665
+      ]
+    },
+    {
+      "frame": 309,
+      "lit_pixels": 481355,
+      "luma_mean": 19.919926802317303,
+      "luma_max": 245,
+      "bounds": [
+        551,
+        558,
+        2539,
+        3665
+      ]
+    },
+    {
+      "frame": 310,
+      "lit_pixels": 497801,
+      "luma_mean": 20.034255345662434,
+      "luma_max": 244,
+      "bounds": [
+        534,
+        548,
+        2539,
+        3665
+      ]
+    },
+    {
+      "frame": 311,
+      "lit_pixels": 512956,
+      "luma_mean": 20.145672877629597,
+      "luma_max": 246,
+      "bounds": [
+        517,
+        538,
+        2539,
+        3665
+      ]
+    },
+    {
+      "frame": 312,
+      "lit_pixels": 528676,
+      "luma_mean": 20.256792386372883,
+      "luma_max": 246,
+      "bounds": [
+        502,
+        528,
+        2539,
+        3665
+      ]
+    },
+    {
+      "frame": 313,
+      "lit_pixels": 542890,
+      "luma_mean": 20.36562689145406,
+      "luma_max": 247,
+      "bounds": [
+        487,
+        519,
+        2539,
+        3665
+      ]
+    },
+    {
+      "frame": 314,
+      "lit_pixels": 557303,
+      "luma_mean": 20.474441130956013,
+      "luma_max": 246,
+      "bounds": [
+        473,
+        511,
+        2539,
+        3665
+      ]
+    },
+    {
+      "frame": 315,
+      "lit_pixels": 570155,
+      "luma_mean": 20.569730917612713,
+      "luma_max": 246,
+      "bounds": [
+        461,
+        503,
+        2539,
+        3665
+      ]
+    },
+    {
+      "frame": 316,
+      "lit_pixels": 582949,
+      "luma_mean": 20.660733779271443,
+      "luma_max": 246,
+      "bounds": [
+        450,
+        495,
+        2539,
+        3665
+      ]
+    },
+    {
+      "frame": 317,
+      "lit_pixels": 593170,
+      "luma_mean": 20.73617919286092,
+      "luma_max": 246,
+      "bounds": [
+        439,
+        489,
+        2539,
+        3665
+      ]
+    },
+    {
+      "frame": 318,
+      "lit_pixels": 601355,
+      "luma_mean": 20.796632369359333,
+      "luma_max": 246,
+      "bounds": [
+        430,
+        483,
+        2539,
+        3665
+      ]
+    },
+    {
+      "frame": 319,
+      "lit_pixels": 606537,
+      "luma_mean": 20.83926486968994,
+      "luma_max": 245,
+      "bounds": [
+        422,
+        478,
+        2539,
+        3665
+      ]
+    },
+    {
+      "frame": 320,
+      "lit_pixels": 608648,
+      "luma_mean": 20.85399802525838,
+      "luma_max": 244,
+      "bounds": [
+        416,
+        474,
+        2539,
+        3665
+      ]
+    },
+    {
+      "frame": 321,
+      "lit_pixels": 608251,
+      "luma_mean": 20.85227394104004,
+      "luma_max": 244,
+      "bounds": [
+        410,
+        471,
+        2539,
+        3665
+      ]
+    },
+    {
+      "frame": 322,
+      "lit_pixels": 602525,
+      "luma_mean": 20.79695479075114,
+      "luma_max": 240,
+      "bounds": [
+        406,
+        468,
+        2539,
+        3665
+      ]
+    },
+    {
+      "frame": 323,
+      "lit_pixels": 603393,
+      "luma_mean": 20.79174582163493,
+      "luma_max": 243,
+      "bounds": [
+        404,
+        467,
+        2539,
+        3665
+      ]
+    },
+    {
+      "frame": 324,
+      "lit_pixels": 598817,
+      "luma_mean": 20.77206778526306,
+      "luma_max": 243,
+      "bounds": [
+        403,
+        466,
+        2539,
+        3665
+      ]
+    },
+    {
+      "frame": 325,
+      "lit_pixels": 595063,
+      "luma_mean": 20.748352607091267,
+      "luma_max": 243,
+      "bounds": [
+        403,
+        466,
+        2539,
+        3665
+      ]
+    },
+    {
+      "frame": 326,
+      "lit_pixels": 591074,
+      "luma_mean": 20.7222322622935,
+      "luma_max": 243,
+      "bounds": [
+        403,
+        466,
+        2539,
+        3665
+      ]
+    },
+    {
+      "frame": 327,
+      "lit_pixels": 587669,
+      "luma_mean": 20.697914282480877,
+      "luma_max": 245,
+      "bounds": [
+        403,
+        466,
+        2539,
+        3665
+      ]
+    },
+    {
+      "frame": 328,
+      "lit_pixels": 585905,
+      "luma_mean": 20.681411504745483,
+      "luma_max": 249,
+      "bounds": [
+        403,
+        466,
+        2539,
+        3665
+      ]
+    },
+    {
+      "frame": 329,
+      "lit_pixels": 585230,
+      "luma_mean": 20.669811407725017,
+      "luma_max": 244,
+      "bounds": [
+        403,
+        466,
+        2539,
+        3665
+      ]
+    },
+    {
+      "frame": 330,
+      "lit_pixels": 584969,
+      "luma_mean": 20.66086443265279,
+      "luma_max": 244,
+      "bounds": [
+        403,
+        466,
+        2539,
+        3665
+      ]
+    },
+    {
+      "frame": 331,
+      "lit_pixels": 585603,
+      "luma_mean": 20.6599280834198,
+      "luma_max": 244,
+      "bounds": [
+        403,
+        466,
+        2539,
+        3665
+      ]
+    },
+    {
+      "frame": 332,
+      "lit_pixels": 587536,
+      "luma_mean": 20.66545780499776,
+      "luma_max": 243,
+      "bounds": [
+        403,
+        466,
+        2539,
+        3665
+      ]
+    },
+    {
+      "frame": 333,
+      "lit_pixels": 590190,
+      "luma_mean": 20.678571621576946,
+      "luma_max": 245,
+      "bounds": [
+        403,
+        466,
+        2539,
+        3665
+      ]
+    },
+    {
+      "frame": 334,
+      "lit_pixels": 593744,
+      "luma_mean": 20.699333906173706,
+      "luma_max": 243,
+      "bounds": [
+        403,
+        466,
+        2539,
+        3665
+      ]
+    },
+    {
+      "frame": 335,
+      "lit_pixels": 598201,
+      "luma_mean": 20.726656913757324,
+      "luma_max": 244,
+      "bounds": [
+        403,
+        466,
+        2539,
+        3665
+      ]
+    },
+    {
+      "frame": 336,
+      "lit_pixels": 603429,
+      "luma_mean": 20.758334080378216,
+      "luma_max": 242,
+      "bounds": [
+        403,
+        466,
+        2539,
+        3665
+      ]
+    },
+    {
+      "frame": 337,
+      "lit_pixels": 609215,
+      "luma_mean": 20.797236442565918,
+      "luma_max": 243,
+      "bounds": [
+        403,
+        466,
+        2539,
+        3665
+      ]
+    },
+    {
+      "frame": 338,
+      "lit_pixels": 615462,
+      "luma_mean": 20.836863438288372,
+      "luma_max": 242,
+      "bounds": [
+        403,
+        466,
+        2539,
+        3665
+      ]
+    },
+    {
+      "frame": 339,
+      "lit_pixels": 621810,
+      "luma_mean": 20.87829891840617,
+      "luma_max": 242,
+      "bounds": [
+        403,
+        466,
+        2539,
+        3665
+      ]
+    },
+    {
+      "frame": 340,
+      "lit_pixels": 627918,
+      "luma_mean": 20.91935459772746,
+      "luma_max": 243,
+      "bounds": [
+        403,
+        466,
+        2539,
+        3665
+      ]
+    },
+    {
+      "frame": 341,
+      "lit_pixels": 634099,
+      "luma_mean": 20.958368062973022,
+      "luma_max": 243,
+      "bounds": [
+        403,
+        466,
+        2539,
+        3665
+      ]
+    },
+    {
+      "frame": 342,
+      "lit_pixels": 639166,
+      "luma_mean": 20.990190505981445,
+      "luma_max": 243,
+      "bounds": [
+        403,
+        466,
+        2539,
+        3665
+      ]
+    },
+    {
+      "frame": 343,
+      "lit_pixels": 642554,
+      "luma_mean": 21.013691186904907,
+      "luma_max": 242,
+      "bounds": [
+        403,
+        466,
+        2539,
+        3665
+      ]
+    },
+    {
+      "frame": 344,
+      "lit_pixels": 644832,
+      "luma_mean": 21.027803262074787,
+      "luma_max": 242,
+      "bounds": [
+        403,
+        466,
+        2539,
+        3665
+      ]
+    },
+    {
+      "frame": 345,
+      "lit_pixels": 645801,
+      "luma_mean": 21.032998005549114,
+      "luma_max": 242,
+      "bounds": [
+        403,
+        466,
+        2539,
+        3665
+      ]
+    },
+    {
+      "frame": 346,
+      "lit_pixels": 645929,
+      "luma_mean": 21.03262186050415,
+      "luma_max": 243,
+      "bounds": [
+        403,
+        466,
+        2539,
+        3665
+      ]
+    },
+    {
+      "frame": 347,
+      "lit_pixels": 645692,
+      "luma_mean": 21.030888239542644,
+      "luma_max": 242,
+      "bounds": [
+        403,
+        466,
+        2539,
+        3665
+      ]
+    },
+    {
+      "frame": 348,
+      "lit_pixels": 645292,
+      "luma_mean": 21.027787844340008,
+      "luma_max": 242,
+      "bounds": [
+        403,
+        466,
+        2539,
+        3665
+      ]
+    },
+    {
+      "frame": 349,
+      "lit_pixels": 644622,
+      "luma_mean": 21.024641513824463,
+      "luma_max": 242,
+      "bounds": [
+        403,
+        466,
+        2539,
+        3665
+      ]
+    },
+    {
+      "frame": 350,
+      "lit_pixels": 644405,
+      "luma_mean": 21.02301486333211,
+      "luma_max": 242,
+      "bounds": [
+        403,
+        466,
+        2539,
+        3665
+      ]
+    },
+    {
+      "frame": 351,
+      "lit_pixels": 644210,
+      "luma_mean": 21.021005312601726,
+      "luma_max": 242,
+      "bounds": [
+        403,
+        466,
+        2539,
+        3665
+      ]
+    },
+    {
+      "frame": 352,
+      "lit_pixels": 642455,
+      "luma_mean": 21.000074068705242,
+      "luma_max": 238,
+      "bounds": [
+        403,
+        467,
+        2539,
+        3665
+      ]
+    },
+    {
+      "frame": 353,
+      "lit_pixels": 642996,
+      "luma_mean": 21.001849095026653,
+      "luma_max": 239,
+      "bounds": [
+        403,
+        467,
+        2539,
+        3665
+      ]
+    },
+    {
+      "frame": 354,
+      "lit_pixels": 643175,
+      "luma_mean": 21.003589391708374,
+      "luma_max": 239,
+      "bounds": [
+        403,
+        467,
+        2539,
+        3665
+      ]
+    },
+    {
+      "frame": 355,
+      "lit_pixels": 643363,
+      "luma_mean": 21.005416949590046,
+      "luma_max": 240,
+      "bounds": [
+        403,
+        467,
+        2539,
+        3665
+      ]
+    },
+    {
+      "frame": 356,
+      "lit_pixels": 643820,
+      "luma_mean": 21.008412837982178,
+      "luma_max": 240,
+      "bounds": [
+        403,
+        467,
+        2539,
+        3665
+      ]
+    },
+    {
+      "frame": 357,
+      "lit_pixels": 644234,
+      "luma_mean": 21.010814825693767,
+      "luma_max": 240,
+      "bounds": [
+        403,
+        467,
+        2539,
+        3665
+      ]
+    },
+    {
+      "frame": 358,
+      "lit_pixels": 644879,
+      "luma_mean": 21.01453987757365,
+      "luma_max": 240,
+      "bounds": [
+        403,
+        467,
+        2539,
+        3665
+      ]
+    },
+    {
+      "frame": 359,
+      "lit_pixels": 645568,
+      "luma_mean": 21.018898010253906,
+      "luma_max": 240,
+      "bounds": [
+        403,
+        467,
+        2539,
+        3665
+      ]
+    },
+    {
+      "frame": 360,
+      "lit_pixels": 646279,
+      "luma_mean": 21.023594458897907,
+      "luma_max": 240,
+      "bounds": [
+        403,
+        467,
+        2539,
+        3665
+      ]
+    },
+    {
+      "frame": 361,
+      "lit_pixels": 647002,
+      "luma_mean": 21.028534809748333,
+      "luma_max": 240,
+      "bounds": [
+        403,
+        467,
+        2539,
+        3665
+      ]
+    },
+    {
+      "frame": 362,
+      "lit_pixels": 647671,
+      "luma_mean": 21.03318985303243,
+      "luma_max": 239,
+      "bounds": [
+        403,
+        467,
+        2539,
+        3665
+      ]
+    },
+    {
+      "frame": 363,
+      "lit_pixels": 648325,
+      "luma_mean": 21.03713647524516,
+      "luma_max": 239,
+      "bounds": [
+        403,
+        467,
+        2539,
+        3665
+      ]
+    },
+    {
+      "frame": 364,
+      "lit_pixels": 648944,
+      "luma_mean": 21.040573755900066,
+      "luma_max": 239,
+      "bounds": [
+        403,
+        467,
+        2539,
+        3665
+      ]
+    },
+    {
+      "frame": 365,
+      "lit_pixels": 649381,
+      "luma_mean": 21.0431911945343,
+      "luma_max": 239,
+      "bounds": [
+        403,
+        467,
+        2539,
+        3665
+      ]
+    },
+    {
+      "frame": 366,
+      "lit_pixels": 649658,
+      "luma_mean": 21.045030037562054,
+      "luma_max": 239,
+      "bounds": [
+        403,
+        467,
+        2539,
+        3665
+      ]
+    },
+    {
+      "frame": 367,
+      "lit_pixels": 649769,
+      "luma_mean": 21.04570810000102,
+      "luma_max": 239,
+      "bounds": [
+        403,
+        467,
+        2539,
+        3665
+      ]
+    },
+    {
+      "frame": 368,
+      "lit_pixels": 649778,
+      "luma_mean": 21.045756181081135,
+      "luma_max": 239,
+      "bounds": [
+        403,
+        467,
+        2539,
+        3665
+      ]
+    },
+    {
+      "frame": 369,
+      "lit_pixels": 649778,
+      "luma_mean": 21.0457603931427,
+      "luma_max": 239,
+      "bounds": [
+        403,
+        467,
+        2539,
+        3665
+      ]
+    },
+    {
+      "frame": 370,
+      "lit_pixels": 649779,
+      "luma_mean": 21.045761903127033,
+      "luma_max": 239,
+      "bounds": [
+        403,
+        467,
+        2539,
+        3665
+      ]
+    },
+    {
+      "frame": 371,
+      "lit_pixels": 649779,
+      "luma_mean": 21.045761744181316,
+      "luma_max": 239,
+      "bounds": [
+        403,
+        467,
+        2539,
+        3665
+      ]
+    },
+    {
+      "frame": 372,
+      "lit_pixels": 649779,
+      "luma_mean": 21.045761744181316,
+      "luma_max": 239,
+      "bounds": [
+        403,
+        467,
+        2539,
+        3665
+      ]
+    },
+    {
+      "frame": 373,
+      "lit_pixels": 649779,
+      "luma_mean": 21.045761744181316,
+      "luma_max": 239,
+      "bounds": [
+        403,
+        467,
+        2539,
+        3665
+      ]
+    },
+    {
+      "frame": 374,
+      "lit_pixels": 649779,
+      "luma_mean": 21.045761744181316,
+      "luma_max": 239,
+      "bounds": [
+        403,
+        467,
+        2539,
+        3665
+      ]
+    },
+    {
+      "frame": 375,
+      "lit_pixels": 649779,
+      "luma_mean": 21.045761744181316,
+      "luma_max": 239,
+      "bounds": [
+        403,
+        467,
+        2539,
+        3665
+      ]
+    },
+    {
+      "frame": 376,
+      "lit_pixels": 649779,
+      "luma_mean": 21.045761744181316,
+      "luma_max": 239,
+      "bounds": [
+        403,
+        467,
+        2539,
+        3665
+      ]
+    },
+    {
+      "frame": 377,
+      "lit_pixels": 649779,
+      "luma_mean": 21.045761744181316,
+      "luma_max": 239,
+      "bounds": [
+        403,
+        467,
+        2539,
+        3665
+      ]
+    },
+    {
+      "frame": 378,
+      "lit_pixels": 649779,
+      "luma_mean": 21.045761744181316,
+      "luma_max": 239,
+      "bounds": [
+        403,
+        467,
+        2539,
+        3665
+      ]
+    },
+    {
+      "frame": 379,
+      "lit_pixels": 649779,
+      "luma_mean": 21.045761744181316,
+      "luma_max": 239,
+      "bounds": [
+        403,
+        467,
+        2539,
+        3665
+      ]
+    },
+    {
+      "frame": 380,
+      "lit_pixels": 649779,
+      "luma_mean": 21.045761744181316,
+      "luma_max": 239,
+      "bounds": [
+        403,
+        467,
+        2539,
+        3665
+      ]
+    },
+    {
+      "frame": 381,
+      "lit_pixels": 653630,
+      "luma_mean": 21.045772870381672,
+      "luma_max": 247,
+      "bounds": [
+        403,
+        466,
+        2539,
+        3665
+      ]
+    },
+    {
+      "frame": 382,
+      "lit_pixels": 653843,
+      "luma_mean": 21.081629196802776,
+      "luma_max": 244,
+      "bounds": [
+        405,
+        467,
+        2538,
+        3665
+      ]
+    },
+    {
+      "frame": 383,
+      "lit_pixels": 671770,
+      "luma_mean": 21.22371705373128,
+      "luma_max": 248,
+      "bounds": [
+        405,
+        467,
+        2535,
+        3664
+      ]
+    },
+    {
+      "frame": 384,
+      "lit_pixels": 684712,
+      "luma_mean": 21.376224835713703,
+      "luma_max": 249,
+      "bounds": [
+        406,
+        469,
+        2533,
+        3662
+      ]
+    },
+    {
+      "frame": 385,
+      "lit_pixels": 694041,
+      "luma_mean": 21.53218738238017,
+      "luma_max": 252,
+      "bounds": [
+        407,
+        470,
+        2530,
+        3660
+      ]
+    },
+    {
+      "frame": 386,
+      "lit_pixels": 702050,
+      "luma_mean": 21.682860851287842,
+      "luma_max": 250,
+      "bounds": [
+        408,
+        473,
+        2526,
+        3658
+      ]
+    },
+    {
+      "frame": 387,
+      "lit_pixels": 710060,
+      "luma_mean": 21.827219486236572,
+      "luma_max": 249,
+      "bounds": [
+        411,
+        473,
+        2520,
+        3649
+      ]
+    },
+    {
+      "frame": 388,
+      "lit_pixels": 717064,
+      "luma_mean": 21.968454837799072,
+      "luma_max": 251,
+      "bounds": [
+        414,
+        473,
+        2509,
+        3648
+      ]
+    },
+    {
+      "frame": 389,
+      "lit_pixels": 723552,
+      "luma_mean": 22.100465695063274,
+      "luma_max": 250,
+      "bounds": [
+        419,
+        471,
+        2498,
+        3636
+      ]
+    },
+    {
+      "frame": 390,
+      "lit_pixels": 731536,
+      "luma_mean": 22.232215881347656,
+      "luma_max": 247,
+      "bounds": [
+        415,
+        469,
+        2485,
+        3627
+      ]
+    },
+    {
+      "frame": 391,
+      "lit_pixels": 738670,
+      "luma_mean": 22.34592620531718,
+      "luma_max": 251,
+      "bounds": [
+        419,
+        466,
+        2469,
+        3628
+      ]
+    },
+    {
+      "frame": 392,
+      "lit_pixels": 742048,
+      "luma_mean": 22.484575748443604,
+      "luma_max": 244,
+      "bounds": [
+        419,
+        474,
+        2466,
+        3636
+      ]
+    },
+    {
+      "frame": 393,
+      "lit_pixels": 756342,
+      "luma_mean": 22.58100390434265,
+      "luma_max": 253,
+      "bounds": [
+        412,
+        496,
+        2449,
+        3641
+      ]
+    },
+    {
+      "frame": 394,
+      "lit_pixels": 769433,
+      "luma_mean": 22.706902583440144,
+      "luma_max": 248,
+      "bounds": [
+        429,
+        513,
+        2441,
+        3635
+      ]
+    },
+    {
+      "frame": 395,
+      "lit_pixels": 776450,
+      "luma_mean": 22.82409421602885,
+      "luma_max": 249,
+      "bounds": [
+        431,
+        514,
+        2436,
+        3622
+      ]
+    },
+    {
+      "frame": 396,
+      "lit_pixels": 778941,
+      "luma_mean": 22.890512625376385,
+      "luma_max": 250,
+      "bounds": [
+        429,
+        533,
+        2417,
+        3622
+      ]
+    },
+    {
+      "frame": 397,
+      "lit_pixels": 793251,
+      "luma_mean": 23.065459966659546,
+      "luma_max": 248,
+      "bounds": [
+        429,
+        551,
+        2415,
+        3620
+      ]
+    },
+    {
+      "frame": 398,
+      "lit_pixels": 811248,
+      "luma_mean": 23.282074610392254,
+      "luma_max": 245,
+      "bounds": [
+        444,
+        561,
+        2415,
+        3634
+      ]
+    },
+    {
+      "frame": 399,
+      "lit_pixels": 812070,
+      "luma_mean": 23.298405806223553,
+      "luma_max": 248,
+      "bounds": [
+        458,
+        588,
+        2429,
+        3622
+      ]
+    },
+    {
+      "frame": 400,
+      "lit_pixels": 825350,
+      "luma_mean": 23.43520712852478,
+      "luma_max": 250,
+      "bounds": [
+        466,
+        609,
+        2445,
+        3601
+      ]
+    },
+    {
+      "frame": 401,
+      "lit_pixels": 832452,
+      "luma_mean": 23.548509915669758,
+      "luma_max": 244,
+      "bounds": [
+        445,
+        626,
+        2460,
+        3617
+      ]
+    },
+    {
+      "frame": 402,
+      "lit_pixels": 829988,
+      "luma_mean": 23.541409810384113,
+      "luma_max": 252,
+      "bounds": [
+        472,
+        616,
+        2458,
+        3625
+      ]
+    },
+    {
+      "frame": 403,
+      "lit_pixels": 829112,
+      "luma_mean": 23.579196214675903,
+      "luma_max": 250,
+      "bounds": [
+        495,
+        582,
+        2447,
+        3620
+      ]
+    },
+    {
+      "frame": 404,
+      "lit_pixels": 848069,
+      "luma_mean": 23.751237392425537,
+      "luma_max": 245,
+      "bounds": [
+        516,
+        569,
+        2439,
+        3616
+      ]
+    },
+    {
+      "frame": 405,
+      "lit_pixels": 846837,
+      "luma_mean": 23.737693389256794,
+      "luma_max": 251,
+      "bounds": [
+        520,
+        592,
+        2437,
+        3577
+      ]
+    },
+    {
+      "frame": 406,
+      "lit_pixels": 831602,
+      "luma_mean": 23.64612603187561,
+      "luma_max": 253,
+      "bounds": [
+        520,
+        626,
+        2414,
+        3509
+      ]
+    },
+    {
+      "frame": 407,
+      "lit_pixels": 824502,
+      "luma_mean": 23.61241539319356,
+      "luma_max": 246,
+      "bounds": [
+        530,
+        615,
+        2379,
+        3480
+      ]
+    },
+    {
+      "frame": 408,
+      "lit_pixels": 826951,
+      "luma_mean": 23.68049120903015,
+      "luma_max": 251,
+      "bounds": [
+        547,
+        604,
+        2340,
+        3448
+      ]
+    },
+    {
+      "frame": 409,
+      "lit_pixels": 832677,
+      "luma_mean": 23.767592350641888,
+      "luma_max": 251,
+      "bounds": [
+        512,
+        628,
+        2334,
+        3435
+      ]
+    },
+    {
+      "frame": 410,
+      "lit_pixels": 850316,
+      "luma_mean": 23.932886600494385,
+      "luma_max": 245,
+      "bounds": [
+        488,
+        636,
+        2326,
+        3403
+      ]
+    },
+    {
+      "frame": 411,
+      "lit_pixels": 845063,
+      "luma_mean": 23.866549650828045,
+      "luma_max": 255,
+      "bounds": [
+        474,
+        667,
+        2331,
+        3364
+      ]
+    },
+    {
+      "frame": 412,
+      "lit_pixels": 852087,
+      "luma_mean": 23.961710532506306,
+      "luma_max": 252,
+      "bounds": [
+        493,
+        654,
+        2291,
+        3358
+      ]
+    },
+    {
+      "frame": 413,
+      "lit_pixels": 844585,
+      "luma_mean": 23.937411626180012,
+      "luma_max": 246,
+      "bounds": [
+        497,
+        690,
+        2271,
+        3330
+      ]
+    },
+    {
+      "frame": 414,
+      "lit_pixels": 825014,
+      "luma_mean": 23.799712657928467,
+      "luma_max": 253,
+      "bounds": [
+        477,
+        701,
+        2265,
+        3306
+      ]
+    },
+    {
+      "frame": 415,
+      "lit_pixels": 831903,
+      "luma_mean": 23.86519742012024,
+      "luma_max": 251,
+      "bounds": [
+        474,
+        734,
+        2226,
+        3261
+      ]
+    },
+    {
+      "frame": 416,
+      "lit_pixels": 823919,
+      "luma_mean": 23.795315663019817,
+      "luma_max": 245,
+      "bounds": [
+        461,
+        765,
+        2231,
+        3204
+      ]
+    },
+    {
+      "frame": 417,
+      "lit_pixels": 829886,
+      "luma_mean": 23.81762941678365,
+      "luma_max": 255,
+      "bounds": [
+        476,
+        782,
+        2242,
+        3185
+      ]
+    },
+    {
+      "frame": 418,
+      "lit_pixels": 833193,
+      "luma_mean": 23.81847310066223,
+      "luma_max": 251,
+      "bounds": [
+        506,
+        782,
+        2264,
+        3200
+      ]
+    },
+    {
+      "frame": 419,
+      "lit_pixels": 821684,
+      "luma_mean": 23.802292744318645,
+      "luma_max": 247,
+      "bounds": [
+        490,
+        821,
+        2276,
+        3201
+      ]
+    },
+    {
+      "frame": 420,
+      "lit_pixels": 802717,
+      "luma_mean": 23.633492867151897,
+      "luma_max": 252,
+      "bounds": [
+        489,
+        828,
+        2283,
+        3148
+      ]
+    },
+    {
+      "frame": 421,
+      "lit_pixels": 791475,
+      "luma_mean": 23.513237873713177,
+      "luma_max": 250,
+      "bounds": [
+        504,
+        852,
+        2309,
+        3143
+      ]
+    },
+    {
+      "frame": 422,
+      "lit_pixels": 771088,
+      "luma_mean": 23.35524805386861,
+      "luma_max": 252,
+      "bounds": [
+        517,
+        875,
+        2324,
+        3128
+      ]
+    },
+    {
+      "frame": 423,
+      "lit_pixels": 744405,
+      "luma_mean": 23.1638765335083,
+      "luma_max": 246,
+      "bounds": [
+        517,
+        900,
+        2358,
+        3161
+      ]
+    },
+    {
+      "frame": 424,
+      "lit_pixels": 717987,
+      "luma_mean": 22.892826159795124,
+      "luma_max": 255,
+      "bounds": [
+        532,
+        906,
+        2401,
+        3148
+      ]
+    },
+    {
+      "frame": 425,
+      "lit_pixels": 689669,
+      "luma_mean": 22.616551955540974,
+      "luma_max": 252,
+      "bounds": [
+        522,
+        888,
+        2425,
+        3135
+      ]
+    },
+    {
+      "frame": 426,
+      "lit_pixels": 663533,
+      "luma_mean": 22.371636946996052,
+      "luma_max": 246,
+      "bounds": [
+        492,
+        896,
+        2409,
+        3096
+      ]
+    },
+    {
+      "frame": 427,
+      "lit_pixels": 643220,
+      "luma_mean": 22.149561802546184,
+      "luma_max": 253,
+      "bounds": [
+        504,
+        901,
+        2399,
+        3066
+      ]
+    },
+    {
+      "frame": 428,
+      "lit_pixels": 635403,
+      "luma_mean": 22.064359823862713,
+      "luma_max": 254,
+      "bounds": [
+        530,
+        899,
+        2388,
+        3087
+      ]
+    },
+    {
+      "frame": 429,
+      "lit_pixels": 604626,
+      "luma_mean": 21.768548409144085,
+      "luma_max": 250,
+      "bounds": [
+        566,
+        900,
+        2383,
+        3083
+      ]
+    },
+    {
+      "frame": 430,
+      "lit_pixels": 574475,
+      "luma_mean": 21.541348218917847,
+      "luma_max": 250,
+      "bounds": [
+        554,
+        918,
+        2395,
+        3079
+      ]
+    },
+    {
+      "frame": 431,
+      "lit_pixels": 558977,
+      "luma_mean": 21.456841309865315,
+      "luma_max": 247,
+      "bounds": [
+        558,
+        923,
+        2426,
+        3068
+      ]
+    },
+    {
+      "frame": 432,
+      "lit_pixels": 544524,
+      "luma_mean": 21.310001373291016,
+      "luma_max": 251,
+      "bounds": [
+        585,
+        931,
+        2448,
+        3068
+      ]
+    },
+    {
+      "frame": 433,
+      "lit_pixels": 515834,
+      "luma_mean": 21.037990013758343,
+      "luma_max": 251,
+      "bounds": [
+        583,
+        937,
+        2429,
+        3085
+      ]
+    },
+    {
+      "frame": 434,
+      "lit_pixels": 505409,
+      "luma_mean": 20.90366808573405,
+      "luma_max": 252,
+      "bounds": [
+        591,
+        921,
+        2438,
+        3067
+      ]
+    },
+    {
+      "frame": 435,
+      "lit_pixels": 489041,
+      "luma_mean": 20.747610251108807,
+      "luma_max": 254,
+      "bounds": [
+        583,
+        934,
+        2455,
+        3043
+      ]
+    },
+    {
+      "frame": 436,
+      "lit_pixels": 464950,
+      "luma_mean": 20.533565759658813,
+      "luma_max": 245,
+      "bounds": [
+        570,
+        959,
+        2417,
+        3020
+      ]
+    },
+    {
+      "frame": 437,
+      "lit_pixels": 445070,
+      "luma_mean": 20.34268617630005,
+      "luma_max": 250,
+      "bounds": [
+        576,
+        981,
+        2380,
+        2988
+      ]
+    },
+    {
+      "frame": 438,
+      "lit_pixels": 418950,
+      "luma_mean": 20.110121726989746,
+      "luma_max": 248,
+      "bounds": [
+        622,
+        1003,
+        2384,
+        2947
+      ]
+    },
+    {
+      "frame": 439,
+      "lit_pixels": 393214,
+      "luma_mean": 19.845792134602863,
+      "luma_max": 246,
+      "bounds": [
+        645,
+        1020,
+        2397,
+        2908
+      ]
+    },
+    {
+      "frame": 440,
+      "lit_pixels": 375068,
+      "luma_mean": 19.628455956776936,
+      "luma_max": 247,
+      "bounds": [
+        641,
+        1035,
+        2391,
+        2854
+      ]
+    },
+    {
+      "frame": 441,
+      "lit_pixels": 350756,
+      "luma_mean": 19.37529643376668,
+      "luma_max": 243,
+      "bounds": [
+        647,
+        1045,
+        2403,
+        2834
+      ]
+    },
+    {
+      "frame": 442,
+      "lit_pixels": 334481,
+      "luma_mean": 19.194424311319988,
+      "luma_max": 244,
+      "bounds": [
+        645,
+        1046,
+        2403,
+        2821
+      ]
+    },
+    {
+      "frame": 443,
+      "lit_pixels": 321122,
+      "luma_mean": 19.060667912165325,
+      "luma_max": 243,
+      "bounds": [
+        656,
+        1065,
+        2379,
+        2807
+      ]
+    },
+    {
+      "frame": 444,
+      "lit_pixels": 309901,
+      "luma_mean": 18.932366132736206,
+      "luma_max": 243,
+      "bounds": [
+        656,
+        1089,
+        2370,
+        2796
+      ]
+    },
+    {
+      "frame": 445,
+      "lit_pixels": 295246,
+      "luma_mean": 18.795764446258545,
+      "luma_max": 238,
+      "bounds": [
+        649,
+        1110,
+        2374,
+        2767
+      ]
+    },
+    {
+      "frame": 446,
+      "lit_pixels": 276691,
+      "luma_mean": 18.615162134170532,
+      "luma_max": 242,
+      "bounds": [
+        664,
+        1143,
+        2361,
+        2723
+      ]
+    },
+    {
+      "frame": 447,
+      "lit_pixels": 262367,
+      "luma_mean": 18.474422852198284,
+      "luma_max": 236,
+      "bounds": [
+        677,
+        1180,
+        2363,
+        2707
+      ]
+    },
+    {
+      "frame": 448,
+      "lit_pixels": 247191,
+      "luma_mean": 18.34419894218445,
+      "luma_max": 230,
+      "bounds": [
+        676,
+        1216,
+        2353,
+        2689
+      ]
+    },
+    {
+      "frame": 449,
+      "lit_pixels": 236787,
+      "luma_mean": 18.24113368988037,
+      "luma_max": 232,
+      "bounds": [
+        664,
+        1233,
+        2348,
+        2685
+      ]
+    },
+    {
+      "frame": 450,
+      "lit_pixels": 224354,
+      "luma_mean": 18.124001344045002,
+      "luma_max": 223,
+      "bounds": [
+        661,
+        1248,
+        2341,
+        2685
+      ]
+    },
+    {
+      "frame": 451,
+      "lit_pixels": 212581,
+      "luma_mean": 18.019762754440308,
+      "luma_max": 208,
+      "bounds": [
+        657,
+        1276,
+        2332,
+        2664
+      ]
+    },
+    {
+      "frame": 452,
+      "lit_pixels": 202465,
+      "luma_mean": 17.93118707338969,
+      "luma_max": 211,
+      "bounds": [
+        664,
+        1287,
+        2331,
+        2655
+      ]
+    },
+    {
+      "frame": 453,
+      "lit_pixels": 194249,
+      "luma_mean": 17.864274104436237,
+      "luma_max": 200,
+      "bounds": [
+        674,
+        1298,
+        2333,
+        2652
+      ]
+    },
+    {
+      "frame": 454,
+      "lit_pixels": 181534,
+      "luma_mean": 17.765437602996826,
+      "luma_max": 195,
+      "bounds": [
+        670,
+        1312,
+        2339,
+        2647
+      ]
+    },
+    {
+      "frame": 455,
+      "lit_pixels": 173273,
+      "luma_mean": 17.696615775426228,
+      "luma_max": 198,
+      "bounds": [
+        662,
+        1320,
+        2341,
+        2645
+      ]
+    },
+    {
+      "frame": 456,
+      "lit_pixels": 166719,
+      "luma_mean": 17.64567033449809,
+      "luma_max": 195,
+      "bounds": [
+        655,
+        1331,
+        2342,
+        2640
+      ]
+    },
+    {
+      "frame": 457,
+      "lit_pixels": 161877,
+      "luma_mean": 17.605023622512817,
+      "luma_max": 199,
+      "bounds": [
+        656,
+        1338,
+        2342,
+        2638
+      ]
+    },
+    {
+      "frame": 458,
+      "lit_pixels": 158265,
+      "luma_mean": 17.575552384058636,
+      "luma_max": 196,
+      "bounds": [
+        655,
+        1344,
+        2350,
+        2632
+      ]
+    },
+    {
+      "frame": 459,
+      "lit_pixels": 155666,
+      "luma_mean": 17.553897619247437,
+      "luma_max": 196,
+      "bounds": [
+        655,
+        1351,
+        2363,
+        2625
+      ]
+    },
+    {
+      "frame": 460,
+      "lit_pixels": 153228,
+      "luma_mean": 17.533262650171917,
+      "luma_max": 200,
+      "bounds": [
+        656,
+        1359,
+        2373,
+        2620
+      ]
+    },
+    {
+      "frame": 461,
+      "lit_pixels": 151521,
+      "luma_mean": 17.51736617088318,
+      "luma_max": 196,
+      "bounds": [
+        658,
+        1365,
+        2381,
+        2615
+      ]
+    },
+    {
+      "frame": 462,
+      "lit_pixels": 149996,
+      "luma_mean": 17.504775683085125,
+      "luma_max": 193,
+      "bounds": [
+        658,
+        1370,
+        2390,
+        2609
+      ]
+    },
+    {
+      "frame": 463,
+      "lit_pixels": 149188,
+      "luma_mean": 17.498345375061035,
+      "luma_max": 195,
+      "bounds": [
+        654,
+        1373,
+        2399,
+        2604
+      ]
+    },
+    {
+      "frame": 464,
+      "lit_pixels": 148412,
+      "luma_mean": 17.49272362391154,
+      "luma_max": 191,
+      "bounds": [
+        651,
+        1376,
+        2406,
+        2600
+      ]
+    },
+    {
+      "frame": 465,
+      "lit_pixels": 148048,
+      "luma_mean": 17.488590955734253,
+      "luma_max": 192,
+      "bounds": [
+        649,
+        1378,
+        2412,
+        2596
+      ]
+    },
+    {
+      "frame": 466,
+      "lit_pixels": 147822,
+      "luma_mean": 17.48710497220357,
+      "luma_max": 190,
+      "bounds": [
+        647,
+        1380,
+        2417,
+        2593
+      ]
+    },
+    {
+      "frame": 467,
+      "lit_pixels": 147662,
+      "luma_mean": 17.485631545384724,
+      "luma_max": 190,
+      "bounds": [
+        646,
+        1381,
+        2421,
+        2591
+      ]
+    },
+    {
+      "frame": 468,
+      "lit_pixels": 147582,
+      "luma_mean": 17.484751145044964,
+      "luma_max": 186,
+      "bounds": [
+        645,
+        1382,
+        2424,
+        2591
+      ]
+    },
+    {
+      "frame": 469,
+      "lit_pixels": 147572,
+      "luma_mean": 17.48344079653422,
+      "luma_max": 186,
+      "bounds": [
+        644,
+        1383,
+        2425,
+        2592
+      ]
+    },
+    {
+      "frame": 470,
+      "lit_pixels": 147857,
+      "luma_mean": 17.484361330668133,
+      "luma_max": 186,
+      "bounds": [
+        644,
+        1383,
+        2426,
+        2592
+      ]
+    },
+    {
+      "frame": 471,
+      "lit_pixels": 147866,
+      "luma_mean": 17.484129508336384,
+      "luma_max": 186,
+      "bounds": [
+        644,
+        1383,
+        2426,
+        2592
+      ]
+    },
+    {
+      "frame": 472,
+      "lit_pixels": 147876,
+      "luma_mean": 17.4840505917867,
+      "luma_max": 186,
+      "bounds": [
+        644,
+        1383,
+        2426,
+        2592
+      ]
+    },
+    {
+      "frame": 473,
+      "lit_pixels": 147877,
+      "luma_mean": 17.48404860496521,
+      "luma_max": 186,
+      "bounds": [
+        644,
+        1383,
+        2426,
+        2592
+      ]
+    },
+    {
+      "frame": 474,
+      "lit_pixels": 147878,
+      "luma_mean": 17.484047492345173,
+      "luma_max": 186,
+      "bounds": [
+        644,
+        1383,
+        2426,
+        2592
+      ]
+    },
+    {
+      "frame": 475,
+      "lit_pixels": 147993,
+      "luma_mean": 17.490841309229534,
+      "luma_max": 184,
+      "bounds": [
+        644,
+        1383,
+        2426,
+        2592
+      ]
+    },
+    {
+      "frame": 476,
+      "lit_pixels": 147966,
+      "luma_mean": 17.49075937271118,
+      "luma_max": 184,
+      "bounds": [
+        644,
+        1383,
+        2426,
+        2592
+      ]
+    },
+    {
+      "frame": 477,
+      "lit_pixels": 147966,
+      "luma_mean": 17.49075969060262,
+      "luma_max": 184,
+      "bounds": [
+        644,
+        1383,
+        2426,
+        2592
+      ]
+    },
+    {
+      "frame": 478,
+      "lit_pixels": 147966,
+      "luma_mean": 17.49075969060262,
+      "luma_max": 184,
+      "bounds": [
+        644,
+        1383,
+        2426,
+        2592
+      ]
+    },
+    {
+      "frame": 479,
+      "lit_pixels": 147966,
+      "luma_mean": 17.49075969060262,
+      "luma_max": 184,
+      "bounds": [
+        644,
+        1383,
+        2426,
+        2592
+      ]
+    },
+    {
+      "frame": 480,
+      "lit_pixels": 147966,
+      "luma_mean": 17.49075969060262,
+      "luma_max": 184,
+      "bounds": [
+        644,
+        1383,
+        2426,
+        2592
+      ]
+    },
+    {
+      "frame": 481,
+      "lit_pixels": 147966,
+      "luma_mean": 17.49075969060262,
+      "luma_max": 184,
+      "bounds": [
+        644,
+        1383,
+        2426,
+        2592
+      ]
+    },
+    {
+      "frame": 482,
+      "lit_pixels": 147966,
+      "luma_mean": 17.49075969060262,
+      "luma_max": 184,
+      "bounds": [
+        644,
+        1383,
+        2426,
+        2592
+      ]
+    },
+    {
+      "frame": 483,
+      "lit_pixels": 147966,
+      "luma_mean": 17.49075969060262,
+      "luma_max": 184,
+      "bounds": [
+        644,
+        1383,
+        2426,
+        2592
+      ]
+    },
+    {
+      "frame": 484,
+      "lit_pixels": 147966,
+      "luma_mean": 17.49075969060262,
+      "luma_max": 184,
+      "bounds": [
+        644,
+        1383,
+        2426,
+        2592
+      ]
+    },
+    {
+      "frame": 485,
+      "lit_pixels": 147966,
+      "luma_mean": 17.49075969060262,
+      "luma_max": 184,
+      "bounds": [
+        644,
+        1383,
+        2426,
+        2592
+      ]
+    },
+    {
+      "frame": 486,
+      "lit_pixels": 147966,
+      "luma_mean": 17.49075969060262,
+      "luma_max": 184,
+      "bounds": [
+        644,
+        1383,
+        2426,
+        2592
+      ]
+    },
+    {
+      "frame": 487,
+      "lit_pixels": 147966,
+      "luma_mean": 17.49075969060262,
+      "luma_max": 184,
+      "bounds": [
+        644,
+        1383,
+        2426,
+        2592
+      ]
+    },
+    {
+      "frame": 488,
+      "lit_pixels": 147966,
+      "luma_mean": 17.49075969060262,
+      "luma_max": 184,
+      "bounds": [
+        644,
+        1383,
+        2426,
+        2592
+      ]
+    },
+    {
+      "frame": 489,
+      "lit_pixels": 147966,
+      "luma_mean": 17.49075969060262,
+      "luma_max": 184,
+      "bounds": [
+        644,
+        1383,
+        2426,
+        2592
+      ]
+    },
+    {
+      "frame": 490,
+      "lit_pixels": 147966,
+      "luma_mean": 17.49075969060262,
+      "luma_max": 184,
+      "bounds": [
+        644,
+        1383,
+        2426,
+        2592
+      ]
+    },
+    {
+      "frame": 491,
+      "lit_pixels": 147966,
+      "luma_mean": 17.49075969060262,
+      "luma_max": 184,
+      "bounds": [
+        644,
+        1383,
+        2426,
+        2592
+      ]
+    },
+    {
+      "frame": 492,
+      "lit_pixels": 147966,
+      "luma_mean": 17.49075969060262,
+      "luma_max": 184,
+      "bounds": [
+        644,
+        1383,
+        2426,
+        2592
+      ]
+    },
+    {
+      "frame": 493,
+      "lit_pixels": 147966,
+      "luma_mean": 17.49075969060262,
+      "luma_max": 184,
+      "bounds": [
+        644,
+        1383,
+        2426,
+        2592
+      ]
+    },
+    {
+      "frame": 494,
+      "lit_pixels": 147966,
+      "luma_mean": 17.49075969060262,
+      "luma_max": 184,
+      "bounds": [
+        644,
+        1383,
+        2426,
+        2592
+      ]
+    },
+    {
+      "frame": 495,
+      "lit_pixels": 147966,
+      "luma_mean": 17.49075969060262,
+      "luma_max": 184,
+      "bounds": [
+        644,
+        1383,
+        2426,
+        2592
+      ]
+    },
+    {
+      "frame": 496,
+      "lit_pixels": 147966,
+      "luma_mean": 17.49075969060262,
+      "luma_max": 184,
+      "bounds": [
+        644,
+        1383,
+        2426,
+        2592
+      ]
+    },
+    {
+      "frame": 497,
+      "lit_pixels": 147966,
+      "luma_mean": 17.49075969060262,
+      "luma_max": 184,
+      "bounds": [
+        644,
+        1383,
+        2426,
+        2592
+      ]
+    },
+    {
+      "frame": 498,
+      "lit_pixels": 147966,
+      "luma_mean": 17.49075969060262,
+      "luma_max": 184,
+      "bounds": [
+        644,
+        1383,
+        2426,
+        2592
+      ]
+    },
+    {
+      "frame": 499,
+      "lit_pixels": 147966,
+      "luma_mean": 17.49075969060262,
+      "luma_max": 184,
+      "bounds": [
+        644,
+        1383,
+        2426,
+        2592
+      ]
+    },
+    {
+      "frame": 500,
+      "lit_pixels": 147966,
+      "luma_mean": 17.49075969060262,
+      "luma_max": 184,
+      "bounds": [
+        644,
+        1383,
+        2426,
+        2592
+      ]
+    },
+    {
+      "frame": 501,
+      "lit_pixels": 147966,
+      "luma_mean": 17.49075969060262,
+      "luma_max": 184,
+      "bounds": [
+        644,
+        1383,
+        2426,
+        2592
+      ]
+    },
+    {
+      "frame": 502,
+      "lit_pixels": 147966,
+      "luma_mean": 17.49075969060262,
+      "luma_max": 184,
+      "bounds": [
+        644,
+        1383,
+        2426,
+        2592
+      ]
+    },
+    {
+      "frame": 503,
+      "lit_pixels": 147966,
+      "luma_mean": 17.49075969060262,
+      "luma_max": 184,
+      "bounds": [
+        644,
+        1383,
+        2426,
+        2592
+      ]
+    },
+    {
+      "frame": 504,
+      "lit_pixels": 147966,
+      "luma_mean": 17.49075969060262,
+      "luma_max": 184,
+      "bounds": [
+        644,
+        1383,
+        2426,
+        2592
+      ]
+    },
+    {
+      "frame": 505,
+      "lit_pixels": 147996,
+      "luma_mean": 17.483187437057495,
+      "luma_max": 185,
+      "bounds": [
+        644,
+        1383,
+        2426,
+        2592
+      ]
+    },
+    {
+      "frame": 506,
+      "lit_pixels": 147946,
+      "luma_mean": 17.48303159077962,
+      "luma_max": 185,
+      "bounds": [
+        644,
+        1383,
+        2426,
+        2592
+      ]
+    },
+    {
+      "frame": 507,
+      "lit_pixels": 147946,
+      "luma_mean": 17.483031511306763,
+      "luma_max": 185,
+      "bounds": [
+        644,
+        1383,
+        2426,
+        2592
+      ]
+    },
+    {
+      "frame": 508,
+      "lit_pixels": 147946,
+      "luma_mean": 17.483031511306763,
+      "luma_max": 185,
+      "bounds": [
+        644,
+        1383,
+        2426,
+        2592
+      ]
+    },
+    {
+      "frame": 509,
+      "lit_pixels": 147946,
+      "luma_mean": 17.483031511306763,
+      "luma_max": 185,
+      "bounds": [
+        644,
+        1383,
+        2426,
+        2592
+      ]
+    },
+    {
+      "frame": 510,
+      "lit_pixels": 147946,
+      "luma_mean": 17.482938210169475,
+      "luma_max": 185,
+      "bounds": [
+        644,
+        1383,
+        2426,
+        2592
+      ]
+    },
+    {
+      "frame": 511,
+      "lit_pixels": 148223,
+      "luma_mean": 17.484679460525513,
+      "luma_max": 185,
+      "bounds": [
+        644,
+        1383,
+        2426,
+        2592
+      ]
+    },
+    {
+      "frame": 512,
+      "lit_pixels": 149418,
+      "luma_mean": 17.492014090220135,
+      "luma_max": 190,
+      "bounds": [
+        646,
+        1383,
+        2426,
+        2592
+      ]
+    },
+    {
+      "frame": 513,
+      "lit_pixels": 152061,
+      "luma_mean": 17.50807801882426,
+      "luma_max": 192,
+      "bounds": [
+        646,
+        1383,
+        2426,
+        2592
+      ]
+    },
+    {
+      "frame": 514,
+      "lit_pixels": 156102,
+      "luma_mean": 17.531976302464802,
+      "luma_max": 192,
+      "bounds": [
+        646,
+        1383,
+        2426,
+        2592
+      ]
+    },
+    {
+      "frame": 515,
+      "lit_pixels": 160483,
+      "luma_mean": 17.55674457550049,
+      "luma_max": 193,
+      "bounds": [
+        646,
+        1383,
+        2426,
+        2592
+      ]
+    },
+    {
+      "frame": 516,
+      "lit_pixels": 165168,
+      "luma_mean": 17.582480748494465,
+      "luma_max": 200,
+      "bounds": [
+        646,
+        1383,
+        2426,
+        2592
+      ]
+    },
+    {
+      "frame": 517,
+      "lit_pixels": 171221,
+      "luma_mean": 17.615492900212605,
+      "luma_max": 195,
+      "bounds": [
+        646,
+        1383,
+        2426,
+        2592
+      ]
+    },
+    {
+      "frame": 518,
+      "lit_pixels": 178220,
+      "luma_mean": 17.652469635009766,
+      "luma_max": 193,
+      "bounds": [
+        647,
+        1378,
+        2426,
+        2592
+      ]
+    },
+    {
+      "frame": 519,
+      "lit_pixels": 186137,
+      "luma_mean": 17.693228721618652,
+      "luma_max": 194,
+      "bounds": [
+        647,
+        1371,
+        2426,
+        2592
+      ]
+    },
+    {
+      "frame": 520,
+      "lit_pixels": 194570,
+      "luma_mean": 17.73358352979024,
+      "luma_max": 194,
+      "bounds": [
+        647,
+        1361,
+        2426,
+        2592
+      ]
+    },
+    {
+      "frame": 521,
+      "lit_pixels": 203064,
+      "luma_mean": 17.775771697362263,
+      "luma_max": 193,
+      "bounds": [
+        647,
+        1351,
+        2426,
+        2597
+      ]
+    },
+    {
+      "frame": 522,
+      "lit_pixels": 212171,
+      "luma_mean": 17.816099564234417,
+      "luma_max": 196,
+      "bounds": [
+        647,
+        1339,
+        2426,
+        2605
+      ]
+    },
+    {
+      "frame": 523,
+      "lit_pixels": 221349,
+      "luma_mean": 17.85661768913269,
+      "luma_max": 197,
+      "bounds": [
+        647,
+        1327,
+        2426,
+        2615
+      ]
+    },
+    {
+      "frame": 524,
+      "lit_pixels": 231073,
+      "luma_mean": 17.895740032196045,
+      "luma_max": 194,
+      "bounds": [
+        647,
+        1316,
+        2426,
+        2624
+      ]
+    },
+    {
+      "frame": 525,
+      "lit_pixels": 240325,
+      "luma_mean": 17.92782227198283,
+      "luma_max": 195,
+      "bounds": [
+        647,
+        1303,
+        2427,
+        2633
+      ]
+    },
+    {
+      "frame": 526,
+      "lit_pixels": 247662,
+      "luma_mean": 17.9460186958313,
+      "luma_max": 190,
+      "bounds": [
+        648,
+        1288,
+        2439,
+        2642
+      ]
+    },
+    {
+      "frame": 527,
+      "lit_pixels": 254376,
+      "luma_mean": 17.956446488698322,
+      "luma_max": 191,
+      "bounds": [
+        650,
+        1273,
+        2452,
+        2649
+      ]
+    },
+    {
+      "frame": 528,
+      "lit_pixels": 259076,
+      "luma_mean": 17.9525625705719,
+      "luma_max": 195,
+      "bounds": [
+        664,
+        1258,
+        2469,
+        2655
+      ]
+    },
+    {
+      "frame": 529,
+      "lit_pixels": 262276,
+      "luma_mean": 17.939209302266438,
+      "luma_max": 193,
+      "bounds": [
+        677,
+        1245,
+        2487,
+        2659
+      ]
+    },
+    {
+      "frame": 530,
+      "lit_pixels": 263184,
+      "luma_mean": 17.91595220565796,
+      "luma_max": 193,
+      "bounds": [
+        686,
+        1227,
+        2504,
+        2667
+      ]
+    },
+    {
+      "frame": 531,
+      "lit_pixels": 262488,
+      "luma_mean": 17.877459049224854,
+      "luma_max": 193,
+      "bounds": [
+        696,
+        1207,
+        2522,
+        2678
+      ]
+    },
+    {
+      "frame": 532,
+      "lit_pixels": 260609,
+      "luma_mean": 17.837053775787354,
+      "luma_max": 195,
+      "bounds": [
+        703,
+        1187,
+        2541,
+        2688
+      ]
+    },
+    {
+      "frame": 533,
+      "lit_pixels": 257566,
+      "luma_mean": 17.785188277562458,
+      "luma_max": 193,
+      "bounds": [
+        711,
+        1168,
+        2560,
+        2696
+      ]
+    },
+    {
+      "frame": 534,
+      "lit_pixels": 252207,
+      "luma_mean": 17.7210214138031,
+      "luma_max": 190,
+      "bounds": [
+        719,
+        1151,
+        2581,
+        2701
+      ]
+    },
+    {
+      "frame": 535,
+      "lit_pixels": 246010,
+      "luma_mean": 17.651654640833538,
+      "luma_max": 191,
+      "bounds": [
+        728,
+        1134,
+        2602,
+        2703
+      ]
+    },
+    {
+      "frame": 536,
+      "lit_pixels": 238387,
+      "luma_mean": 17.573914686838787,
+      "luma_max": 191,
+      "bounds": [
+        738,
+        1111,
+        2623,
+        2702
+      ]
+    },
+    {
+      "frame": 537,
+      "lit_pixels": 229326,
+      "luma_mean": 17.496394713719685,
+      "luma_max": 189,
+      "bounds": [
+        749,
+        1090,
+        2644,
+        2697
+      ]
+    },
+    {
+      "frame": 538,
+      "lit_pixels": 219477,
+      "luma_mean": 17.406755765279133,
+      "luma_max": 190,
+      "bounds": [
+        755,
+        1102,
+        2664,
+        2702
+      ]
+    },
+    {
+      "frame": 539,
+      "lit_pixels": 208711,
+      "luma_mean": 17.320056756337483,
+      "luma_max": 190,
+      "bounds": [
+        761,
+        1054,
+        2686,
+        2707
+      ]
+    },
+    {
+      "frame": 540,
+      "lit_pixels": 198063,
+      "luma_mean": 17.23310120900472,
+      "luma_max": 187,
+      "bounds": [
+        768,
+        1065,
+        2715,
+        2708
+      ]
+    },
+    {
+      "frame": 541,
+      "lit_pixels": 185763,
+      "luma_mean": 17.144253333409626,
+      "luma_max": 185,
+      "bounds": [
+        774,
+        1031,
+        2744,
+        2707
+      ]
+    },
+    {
+      "frame": 542,
+      "lit_pixels": 173568,
+      "luma_mean": 17.05704148610433,
+      "luma_max": 184,
+      "bounds": [
+        781,
+        1033,
+        2772,
+        2701
+      ]
+    },
+    {
+      "frame": 543,
+      "lit_pixels": 161440,
+      "luma_mean": 16.972892999649048,
+      "luma_max": 180,
+      "bounds": [
+        786,
+        1022,
+        2799,
+        2698
+      ]
+    },
+    {
+      "frame": 544,
+      "lit_pixels": 149770,
+      "luma_mean": 16.893497069676716,
+      "luma_max": 180,
+      "bounds": [
+        792,
+        1015,
+        2826,
+        2700
+      ]
+    },
+    {
+      "frame": 545,
+      "lit_pixels": 137976,
+      "luma_mean": 16.815461317698162,
+      "luma_max": 179,
+      "bounds": [
+        797,
+        1011,
+        2851,
+        2698
+      ]
+    },
+    {
+      "frame": 546,
+      "lit_pixels": 126520,
+      "luma_mean": 16.74342433611552,
+      "luma_max": 179,
+      "bounds": [
+        802,
+        1012,
+        2874,
+        2699
+      ]
+    },
+    {
+      "frame": 547,
+      "lit_pixels": 115051,
+      "luma_mean": 16.673838059107464,
+      "luma_max": 177,
+      "bounds": [
+        809,
+        1065,
+        2895,
+        2698
+      ]
+    },
+    {
+      "frame": 548,
+      "lit_pixels": 103964,
+      "luma_mean": 16.608179648717243,
+      "luma_max": 173,
+      "bounds": [
+        819,
+        1022,
+        2915,
+        2695
+      ]
+    },
+    {
+      "frame": 549,
+      "lit_pixels": 93476,
+      "luma_mean": 16.54502526919047,
+      "luma_max": 176,
+      "bounds": [
+        831,
+        1068,
+        2932,
+        2691
+      ]
+    },
+    {
+      "frame": 550,
+      "lit_pixels": 83125,
+      "luma_mean": 16.487655480702717,
+      "luma_max": 168,
+      "bounds": [
+        845,
+        1056,
+        2899,
+        2691
+      ]
+    },
+    {
+      "frame": 551,
+      "lit_pixels": 73869,
+      "luma_mean": 16.4342622756958,
+      "luma_max": 165,
+      "bounds": [
+        863,
+        1047,
+        2917,
+        2691
+      ]
+    },
+    {
+      "frame": 552,
+      "lit_pixels": 64526,
+      "luma_mean": 16.385676622390747,
+      "luma_max": 168,
+      "bounds": [
+        876,
+        1041,
+        2942,
+        2688
+      ]
+    },
+    {
+      "frame": 553,
+      "lit_pixels": 55639,
+      "luma_mean": 16.341000000635784,
+      "luma_max": 158,
+      "bounds": [
+        889,
+        1041,
+        2934,
+        2681
+      ]
+    },
+    {
+      "frame": 554,
+      "lit_pixels": 47975,
+      "luma_mean": 16.29930345217387,
+      "luma_max": 158,
+      "bounds": [
+        901,
+        1031,
+        2953,
+        2686
+      ]
+    },
+    {
+      "frame": 555,
+      "lit_pixels": 40956,
+      "luma_mean": 16.264634768168133,
+      "luma_max": 155,
+      "bounds": [
+        917,
+        1052,
+        2975,
+        2691
+      ]
+    },
+    {
+      "frame": 556,
+      "lit_pixels": 34404,
+      "luma_mean": 16.232035319010418,
+      "luma_max": 155,
+      "bounds": [
+        932,
+        1060,
+        2997,
+        2693
+      ]
+    },
+    {
+      "frame": 557,
+      "lit_pixels": 28580,
+      "luma_mean": 16.202066659927368,
+      "luma_max": 143,
+      "bounds": [
+        948,
+        1061,
+        3019,
+        2692
+      ]
+    },
+    {
+      "frame": 558,
+      "lit_pixels": 23406,
+      "luma_mean": 16.176517724990845,
+      "luma_max": 138,
+      "bounds": [
+        1008,
+        1057,
+        3041,
+        2682
+      ]
+    },
+    {
+      "frame": 559,
+      "lit_pixels": 18770,
+      "luma_mean": 16.154987414677937,
+      "luma_max": 133,
+      "bounds": [
+        1013,
+        1055,
+        3000,
+        2681
+      ]
+    },
+    {
+      "frame": 560,
+      "lit_pixels": 15007,
+      "luma_mean": 16.134938319524128,
+      "luma_max": 131,
+      "bounds": [
+        1068,
+        1059,
+        2963,
+        2686
+      ]
+    },
+    {
+      "frame": 561,
+      "lit_pixels": 11773,
+      "luma_mean": 16.118853171666462,
+      "luma_max": 131,
+      "bounds": [
+        1137,
+        1046,
+        2999,
+        2689
+      ]
+    },
+    {
+      "frame": 562,
+      "lit_pixels": 9007,
+      "luma_mean": 16.10470167795817,
+      "luma_max": 118,
+      "bounds": [
+        1096,
+        1073,
+        2980,
+        2687
+      ]
+    },
+    {
+      "frame": 563,
+      "lit_pixels": 6776,
+      "luma_mean": 16.092847029368084,
+      "luma_max": 116,
+      "bounds": [
+        1106,
+        1053,
+        3008,
+        2682
+      ]
+    },
+    {
+      "frame": 564,
+      "lit_pixels": 4967,
+      "luma_mean": 16.083455801010132,
+      "luma_max": 110,
+      "bounds": [
+        1123,
+        1113,
+        3036,
+        2663
+      ]
+    },
+    {
+      "frame": 565,
+      "lit_pixels": 3596,
+      "luma_mean": 16.074867248535156,
+      "luma_max": 110,
+      "bounds": [
+        1398,
+        1143,
+        2985,
+        2619
+      ]
+    },
+    {
+      "frame": 566,
+      "lit_pixels": 2371,
+      "luma_mean": 16.06918207804362,
+      "luma_max": 93,
+      "bounds": [
+        1672,
+        1163,
+        2991,
+        2616
+      ]
+    },
+    {
+      "frame": 567,
+      "lit_pixels": 1810,
+      "luma_mean": 16.059512774149578,
+      "luma_max": 100,
+      "bounds": [
+        1688,
+        1165,
+        2973,
+        2605
+      ]
+    },
+    {
+      "frame": 568,
+      "lit_pixels": 1022,
+      "luma_mean": 16.055938084920246,
+      "luma_max": 90,
+      "bounds": [
+        1866,
+        1193,
+        2996,
+        2598
+      ]
+    },
+    {
+      "frame": 569,
+      "lit_pixels": 604,
+      "luma_mean": 16.053252061208088,
+      "luma_max": 75,
+      "bounds": [
+        1913,
+        1158,
+        3002,
+        2576
+      ]
+    },
+    {
+      "frame": 570,
+      "lit_pixels": 358,
+      "luma_mean": 16.051015615463257,
+      "luma_max": 66,
+      "bounds": [
+        2033,
+        1245,
+        2943,
+        2532
+      ]
+    },
+    {
+      "frame": 571,
+      "lit_pixels": 200,
+      "luma_mean": 16.049600044886272,
+      "luma_max": 63,
+      "bounds": [
+        2237,
+        1256,
+        2955,
+        2536
+      ]
+    },
+    {
+      "frame": 572,
+      "lit_pixels": 112,
+      "luma_mean": 16.048505942026775,
+      "luma_max": 75,
+      "bounds": [
+        2335,
+        1270,
+        3026,
+        2514
+      ]
+    },
+    {
+      "frame": 573,
+      "lit_pixels": 60,
+      "luma_mean": 16.047836939493816,
+      "luma_max": 58,
+      "bounds": [
+        2178,
+        1368,
+        2974,
+        2421
+      ]
+    },
+    {
+      "frame": 574,
+      "lit_pixels": 23,
+      "luma_mean": 16.04716944694519,
+      "luma_max": 61,
+      "bounds": [
+        2472,
+        1365,
+        2982,
+        2295
+      ]
+    },
+    {
+      "frame": 575,
+      "lit_pixels": 9,
+      "luma_mean": 16.046801964441936,
+      "luma_max": 53,
+      "bounds": [
+        2523,
+        1427,
+        2901,
+        2078
+      ]
+    },
+    {
+      "frame": 576,
+      "lit_pixels": 2,
+      "luma_mean": 16.04669912656148,
+      "luma_max": 49,
+      "bounds": [
+        2778,
+        1787,
+        3002,
+        1930
+      ]
+    },
+    {
+      "frame": 577,
+      "lit_pixels": 1,
+      "luma_mean": 16.046542406082153,
+      "luma_max": 42,
+      "bounds": [
+        2836,
+        1837,
+        2836,
+        1837
+      ]
+    },
+    {
+      "frame": 578,
+      "lit_pixels": 0,
+      "luma_mean": 16.046563863754272,
+      "luma_max": 33,
+      "bounds": null
+    },
+    {
+      "frame": 579,
+      "lit_pixels": 0,
+      "luma_mean": 16.04670476913452,
+      "luma_max": 31,
+      "bounds": null
+    },
+    {
+      "frame": 580,
+      "lit_pixels": 0,
+      "luma_mean": 16.046754837036133,
+      "luma_max": 31,
+      "bounds": null
+    },
+    {
+      "frame": 581,
+      "lit_pixels": 0,
+      "luma_mean": 16.046866814295452,
+      "luma_max": 28,
+      "bounds": null
+    },
+    {
+      "frame": 582,
+      "lit_pixels": 0,
+      "luma_mean": 16.046994129816692,
+      "luma_max": 29,
+      "bounds": null
+    },
+    {
+      "frame": 583,
+      "lit_pixels": 0,
+      "luma_mean": 16.046981493632,
+      "luma_max": 25,
+      "bounds": null
+    },
+    {
+      "frame": 584,
+      "lit_pixels": 0,
+      "luma_mean": 16.04697839419047,
+      "luma_max": 20,
+      "bounds": null
+    },
+    {
+      "frame": 585,
+      "lit_pixels": 0,
+      "luma_mean": 16.046969016393025,
+      "luma_max": 20,
+      "bounds": null
+    },
+    {
+      "frame": 586,
+      "lit_pixels": 0,
+      "luma_mean": 16.04698125521342,
+      "luma_max": 19,
+      "bounds": null
+    },
+    {
+      "frame": 587,
+      "lit_pixels": 0,
+      "luma_mean": 16.04697863260905,
+      "luma_max": 19,
+      "bounds": null
+    },
+    {
+      "frame": 588,
+      "lit_pixels": 0,
+      "luma_mean": 16.046979904174805,
+      "luma_max": 19,
+      "bounds": null
+    },
+    {
+      "frame": 589,
+      "lit_pixels": 0,
+      "luma_mean": 16.046979904174805,
+      "luma_max": 19,
+      "bounds": null
+    },
+    {
+      "frame": 590,
+      "lit_pixels": 0,
+      "luma_mean": 16.046979904174805,
+      "luma_max": 19,
+      "bounds": null
+    },
+    {
+      "frame": 591,
+      "lit_pixels": 0,
+      "luma_mean": 16.046982129414875,
+      "luma_max": 19,
+      "bounds": null
+    },
+    {
+      "frame": 592,
+      "lit_pixels": 0,
+      "luma_mean": 16.04698435465495,
+      "luma_max": 19,
+      "bounds": null
+    },
+    {
+      "frame": 593,
+      "lit_pixels": 0,
+      "luma_mean": 16.04698348045349,
+      "luma_max": 19,
+      "bounds": null
+    },
+    {
+      "frame": 594,
+      "lit_pixels": 0,
+      "luma_mean": 16.046983003616333,
+      "luma_max": 19,
+      "bounds": null
+    },
+    {
+      "frame": 595,
+      "lit_pixels": 0,
+      "luma_mean": 16.046983003616333,
+      "luma_max": 19,
+      "bounds": null
+    },
+    {
+      "frame": 596,
+      "lit_pixels": 0,
+      "luma_mean": 16.046983003616333,
+      "luma_max": 19,
+      "bounds": null
+    },
+    {
+      "frame": 597,
+      "lit_pixels": 0,
+      "luma_mean": 16.01635543505351,
+      "luma_max": 18,
+      "bounds": null
+    },
+    {
+      "frame": 598,
+      "lit_pixels": 0,
+      "luma_mean": 16.016388018925984,
+      "luma_max": 18,
+      "bounds": null
+    },
+    {
+      "frame": 599,
+      "lit_pixels": 0,
+      "luma_mean": 16.016387065251667,
+      "luma_max": 18,
+      "bounds": null
+    },
+    {
+      "frame": 600,
+      "lit_pixels": 0,
+      "luma_mean": 16.01638698577881,
+      "luma_max": 18,
+      "bounds": null
+    }
+  ],
+  "preview_video": {
+    "width": 1080,
+    "height": 1440,
+    "fps": "30/1",
+    "frame_count": 600,
+    "duration_seconds": 20,
+    "codec": "h264",
+    "pixel_format": "yuv420p"
+  }
+}

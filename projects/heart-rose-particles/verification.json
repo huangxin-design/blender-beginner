@@ -1,0 +1,82 @@
+{
+  "project": "heart-rose-particles",
+  "archived_at": "2026-09-18",
+  "work_boundary": "Begins at the explicit 20-second portrait 3:4 heart-and-flower request; earlier landscape/10-second explorations excluded from this work history",
+  "final_version": "V11 / 07 璃光细线",
+  "production_delivery": {
+    "native_video": {
+      "width": 3072,
+      "height": 4096,
+      "aspect": "3:4",
+      "fps": "30/1",
+      "frame_count": 600,
+      "duration_seconds": 20.0,
+      "codec": "h264",
+      "pixel_format": "yuv420p",
+      "color_space": "bt709",
+      "audio": false
+    },
+    "full_decode_comparison": {
+      "software_decoder": "FFmpeg h264",
+      "hardware_decoder": "NVIDIA h264_cuvid",
+      "comparison": "Every native YUV420P sample at 3072x4096, all 600 frames",
+      "max_sample_difference_8bit": 0,
+      "mean_absolute_sample_difference": 0.0,
+      "different_frames": 0,
+      "unexpected_blank_frames_before_fade": 0,
+      "exit_codes": [
+        0,
+        0
+      ]
+    },
+    "browser_playback": "Original native and preview files played to 20 seconds in Codex Browser; representative native frames reviewed; no dropped-frame count recorded",
+    "evidence": "source/qa/video-check.json"
+  },
+  "publication_archive": {
+    "original_copies_hash_checked": 54,
+    "independent_blender_reopen": "V8 and V11 reopened from archive directory with autoexec disabled; settings/dependencies/evaluation checked",
+    "reopen_report": "publication-check.json",
+    "native_title_sample": {
+      "frame": 490,
+      "resolution": [
+        3072,
+        4096
+      ],
+      "mean_absolute_rgb_difference": 0.00024628639221191406,
+      "max_rgb_difference": 6,
+      "visually_reviewed": true
+    },
+    "video_reencoded": false,
+    "full_movie_decode_repeated_for_archive": false,
+    "record_sanitization": "Removed local preview URLs from public copies of playback reports",
+    "publication_network_check": "Post-upload checks are recorded in the release notes; this file records the archived production and local relocation checks"
+  },
+  "usage": {
+    "tokens": null,
+    "reason": "No independent baseline for this work boundary"
+  },
+  "render_timing": {
+    "device": "RTX 4070 Ti / 12 GB",
+    "engine": "Eevee",
+    "samples": 32,
+    "changed_region_frames": 165,
+    "batch_seconds": 900.265,
+    "full_film_seconds": null,
+    "evidence": "source/qa/render-timing.json",
+    "concurrent_gpu_tasks": true
+  },
+  "scope_limits": [
+    "No claim of universal player/device compatibility",
+    "No full animation rerender for this publication",
+    "Original full PNG sequence and font software are not bundled",
+    "Historical V9/V10 are design stills, not animation versions"
+  ],
+  "privacy_cleanup": {
+    "date": "2026-09-18",
+    "removed": "V7 artwork, production scripts and source files; early base scene used by the V8 historical builder",
+    "metadata": "Removed local source-path text chunks from two PNG stills; all IDAT image data preserved byte-for-byte",
+    "retained_sources": "V8 and V11 scene files and final preview video unchanged",
+    "reproduction_limit": "Historical V8 builder requires an early base scene that is no longer public; saved V8/V11 scenes remain renderable",
+    "download": "Withdrawn source ZIP is no longer linked; public sources are provided through the current repository"
+  }
+}

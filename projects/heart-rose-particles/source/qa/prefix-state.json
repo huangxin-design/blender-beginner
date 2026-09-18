@@ -1,0 +1,31 @@
+{
+  "pre_title_state_checks": [
+    {
+      "frame": 105,
+      "max_world_position_difference": 0.0,
+      "max_radius_difference": 0.0,
+      "camera_identical": true
+    },
+    {
+      "frame": 367,
+      "max_world_position_difference": 0.0,
+      "max_radius_difference": 0.0,
+      "camera_identical": true
+    },
+    {
+      "frame": 380,
+      "max_world_position_difference": 0.0,
+      "max_radius_difference": 0.0,
+      "camera_identical": true
+    }
+  ],
+  "title_static_frames": [
+    470,
+    509
+  ],
+  "verified_zero_radius_frames": [
+    586,
+    588,
+    600
+  ]
+}

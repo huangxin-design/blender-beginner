@@ -1,0 +1,305 @@
+[
+  {
+    "n": 1,
+    "name": "乘风行书",
+    "tag": "细笔上扬 · 长收笔",
+    "face": "喜鹊古风小楷(简+繁体).ttf",
+    "latin": "palai.ttf",
+    "sizes": [
+      0.96,
+      1.13,
+      0.96
+    ],
+    "rot": [
+      3,
+      0,
+      3
+    ],
+    "dy": [
+      95,
+      15,
+      -35
+    ],
+    "sx": 0.98,
+    "sy": 1.12,
+    "track": 55,
+    "tail": 1,
+    "texture": "plain",
+    "enwidth": 1160,
+    "enrot": 2,
+    "enalign": 0.58
+  },
+  {
+    "n": 2,
+    "name": "花瓣宋字",
+    "tag": "花字舒展 · 细横尖笔",
+    "face": "胡晓波浪漫宋.ttf",
+    "latin": "Gabriola.ttf",
+    "sizes": [
+      0.9,
+      1.25,
+      0.88
+    ],
+    "rot": [
+      0,
+      0,
+      0
+    ],
+    "dy": [
+      70,
+      -80,
+      85
+    ],
+    "sx": 0.91,
+    "sy": 1.22,
+    "track": 35,
+    "tail": 0,
+    "texture": "plain",
+    "enwidth": 1390,
+    "enrot": 0,
+    "enalign": 0.5
+  },
+  {
+    "n": 3,
+    "name": "水墨飞白",
+    "tag": "奔放连势 · 枯笔留痕",
+    "face": "胡晓波谷云狂楷体.ttf",
+    "latin": "timesi.ttf",
+    "sizes": [
+      1.02,
+      0.99,
+      1.09
+    ],
+    "rot": [
+      -3,
+      2,
+      5
+    ],
+    "dy": [
+      85,
+      0,
+      -65
+    ],
+    "sx": 1.02,
+    "sy": 0.93,
+    "track": 15,
+    "tail": 2,
+    "texture": "dry",
+    "enwidth": 1190,
+    "enrot": 2,
+    "enalign": 0.66
+  },
+  {
+    "n": 4,
+    "name": "游丝手写",
+    "tag": "细线起伏 · 自由笔迹",
+    "face": "胡晓波天空体.ttf",
+    "latin": "Inkfree.ttf",
+    "sizes": [
+      1.06,
+      0.99,
+      1.06
+    ],
+    "rot": [
+      -4,
+      3,
+      2
+    ],
+    "dy": [
+      45,
+      0,
+      30
+    ],
+    "sx": 1.05,
+    "sy": 1.11,
+    "track": 125,
+    "tail": 0,
+    "texture": "plain",
+    "wave": 44,
+    "enwidth": 1370,
+    "enrot": 0,
+    "enalign": 0.54
+  },
+  {
+    "n": 5,
+    "name": "凌波长宋",
+    "tag": "窄长字身 · 一笔横逸",
+    "face": "胡晓波青年宋细.ttf",
+    "latin": "timesi.ttf",
+    "sizes": [
+      1,
+      1.1,
+      1
+    ],
+    "rot": [
+      0,
+      0,
+      0
+    ],
+    "dy": [
+      50,
+      -45,
+      20
+    ],
+    "sx": 0.8,
+    "sy": 1.38,
+    "track": 70,
+    "tail": 3,
+    "texture": "plain",
+    "enwidth": 1290,
+    "enrot": 0,
+    "enalign": 0.46
+  },
+  {
+    "n": 6,
+    "name": "飞燕斜行",
+    "tag": "由大渐小 · 迎风而行",
+    "face": "喜鹊燕书体(简+繁体).ttf",
+    "latin": "Gabriola.ttf",
+    "sizes": [
+      1.17,
+      1.02,
+      0.85
+    ],
+    "rot": [
+      7,
+      6,
+      3
+    ],
+    "dy": [
+      75,
+      -15,
+      -50
+    ],
+    "sx": 1,
+    "sy": 1.08,
+    "track": 30,
+    "tail": 1,
+    "texture": "plain",
+    "shear": 0.13,
+    "enwidth": 1110,
+    "enrot": 5,
+    "enalign": 0.64
+  },
+  {
+    "n": 7,
+    "name": "璃光细线",
+    "tag": "纤细轮廓 · 透光字面",
+    "face": "胡晓波浪漫宋.ttf",
+    "latin": "times.ttf",
+    "sizes": [
+      0.93,
+      1.09,
+      0.96
+    ],
+    "rot": [
+      0,
+      0,
+      0
+    ],
+    "dy": [
+      30,
+      -50,
+      20
+    ],
+    "sx": 0.98,
+    "sy": 1.18,
+    "track": 108,
+    "tail": 0,
+    "texture": "outline",
+    "enwidth": 1310,
+    "enrot": 0,
+    "enalign": 0.5
+  },
+  {
+    "n": 8,
+    "name": "云间散行",
+    "tag": "三字错落 · 疏朗留白",
+    "face": "喜鹊梅花楷体(简+繁体).ttf",
+    "latin": "palai.ttf",
+    "sizes": [
+      0.9,
+      1.1,
+      0.88
+    ],
+    "rot": [
+      -4,
+      2,
+      5
+    ],
+    "dy": [
+      -55,
+      110,
+      -55
+    ],
+    "sx": 0.97,
+    "sy": 1.12,
+    "track": 135,
+    "tail": 0,
+    "texture": "plain",
+    "enwidth": 1130,
+    "enrot": 0,
+    "enalign": 0.53
+  },
+  {
+    "n": 9,
+    "name": "花影双生",
+    "tag": "轻叠轮廓 · 柔和残影",
+    "face": "字魂160号-檀宋.ttf",
+    "latin": "palai.ttf",
+    "sizes": [
+      1.03,
+      1.12,
+      0.99
+    ],
+    "rot": [
+      -3,
+      3,
+      2
+    ],
+    "dy": [
+      40,
+      -65,
+      25
+    ],
+    "sx": 0.96,
+    "sy": 1.1,
+    "track": 105,
+    "tail": 0,
+    "texture": "echo",
+    "wave": 23,
+    "enwidth": 1300,
+    "enrot": 0,
+    "enalign": 0.5
+  },
+  {
+    "n": 10,
+    "name": "尘光散字",
+    "tag": "纸上笔意 · 字尾化尘",
+    "face": "喜鹊在山林体(简+繁).ttf",
+    "latin": "timesi.ttf",
+    "sizes": [
+      1.03,
+      1.12,
+      0.97
+    ],
+    "rot": [
+      -2,
+      3,
+      2
+    ],
+    "dy": [
+      70,
+      -20,
+      -40
+    ],
+    "sx": 1.01,
+    "sy": 1.13,
+    "track": 75,
+    "tail": 1,
+    "texture": "dust",
+    "enwidth": 1250,
+    "enrot": 1,
+    "enalign": 0.56
+  }
+]

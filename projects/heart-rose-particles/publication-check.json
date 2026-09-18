@@ -1,0 +1,59 @@
+{
+  "status": "passed",
+  "blender": "5.2.1 LTS",
+  "scenes": [
+    {
+      "file": "versions/v008/HuangHuaYu_Growing_Rose_4K.blend",
+      "resolution": [
+        3072,
+        4096
+      ],
+      "fps": 30,
+      "frames": 600,
+      "particles": 67579,
+      "engine": "BLENDER_EEVEE",
+      "samples": 32,
+      "active_external_images": 0,
+      "linked_libraries": 0,
+      "evaluated_frames": [
+        105,
+        367,
+        490,
+        600
+      ],
+      "autoexec_disabled": true,
+      "autoexec_failure": false
+    },
+    {
+      "file": "source/HuangHuaYu_Outline07_4K.blend",
+      "resolution": [
+        3072,
+        4096
+      ],
+      "fps": 30,
+      "frames": 600,
+      "particles": 67579,
+      "engine": "BLENDER_EEVEE",
+      "samples": 32,
+      "active_external_images": 0,
+      "linked_libraries": 0,
+      "evaluated_frames": [
+        105,
+        367,
+        490,
+        600
+      ],
+      "autoexec_disabled": true,
+      "autoexec_failure": false
+    }
+  ],
+  "publication_render": {
+    "frame": 490,
+    "resolution": [
+      3072,
+      4096
+    ],
+    "purpose": "One native still from relocated final source; no full animation rerender",
+    "source_file_unchanged": true
+  }
+}

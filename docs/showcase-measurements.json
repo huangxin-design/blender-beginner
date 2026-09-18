@@ -460,5 +460,22 @@
         "complete_project_lifecycle": false
       }
     ]
+  },
+  "heart_rose_particles": {
+    "archived_at": "2026-09-18",
+    "version": "V11 / outline 07",
+    "tokens": null,
+    "tokens_scope": "No independent baseline from the user-defined work boundary",
+    "native_resolution": [
+      3072,
+      4096
+    ],
+    "frames": 600,
+    "fps": 30,
+    "render_batch_frames": 165,
+    "render_batch_seconds": 900.265,
+    "full_film_render_seconds": null,
+    "scope": "Later native-grid region frames only; startup/loading/bounds/render/save included; 380 prior frames and 55 static frames reused; concurrent GPU work observed",
+    "report": "../projects/heart-rose-particles/source/qa/render-timing.json"
   }
 }

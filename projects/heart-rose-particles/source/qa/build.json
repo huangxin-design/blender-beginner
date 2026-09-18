@@ -1,0 +1,16 @@
+{
+  "selected_style": "07 璃光细线",
+  "resolution": [
+    3072,
+    4096
+  ],
+  "fps": 30,
+  "frames": 600,
+  "duration": 20,
+  "particles": 67579,
+  "last_particle_end_frame": 585.9673913716251,
+  "first_changed_frame": 381,
+  "title_fully_formed_frame": 470,
+  "source_mask": "source/07_styled_mask.png",
+  "new_font_files": 0
+}

@@ -1,0 +1,91 @@
+{
+  "archive_date": "2026-09-24",
+  "previous_delivery": {
+    "native_render_resolution": [
+      2160,
+      3840
+    ],
+    "valid_png_frames": 384,
+    "png_bit_depth": 16,
+    "sequence_bytes": 8926436153,
+    "cycles_max_samples": 128,
+    "adaptive_threshold": 0.015,
+    "movie": {
+      "codec_name": "h264",
+      "width": 2160,
+      "height": 3840,
+      "pix_fmt": "yuv420p",
+      "color_space": "bt709",
+      "color_transfer": "iec61966-2-1",
+      "color_primaries": "bt709",
+      "avg_frame_rate": "24/1",
+      "duration": "16.000000",
+      "nb_read_frames": "384"
+    },
+    "full_decode_errors": false,
+    "video_bytes": 41388782
+  },
+  "current_archive": {
+    "master_probe": {
+      "codec_name": "h264",
+      "width": 2160,
+      "height": 3840,
+      "avg_frame_rate": "24/1",
+      "duration": "16.000000",
+      "nb_read_frames": "384"
+    },
+    "master_reencoded": false,
+    "relocated_scene_reopened_with_autoexec_disabled": true,
+    "selected_animation_states_identical_to_original": true,
+    "checked_frames": [
+      1,
+      48,
+      72,
+      73,
+      96,
+      97,
+      168,
+      169,
+      216,
+      217,
+      264,
+      265,
+      312,
+      324,
+      325,
+      360,
+      384
+    ],
+    "portable_preview_rendered": true,
+    "portable_preview_frame": 360,
+    "portable_preview_resolution": [
+      360,
+      640
+    ],
+    "preview_movie": {
+      "codec_name": "h264",
+      "width": 1080,
+      "height": 1920,
+      "avg_frame_rate": "24/1",
+      "duration": "16.000000",
+      "nb_read_frames": "384"
+    },
+    "preview_full_decode_errors": false
+  },
+  "publication_changes": [
+    "Updated embedded V2 README to describe the final V8 timeline.",
+    "Updated preview note and relative render output path.",
+    "Cleared file browser directories.",
+    "Adapted public render/encode scripts to relative paths and executable arguments."
+  ],
+  "token_usage": {
+    "status": "not_independently_recorded"
+  },
+  "timing_scope": "Only part of the original per-frame timing archive remains; no total render-duration claim is made.",
+  "limits": [
+    "This archive check did not rerender the full UHD film.",
+    "The 1080 web preview is downscaled from the approved 4K MP4.",
+    "No browser or hardware-decoder parity claim is made.",
+    "The original reference author was not confirmed in the production record."
+  ]
+}

@@ -4,6 +4,16 @@
 
 花卉与数字盆景为最新完成版，任务用量读取于 **2026-09-09 19:20（北京时间）**；AI 品牌与粉色波浪保留当天 16:59 的快照。覆盖范围见各案例与[统计说明](../docs/showcase-measurements.md)。
 
+## 青蓝垂花 · 从冒芽到盛放
+
+[![花苞、整枝盛放与白边纹理微距，原生 Blender 画面](blue-hanging-blossoms/preview.jpg)](blue-hanging-blossoms/README.md)
+
+**16 秒 · 9:16 竖屏 · 原生 2160 × 3840 · 24 fps。** 花苞从弯曲枝条上冒头，青蓝花瓣分层展开；乳白薄边、细脉、斜侧透光与微距转焦交替呈现。按“远景多一点”的反馈，整枝镜头增加到 8.5 秒。
+
+保留从材质调整、花苞生长到多角度剪辑的真实制作过程，以及可继续编辑的 V8 最终工程。Cycles / OptiX，最高 128 自适应采样；Token 未独立统计。
+
+[完整案例](blue-hanging-blossoms/README.md) · [1080 预览](blue-hanging-blossoms/preview.mp4) · [4K 成片](https://github.com/huangxin-design/blender-beginner/releases/download/works-blue-blossoms-2026-09-24/blue-hanging-blossoms-4k.mp4) · [制作对话](blue-hanging-blossoms/conversation.md) · [源工程](blue-hanging-blossoms/source/scene.blend)
+
 ## 晶光绽放 · 半透明花瓣与同帧白模
 
 [![紫粉花朵从收拢到展开，以及同帧白模](glass-bloom/preview.jpg)](glass-bloom/README.md)

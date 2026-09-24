@@ -1,0 +1,58 @@
+{
+  "frames": 384,
+  "fps": 24,
+  "seconds": 16,
+  "wide_seconds": 8.5,
+  "previous_wide_seconds": 4,
+  "shots": [
+    {
+      "start": 1,
+      "end": 72,
+      "title": "01 · 冒芽远景",
+      "camera": "V8 · 01 冒芽远景",
+      "wide": true
+    },
+    {
+      "start": 73,
+      "end": 96,
+      "title": "02 · 花苞细节",
+      "camera": "相机 · wide, macro, side, wide",
+      "wide": false
+    },
+    {
+      "start": 97,
+      "end": 168,
+      "title": "03 · 整枝绽放远景",
+      "camera": "V8 · 03 整枝绽放远景",
+      "wide": true
+    },
+    {
+      "start": 169,
+      "end": 216,
+      "title": "04 · 斜侧透光",
+      "camera": "相机 · wide, macro, side, wide",
+      "wide": false
+    },
+    {
+      "start": 217,
+      "end": 264,
+      "title": "05 · 另一侧花群",
+      "camera": "相机 · wide, macro, side, wide",
+      "wide": false
+    },
+    {
+      "start": 265,
+      "end": 324,
+      "title": "06 · 微距转焦",
+      "camera": "相机 · wide, macro, side, wide",
+      "wide": false
+    },
+    {
+      "start": 325,
+      "end": 384,
+      "title": "07 · 盛放拉远",
+      "camera": "V8 · 07 拉远留白",
+      "wide": true
+    }
+  ]
+}

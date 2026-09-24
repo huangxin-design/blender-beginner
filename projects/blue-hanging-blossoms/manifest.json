@@ -1,0 +1,110 @@
+{
+  "project": "blue-hanging-blossoms",
+  "archived_at": "2026-09-24",
+  "version": "V8 final native 4K",
+  "files": [
+    {
+      "file": ".gitattributes",
+      "bytes": 71,
+      "sha256": "edab61e6b85d53a05602c1a974154ad6a522d86ac8d7d2b7f9e28233612f5014"
+    },
+    {
+      "file": ".gitignore",
+      "bytes": 16,
+      "sha256": "c5dd630b1b869a60159dc8cf436882385ab526aae59b123d2dd82c43714630e7"
+    },
+    {
+      "file": "conversation.md",
+      "bytes": 2676,
+      "sha256": "8d7e20398db022b18b31b65437f7bf49fb87f13fc6fbfc3bbb77d3bff7b276cc"
+    },
+    {
+      "file": "credits.md",
+      "bytes": 1172,
+      "sha256": "01b8bd0e8dc4199f919ced3e2fb94a54bfb89807ba9da45c56e64e92efbf9816"
+    },
+    {
+      "file": "images/contact.jpg",
+      "bytes": 395510,
+      "sha256": "f11677b2325eb3c296fb024de3203d230b9fe39414b52da41795f0168eb43cdf"
+    },
+    {
+      "file": "images/macro.jpg",
+      "bytes": 140988,
+      "sha256": "e5974404fd1d1fe0e76edfbced3f16ab8f09851aa2118e7d3e6db4032c05e010"
+    },
+    {
+      "file": "preview.jpg",
+      "bytes": 155466,
+      "sha256": "866ef96adb08a7f612c18dd9d867d32252ce04ba25480e4b08c927856206b042"
+    },
+    {
+      "file": "preview.mp4",
+      "bytes": 7961197,
+      "sha256": "a5f9f8c334186bf2ac003b42bef53ac379670ab281c7e5c3c9e007a38f13381f"
+    },
+    {
+      "file": "prompts.md",
+      "bytes": 1254,
+      "sha256": "6ea53b673a2906ad38bac0a2a53c8c9510d4470e5562d0070f60df2a56bb9a25"
+    },
+    {
+      "file": "README.md",
+      "bytes": 3589,
+      "sha256": "bc3d2a754885ba2e0a020233e146a7b88dfbc34246ce9b6d52a9e1e1784e1f0b"
+    },
+    {
+      "file": "shot-plan.json",
+      "bytes": 1216,
+      "sha256": "4e9998d53c0c9c1dc2720430552217d637860b876f3c57938fbe2e2d82d300f3"
+    },
+    {
+      "file": "source/encode_and_verify.py",
+      "bytes": 1736,
+      "sha256": "7560ea61714ff3c70a45983bb6c8ce5d42a201fa6b4e71bab94cbb9fcc32f72b"
+    },
+    {
+      "file": "source/README.md",
+      "bytes": 2082,
+      "sha256": "9ae0b04f7538519dc4277a4f0912b0e13344aceb5d4bd3a474308262d56ca478"
+    },
+    {
+      "file": "source/render_all.ps1",
+      "bytes": 521,
+      "sha256": "ab04f75637dd348b62f7539dd49068c502fac0d1bf263a3726127b3672362fa3"
+    },
+    {
+      "file": "source/render_final.py",
+      "bytes": 2073,
+      "sha256": "a81a9dbb545d31af4d0fc5cbf894500b7ea185c9e4609edb6c4375bbf62ad1f0"
+    },
+    {
+      "file": "source/scene-check.json",
+      "bytes": 46851,
+      "sha256": "e8553e7b34cd047dbda6a13da9b476bf5e886acb5df48424214f1fc8fdbb4233"
+    },
+    {
+      "file": "source/scene.blend",
+      "bytes": 5349884,
+      "sha256": "909adee5f9e40b83dca833608c1cca8a1ba33edc155ef4c28024c22e7f769a5c"
+    },
+    {
+      "file": "verification.json",
+      "bytes": 2383,
+      "sha256": "5b7ea4bbc70a34bfb402dea93e32b4960fd9db3b61eafa3c2cb4b1e7b4b6dceb"
+    }
+  ],
+  "original_scene_sha256": "18caa3cd07459db8915c63bd5d17aab5aaea5610faa50e3ae048f86ee8272f55",
+  "publication_scene_byte_identical": false,
+  "publication_scene_changes": "Documentation and output/UI path metadata only; selected camera, growth and shape-key states compared identical.",
+  "release_downloads": [
+    {
+      "file": "blue-hanging-blossoms-4k.mp4",
+      "url": "https://github.com/huangxin-design/blender-beginner/releases/download/works-blue-blossoms-2026-09-24/blue-hanging-blossoms-4k.mp4",
+      "bytes": 41388782,
+      "sha256": "4ed11fd74f2dd00585636e5df7eef00bbfb8e1e8b93e95626b8b231d4acb1850",
+      "included_in_git": false,
+      "byte_identical_to_approved_master": true
+    }
+  ]
+}

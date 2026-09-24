@@ -124,6 +124,16 @@ See [usage, boundaries, and verification](docs/usage-progress.md) (Chinese), or 
 
 Flower bloom and Tree Study now show their latest completed versions, with usage read at **19:20 China Standard Time on September 9, 2026**. The AI spheres and Pink Wave retain their 16:59 snapshots from the same day. Each case states the coverage of its cumulative task record. [Sources and methodology](docs/showcase-measurements.md)
 
+### Blue hanging blossoms · from buds to bloom
+
+[![Native Blender frames: emerging buds, a full flowering branch, and ivory-edged petals](projects/blue-hanging-blossoms/preview.jpg)](projects/blue-hanging-blossoms/README.md)
+
+**16 seconds · 9:16 portrait · native 2160 × 3840 · 24 fps.** Buds emerge along a curved branch and teal-blue petals open in layers. Seven shots combine full-branch growth, side lighting and a macro focus pull; wide views occupy 8.5 seconds following the author's feedback.
+
+Includes the editable V8 scene, portable rendering scripts, reference attribution and a condensed production conversation. Cycles / OptiX, up to 128 adaptive samples. Token usage was not independently recorded.
+
+[Case](projects/blue-hanging-blossoms/README.md) · [1080 preview](projects/blue-hanging-blossoms/preview.mp4) · [4K film](https://github.com/huangxin-design/blender-beginner/releases/download/works-blue-blossoms-2026-09-24/blue-hanging-blossoms-4k.mp4) · [Production conversation](projects/blue-hanging-blossoms/conversation.md) · [Editable scene](projects/blue-hanging-blossoms/source/scene.blend)
+
 ### Glass bloom · translucent petals and matching wire clay
 
 [![Closed, opening and open material flower with matching wire clay](projects/glass-bloom/preview.jpg)](projects/glass-bloom/README.md)

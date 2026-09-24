@@ -134,6 +134,14 @@ Frosted glass petals and champagne metal edges unfold around glowing stamens. A 
 
 [Case](projects/yaohuang-peony/README.md) · [1080 preview](projects/yaohuang-peony/preview.mp4) · [4K film](https://github.com/huangxin-design/blender-beginner/releases/download/works-yaohuang-peony-2026-09-24/yaohuang-peony-4k.mp4) · [Editable scene](projects/yaohuang-peony/source/scene.blend) · [Production conversation](projects/yaohuang-peony/conversation.md)
 
+### Gold Silk Flower · three materials in 4K
+
+[![Native Blender frames: translucent pink, pale crystal, and clay wireframe](projects/gold-silk-flower/preview.jpg)](projects/gold-silk-flower/README.md)
+
+**Three separate films · 10 seconds each · native 2160 × 3840 · 30 fps.** The same flower opens around a fixed center, in translucent pink, crystal, and clay wireframe variants. Includes three editable scenes, 4K stills, and the actual iteration record. Software and hardware decoding matched across all 900 native frames. Token usage was not tracked separately.
+
+[Project and video downloads](projects/gold-silk-flower/README.md) · [Complete project package](https://github.com/huangxin-design/blender-beginner/releases/download/works-gold-silk-flower-2026-09-24/Gold_Silk_Flower_4K_Project.zip) · [Production conversation](projects/gold-silk-flower/conversation.md) · [Verification scope](projects/gold-silk-flower/verification.json)
+
 ### Heart and rose · fine particle lettering
 
 [![Native Blender frames: anatomical heart, growing rose, and fine outline lettering](projects/heart-rose-particles/preview.jpg)](projects/heart-rose-particles/README.md)

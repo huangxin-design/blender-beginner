@@ -1,0 +1,50 @@
+{
+  "rose": {
+    "file": "01_Rose_Gold_4K_10s_2160x3840.mp4",
+    "resolution": [
+      2160,
+      3840
+    ],
+    "fps": "30/1",
+    "frames": 300,
+    "duration_seconds": 10,
+    "software_decoder": "FFmpeg h264",
+    "hardware_decoder": "NVIDIA h264_cuvid / CUDA (NVDEC)",
+    "comparison": "All 300 decoded frames compared at native resolution in YUV420P using frame MD5",
+    "mismatched_frames": [],
+    "identical_decoded_frames": 300,
+    "audio_streams": 0
+  },
+  "crystal": {
+    "file": "02_Rose_Crystal_4K_10s_2160x3840.mp4",
+    "resolution": [
+      2160,
+      3840
+    ],
+    "fps": "30/1",
+    "frames": 300,
+    "duration_seconds": 10,
+    "software_decoder": "FFmpeg h264",
+    "hardware_decoder": "NVIDIA h264_cuvid / CUDA (NVDEC)",
+    "comparison": "All 300 decoded frames compared at native resolution in YUV420P using frame MD5",
+    "mismatched_frames": [],
+    "identical_decoded_frames": 300,
+    "audio_streams": 0
+  },
+  "clay_wire": {
+    "file": "03_Clay_Wire_4K_10s_2160x3840.mp4",
+    "resolution": [
+      2160,
+      3840
+    ],
+    "fps": "30/1",
+    "frames": 300,
+    "duration_seconds": 10,
+    "software_decoder": "FFmpeg h264",
+    "hardware_decoder": "NVIDIA h264_cuvid / CUDA (NVDEC)",
+    "comparison": "All 300 decoded frames compared at native resolution in YUV420P using frame MD5",
+    "mismatched_frames": [],
+    "identical_decoded_frames": 300,
+    "audio_streams": 0
+  }
+}

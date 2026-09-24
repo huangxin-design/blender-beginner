@@ -1,0 +1,77 @@
+{
+  "rose": {
+    "file": "01_Rose_Gold_4K.blend",
+    "opened_from_relocated_copy": true,
+    "auto_execution_disabled": true,
+    "blender_version": "5.2.1 LTS",
+    "engine": "CYCLES",
+    "samples": 64,
+    "resolution": [
+      2160,
+      3840
+    ],
+    "frames": 300,
+    "fps": 30,
+    "petals": 51,
+    "fixed_core_petals": 3,
+    "core_position_checked_frames": [
+      1,
+      121,
+      217,
+      300
+    ],
+    "core_position_unchanged": true,
+    "external_images": [],
+    "external_libraries": []
+  },
+  "crystal": {
+    "file": "02_Rose_Crystal_4K.blend",
+    "opened_from_relocated_copy": true,
+    "auto_execution_disabled": true,
+    "blender_version": "5.2.1 LTS",
+    "engine": "CYCLES",
+    "samples": 64,
+    "resolution": [
+      2160,
+      3840
+    ],
+    "frames": 300,
+    "fps": 30,
+    "petals": 51,
+    "fixed_core_petals": 3,
+    "core_position_checked_frames": [
+      1,
+      121,
+      217,
+      300
+    ],
+    "core_position_unchanged": true,
+    "external_images": [],
+    "external_libraries": []
+  },
+  "clay_wire": {
+    "file": "03_Clay_Wire_4K.blend",
+    "opened_from_relocated_copy": true,
+    "auto_execution_disabled": true,
+    "blender_version": "5.2.1 LTS",
+    "engine": "CYCLES",
+    "samples": 64,
+    "resolution": [
+      2160,
+      3840
+    ],
+    "frames": 300,
+    "fps": 30,
+    "petals": 51,
+    "fixed_core_petals": 3,
+    "core_position_checked_frames": [
+      1,
+      121,
+      217,
+      300
+    ],
+    "core_position_unchanged": true,
+    "external_images": [],
+    "external_libraries": []
+  }
+}

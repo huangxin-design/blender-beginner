@@ -125,6 +125,14 @@ Skill 尚未出现在列表时，重启 Codex 再检查。首次使用、已有�
 
 [完整案例](projects/yaohuang-peony/README.md) · [1080 预览](projects/yaohuang-peony/preview.mp4) · [下载 4K 成片](https://github.com/huangxin-design/blender-beginner/releases/download/works-yaohuang-peony-2026-09-24/yaohuang-peony-4k.mp4) · [可编辑工程](projects/yaohuang-peony/source/scene.blend) · [制作对话](projects/yaohuang-peony/conversation.md)
 
+### 金丝花开 · 三种材质 4K
+
+[![粉色半透金丝、浅粉水晶金丝与白模布线，原生 Blender 画面](projects/gold-silk-flower/preview.jpg)](projects/gold-silk-flower/README.md)
+
+**三段独立视频 · 每段 10 秒 · 原生 2160 × 3840 · 30 fps。** 同一朵花在固定花心的前提下展开，分别呈现粉色半透、水晶与白模布线。附三份可编辑工程、4K 静帧和实际迭代记录；900 帧原生画面的软硬解码对比全部一致。Token 未独立统计。
+
+[作品与视频下载](projects/gold-silk-flower/README.md) · [完整工程包](https://github.com/huangxin-design/blender-beginner/releases/download/works-gold-silk-flower-2026-09-24/Gold_Silk_Flower_4K_Project.zip) · [制作对话](projects/gold-silk-flower/conversation.md) · [验证范围](projects/gold-silk-flower/verification.json)
+
 ### 心脏与玫瑰 · 璃光细线
 
 [![心脏、玫瑰与细线片尾，原生 Blender 画面](projects/heart-rose-particles/preview.jpg)](projects/heart-rose-particles/README.md)

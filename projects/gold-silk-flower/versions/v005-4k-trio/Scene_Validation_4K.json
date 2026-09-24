@@ -1,0 +1,68 @@
+{
+  "rose": {
+    "project": "01_Rose_Gold_4K.blend",
+    "resolution": [
+      2160,
+      3840
+    ],
+    "fps": 30,
+    "frames": 300,
+    "core_checked_frames": 300,
+    "core_position_pixel": [
+      1097.9571264982224,
+      1255.817756652832
+    ],
+    "core_drift_pixels": 0,
+    "fixed_core_geometry_unchanged": true,
+    "animated_petals": 48,
+    "fixed_core_petals": 3,
+    "static_hold_verified": true,
+    "static_hold_from_frame": 217,
+    "animation_sha256": "52badfc459930988c9c9dc0c689dc521d0bf4d07256d732fb873637d4b7fe6f5",
+    "external_texture_dependencies": []
+  },
+  "crystal": {
+    "project": "02_Rose_Crystal_4K.blend",
+    "resolution": [
+      2160,
+      3840
+    ],
+    "fps": 30,
+    "frames": 300,
+    "core_checked_frames": 300,
+    "core_position_pixel": [
+      1097.9571264982224,
+      1255.817756652832
+    ],
+    "core_drift_pixels": 0,
+    "fixed_core_geometry_unchanged": true,
+    "animated_petals": 48,
+    "fixed_core_petals": 3,
+    "static_hold_verified": true,
+    "static_hold_from_frame": 217,
+    "animation_sha256": "52badfc459930988c9c9dc0c689dc521d0bf4d07256d732fb873637d4b7fe6f5",
+    "external_texture_dependencies": []
+  },
+  "clay_wire": {
+    "project": "03_Clay_Wire_4K.blend",
+    "resolution": [
+      2160,
+      3840
+    ],
+    "fps": 30,
+    "frames": 300,
+    "core_checked_frames": 300,
+    "core_position_pixel": [
+      1097.9571264982224,
+      1255.817756652832
+    ],
+    "core_drift_pixels": 0,
+    "fixed_core_geometry_unchanged": true,
+    "animated_petals": 48,
+    "fixed_core_petals": 3,
+    "static_hold_verified": true,
+    "static_hold_from_frame": 217,
+    "animation_sha256": "52badfc459930988c9c9dc0c689dc521d0bf4d07256d732fb873637d4b7fe6f5",
+    "external_texture_dependencies": []
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "project": "gold-silk-flower",
+  "version": "v005-4k-trio",
+  "archived_at": "2026-09-24",
+  "release_assets": [
+    {
+      "file": "01_Rose_Gold_4K.blend",
+      "bytes": 30109268,
+      "sha256": "fd28c706263cfbf78950b6ffc5990957ef3fe54a8c1371f5ab926eda7f5fb1a5",
+      "origin": "v5_4k_trio final delivery",
+      "byte_identical_to_delivery": true
+    },
+    {
+      "file": "01_Rose_Gold_4K_10s_2160x3840.mp4",
+      "bytes": 13997595,
+      "sha256": "51874078116b89458518f1f3199db52f937ea243307f33f850a0c30206d00d47",
+      "origin": "v5_4k_trio final delivery",
+      "byte_identical_to_delivery": true
+    },
+    {
+      "file": "01_Rose_Gold_4K_Hero.png",
+      "bytes": 8247435,
+      "sha256": "be03a9a6a7ff045aa7447fafb2c4ab58fb03fa715c1e13c204d9a5f47c802ca8",
+      "origin": "v5_4k_trio final delivery",
+      "byte_identical_to_delivery": true
+    },
+    {
+      "file": "02_Rose_Crystal_4K.blend",
+      "bytes": 30113098,
+      "sha256": "259b73872077572276d3a8b103f7fd51d0c87befbd9400c25a6c349b41a4dcbe",
+      "origin": "v5_4k_trio final delivery",
+      "byte_identical_to_delivery": true
+    },
+    {
+      "file": "02_Rose_Crystal_4K_10s_2160x3840.mp4",
+      "bytes": 16051631,
+      "sha256": "eafcfbebcecee106d7afc27b090ede7cfdb6574d1deaca70f4357fc3dd84c93b",
+      "origin": "v5_4k_trio final delivery",
+      "byte_identical_to_delivery": true
+    },
+    {
+      "file": "02_Rose_Crystal_4K_Hero.png",
+      "bytes": 8127563,
+      "sha256": "1f225b7d8e6f34ba225dd65d1c80f3112825e675e73fdcfe2322bea4a86e03dd",
+      "origin": "v5_4k_trio final delivery",
+      "byte_identical_to_delivery": true
+    },
+    {
+      "file": "03_Clay_Wire_4K.blend",
+      "bytes": 30080402,
+      "sha256": "af254c3d368f001f32bc91d5763253f09200668858e56619b68cdd32d1effe4a",
+      "origin": "v5_4k_trio final delivery",
+      "byte_identical_to_delivery": true
+    },
+    {
+      "file": "03_Clay_Wire_4K_10s_2160x3840.mp4",
+      "bytes": 13202683,
+      "sha256": "5026a2ef1cc543f0fdab129adb197c862e2039441e49d14c002677ba8e9b44cf",
+      "origin": "v5_4k_trio final delivery",
+      "byte_identical_to_delivery": true
+    },
+    {
+      "file": "03_Clay_Wire_4K_Hero.png",
+      "bytes": 7989267,
+      "sha256": "7b318a65b149d8025bbaa1789c98bef635662d52d9794abca72994df7808927d",
+      "origin": "v5_4k_trio final delivery",
+      "byte_identical_to_delivery": true
+    }
+  ]
+}

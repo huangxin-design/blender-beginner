@@ -1,0 +1,17 @@
+{
+  "rose": {
+    "project": "01_Rose_Gold_4K.blend",
+    "video": "01_Rose_Gold_4K_10s_2160x3840.mp4",
+    "samples": 64
+  },
+  "crystal": {
+    "project": "02_Rose_Crystal_4K.blend",
+    "video": "02_Rose_Crystal_4K_10s_2160x3840.mp4",
+    "samples": 64
+  },
+  "clay_wire": {
+    "project": "03_Clay_Wire_4K.blend",
+    "video": "03_Clay_Wire_4K_10s_2160x3840.mp4",
+    "samples": 64
+  }
+}

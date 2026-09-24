@@ -1,0 +1,59 @@
+{
+  "project": "gold-silk-flower",
+  "version": "v005-4k-trio",
+  "archive_checked_at": "2026-09-24",
+  "media": {
+    "variants": 3,
+    "resolution": [2160, 3840],
+    "fps": 30,
+    "frames_per_video": 300,
+    "duration_seconds_per_video": 10,
+    "audio": false,
+    "native_rendered_frames": "1-217",
+    "static_hold": "Frame 217 is extended by 83 identical frames; the saved scenes were verified to remain static through frame 300.",
+    "upscaled": false,
+    "motion_interpolation": false,
+    "generative_image_postprocessing": false
+  },
+  "scene": {
+    "production_report": "versions/v005-4k-trio/Scene_Validation_4K.json",
+    "production_core_check": "300 frames per variant; zero screen-space core drift",
+    "petals": 51,
+    "animated_petals": 48,
+    "fixed_core_petals": 3,
+    "relocated_reopen_report": "qa/source-reopen.json",
+    "relocated_reopen_auto_execution_disabled": true,
+    "external_images": [],
+    "external_libraries": []
+  },
+  "video_decode": {
+    "report": "qa/decode-verification.json",
+    "software_decoder": "FFmpeg h264",
+    "hardware_decoder": "NVIDIA h264_cuvid / CUDA NVDEC",
+    "comparison_format": "Native 2160x3840 YUV420P",
+    "frames_compared": 900,
+    "identical_frames": 900,
+    "mismatched_frames": 0,
+    "evidence": "Per-variant software and hardware framemd5 files in qa/"
+  },
+  "visual_review": {
+    "reviewed_decoded_frames_zero_based": [0, 120, 299],
+    "variants_reviewed": ["rose", "crystal", "clay_wire"],
+    "contact_sheet": "qa/decoded-contact-sheet.jpg",
+    "player_interface_review": "Interrupted by the user; complete playback review of the three videos was not completed.",
+    "all_player_device_compatibility_verified": false
+  },
+  "recorded_render_seconds": {
+    "rose": 13633.0,
+    "crystal": 24753.6,
+    "clay_wire": 11406.6,
+    "scope": "Recorded native frame loops including frame changes, rendering, PNG saving, and reused 4K hero frames. Rose combines pre-interruption and resumed runs. Excludes modeling, material iterations, stopped or queued time, encoding, and archiving. Other GPU jobs were active; these are not exclusive GPU benchmarks."
+  },
+  "provenance": {
+    "original_asset_sizes_and_sha256": "manifest.json",
+    "original_blend_video_and_hero_bytes_preserved": true,
+    "token_usage": "Not independently tracked",
+    "historical_build_script": "Requires unpublished v3 and v4 source directories; current .blend files are the editable and renderable deliverables.",
+    "skill_generation_validation": false
+  }
+}

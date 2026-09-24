@@ -124,6 +124,16 @@ See [usage, boundaries, and verification](docs/usage-progress.md) (Chinese), or 
 
 Flower bloom and Tree Study now show their latest completed versions, with usage read at **19:20 China Standard Time on September 9, 2026**. The AI spheres and Pink Wave retain their 16:59 snapshots from the same day. Each case states the coverage of its cumulative task record. [Sources and methodology](docs/showcase-measurements.md)
 
+### Yaohuang in bloom · a glass and metal peony
+
+[![Five native Blender frames show a closed peony bud gradually opening](projects/yaohuang-peony/preview.jpg)](projects/yaohuang-peony/README.md)
+
+Frosted glass petals and champagne metal edges unfold around glowing stamens. A slow camera push moves from translucent leaves and stem toward the bloom, with soft haze and deliberately varied opening speed.
+
+**Native 2160 × 3840 · 24 fps · 10 seconds · 240 frames · silent.** The approved v007 includes the editable Blender scene, original rendering script, and a condensed account of the revisions. Token usage and total production time were not independently compiled for this archive.
+
+[Case](projects/yaohuang-peony/README.md) · [1080 preview](projects/yaohuang-peony/preview.mp4) · [4K film](https://github.com/huangxin-design/blender-beginner/releases/download/works-yaohuang-peony-2026-09-24/yaohuang-peony-4k.mp4) · [Editable scene](projects/yaohuang-peony/source/scene.blend) · [Production conversation](projects/yaohuang-peony/conversation.md)
+
 ### Heart and rose · fine particle lettering
 
 [![Native Blender frames: anatomical heart, growing rose, and fine outline lettering](projects/heart-rose-particles/preview.jpg)](projects/heart-rose-particles/README.md)

@@ -4,6 +4,16 @@
 
 花卉与数字盆景为最新完成版，任务用量读取于 **2026-09-09 19:20（北京时间）**；AI 品牌与粉色波浪保留当天 16:59 的快照。覆盖范围见各案例与[统计说明](../docs/showcase-measurements.md)。
 
+## 姚黄初绽 · 玻璃与金属的牡丹
+
+[![花苞、外瓣展开、内瓣显露与盛放，五个原生 Blender 阶段画面](yaohuang-peony/preview.jpg)](yaohuang-peony/README.md)
+
+从闭合花苞到盛放，磨砂玻璃与香槟金属花瓣逐层展开，暖金花蕊发光。半透明枝叶、细微花粉、柔和薄雾与由远到近的镜头，共同保留快慢交替的开花节奏。
+
+**原生 2160 × 3840 · 24 fps · 10 秒 · 240 帧 · 无声。** 本次归档已确认的 v007 最终工程，未独立整理 Token 与完整制作耗时。
+
+[完整案例](yaohuang-peony/README.md) · [1080 预览](yaohuang-peony/preview.mp4) · [4K 成片](https://github.com/huangxin-design/blender-beginner/releases/download/works-yaohuang-peony-2026-09-24/yaohuang-peony-4k.mp4) · [源工程](yaohuang-peony/source/scene.blend) · [制作对话](yaohuang-peony/conversation.md) · [检查记录](yaohuang-peony/verification.json)
+
 ## 心脏与玫瑰 · 璃光细线
 
 [![心脏、玫瑰与细线片尾，原生 Blender 画面](heart-rose-particles/preview.jpg)](heart-rose-particles/README.md)

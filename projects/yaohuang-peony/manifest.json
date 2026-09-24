@@ -1,0 +1,117 @@
+{
+  "title": "姚黄初绽",
+  "version": "v007",
+  "archived_on": "2026-09-24",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 62,
+      "sha256": "f0aab4b33c9407c4c972bb548411b4e917935360773351ad46bce5074e708bef"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 47,
+      "sha256": "148392438c712c72c4ac7164d8b2e1f943dee9cebec3aba272059a424cabae1a"
+    },
+    {
+      "path": "brief.md",
+      "bytes": 1739,
+      "sha256": "4e67df6995a42792374d6d51c97366256d614d88dc485be5fc86d816feece737"
+    },
+    {
+      "path": "conversation.md",
+      "bytes": 2295,
+      "sha256": "d6e39fcb6a48da0b68fa9dc43edaeca78981658e544a6b7dc4ff23c257e29f19"
+    },
+    {
+      "path": "credits.md",
+      "bytes": 1168,
+      "sha256": "75ea03ebdac1e1844a65ce18e474fd56b0e1876de198049c102699bd87680946"
+    },
+    {
+      "path": "images/bloom.jpg",
+      "bytes": 172601,
+      "sha256": "62b1c7a65c89873ec390d447fb10c87309567f97c9745e93f2101df9e284cbf3"
+    },
+    {
+      "path": "images/bud.jpg",
+      "bytes": 45648,
+      "sha256": "52e96e6c9848bcd75acc4d4d2394473d93d3253be1137f483f37213632cb9e6f"
+    },
+    {
+      "path": "images/opening.jpg",
+      "bytes": 158502,
+      "sha256": "1b782303b64cafdf216c0249ff4e667cbec53eaa19561d23cf938c74c75b691b"
+    },
+    {
+      "path": "preview.jpg",
+      "bytes": 203292,
+      "sha256": "8b552cc30ae6380d44ea0bc1e073585d2d91f304e79bd1a36372f31ff2e769a3"
+    },
+    {
+      "path": "preview.mp4",
+      "bytes": 4705812,
+      "sha256": "5f749da7340e1a424cd59816b5058a9af83a9a4783f7feec0d8b682b1459b48c"
+    },
+    {
+      "path": "prompts.md",
+      "bytes": 1179,
+      "sha256": "fe90532e43427a16d26dadc241afe0bfebad50f23f436caca6664cb287ffbf3c"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3566,
+      "sha256": "146e9b4c14189d80ffaecfa77efc22476326a054761f9075254c89ab70572bfb"
+    },
+    {
+      "path": "source/README.md",
+      "bytes": 2238,
+      "sha256": "90ec2426fe35546e2348d5ebe402269d9dbb6ed25cb2c72fbd9e7b93866e5d7e"
+    },
+    {
+      "path": "source/render_final_4k.py",
+      "bytes": 2798,
+      "sha256": "6114c5a2fc501e731453247292a77dcdda66e44043d3af2397b9e5d668094346"
+    },
+    {
+      "path": "source/scene.blend",
+      "bytes": 21396086,
+      "sha256": "5e09621ec982278e9e2a18cbb59aef355ae72a37f57608cf23f3708db051524c"
+    },
+    {
+      "path": "verification.json",
+      "bytes": 3533,
+      "sha256": "ed240efb51d233219a8b517eab28cc32ceadd5fd9def8619bd9735ccf9e59e11"
+    }
+  ],
+  "release_files": [
+    {
+      "path": "yaohuang-peony-4k.mp4",
+      "bytes": 25625595,
+      "sha256": "d8367fd25acee85b46345e71b701344ce8c339c7026ee3e9d7b034fad51ff456",
+      "url": "https://github.com/huangxin-design/blender-beginner/releases/download/works-yaohuang-peony-2026-09-24/yaohuang-peony-4k.mp4"
+    }
+  ],
+  "full_resolution_stills_in_project_zip": [
+    {
+      "path": "deliverables/bud-4k.png",
+      "bytes": 27528706,
+      "sha256": "ea91c6636431817ccc0aa0305fe7aecb781de5f9d00edea2e676abb05ed50853"
+    },
+    {
+      "path": "deliverables/opening-4k.png",
+      "bytes": 33375022,
+      "sha256": "6a32ac3be8e28a4919b198e94df86bdd8a747d07cc9e1dd1dda12cc809ba2eca"
+    },
+    {
+      "path": "deliverables/bloom-4k.png",
+      "bytes": 34133425,
+      "sha256": "ac57620a127e92e5af58afa9926a9ae349a049c14252957e02732d334c7329e8"
+    }
+  ],
+  "project_zip": {
+    "url": "https://github.com/huangxin-design/blender-beginner/releases/download/works-yaohuang-peony-2026-09-24/yaohuang-peony-v007-project.zip",
+    "checksum_file": "https://github.com/huangxin-design/blender-beginner/releases/download/works-yaohuang-peony-2026-09-24/SHA256SUMS.txt"
+  },
+  "manifest_scope": "The manifest excludes its own digest and the enclosing ZIP digest; SHA256SUMS.txt records the final release asset digests."
+}

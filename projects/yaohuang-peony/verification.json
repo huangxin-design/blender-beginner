@@ -1,0 +1,131 @@
+{
+  "archived_on": "2026-09-24",
+  "published_version": "v007",
+  "production_record": {
+    "native_png_frames_verified": 240,
+    "animation_unchanged_from_v006": true,
+    "animation_sha256": "f91382d7e8823c4f87df75c28e22afa08d34ff4df735441d86a56d55f98f7509",
+    "native_resolution": [
+      2160,
+      3840
+    ],
+    "full_video_decode": "passed",
+    "visual_review": "Native keyframes, encoded five-frame contact sheet and encoded full-resolution detail crop checked during delivery."
+  },
+  "archive_checks": {
+    "scene_reopened": {
+      "blender_version": "5.2.1 LTS",
+      "opened_with_autoexec_disabled": true,
+      "resolution": [
+        2160,
+        3840
+      ],
+      "resolution_percentage": 100,
+      "frame_range": [
+        1,
+        240
+      ],
+      "fps": 24,
+      "engine": "CYCLES",
+      "max_samples": 128,
+      "external_dependencies": [],
+      "objects": 520,
+      "materials": 10,
+      "shape_key_datablocks": 90,
+      "actions": 262,
+      "output_path_is_relative": true,
+      "text_datablocks": [],
+      "sampled_frames": [
+        {
+          "frame": 1,
+          "camera_location": [
+            0.16,
+            -10.7,
+            5.5
+          ],
+          "camera_lens_mm": 95.0,
+          "dof": true
+        },
+        {
+          "frame": 60,
+          "camera_location": [
+            0.16,
+            -10.2418,
+            5.40836
+          ],
+          "camera_lens_mm": 95.0,
+          "dof": true
+        },
+        {
+          "frame": 107,
+          "camera_location": [
+            0.16,
+            -9.4531,
+            5.25062
+          ],
+          "camera_lens_mm": 95.0,
+          "dof": true
+        },
+        {
+          "frame": 165,
+          "camera_location": [
+            0.16,
+            -8.40086,
+            5.04017
+          ],
+          "camera_lens_mm": 95.0,
+          "dof": true
+        },
+        {
+          "frame": 240,
+          "camera_location": [
+            0.16,
+            -7.7,
+            4.9
+          ],
+          "camera_lens_mm": 95.0,
+          "dof": true
+        }
+      ]
+    },
+    "scene_bytes_unchanged": true,
+    "render_script_bytes_unchanged": true,
+    "master_bytes_unchanged": true,
+    "master": {
+      "codec_name": "h264",
+      "width": 2160,
+      "height": 3840,
+      "pix_fmt": "yuv420p",
+      "color_space": "bt709",
+      "color_transfer": "iec61966-2-1",
+      "color_primaries": "bt709",
+      "r_frame_rate": "24/1",
+      "duration": "10.000000",
+      "nb_read_frames": "240"
+    },
+    "preview": {
+      "codec_name": "h264",
+      "width": 1080,
+      "height": 1920,
+      "pix_fmt": "yuv420p",
+      "color_space": "bt709",
+      "color_transfer": "iec61966-2-1",
+      "color_primaries": "bt709",
+      "r_frame_rate": "24/1",
+      "duration": "10.000000",
+      "nb_read_frames": "240"
+    },
+    "master_full_decode": "passed",
+    "preview_full_decode": "passed",
+    "web_contact_sheet_visually_inspected": true,
+    "rerendered_during_archive": false,
+    "master_reencoded_during_archive": false,
+    "ai_image_retouching": false
+  },
+  "limitations": [
+    "Original full frame sequence is not included in the public archive.",
+    "Full rendering was not repeated during archiving.",
+    "No universal player, hardware or operating-system compatibility claim.",
+    "Independent token usage and total production time were not compiled."
+  ]
+}

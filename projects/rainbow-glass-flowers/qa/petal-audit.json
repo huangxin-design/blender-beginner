@@ -1,0 +1,7576 @@
+{
+  "source": "versions/v009/scene.blend",
+  "sha256": "ff6da7df50ece57fc9812923b03de8a07858322489fc980b8497b30d0c48fd2d",
+  "frames": 360,
+  "flower_frame_checks": 1080,
+  "petal_pair_contacts": 0,
+  "exposed_core_support_contacts": 0,
+  "maximum_attachment_u": 0.19932860136032104,
+  "method": "Evaluated subdivided triangle intersection at all 360 integer frames. Petal pairs include entire roots; core/support contacts allowed only below longitudinal u=.25.",
+  "seconds": 590.2912772000054,
+  "rows": [
+    {
+      "frame": 1,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 1,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 1,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 2,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 2,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 2,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 3,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 3,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 3,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 4,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 4,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 4,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 5,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 5,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 5,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 6,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 6,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 6,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 7,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 7,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 7,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 8,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 8,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 8,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 9,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 9,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 9,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 10,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 10,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 10,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 11,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 11,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 11,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 12,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 12,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 12,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 13,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 13,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 13,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 14,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 14,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 14,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 15,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 15,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 15,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 16,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 16,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 16,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 17,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 17,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 17,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 18,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 18,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 18,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 19,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 19,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 19,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 20,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 20,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 20,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 21,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 21,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 21,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 22,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 22,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 22,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 23,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 23,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 23,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 24,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 24,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 24,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 25,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 25,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 25,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 26,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 26,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 26,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 27,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 27,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 27,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 28,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 28,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 28,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 29,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 29,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 29,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 30,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 30,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 30,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 31,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 31,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 31,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 32,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 32,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 32,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 33,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 33,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 33,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 34,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 34,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 34,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 35,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 35,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 35,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 36,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 36,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 36,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 37,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 37,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 37,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 38,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 38,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 38,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 39,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 39,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 39,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 40,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 40,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 40,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 41,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 41,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 41,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 42,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 42,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 42,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 43,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 43,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 43,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 44,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 44,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 44,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 45,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 45,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 45,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 46,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 46,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 46,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 47,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 47,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 47,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 48,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 48,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 48,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 49,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 49,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 49,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 50,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 50,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 50,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 51,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 51,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 51,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 52,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 52,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 52,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 53,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 53,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 53,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 54,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 54,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 54,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 55,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 55,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 55,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 56,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 56,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 56,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 57,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 57,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 57,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 58,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 58,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 58,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 59,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 59,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 59,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 60,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 60,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 60,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 61,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 61,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 61,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 62,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 62,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 62,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 63,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 63,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 63,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 64,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 64,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 64,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 65,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 65,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 65,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 66,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 66,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 66,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 67,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 67,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 67,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 68,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 68,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 68,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 69,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 69,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 69,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 70,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 70,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 70,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 71,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 71,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 71,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 72,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 72,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 72,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 73,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 73,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 73,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 74,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 74,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 74,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 75,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 75,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 75,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 76,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 76,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 76,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 77,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 77,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 77,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 78,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 78,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 78,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 79,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 79,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 79,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 80,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 80,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 80,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 81,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 81,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 81,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 82,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 82,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 82,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 83,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 83,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 83,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 84,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 84,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 84,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 85,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 85,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 85,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 86,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 86,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 86,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 87,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 87,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 87,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 88,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 88,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 88,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 89,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 89,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 89,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 90,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 90,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 90,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 91,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 91,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 91,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 92,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 92,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 92,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 93,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 93,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 93,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 94,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 94,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 94,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 95,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 95,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 95,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 96,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 96,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 96,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 97,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 97,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 97,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 98,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 98,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 98,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 99,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 99,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 99,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 100,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 100,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 100,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 101,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 101,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 101,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 102,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 102,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 102,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 103,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 103,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 103,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 104,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 104,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 104,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 105,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 105,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 105,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 106,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 106,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 106,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 107,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 107,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 107,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 108,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 108,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 108,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 109,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 109,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 109,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 110,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 110,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 110,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 111,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 111,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 111,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 112,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 112,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 112,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 113,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 113,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 113,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 114,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 114,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 114,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 115,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 115,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 115,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 116,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 116,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 116,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 117,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 117,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 117,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 118,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 118,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 118,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 119,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 119,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 119,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 120,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 120,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 120,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 121,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 121,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 121,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 122,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 122,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 122,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 123,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 123,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 123,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 124,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 124,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 124,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 125,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 125,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 125,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 126,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 126,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 126,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 127,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 127,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 127,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 128,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 128,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 128,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 129,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 129,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 129,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 130,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 130,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 130,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 131,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 131,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 131,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 132,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 132,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 132,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 133,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 133,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 133,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 134,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 134,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 134,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 135,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 135,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 135,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 136,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 136,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 136,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 137,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 137,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 137,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 138,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 138,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 138,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 139,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 139,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 139,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 140,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 140,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 140,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 141,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 141,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 141,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 142,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 142,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 142,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 143,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 143,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 143,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 144,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 144,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 144,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 145,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 145,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 145,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 146,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 146,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 146,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 147,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 147,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 147,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 148,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 148,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 148,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 149,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 149,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 149,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 150,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 150,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 150,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 151,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 151,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 151,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 152,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 152,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 152,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 153,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 153,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 153,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 154,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 154,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 154,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 155,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 155,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 155,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 156,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 156,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 156,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 157,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 157,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 157,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 158,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 158,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 158,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 159,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 159,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 159,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 160,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 160,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 160,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 161,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 161,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 161,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 162,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 162,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 162,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 163,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 163,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 163,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 164,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 164,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 164,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 165,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 165,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 165,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 166,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 166,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 166,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 167,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 167,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 167,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 168,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 168,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 168,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 169,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 169,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 169,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 170,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 170,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 170,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 171,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 171,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 171,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 172,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 172,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 172,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 173,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 173,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 173,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 174,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 174,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 174,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 175,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 175,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 175,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 176,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 176,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 176,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 177,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 177,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 177,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 178,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 178,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 178,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 179,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 179,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 179,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 180,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 180,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 180,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 181,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 181,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 181,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 182,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 182,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 182,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 183,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 183,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 183,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 184,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 184,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 184,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 185,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 185,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 185,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 186,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 186,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 186,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 187,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 187,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 187,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 188,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 188,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 188,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 189,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 189,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 189,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 190,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 190,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 190,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 191,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 191,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 191,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 192,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 192,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 192,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 193,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 193,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 193,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 194,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 194,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 194,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 195,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 195,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 195,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 196,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 196,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 196,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 197,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 197,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 197,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 198,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 198,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 198,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 199,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 199,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 199,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 200,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 200,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 200,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 201,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 201,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 201,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 202,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 202,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 202,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 203,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 203,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 203,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 204,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 204,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 204,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 205,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 205,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 205,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 206,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 206,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 206,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 207,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 207,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 207,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 208,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 208,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 208,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 209,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 209,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 209,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 210,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 210,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 210,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 211,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 211,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 211,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 212,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 212,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 212,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 213,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 213,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 213,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 214,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 214,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 214,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 215,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 215,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 215,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 216,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 216,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 216,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 217,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 217,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 217,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 218,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 218,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 218,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 219,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 219,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 219,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 220,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 220,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 220,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 221,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 221,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 221,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 222,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 222,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 222,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 223,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 223,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 223,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 224,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 224,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 224,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 225,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 225,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 225,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 226,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 226,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 226,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 227,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 227,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 227,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 228,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 228,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 228,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 229,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 229,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 229,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 230,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 230,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 230,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 231,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 231,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 231,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 232,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 232,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 232,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 233,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 233,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 233,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 234,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 234,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 234,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 235,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 235,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 235,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 236,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 236,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 236,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 237,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 237,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 237,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 238,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 238,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 238,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 239,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 239,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 239,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 240,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 240,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 240,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 241,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 241,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 241,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 242,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 242,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 242,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 243,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 243,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 243,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 244,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 244,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 244,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 245,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 245,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 245,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 246,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 246,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 246,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 247,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 247,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 247,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 248,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 248,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 248,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 249,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 249,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 249,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 250,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 250,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 250,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 251,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 251,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 251,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 252,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 252,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 252,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 253,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 253,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 253,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 254,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 254,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 254,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 255,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 255,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 255,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 256,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 256,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 256,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 257,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 257,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 257,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 258,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 258,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 258,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 259,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 259,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 259,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 260,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 260,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 260,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 261,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 261,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 261,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 262,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 262,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 262,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 263,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 263,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 263,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 264,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 264,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 264,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 265,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 265,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 265,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 266,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 266,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 266,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 267,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 267,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 267,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 268,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 268,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 268,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 269,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 269,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 269,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 270,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 270,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 270,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 271,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 271,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 271,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 272,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 272,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 272,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 273,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 273,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 273,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 274,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 274,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 274,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 275,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 275,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 275,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 276,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 276,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 276,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 277,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 277,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 277,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 278,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 278,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 278,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 279,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 279,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 279,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 280,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 280,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 280,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 281,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 281,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 281,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 282,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 282,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 282,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 283,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 283,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 283,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 284,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 284,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 284,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 285,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 285,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 285,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 286,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 286,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 286,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 287,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 287,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 287,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 288,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 288,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 288,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 289,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 289,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 289,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 290,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 290,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 290,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 291,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 291,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 291,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 292,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 292,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 292,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 293,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 293,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 293,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 294,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 294,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 294,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 295,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 295,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 295,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 296,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 296,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 296,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 297,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 297,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 297,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 298,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 298,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 298,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 299,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 299,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 299,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 300,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 300,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 300,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.15926684439182281
+    },
+    {
+      "frame": 301,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 301,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 301,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 302,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 302,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 302,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 303,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 303,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 303,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 304,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 304,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 304,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 305,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 305,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 305,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 306,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 306,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 306,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 307,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 307,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 307,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 308,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 308,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 308,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 309,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 309,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 309,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 310,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 310,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 310,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 311,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 311,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 311,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 312,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 312,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 312,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 313,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 313,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 313,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 314,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 314,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 314,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 315,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 315,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 315,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 316,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 316,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 316,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 317,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 317,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 317,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 318,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 318,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 318,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 319,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 319,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 319,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 320,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 320,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 320,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 321,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 321,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 321,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 322,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 322,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 322,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 323,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 323,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 323,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 324,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 324,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 324,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 325,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 325,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 325,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 326,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 326,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 326,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 327,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 327,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 327,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 328,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 328,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 328,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 329,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 329,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 329,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 330,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 330,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 330,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 331,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 331,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 331,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 332,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 332,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 332,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 333,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 333,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 333,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 334,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 334,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 334,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 335,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 335,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 335,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 336,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 336,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 336,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 337,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 337,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 337,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 338,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 338,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 338,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 339,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 339,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 339,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 340,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 340,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 340,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 341,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 341,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 341,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 342,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 342,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 342,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 343,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 343,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 343,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 344,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 344,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 344,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 345,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 345,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 345,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 346,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 346,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 346,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 347,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 347,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 347,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 348,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 348,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 348,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 349,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 349,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 349,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 350,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 350,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 350,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 351,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 351,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 351,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 352,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 352,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 352,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 353,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 353,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 353,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 354,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 354,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 354,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 355,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 355,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 355,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 356,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 356,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 356,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 357,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 357,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 357,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 358,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 358,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 358,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 359,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 359,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 359,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    },
+    {
+      "frame": 360,
+      "flower": "A",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 360,
+      "flower": "B",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.19932860136032104
+    },
+    {
+      "frame": 360,
+      "flower": "C",
+      "petal_pairs": [],
+      "exposed_attachments": [],
+      "max_attachment_u": 0.17899227142333984
+    }
+  ],
+  "passed": true,
+  "loaded_scene_revision": "unpublished v009 placement trial",
+  "final_equivalence_report": "scene-verification.json: identical petal geometry and animation; only rigid C and camera translations changed."
+}

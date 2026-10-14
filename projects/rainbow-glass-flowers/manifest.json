@@ -1,0 +1,127 @@
+{
+  "case": "rainbow-glass-flowers",
+  "archived_version": "v009",
+  "files": [
+    {
+      "file": "conversation.md",
+      "bytes": 2588,
+      "sha256": "8ddf41b009e60eee88e3e579f31bfa6ea7acdd2f0e1e4a9c77e69b0dc9513970"
+    },
+    {
+      "file": "credits.md",
+      "bytes": 1047,
+      "sha256": "b5b0423b97a7cc98da9d265a7fbd1a7c751ec0e6a1180c6678880ac8049240e4"
+    },
+    {
+      "file": "final.mp4",
+      "bytes": 5041576,
+      "sha256": "6cc1ca8cdb498859ccfc54a61e78e8fb00402a352b762829de0bf8353522718b"
+    },
+    {
+      "file": "images/detail.jpg",
+      "bytes": 66696,
+      "sha256": "523017f773de44608c910cc4b89733d054b0d42de59ae164e9dfff5d078428f8"
+    },
+    {
+      "file": "images/foreground.jpg",
+      "bytes": 76859,
+      "sha256": "24ce3c42fb7a119fc2a083a04c45991422bf36fcf5c1b0a5c2b0dfb98c47b228"
+    },
+    {
+      "file": "images/storyboard.jpg",
+      "bytes": 69472,
+      "sha256": "097a2a9385459fc4c86b19b50ba300c7ef3491035b99d75f4c9d027b840564f8"
+    },
+    {
+      "file": "lessons.md",
+      "bytes": 966,
+      "sha256": "694649db21a3d7d011a329e9d8a007ba0043e6294bad4bb9c71cfead448e3de5"
+    },
+    {
+      "file": "preview.jpg",
+      "bytes": 86942,
+      "sha256": "c3899ec850d999fa3e32f0a05cb2e1f797d22738a4f3cfcd5e16654c82a7ba6b"
+    },
+    {
+      "file": "prompts.md",
+      "bytes": 802,
+      "sha256": "e01998efc106b53c70062c823fb62d32b56568e44074be5f320b599746622495"
+    },
+    {
+      "file": "qa/cross-audit.json",
+      "bytes": 181546,
+      "sha256": "f27d8f32805430468b4e3090f2c9cb63c314f616d1cdc03b55968b337ec83762"
+    },
+    {
+      "file": "qa/media-verification.json",
+      "bytes": 326,
+      "sha256": "f17ac547298484c479119fe794a3da6a842dd7ace0571c731425d529241af84e"
+    },
+    {
+      "file": "qa/petal-audit.json",
+      "bytes": 171054,
+      "sha256": "33edb73a112b3cbde3808775372541ed552ce6eadab9e081325c697cbcfbfd87"
+    },
+    {
+      "file": "qa/publication-reopen.json",
+      "bytes": 1462,
+      "sha256": "b4c129f599c3165545f44a87ba941f7b93b4e1e930fc1229381130c79fe36750"
+    },
+    {
+      "file": "qa/scene-verification.json",
+      "bytes": 3983,
+      "sha256": "4d50328fdc85174d7e2c48cfca026ceca3f877c8cfa1ac896b1dba09fe94b82d"
+    },
+    {
+      "file": "README.md",
+      "bytes": 2899,
+      "sha256": "79d99e17bb82fb861224caf7edc18c905be063a2e36d41205cf0463aaaf8f541"
+    },
+    {
+      "file": "verification.json",
+      "bytes": 1277,
+      "sha256": "bee4afa47645ef51f3063cc7c200e2c832c7e23855ca9e6fabb6ec39c95c46a9"
+    },
+    {
+      "file": "versions/v009/.gitignore",
+      "bytes": 22,
+      "sha256": "d685859d6abd96338472b277c041dac7bdbe731435033ecbd963bcef0773708a"
+    },
+    {
+      "file": "versions/v009/brief.md",
+      "bytes": 1614,
+      "sha256": "839931a0f8323d8fb40bc4ce708710a5fd10e54bf8226e5d3dd4fb13e0781f49"
+    },
+    {
+      "file": "versions/v009/README.md",
+      "bytes": 2087,
+      "sha256": "19e686f3fc654d7c6794749b310d527998094973929720389df066eea7792816"
+    },
+    {
+      "file": "versions/v009/scene.blend",
+      "bytes": 47348254,
+      "sha256": "ff6da7df50ece57fc9812923b03de8a07858322489fc980b8497b30d0c48fd2d"
+    },
+    {
+      "file": "versions/v009/scripts/audit_cross.py",
+      "bytes": 8610,
+      "sha256": "b58f83280797ef3cf10dc96c7c6ecd38a1c9504965f044ac98a22940bd8ee256"
+    },
+    {
+      "file": "versions/v009/scripts/audit_petals.py",
+      "bytes": 4406,
+      "sha256": "5e1139634cd331ca2894e5cdfabdb6ec76285e24ec30f9bdc892ad6fa96b007b"
+    },
+    {
+      "file": "versions/v009/scripts/encode.py",
+      "bytes": 2238,
+      "sha256": "d3c8021bf1b21cc2ef8668d28c5b7c4d9bdea3f83f4054fdc1ff0087008aa2fd"
+    },
+    {
+      "file": "versions/v009/scripts/render.py",
+      "bytes": 1728,
+      "sha256": "518609dc74db6041c757ed6045b26e634fd9da6e5dc9d5ab092968e82aa04fc7"
+    }
+  ],
+  "scope": "Public project files excluding this manifest and local test-render outputs. Text hashes use LF as stored in Git; binary files are unchanged."
+}

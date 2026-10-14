@@ -1,0 +1,121 @@
+{
+  "passed": true,
+  "checks": {
+    "geometry_UV_shape_keys_preserved": true,
+    "four_packed_maps_preserved": true,
+    "petal_audit_applies_after_rigid_C_translation": true,
+    "full_15_seconds_at_24fps": true,
+    "four_shots_preserved": true,
+    "master_1080x1440": true,
+    "wide_shots_focus_C": true,
+    "C_is_foreground_at_pose_samples": true
+  },
+  "original": {
+    "geometry": "3e521e11d82d0a88e693c3072f95b496e4ffab849426b0e59563c7ce86f891bc",
+    "flower_animation": "13a054b4b0a15541bf2c953e7fec2a35a2df949cc72445661628237a6f11a898",
+    "packed_maps": {
+      "Petal_BaseColor.png": "2d07742780e3b96f28adcd15b33367ff15337856099db5f9aba766ec26732990",
+      "Petal_MicroHeight.png": "ccf8df002b816f513efc922e8fe4afc5a44d14c838b1e0f077402f4f53b73696",
+      "Petal_NacreThickness.png": "50c26a876ab4a43481e8a40482d638340b4baa23fc4895100fa7840a906c7e10",
+      "Petal_Roughness.png": "ce28889121efdd766c4b97afbc5cad96caeaa2ad8c643c5ebf33c98158583f08"
+    },
+    "sha256": "922022307a2007305a556d722a56a83205403adc94b94143631e66fdcdc96e5e"
+  },
+  "audited_revision": {
+    "geometry": "3e521e11d82d0a88e693c3072f95b496e4ffab849426b0e59563c7ce86f891bc",
+    "flower_animation": "0cc5d0b49751ac767f12fda698a42a1d0e6b87ecaf73b9e8af10e4e60b4e38e0",
+    "packed_maps": {
+      "Petal_BaseColor.png": "2d07742780e3b96f28adcd15b33367ff15337856099db5f9aba766ec26732990",
+      "Petal_MicroHeight.png": "ccf8df002b816f513efc922e8fe4afc5a44d14c838b1e0f077402f4f53b73696",
+      "Petal_NacreThickness.png": "50c26a876ab4a43481e8a40482d638340b4baa23fc4895100fa7840a906c7e10",
+      "Petal_Roughness.png": "ce28889121efdd766c4b97afbc5cad96caeaa2ad8c643c5ebf33c98158583f08"
+    },
+    "sha256": "a2dc1ffbaa4adeb51117b1fa397f1a4c3ac59aa08220232ee09d3a48ec517ced"
+  },
+  "final": {
+    "geometry": "3e521e11d82d0a88e693c3072f95b496e4ffab849426b0e59563c7ce86f891bc",
+    "flower_animation": "0cc5d0b49751ac767f12fda698a42a1d0e6b87ecaf73b9e8af10e4e60b4e38e0",
+    "packed_maps": {
+      "Petal_BaseColor.png": "2d07742780e3b96f28adcd15b33367ff15337856099db5f9aba766ec26732990",
+      "Petal_MicroHeight.png": "ccf8df002b816f513efc922e8fe4afc5a44d14c838b1e0f077402f4f53b73696",
+      "Petal_NacreThickness.png": "50c26a876ab4a43481e8a40482d638340b4baa23fc4895100fa7840a906c7e10",
+      "Petal_Roughness.png": "ce28889121efdd766c4b97afbc5cad96caeaa2ad8c643c5ebf33c98158583f08"
+    },
+    "sha256": "ff6da7df50ece57fc9812923b03de8a07858322489fc980b8497b30d0c48fd2d"
+  },
+  "depth_samples": [
+    {
+      "frame": 1,
+      "depths": {
+        "A": 22.356506139039993,
+        "B": 21.411624431610107,
+        "C": 18.87049961090088
+      },
+      "C_foreground": true
+    },
+    {
+      "frame": 37,
+      "depths": {
+        "A": 22.320936501026154,
+        "B": 21.37869679927826,
+        "C": 18.832180976867676
+      },
+      "C_foreground": true
+    },
+    {
+      "frame": 73,
+      "depths": {
+        "A": 22.31725835800171,
+        "B": 21.390151858329773,
+        "C": 18.877864241600037
+      },
+      "C_foreground": true
+    },
+    {
+      "frame": 97,
+      "depths": {
+        "A": 22.34141054749489,
+        "B": 21.411628365516663,
+        "C": 18.888612031936646
+      },
+      "C_foreground": true
+    },
+    {
+      "frame": 181,
+      "depths": {
+        "A": 22.312084883451462,
+        "B": 21.381699442863464,
+        "C": 18.861080765724182
+      },
+      "C_foreground": true
+    },
+    {
+      "frame": 217,
+      "depths": {
+        "A": 22.344591051340103,
+        "B": 21.413410305976868,
+        "C": 18.888566970825195
+      },
+      "C_foreground": true
+    },
+    {
+      "frame": 289,
+      "depths": {
+        "A": 22.307907283306122,
+        "B": 21.37637150287628,
+        "C": 18.849449396133423
+      },
+      "C_foreground": true
+    },
+    {
+      "frame": 360,
+      "depths": {
+        "A": 22.356765389442444,
+        "B": 21.408280968666077,
+        "C": 18.85942006111145
+      },
+      "C_foreground": true
+    }
+  ],
+  "read_only": true
+}

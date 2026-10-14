@@ -124,6 +124,16 @@ See [usage, boundaries, and verification](docs/usage-progress.md) (Chinese), or 
 
 Flower bloom and Tree Study now show their latest completed versions, with usage read at **19:20 China Standard Time on September 9, 2026**. The AI spheres and Pink Wave retain their 16:59 snapshots from the same day. Each case states the coverage of its cumulative task record. [Sources and methodology](docs/showcase-measurements.md)
 
+### Rainbow frosted-glass flowers · foreground and depth
+
+[![Three iridescent glass flowers, with the lower-right bloom in the foreground](projects/rainbow-glass-flowers/preview.jpg)](projects/rainbow-glass-flowers/README.md)
+
+Milky translucent petals carry pastel rainbow reflections. The lower-right flower sits in front and remains in focus, with softer flowers behind it. The case preserves the actual iterations in materials, composition and geometric clearance.
+
+**Native 720 × 960 · 3:4 · 24 fps · full 15 seconds · 360 frames · silent.** The editable scene retains 1080 × 1440 master settings and four packed 2K maps. Full-frame geometry checks and complete video decoding passed; tokens were not independently tracked.
+
+[Case study](projects/rainbow-glass-flowers/README.md) · [15-second film](projects/rainbow-glass-flowers/final.mp4) · [Blender scene](projects/rainbow-glass-flowers/versions/v009/scene.blend) · [Production conversation](projects/rainbow-glass-flowers/conversation.md)
+
 ### Mechanical flower · luminous glass wings
 
 [![Three native Blender stages: flight, docking and charging](projects/mechanical-flower/preview.jpg)](projects/mechanical-flower/README.md)

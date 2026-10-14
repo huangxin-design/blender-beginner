@@ -1,0 +1,45 @@
+{
+  "passed": true,
+  "publication_date": "2026-10-14",
+  "source": "versions/v009/scene.blend",
+  "source_sha256": "ff6da7df50ece57fc9812923b03de8a07858322489fc980b8497b30d0c48fd2d",
+  "native_video": {
+    "file": "final.mp4",
+    "width": 720,
+    "height": 960,
+    "fps": 24,
+    "frames": 360,
+    "seconds": 15,
+    "audio": false,
+    "strict_software_decode": "PASS"
+  },
+  "master_resolution": [
+    1080,
+    1440
+  ],
+  "full_master_resolution_movie_rendered": false,
+  "publication_reopen": true,
+  "packed_2k_maps": 4,
+  "publication_test_render": {
+    "frame": 1,
+    "resolution": [
+      540,
+      720
+    ],
+    "samples": 32,
+    "visually_reviewed": true,
+    "result": "PASS"
+  },
+  "geometry": {
+    "frames": 360,
+    "cross_flower_triangle_contacts": 0,
+    "flower_frame_checks": 1080,
+    "whole_petal_pair_contacts": 0,
+    "free_core_support_contacts": 0,
+    "maximum_attachment_u": 0.19932860136032104,
+    "scope": "Evaluated surface intersections at integer frames; necessary core/support root attachments are recorded separately. Not continuous subframe simulation."
+  },
+  "history": "Only actual v009 is archived. Prior scene revisions and full frame sequence are not included.",
+  "token_usage": null,
+  "complete_production_time": null
+}

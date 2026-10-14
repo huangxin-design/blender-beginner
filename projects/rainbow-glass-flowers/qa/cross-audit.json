@@ -1,0 +1,5086 @@
+{
+  "source": "unpublished local history/Three_Flowers_Foreground_3x4_15s.blend",
+  "read_only": true,
+  "render_called": false,
+  "method": "Evaluated world-space meshes; AABB broad phase then native BVHTree triangle/triangle intersection, epsilon=0.",
+  "excluded": "All same-flower contacts, including intentional stem/receptacle attachments.",
+  "limitation": "Sampled surface intersections; not a complete swept collision or volume-containment proof.",
+  "camera_1_depth_axis": [
+    0.0,
+    0.9801499247550964,
+    -0.198257714509964
+  ],
+  "trials": {
+    "B_depth=0,C_depth=0": {
+      "offsets": {
+        "A": [
+          0.0,
+          0.0,
+          -0.0
+        ],
+        "B": [
+          0.0,
+          0.0,
+          -0.0
+        ],
+        "C": [
+          0.0,
+          0.0,
+          -0.0
+        ]
+      },
+      "frames": {
+        "1": {
+          "frame": 1,
+          "aabb_candidates": 41,
+          "built_bvhs": 33,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.203088039627075,
+            "upper_bound": 2.223098039627075,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "2": {
+          "frame": 2,
+          "aabb_candidates": 42,
+          "built_bvhs": 33,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.1999952738189696,
+            "upper_bound": 2.2200052738189697,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "3": {
+          "frame": 3,
+          "aabb_candidates": 42,
+          "built_bvhs": 33,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.197087759246826,
+            "upper_bound": 2.217097759246826,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "4": {
+          "frame": 4,
+          "aabb_candidates": 43,
+          "built_bvhs": 34,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.194357389678955,
+            "upper_bound": 2.214367389678955,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "5": {
+          "frame": 5,
+          "aabb_candidates": 44,
+          "built_bvhs": 34,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.1921195928955077,
+            "upper_bound": 2.212129592895508,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "6": {
+          "frame": 6,
+          "aabb_candidates": 44,
+          "built_bvhs": 34,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.1902322714233398,
+            "upper_bound": 2.21024227142334,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "7": {
+          "frame": 7,
+          "aabb_candidates": 45,
+          "built_bvhs": 35,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.1886870806121825,
+            "upper_bound": 2.2086970806121826,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "8": {
+          "frame": 8,
+          "aabb_candidates": 46,
+          "built_bvhs": 35,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.1855409090423583,
+            "upper_bound": 2.2055509090423584,
+            "nearest_part": "C | outer petal 10",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "9": {
+          "frame": 9,
+          "aabb_candidates": 48,
+          "built_bvhs": 35,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.1812684481048583,
+            "upper_bound": 2.2012784481048584,
+            "nearest_part": "C | outer petal 10",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "10": {
+          "frame": 10,
+          "aabb_candidates": 48,
+          "built_bvhs": 35,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.1773741190338134,
+            "upper_bound": 2.1973841190338135,
+            "nearest_part": "C | outer petal 10",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "11": {
+          "frame": 11,
+          "aabb_candidates": 49,
+          "built_bvhs": 35,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.174396747817993,
+            "upper_bound": 2.194406747817993,
+            "nearest_part": "C | outer petal 10",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "12": {
+          "frame": 12,
+          "aabb_candidates": 51,
+          "built_bvhs": 36,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.171988243331909,
+            "upper_bound": 2.191998243331909,
+            "nearest_part": "C | outer petal 10",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "13": {
+          "frame": 13,
+          "aabb_candidates": 52,
+          "built_bvhs": 37,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.170129293670654,
+            "upper_bound": 2.1901392936706543,
+            "nearest_part": "C | outer petal 10",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "14": {
+          "frame": 14,
+          "aabb_candidates": 50,
+          "built_bvhs": 36,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.1694700662994384,
+            "upper_bound": 2.1894800662994385,
+            "nearest_part": "C | outer petal 10",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "15": {
+          "frame": 15,
+          "aabb_candidates": 49,
+          "built_bvhs": 35,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.169478410949707,
+            "upper_bound": 2.189488410949707,
+            "nearest_part": "C | outer petal 10",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "16": {
+          "frame": 16,
+          "aabb_candidates": 45,
+          "built_bvhs": 33,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.170135969390869,
+            "upper_bound": 2.190145969390869,
+            "nearest_part": "C | outer petal 10",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "17": {
+          "frame": 17,
+          "aabb_candidates": 41,
+          "built_bvhs": 31,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.1720478479766845,
+            "upper_bound": 2.1920578479766846,
+            "nearest_part": "C | outer petal 10",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "18": {
+          "frame": 18,
+          "aabb_candidates": 36,
+          "built_bvhs": 24,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.1745734159851073,
+            "upper_bound": 2.1945834159851074,
+            "nearest_part": "C | outer petal 10",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "19": {
+          "frame": 19,
+          "aabb_candidates": 36,
+          "built_bvhs": 24,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.1777121965789794,
+            "upper_bound": 2.1977221965789795,
+            "nearest_part": "C | outer petal 10",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "20": {
+          "frame": 20,
+          "aabb_candidates": 35,
+          "built_bvhs": 24,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.181922430267334,
+            "upper_bound": 2.201932430267334,
+            "nearest_part": "C | outer petal 10",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "21": {
+          "frame": 21,
+          "aabb_candidates": 35,
+          "built_bvhs": 24,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.186596149673462,
+            "upper_bound": 2.206606149673462,
+            "nearest_part": "C | outer petal 10",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "22": {
+          "frame": 22,
+          "aabb_candidates": 35,
+          "built_bvhs": 24,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.191685432662964,
+            "upper_bound": 2.211695432662964,
+            "nearest_part": "C | outer petal 10",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "23": {
+          "frame": 23,
+          "aabb_candidates": 35,
+          "built_bvhs": 24,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.197033161392212,
+            "upper_bound": 2.217043161392212,
+            "nearest_part": "C | outer petal 10",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "24": {
+          "frame": 24,
+          "aabb_candidates": 35,
+          "built_bvhs": 24,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.2022201959991454,
+            "upper_bound": 2.2222301959991455,
+            "nearest_part": "C | outer petal 10",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "25": {
+          "frame": 25,
+          "aabb_candidates": 34,
+          "built_bvhs": 23,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.2072460596466064,
+            "upper_bound": 2.2272560596466064,
+            "nearest_part": "C | outer petal 10",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "26": {
+          "frame": 26,
+          "aabb_candidates": 33,
+          "built_bvhs": 23,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.2119109575653075,
+            "upper_bound": 2.2319209575653076,
+            "nearest_part": "C | outer petal 10",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "27": {
+          "frame": 27,
+          "aabb_candidates": 31,
+          "built_bvhs": 22,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.2163293306732177,
+            "upper_bound": 2.2363393306732178,
+            "nearest_part": "C | outer petal 10",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "28": {
+          "frame": 28,
+          "aabb_candidates": 30,
+          "built_bvhs": 22,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.2205264513397216,
+            "upper_bound": 2.2405364513397217,
+            "nearest_part": "C | outer petal 10",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "29": {
+          "frame": 29,
+          "aabb_candidates": 27,
+          "built_bvhs": 20,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.2246484701538085,
+            "upper_bound": 2.2446584701538086,
+            "nearest_part": "C | outer petal 10",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "30": {
+          "frame": 30,
+          "aabb_candidates": 22,
+          "built_bvhs": 20,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.2397775595092773,
+            "upper_bound": 2.2597875595092773,
+            "nearest_part": "C | outer petal 10",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "31": {
+          "frame": 31,
+          "aabb_candidates": 17,
+          "built_bvhs": 15,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.2590300981903075,
+            "upper_bound": 2.2790400981903076,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "32": {
+          "frame": 32,
+          "aabb_candidates": 11,
+          "built_bvhs": 11,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.295075172653198,
+            "upper_bound": 2.3150851726531982,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "33": {
+          "frame": 33,
+          "aabb_candidates": 10,
+          "built_bvhs": 11,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.341160768737793,
+            "upper_bound": 2.361170768737793,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "34": {
+          "frame": 34,
+          "aabb_candidates": 9,
+          "built_bvhs": 10,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.3961763327026366,
+            "upper_bound": 2.4161863327026367,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "35": {
+          "frame": 35,
+          "aabb_candidates": 6,
+          "built_bvhs": 8,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.461712116470337,
+            "upper_bound": 2.481722116470337,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "36": {
+          "frame": 36,
+          "aabb_candidates": 2,
+          "built_bvhs": 3,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.5291738455200194,
+            "upper_bound": 2.5491838455200195,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "37": {
+          "frame": 37,
+          "aabb_candidates": 0,
+          "built_bvhs": 0,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.5976083223724364,
+            "upper_bound": 2.6176183223724365,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "38": {
+          "frame": 38,
+          "aabb_candidates": 0,
+          "built_bvhs": 0,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.661126131286621,
+            "upper_bound": 2.681136131286621,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "39": {
+          "frame": 39,
+          "aabb_candidates": 0,
+          "built_bvhs": 0,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.7172183935546874,
+            "upper_bound": 2.7372283935546875,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "40": {
+          "frame": 40,
+          "aabb_candidates": 0,
+          "built_bvhs": 0,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.7661616747283935,
+            "upper_bound": 2.7861716747283936,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "41": {
+          "frame": 41,
+          "aabb_candidates": 0,
+          "built_bvhs": 0,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.795151943435669,
+            "upper_bound": 2.815161943435669,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "42": {
+          "frame": 42,
+          "aabb_candidates": 0,
+          "built_bvhs": 0,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.809481138458252,
+            "upper_bound": 2.829491138458252,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "43": {
+          "frame": 43,
+          "aabb_candidates": 0,
+          "built_bvhs": 0,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.811809772720337,
+            "upper_bound": 2.831819772720337,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "44": {
+          "frame": 44,
+          "aabb_candidates": 0,
+          "built_bvhs": 0,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.8093275968933105,
+            "upper_bound": 2.8293375968933105,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "45": {
+          "frame": 45,
+          "aabb_candidates": 0,
+          "built_bvhs": 0,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.8069238607788085,
+            "upper_bound": 2.8269338607788086,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "46": {
+          "frame": 46,
+          "aabb_candidates": 1,
+          "built_bvhs": 2,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.804589742889404,
+            "upper_bound": 2.8245997428894043,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "47": {
+          "frame": 47,
+          "aabb_candidates": 1,
+          "built_bvhs": 2,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.802376026382446,
+            "upper_bound": 2.8223860263824463,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "48": {
+          "frame": 48,
+          "aabb_candidates": 1,
+          "built_bvhs": 2,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.7985367720031737,
+            "upper_bound": 2.818546772003174,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "49": {
+          "frame": 49,
+          "aabb_candidates": 4,
+          "built_bvhs": 6,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.7929327433013915,
+            "upper_bound": 2.8129427433013916,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "50": {
+          "frame": 50,
+          "aabb_candidates": 5,
+          "built_bvhs": 7,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.7800662462615966,
+            "upper_bound": 2.8000762462615967,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "51": {
+          "frame": 51,
+          "aabb_candidates": 8,
+          "built_bvhs": 12,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.763186210861206,
+            "upper_bound": 2.783196210861206,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "52": {
+          "frame": 52,
+          "aabb_candidates": 10,
+          "built_bvhs": 13,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.7428560202026366,
+            "upper_bound": 2.7628660202026367,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "53": {
+          "frame": 53,
+          "aabb_candidates": 13,
+          "built_bvhs": 14,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.716921800842285,
+            "upper_bound": 2.736931800842285,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "54": {
+          "frame": 54,
+          "aabb_candidates": 14,
+          "built_bvhs": 16,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.688066477050781,
+            "upper_bound": 2.7080764770507812,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "55": {
+          "frame": 55,
+          "aabb_candidates": 16,
+          "built_bvhs": 16,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.6567478125,
+            "upper_bound": 2.6767578125,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "56": {
+          "frame": 56,
+          "aabb_candidates": 19,
+          "built_bvhs": 18,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.6220149938964843,
+            "upper_bound": 2.6420249938964844,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "57": {
+          "frame": 57,
+          "aabb_candidates": 22,
+          "built_bvhs": 21,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.5856482927703857,
+            "upper_bound": 2.6056582927703857,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "58": {
+          "frame": 58,
+          "aabb_candidates": 25,
+          "built_bvhs": 23,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.548147434463501,
+            "upper_bound": 2.568157434463501,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "59": {
+          "frame": 59,
+          "aabb_candidates": 30,
+          "built_bvhs": 27,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.50790428565979,
+            "upper_bound": 2.52791428565979,
+            "nearest_part": "C | outer petal 10",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "60": {
+          "frame": 60,
+          "aabb_candidates": 32,
+          "built_bvhs": 28,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.4672226850891112,
+            "upper_bound": 2.4872326850891113,
+            "nearest_part": "C | outer petal 10",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "61": {
+          "frame": 61,
+          "aabb_candidates": 36,
+          "built_bvhs": 29,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.42664789604187,
+            "upper_bound": 2.44665789604187,
+            "nearest_part": "C | outer petal 10",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "62": {
+          "frame": 62,
+          "aabb_candidates": 39,
+          "built_bvhs": 30,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.3873069231414794,
+            "upper_bound": 2.4073169231414795,
+            "nearest_part": "C | outer petal 10",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "63": {
+          "frame": 63,
+          "aabb_candidates": 43,
+          "built_bvhs": 31,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.3494887297058105,
+            "upper_bound": 2.3694987297058105,
+            "nearest_part": "C | outer petal 10",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "64": {
+          "frame": 64,
+          "aabb_candidates": 44,
+          "built_bvhs": 32,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.3131372873687743,
+            "upper_bound": 2.3331472873687744,
+            "nearest_part": "C | outer petal 10",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "65": {
+          "frame": 65,
+          "aabb_candidates": 46,
+          "built_bvhs": 32,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.2802560274505614,
+            "upper_bound": 2.3002660274505615,
+            "nearest_part": "C | outer petal 10",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "66": {
+          "frame": 66,
+          "aabb_candidates": 47,
+          "built_bvhs": 32,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.2502853815460204,
+            "upper_bound": 2.2702953815460205,
+            "nearest_part": "C | outer petal 10",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "67": {
+          "frame": 67,
+          "aabb_candidates": 49,
+          "built_bvhs": 33,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.2228596155548095,
+            "upper_bound": 2.2428696155548096,
+            "nearest_part": "C | outer petal 10",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "68": {
+          "frame": 68,
+          "aabb_candidates": 52,
+          "built_bvhs": 35,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.2007315103912353,
+            "upper_bound": 2.2207415103912354,
+            "nearest_part": "C | outer petal 10",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "69": {
+          "frame": 69,
+          "aabb_candidates": 52,
+          "built_bvhs": 35,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.182462925186157,
+            "upper_bound": 2.2024729251861572,
+            "nearest_part": "C | outer petal 10",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "70": {
+          "frame": 70,
+          "aabb_candidates": 53,
+          "built_bvhs": 36,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.167539591064453,
+            "upper_bound": 2.187549591064453,
+            "nearest_part": "C | outer petal 10",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "71": {
+          "frame": 71,
+          "aabb_candidates": 54,
+          "built_bvhs": 37,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.15890788482666,
+            "upper_bound": 2.17891788482666,
+            "nearest_part": "C | outer petal 10",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "72": {
+          "frame": 72,
+          "aabb_candidates": 53,
+          "built_bvhs": 36,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.1525733415985107,
+            "upper_bound": 2.1725833415985107,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "73": {
+          "frame": 73,
+          "aabb_candidates": 53,
+          "built_bvhs": 36,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.1467165892028808,
+            "upper_bound": 2.166726589202881,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "74": {
+          "frame": 74,
+          "aabb_candidates": 51,
+          "built_bvhs": 36,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.146670335998535,
+            "upper_bound": 2.166680335998535,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "75": {
+          "frame": 75,
+          "aabb_candidates": 48,
+          "built_bvhs": 34,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.147689098587036,
+            "upper_bound": 2.167699098587036,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "76": {
+          "frame": 76,
+          "aabb_candidates": 46,
+          "built_bvhs": 34,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.1493680422210693,
+            "upper_bound": 2.1693780422210693,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "77": {
+          "frame": 77,
+          "aabb_candidates": 42,
+          "built_bvhs": 32,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.150637144317627,
+            "upper_bound": 2.170647144317627,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "78": {
+          "frame": 78,
+          "aabb_candidates": 42,
+          "built_bvhs": 32,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.151546234359741,
+            "upper_bound": 2.171556234359741,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "79": {
+          "frame": 79,
+          "aabb_candidates": 39,
+          "built_bvhs": 31,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.1521477644348144,
+            "upper_bound": 2.1721577644348145,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "80": {
+          "frame": 80,
+          "aabb_candidates": 37,
+          "built_bvhs": 30,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.152134889831543,
+            "upper_bound": 2.172144889831543,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "81": {
+          "frame": 81,
+          "aabb_candidates": 36,
+          "built_bvhs": 29,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.151646608581543,
+            "upper_bound": 2.171656608581543,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "82": {
+          "frame": 82,
+          "aabb_candidates": 34,
+          "built_bvhs": 26,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.1507663671875,
+            "upper_bound": 2.1707763671875,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "83": {
+          "frame": 83,
+          "aabb_candidates": 31,
+          "built_bvhs": 22,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.149090522994995,
+            "upper_bound": 2.169100522994995,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "84": {
+          "frame": 84,
+          "aabb_candidates": 31,
+          "built_bvhs": 22,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.1468872969055175,
+            "upper_bound": 2.1668972969055176,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "85": {
+          "frame": 85,
+          "aabb_candidates": 29,
+          "built_bvhs": 22,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.1442673151397704,
+            "upper_bound": 2.1642773151397705,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "86": {
+          "frame": 86,
+          "aabb_candidates": 29,
+          "built_bvhs": 22,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.140998596420288,
+            "upper_bound": 2.161008596420288,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "87": {
+          "frame": 87,
+          "aabb_candidates": 29,
+          "built_bvhs": 22,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.1373536531829833,
+            "upper_bound": 2.1573636531829834,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "88": {
+          "frame": 88,
+          "aabb_candidates": 30,
+          "built_bvhs": 23,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.133599275817871,
+            "upper_bound": 2.153609275817871,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "89": {
+          "frame": 89,
+          "aabb_candidates": 29,
+          "built_bvhs": 23,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.1307995264434814,
+            "upper_bound": 2.1508095264434814,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "90": {
+          "frame": 90,
+          "aabb_candidates": 29,
+          "built_bvhs": 23,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.1321608965301513,
+            "upper_bound": 2.1521708965301514,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "91": {
+          "frame": 91,
+          "aabb_candidates": 26,
+          "built_bvhs": 21,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.1368710939788818,
+            "upper_bound": 2.156881093978882,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "92": {
+          "frame": 92,
+          "aabb_candidates": 26,
+          "built_bvhs": 21,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.147465461959839,
+            "upper_bound": 2.167475461959839,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "93": {
+          "frame": 93,
+          "aabb_candidates": 24,
+          "built_bvhs": 20,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.1619698946380614,
+            "upper_bound": 2.1819798946380615,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "94": {
+          "frame": 94,
+          "aabb_candidates": 24,
+          "built_bvhs": 20,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.1795594637298583,
+            "upper_bound": 2.1995694637298584,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "95": {
+          "frame": 95,
+          "aabb_candidates": 24,
+          "built_bvhs": 20,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.2020485346221923,
+            "upper_bound": 2.2220585346221924,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "96": {
+          "frame": 96,
+          "aabb_candidates": 23,
+          "built_bvhs": 19,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.227684969177246,
+            "upper_bound": 2.247694969177246,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "97": {
+          "frame": 97,
+          "aabb_candidates": 17,
+          "built_bvhs": 17,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.2557079737091064,
+            "upper_bound": 2.2757179737091064,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "98": {
+          "frame": 98,
+          "aabb_candidates": 13,
+          "built_bvhs": 15,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.287321085205078,
+            "upper_bound": 2.307331085205078,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "99": {
+          "frame": 99,
+          "aabb_candidates": 12,
+          "built_bvhs": 14,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.3209760134124755,
+            "upper_bound": 2.3409860134124756,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "100": {
+          "frame": 100,
+          "aabb_candidates": 9,
+          "built_bvhs": 12,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.3561460916900634,
+            "upper_bound": 2.3761560916900635,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "101": {
+          "frame": 101,
+          "aabb_candidates": 9,
+          "built_bvhs": 12,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.3931729738616943,
+            "upper_bound": 2.4131829738616943,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "102": {
+          "frame": 102,
+          "aabb_candidates": 7,
+          "built_bvhs": 10,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.4308936540985107,
+            "upper_bound": 2.4509036540985107,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "103": {
+          "frame": 103,
+          "aabb_candidates": 4,
+          "built_bvhs": 6,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.469062799682617,
+            "upper_bound": 2.489072799682617,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "104": {
+          "frame": 104,
+          "aabb_candidates": 2,
+          "built_bvhs": 3,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.5072267000579833,
+            "upper_bound": 2.5272367000579834,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "105": {
+          "frame": 105,
+          "aabb_candidates": 1,
+          "built_bvhs": 2,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.544455045928955,
+            "upper_bound": 2.564465045928955,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "106": {
+          "frame": 106,
+          "aabb_candidates": 0,
+          "built_bvhs": 0,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.580883497467041,
+            "upper_bound": 2.600893497467041,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "107": {
+          "frame": 107,
+          "aabb_candidates": 0,
+          "built_bvhs": 0,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.6150057260894775,
+            "upper_bound": 2.6350157260894775,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "108": {
+          "frame": 108,
+          "aabb_candidates": 0,
+          "built_bvhs": 0,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.6468234007263183,
+            "upper_bound": 2.6668334007263184,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "109": {
+          "frame": 109,
+          "aabb_candidates": 0,
+          "built_bvhs": 0,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.6766178553009032,
+            "upper_bound": 2.6966278553009033,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "110": {
+          "frame": 110,
+          "aabb_candidates": 0,
+          "built_bvhs": 0,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.7023725454711913,
+            "upper_bound": 2.7223825454711914,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "111": {
+          "frame": 111,
+          "aabb_candidates": 0,
+          "built_bvhs": 0,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.7246019785308837,
+            "upper_bound": 2.744611978530884,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "112": {
+          "frame": 112,
+          "aabb_candidates": 0,
+          "built_bvhs": 0,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.7439970915222167,
+            "upper_bound": 2.764007091522217,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "113": {
+          "frame": 113,
+          "aabb_candidates": 0,
+          "built_bvhs": 0,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.7581734602355956,
+            "upper_bound": 2.7781834602355957,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "114": {
+          "frame": 114,
+          "aabb_candidates": 0,
+          "built_bvhs": 0,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.7679924909973144,
+            "upper_bound": 2.7880024909973145,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "115": {
+          "frame": 115,
+          "aabb_candidates": 0,
+          "built_bvhs": 0,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.775017732849121,
+            "upper_bound": 2.795027732849121,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "116": {
+          "frame": 116,
+          "aabb_candidates": 0,
+          "built_bvhs": 0,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.7793121282958984,
+            "upper_bound": 2.7993221282958984,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "117": {
+          "frame": 117,
+          "aabb_candidates": 0,
+          "built_bvhs": 0,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.783525223007202,
+            "upper_bound": 2.803535223007202,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "118": {
+          "frame": 118,
+          "aabb_candidates": 0,
+          "built_bvhs": 0,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.787666076889038,
+            "upper_bound": 2.807676076889038,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "119": {
+          "frame": 119,
+          "aabb_candidates": 1,
+          "built_bvhs": 2,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.7916300241851806,
+            "upper_bound": 2.8116400241851807,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "120": {
+          "frame": 120,
+          "aabb_candidates": 3,
+          "built_bvhs": 5,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.795391315689087,
+            "upper_bound": 2.815401315689087,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "121": {
+          "frame": 121,
+          "aabb_candidates": 3,
+          "built_bvhs": 5,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.7983019297027587,
+            "upper_bound": 2.818311929702759,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "122": {
+          "frame": 122,
+          "aabb_candidates": 8,
+          "built_bvhs": 12,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.7974731867218017,
+            "upper_bound": 2.8174831867218018,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "123": {
+          "frame": 123,
+          "aabb_candidates": 9,
+          "built_bvhs": 12,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.7916529123687743,
+            "upper_bound": 2.8116629123687744,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "124": {
+          "frame": 124,
+          "aabb_candidates": 9,
+          "built_bvhs": 12,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.7816057150268554,
+            "upper_bound": 2.8016157150268555,
+            "nearest_part": "C | outer petal 10",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "125": {
+          "frame": 125,
+          "aabb_candidates": 10,
+          "built_bvhs": 13,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.764381403198242,
+            "upper_bound": 2.784391403198242,
+            "nearest_part": "C | outer petal 10",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "126": {
+          "frame": 126,
+          "aabb_candidates": 12,
+          "built_bvhs": 15,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.7435152475738525,
+            "upper_bound": 2.7635252475738525,
+            "nearest_part": "C | outer petal 10",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "127": {
+          "frame": 127,
+          "aabb_candidates": 14,
+          "built_bvhs": 17,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.720076317062378,
+            "upper_bound": 2.740086317062378,
+            "nearest_part": "C | outer petal 10",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "128": {
+          "frame": 128,
+          "aabb_candidates": 16,
+          "built_bvhs": 19,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.6928348486328124,
+            "upper_bound": 2.7128448486328125,
+            "nearest_part": "C | outer petal 10",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "129": {
+          "frame": 129,
+          "aabb_candidates": 16,
+          "built_bvhs": 19,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.6626138632202148,
+            "upper_bound": 2.682623863220215,
+            "nearest_part": "C | outer petal 10",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "130": {
+          "frame": 130,
+          "aabb_candidates": 17,
+          "built_bvhs": 20,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.6303205435180663,
+            "upper_bound": 2.6503305435180664,
+            "nearest_part": "C | outer petal 10",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "131": {
+          "frame": 131,
+          "aabb_candidates": 20,
+          "built_bvhs": 22,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.5953168814086913,
+            "upper_bound": 2.6153268814086914,
+            "nearest_part": "C | outer petal 10",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "132": {
+          "frame": 132,
+          "aabb_candidates": 23,
+          "built_bvhs": 25,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.5585064833068847,
+            "upper_bound": 2.5785164833068848,
+            "nearest_part": "C | outer petal 10",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "133": {
+          "frame": 133,
+          "aabb_candidates": 25,
+          "built_bvhs": 25,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.5205004160308837,
+            "upper_bound": 2.540510416030884,
+            "nearest_part": "C | outer petal 10",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "134": {
+          "frame": 134,
+          "aabb_candidates": 28,
+          "built_bvhs": 29,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.4809675161743163,
+            "upper_bound": 2.5009775161743164,
+            "nearest_part": "C | outer petal 10",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "135": {
+          "frame": 135,
+          "aabb_candidates": 31,
+          "built_bvhs": 30,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.4409387056732177,
+            "upper_bound": 2.4609487056732178,
+            "nearest_part": "C | outer petal 10",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "136": {
+          "frame": 136,
+          "aabb_candidates": 31,
+          "built_bvhs": 30,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.4008035604858398,
+            "upper_bound": 2.42081356048584,
+            "nearest_part": "C | outer petal 10",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "137": {
+          "frame": 137,
+          "aabb_candidates": 36,
+          "built_bvhs": 31,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.3609495108032226,
+            "upper_bound": 2.3809595108032227,
+            "nearest_part": "C | outer petal 10",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "138": {
+          "frame": 138,
+          "aabb_candidates": 38,
+          "built_bvhs": 32,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.322303289642334,
+            "upper_bound": 2.342313289642334,
+            "nearest_part": "C | outer petal 10",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "139": {
+          "frame": 139,
+          "aabb_candidates": 41,
+          "built_bvhs": 33,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.284947389831543,
+            "upper_bound": 2.304957389831543,
+            "nearest_part": "C | outer petal 10",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "140": {
+          "frame": 140,
+          "aabb_candidates": 43,
+          "built_bvhs": 33,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.250490659942627,
+            "upper_bound": 2.270500659942627,
+            "nearest_part": "C | outer petal 10",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "141": {
+          "frame": 141,
+          "aabb_candidates": 45,
+          "built_bvhs": 33,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.2196884100341796,
+            "upper_bound": 2.2396984100341797,
+            "nearest_part": "C | outer petal 10",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "142": {
+          "frame": 142,
+          "aabb_candidates": 51,
+          "built_bvhs": 35,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.191826338043213,
+            "upper_bound": 2.211836338043213,
+            "nearest_part": "C | outer petal 10",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "143": {
+          "frame": 143,
+          "aabb_candidates": 52,
+          "built_bvhs": 36,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.1695263330841064,
+            "upper_bound": 2.1895363330841064,
+            "nearest_part": "C | outer petal 10",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "144": {
+          "frame": 144,
+          "aabb_candidates": 54,
+          "built_bvhs": 36,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.1530759279632568,
+            "upper_bound": 2.173085927963257,
+            "nearest_part": "C | outer petal 10",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "145": {
+          "frame": 145,
+          "aabb_candidates": 57,
+          "built_bvhs": 36,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.140907282104492,
+            "upper_bound": 2.160917282104492,
+            "nearest_part": "C | outer petal 10",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "146": {
+          "frame": 146,
+          "aabb_candidates": 56,
+          "built_bvhs": 36,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.135526413192749,
+            "upper_bound": 2.155536413192749,
+            "nearest_part": "C | outer petal 10",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "147": {
+          "frame": 147,
+          "aabb_candidates": 54,
+          "built_bvhs": 37,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.131695265045166,
+            "upper_bound": 2.151705265045166,
+            "nearest_part": "C | outer petal 10",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "148": {
+          "frame": 148,
+          "aabb_candidates": 50,
+          "built_bvhs": 36,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.128849739303589,
+            "upper_bound": 2.148859739303589,
+            "nearest_part": "C | outer petal 10",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "149": {
+          "frame": 149,
+          "aabb_candidates": 49,
+          "built_bvhs": 35,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.127118105163574,
+            "upper_bound": 2.147128105163574,
+            "nearest_part": "C | outer petal 10",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "150": {
+          "frame": 150,
+          "aabb_candidates": 46,
+          "built_bvhs": 33,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.1263911669158935,
+            "upper_bound": 2.1464011669158936,
+            "nearest_part": "C | outer petal 10",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "151": {
+          "frame": 151,
+          "aabb_candidates": 45,
+          "built_bvhs": 33,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.126363748779297,
+            "upper_bound": 2.146373748779297,
+            "nearest_part": "C | outer petal 10",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "152": {
+          "frame": 152,
+          "aabb_candidates": 42,
+          "built_bvhs": 28,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.1273813192749023,
+            "upper_bound": 2.1473913192749023,
+            "nearest_part": "C | outer petal 10",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "153": {
+          "frame": 153,
+          "aabb_candidates": 40,
+          "built_bvhs": 26,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.12919973777771,
+            "upper_bound": 2.14920973777771,
+            "nearest_part": "C | outer petal 10",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "154": {
+          "frame": 154,
+          "aabb_candidates": 40,
+          "built_bvhs": 27,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.131490940322876,
+            "upper_bound": 2.151500940322876,
+            "nearest_part": "C | outer petal 10",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "155": {
+          "frame": 155,
+          "aabb_candidates": 36,
+          "built_bvhs": 25,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.1343796198272704,
+            "upper_bound": 2.1543896198272705,
+            "nearest_part": "C | outer petal 10",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "156": {
+          "frame": 156,
+          "aabb_candidates": 35,
+          "built_bvhs": 25,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.1376516764068603,
+            "upper_bound": 2.1576616764068604,
+            "nearest_part": "C | outer petal 10",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "157": {
+          "frame": 157,
+          "aabb_candidates": 34,
+          "built_bvhs": 24,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.1411964838409423,
+            "upper_bound": 2.1612064838409424,
+            "nearest_part": "C | outer petal 10",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "158": {
+          "frame": 158,
+          "aabb_candidates": 33,
+          "built_bvhs": 23,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.1449787561798095,
+            "upper_bound": 2.1649887561798096,
+            "nearest_part": "C | outer petal 10",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "159": {
+          "frame": 159,
+          "aabb_candidates": 32,
+          "built_bvhs": 22,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.148848289718628,
+            "upper_bound": 2.168858289718628,
+            "nearest_part": "C | outer petal 10",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "160": {
+          "frame": 160,
+          "aabb_candidates": 33,
+          "built_bvhs": 23,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.1544067804718017,
+            "upper_bound": 2.1744167804718018,
+            "nearest_part": "C | outer petal 10",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "161": {
+          "frame": 161,
+          "aabb_candidates": 33,
+          "built_bvhs": 23,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.1657919828796386,
+            "upper_bound": 2.1858019828796387,
+            "nearest_part": "C | outer petal 10",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "162": {
+          "frame": 162,
+          "aabb_candidates": 30,
+          "built_bvhs": 21,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.18698667930603,
+            "upper_bound": 2.2069966793060303,
+            "nearest_part": "C | outer petal 10",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "163": {
+          "frame": 163,
+          "aabb_candidates": 24,
+          "built_bvhs": 19,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.213421577682495,
+            "upper_bound": 2.233431577682495,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "164": {
+          "frame": 164,
+          "aabb_candidates": 22,
+          "built_bvhs": 19,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.2394633238220214,
+            "upper_bound": 2.2594733238220215,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "165": {
+          "frame": 165,
+          "aabb_candidates": 16,
+          "built_bvhs": 16,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.2712984030151366,
+            "upper_bound": 2.2913084030151367,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "166": {
+          "frame": 166,
+          "aabb_candidates": 13,
+          "built_bvhs": 13,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.30656790184021,
+            "upper_bound": 2.32657790184021,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "167": {
+          "frame": 167,
+          "aabb_candidates": 10,
+          "built_bvhs": 11,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.3461370413208007,
+            "upper_bound": 2.366147041320801,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "168": {
+          "frame": 168,
+          "aabb_candidates": 9,
+          "built_bvhs": 10,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.3881452028656005,
+            "upper_bound": 2.4081552028656006,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "169": {
+          "frame": 169,
+          "aabb_candidates": 7,
+          "built_bvhs": 9,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.4314193670654296,
+            "upper_bound": 2.4514293670654297,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "170": {
+          "frame": 170,
+          "aabb_candidates": 4,
+          "built_bvhs": 6,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.4758758489990234,
+            "upper_bound": 2.4958858489990234,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "171": {
+          "frame": 171,
+          "aabb_candidates": 2,
+          "built_bvhs": 3,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.519609445800781,
+            "upper_bound": 2.5396194458007812,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "172": {
+          "frame": 172,
+          "aabb_candidates": 1,
+          "built_bvhs": 2,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.562204832305908,
+            "upper_bound": 2.582214832305908,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "173": {
+          "frame": 173,
+          "aabb_candidates": 0,
+          "built_bvhs": 0,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.601717466583252,
+            "upper_bound": 2.621727466583252,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "174": {
+          "frame": 174,
+          "aabb_candidates": 0,
+          "built_bvhs": 0,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.636409515609741,
+            "upper_bound": 2.656419515609741,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "175": {
+          "frame": 175,
+          "aabb_candidates": 0,
+          "built_bvhs": 0,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.667020792236328,
+            "upper_bound": 2.687030792236328,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "176": {
+          "frame": 176,
+          "aabb_candidates": 0,
+          "built_bvhs": 0,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.690485948791504,
+            "upper_bound": 2.710495948791504,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "177": {
+          "frame": 177,
+          "aabb_candidates": 0,
+          "built_bvhs": 0,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.704765791168213,
+            "upper_bound": 2.724775791168213,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "178": {
+          "frame": 178,
+          "aabb_candidates": 0,
+          "built_bvhs": 0,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.712956661453247,
+            "upper_bound": 2.732966661453247,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "179": {
+          "frame": 179,
+          "aabb_candidates": 0,
+          "built_bvhs": 0,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.7122259085083007,
+            "upper_bound": 2.732235908508301,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "180": {
+          "frame": 180,
+          "aabb_candidates": 0,
+          "built_bvhs": 0,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.711106533279419,
+            "upper_bound": 2.731116533279419,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "181": {
+          "frame": 181,
+          "aabb_candidates": 1,
+          "built_bvhs": 2,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.709998602142334,
+            "upper_bound": 2.730008602142334,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "182": {
+          "frame": 182,
+          "aabb_candidates": 1,
+          "built_bvhs": 2,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.7093102877044677,
+            "upper_bound": 2.7293202877044678,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "183": {
+          "frame": 183,
+          "aabb_candidates": 3,
+          "built_bvhs": 5,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.7090299074554443,
+            "upper_bound": 2.7290399074554443,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "184": {
+          "frame": 184,
+          "aabb_candidates": 5,
+          "built_bvhs": 8,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.70844721244812,
+            "upper_bound": 2.72845721244812,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "185": {
+          "frame": 185,
+          "aabb_candidates": 7,
+          "built_bvhs": 11,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.706578010787964,
+            "upper_bound": 2.726588010787964,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "186": {
+          "frame": 186,
+          "aabb_candidates": 8,
+          "built_bvhs": 12,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.6977932398223876,
+            "upper_bound": 2.7178032398223877,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "187": {
+          "frame": 187,
+          "aabb_candidates": 13,
+          "built_bvhs": 16,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.6845841352844237,
+            "upper_bound": 2.704594135284424,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "188": {
+          "frame": 188,
+          "aabb_candidates": 17,
+          "built_bvhs": 19,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.6650221292877196,
+            "upper_bound": 2.6850321292877197,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "189": {
+          "frame": 189,
+          "aabb_candidates": 18,
+          "built_bvhs": 19,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.6401495878601073,
+            "upper_bound": 2.6601595878601074,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "190": {
+          "frame": 190,
+          "aabb_candidates": 18,
+          "built_bvhs": 19,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.612220281829834,
+            "upper_bound": 2.632230281829834,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "191": {
+          "frame": 191,
+          "aabb_candidates": 22,
+          "built_bvhs": 22,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.5802023355865478,
+            "upper_bound": 2.600212335586548,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "192": {
+          "frame": 192,
+          "aabb_candidates": 24,
+          "built_bvhs": 24,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.5453555529022216,
+            "upper_bound": 2.5653655529022217,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "193": {
+          "frame": 193,
+          "aabb_candidates": 31,
+          "built_bvhs": 31,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.509108537902832,
+            "upper_bound": 2.529118537902832,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "194": {
+          "frame": 194,
+          "aabb_candidates": 34,
+          "built_bvhs": 32,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.4713318292999267,
+            "upper_bound": 2.4913418292999268,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "195": {
+          "frame": 195,
+          "aabb_candidates": 37,
+          "built_bvhs": 33,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.4334125463867187,
+            "upper_bound": 2.4534225463867188,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "196": {
+          "frame": 196,
+          "aabb_candidates": 39,
+          "built_bvhs": 33,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.395862573852539,
+            "upper_bound": 2.415872573852539,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "197": {
+          "frame": 197,
+          "aabb_candidates": 42,
+          "built_bvhs": 33,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.3594019358062743,
+            "upper_bound": 2.3794119358062744,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "198": {
+          "frame": 198,
+          "aabb_candidates": 45,
+          "built_bvhs": 34,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.3249461595916747,
+            "upper_bound": 2.344956159591675,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "199": {
+          "frame": 199,
+          "aabb_candidates": 46,
+          "built_bvhs": 35,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.29208659576416,
+            "upper_bound": 2.31209659576416,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "200": {
+          "frame": 200,
+          "aabb_candidates": 47,
+          "built_bvhs": 35,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.2619595472717284,
+            "upper_bound": 2.2819695472717285,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "201": {
+          "frame": 201,
+          "aabb_candidates": 48,
+          "built_bvhs": 35,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.2357308809661864,
+            "upper_bound": 2.2557408809661865,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "202": {
+          "frame": 202,
+          "aabb_candidates": 50,
+          "built_bvhs": 35,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.212269062271118,
+            "upper_bound": 2.232279062271118,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "203": {
+          "frame": 203,
+          "aabb_candidates": 48,
+          "built_bvhs": 35,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.1931936685943603,
+            "upper_bound": 2.2132036685943604,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "204": {
+          "frame": 204,
+          "aabb_candidates": 44,
+          "built_bvhs": 33,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.1796066706085204,
+            "upper_bound": 2.1996166706085205,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "205": {
+          "frame": 205,
+          "aabb_candidates": 42,
+          "built_bvhs": 31,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.169802421798706,
+            "upper_bound": 2.189812421798706,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "206": {
+          "frame": 206,
+          "aabb_candidates": 38,
+          "built_bvhs": 29,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.165713066329956,
+            "upper_bound": 2.185723066329956,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "207": {
+          "frame": 207,
+          "aabb_candidates": 34,
+          "built_bvhs": 24,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.167927259674072,
+            "upper_bound": 2.1879372596740723,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "208": {
+          "frame": 208,
+          "aabb_candidates": 33,
+          "built_bvhs": 22,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.172270054092407,
+            "upper_bound": 2.1922800540924072,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "209": {
+          "frame": 209,
+          "aabb_candidates": 31,
+          "built_bvhs": 22,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.1775572245025634,
+            "upper_bound": 2.1975672245025635,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "210": {
+          "frame": 210,
+          "aabb_candidates": 30,
+          "built_bvhs": 22,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.182523483505249,
+            "upper_bound": 2.202533483505249,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "211": {
+          "frame": 211,
+          "aabb_candidates": 29,
+          "built_bvhs": 22,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.187197441329956,
+            "upper_bound": 2.207207441329956,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "212": {
+          "frame": 212,
+          "aabb_candidates": 28,
+          "built_bvhs": 22,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.1912968103790282,
+            "upper_bound": 2.2113068103790283,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "213": {
+          "frame": 213,
+          "aabb_candidates": 28,
+          "built_bvhs": 22,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.194049591293335,
+            "upper_bound": 2.214059591293335,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "214": {
+          "frame": 214,
+          "aabb_candidates": 27,
+          "built_bvhs": 22,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.1959414427185058,
+            "upper_bound": 2.215951442718506,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "215": {
+          "frame": 215,
+          "aabb_candidates": 27,
+          "built_bvhs": 22,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.1965658609771728,
+            "upper_bound": 2.216575860977173,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "216": {
+          "frame": 216,
+          "aabb_candidates": 27,
+          "built_bvhs": 22,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.195864671936035,
+            "upper_bound": 2.215874671936035,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "217": {
+          "frame": 217,
+          "aabb_candidates": 25,
+          "built_bvhs": 20,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.1943912451171874,
+            "upper_bound": 2.2144012451171875,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "218": {
+          "frame": 218,
+          "aabb_candidates": 25,
+          "built_bvhs": 20,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.191871399154663,
+            "upper_bound": 2.211881399154663,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "219": {
+          "frame": 219,
+          "aabb_candidates": 25,
+          "built_bvhs": 20,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.1907100622558593,
+            "upper_bound": 2.2107200622558594,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "220": {
+          "frame": 220,
+          "aabb_candidates": 20,
+          "built_bvhs": 18,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.197000498046875,
+            "upper_bound": 2.217010498046875,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "221": {
+          "frame": 221,
+          "aabb_candidates": 17,
+          "built_bvhs": 17,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.2194299642944335,
+            "upper_bound": 2.2394399642944336,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "222": {
+          "frame": 222,
+          "aabb_candidates": 12,
+          "built_bvhs": 14,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.2603158895874023,
+            "upper_bound": 2.2803258895874023,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "223": {
+          "frame": 223,
+          "aabb_candidates": 9,
+          "built_bvhs": 10,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.310899490585327,
+            "upper_bound": 2.330909490585327,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "224": {
+          "frame": 224,
+          "aabb_candidates": 7,
+          "built_bvhs": 9,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.3733701651000976,
+            "upper_bound": 2.3933801651000977,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "225": {
+          "frame": 225,
+          "aabb_candidates": 3,
+          "built_bvhs": 5,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.444674247970581,
+            "upper_bound": 2.464684247970581,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "226": {
+          "frame": 226,
+          "aabb_candidates": 0,
+          "built_bvhs": 0,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.5191659872436523,
+            "upper_bound": 2.5391759872436523,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "227": {
+          "frame": 227,
+          "aabb_candidates": 0,
+          "built_bvhs": 0,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.595917219390869,
+            "upper_bound": 2.615927219390869,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "228": {
+          "frame": 228,
+          "aabb_candidates": 0,
+          "built_bvhs": 0,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.668584579696655,
+            "upper_bound": 2.6885945796966553,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "229": {
+          "frame": 229,
+          "aabb_candidates": 0,
+          "built_bvhs": 0,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.7361440603637694,
+            "upper_bound": 2.7561540603637695,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "230": {
+          "frame": 230,
+          "aabb_candidates": 0,
+          "built_bvhs": 0,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.795264477005005,
+            "upper_bound": 2.815274477005005,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "231": {
+          "frame": 231,
+          "aabb_candidates": 0,
+          "built_bvhs": 0,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.83739327835083,
+            "upper_bound": 2.85740327835083,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "232": {
+          "frame": 232,
+          "aabb_candidates": 0,
+          "built_bvhs": 0,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.866800541152954,
+            "upper_bound": 2.886810541152954,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "233": {
+          "frame": 233,
+          "aabb_candidates": 0,
+          "built_bvhs": 0,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.87789678024292,
+            "upper_bound": 2.89790678024292,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "234": {
+          "frame": 234,
+          "aabb_candidates": 0,
+          "built_bvhs": 0,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.8813662474060058,
+            "upper_bound": 2.901376247406006,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "235": {
+          "frame": 235,
+          "aabb_candidates": 0,
+          "built_bvhs": 0,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.883197778930664,
+            "upper_bound": 2.903207778930664,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "236": {
+          "frame": 236,
+          "aabb_candidates": 0,
+          "built_bvhs": 0,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.885026687850952,
+            "upper_bound": 2.905036687850952,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "237": {
+          "frame": 237,
+          "aabb_candidates": 0,
+          "built_bvhs": 0,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.886821979751587,
+            "upper_bound": 2.906831979751587,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "238": {
+          "frame": 238,
+          "aabb_candidates": 0,
+          "built_bvhs": 0,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.8885817472839355,
+            "upper_bound": 2.9085917472839355,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "239": {
+          "frame": 239,
+          "aabb_candidates": 0,
+          "built_bvhs": 0,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.889442676773071,
+            "upper_bound": 2.9094526767730713,
+            "nearest_part": "C | outer petal 10",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "240": {
+          "frame": 240,
+          "aabb_candidates": 0,
+          "built_bvhs": 0,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.8894803469085693,
+            "upper_bound": 2.9094903469085693,
+            "nearest_part": "C | outer petal 10",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "241": {
+          "frame": 241,
+          "aabb_candidates": 1,
+          "built_bvhs": 2,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.8881974165344237,
+            "upper_bound": 2.908207416534424,
+            "nearest_part": "C | outer petal 10",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "242": {
+          "frame": 242,
+          "aabb_candidates": 4,
+          "built_bvhs": 6,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.884301418533325,
+            "upper_bound": 2.904311418533325,
+            "nearest_part": "C | outer petal 10",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "243": {
+          "frame": 243,
+          "aabb_candidates": 6,
+          "built_bvhs": 9,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.8740694467926025,
+            "upper_bound": 2.8940794467926025,
+            "nearest_part": "C | outer petal 10",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "244": {
+          "frame": 244,
+          "aabb_candidates": 7,
+          "built_bvhs": 10,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.860398763885498,
+            "upper_bound": 2.880408763885498,
+            "nearest_part": "C | outer petal 10",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "245": {
+          "frame": 245,
+          "aabb_candidates": 9,
+          "built_bvhs": 12,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.8423361723327636,
+            "upper_bound": 2.8623461723327637,
+            "nearest_part": "C | outer petal 10",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "246": {
+          "frame": 246,
+          "aabb_candidates": 10,
+          "built_bvhs": 13,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.819599622955322,
+            "upper_bound": 2.8396096229553223,
+            "nearest_part": "C | outer petal 10",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "247": {
+          "frame": 247,
+          "aabb_candidates": 12,
+          "built_bvhs": 15,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.794565433731079,
+            "upper_bound": 2.814575433731079,
+            "nearest_part": "C | outer petal 10",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "248": {
+          "frame": 248,
+          "aabb_candidates": 14,
+          "built_bvhs": 15,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.7667438928985595,
+            "upper_bound": 2.7867538928985596,
+            "nearest_part": "C | outer petal 10",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "249": {
+          "frame": 249,
+          "aabb_candidates": 14,
+          "built_bvhs": 15,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.736133808364868,
+            "upper_bound": 2.756143808364868,
+            "nearest_part": "C | outer petal 10",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "250": {
+          "frame": 250,
+          "aabb_candidates": 16,
+          "built_bvhs": 17,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.7042481844329833,
+            "upper_bound": 2.7242581844329834,
+            "nearest_part": "C | outer petal 10",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "251": {
+          "frame": 251,
+          "aabb_candidates": 17,
+          "built_bvhs": 18,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.6704893057250976,
+            "upper_bound": 2.6904993057250977,
+            "nearest_part": "C | outer petal 10",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "252": {
+          "frame": 252,
+          "aabb_candidates": 20,
+          "built_bvhs": 20,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.635343307723999,
+            "upper_bound": 2.655353307723999,
+            "nearest_part": "C | outer petal 10",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "253": {
+          "frame": 253,
+          "aabb_candidates": 21,
+          "built_bvhs": 21,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.5997195188903808,
+            "upper_bound": 2.619729518890381,
+            "nearest_part": "C | outer petal 10",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "254": {
+          "frame": 254,
+          "aabb_candidates": 24,
+          "built_bvhs": 26,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.5635878984832763,
+            "upper_bound": 2.5835978984832764,
+            "nearest_part": "C | outer petal 10",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "255": {
+          "frame": 255,
+          "aabb_candidates": 26,
+          "built_bvhs": 27,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.52704548286438,
+            "upper_bound": 2.54705548286438,
+            "nearest_part": "C | outer petal 10",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "256": {
+          "frame": 256,
+          "aabb_candidates": 30,
+          "built_bvhs": 30,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.490408653488159,
+            "upper_bound": 2.510418653488159,
+            "nearest_part": "C | outer petal 10",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "257": {
+          "frame": 257,
+          "aabb_candidates": 32,
+          "built_bvhs": 30,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.453857893218994,
+            "upper_bound": 2.473867893218994,
+            "nearest_part": "C | outer petal 10",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "258": {
+          "frame": 258,
+          "aabb_candidates": 34,
+          "built_bvhs": 31,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.417924160232544,
+            "upper_bound": 2.437934160232544,
+            "nearest_part": "C | outer petal 10",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "259": {
+          "frame": 259,
+          "aabb_candidates": 37,
+          "built_bvhs": 31,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.3825795595550536,
+            "upper_bound": 2.4025895595550537,
+            "nearest_part": "C | outer petal 10",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "260": {
+          "frame": 260,
+          "aabb_candidates": 38,
+          "built_bvhs": 32,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.3480286543273925,
+            "upper_bound": 2.3680386543273926,
+            "nearest_part": "C | outer petal 10",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "261": {
+          "frame": 261,
+          "aabb_candidates": 41,
+          "built_bvhs": 33,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.3150062506103515,
+            "upper_bound": 2.3350162506103516,
+            "nearest_part": "C | outer petal 10",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "262": {
+          "frame": 262,
+          "aabb_candidates": 41,
+          "built_bvhs": 33,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.2831880991363525,
+            "upper_bound": 2.3031980991363525,
+            "nearest_part": "C | outer petal 10",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "263": {
+          "frame": 263,
+          "aabb_candidates": 42,
+          "built_bvhs": 33,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.2530553285980224,
+            "upper_bound": 2.2730653285980225,
+            "nearest_part": "C | outer petal 10",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "264": {
+          "frame": 264,
+          "aabb_candidates": 41,
+          "built_bvhs": 32,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.2260615770721435,
+            "upper_bound": 2.2460715770721436,
+            "nearest_part": "C | outer petal 10",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "265": {
+          "frame": 265,
+          "aabb_candidates": 43,
+          "built_bvhs": 33,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.2013263647460937,
+            "upper_bound": 2.2213363647460938,
+            "nearest_part": "C | outer petal 10",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "266": {
+          "frame": 266,
+          "aabb_candidates": 41,
+          "built_bvhs": 32,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.1795973722839355,
+            "upper_bound": 2.1996073722839355,
+            "nearest_part": "C | outer petal 10",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "267": {
+          "frame": 267,
+          "aabb_candidates": 41,
+          "built_bvhs": 32,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.163151735534668,
+            "upper_bound": 2.183161735534668,
+            "nearest_part": "C | outer petal 10",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "268": {
+          "frame": 268,
+          "aabb_candidates": 39,
+          "built_bvhs": 28,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.1497764532470702,
+            "upper_bound": 2.1697864532470703,
+            "nearest_part": "C | outer petal 10",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "269": {
+          "frame": 269,
+          "aabb_candidates": 38,
+          "built_bvhs": 27,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.1402771417999267,
+            "upper_bound": 2.1602871417999268,
+            "nearest_part": "C | outer petal 10",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "270": {
+          "frame": 270,
+          "aabb_candidates": 38,
+          "built_bvhs": 26,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.1313464586639403,
+            "upper_bound": 2.1513564586639404,
+            "nearest_part": "C | outer petal 10",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "271": {
+          "frame": 271,
+          "aabb_candidates": 39,
+          "built_bvhs": 27,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.1225366537475585,
+            "upper_bound": 2.1425466537475586,
+            "nearest_part": "C | outer petal 10",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "272": {
+          "frame": 272,
+          "aabb_candidates": 39,
+          "built_bvhs": 27,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.11378430770874,
+            "upper_bound": 2.1337943077087402,
+            "nearest_part": "C | outer petal 10",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "273": {
+          "frame": 273,
+          "aabb_candidates": 38,
+          "built_bvhs": 27,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.1054844801330566,
+            "upper_bound": 2.1254944801330566,
+            "nearest_part": "C | outer petal 10",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "274": {
+          "frame": 274,
+          "aabb_candidates": 38,
+          "built_bvhs": 27,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.09758877204895,
+            "upper_bound": 2.11759877204895,
+            "nearest_part": "C | outer petal 10",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "275": {
+          "frame": 275,
+          "aabb_candidates": 38,
+          "built_bvhs": 26,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.0902135317230224,
+            "upper_bound": 2.1102235317230225,
+            "nearest_part": "C | outer petal 10",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "276": {
+          "frame": 276,
+          "aabb_candidates": 37,
+          "built_bvhs": 26,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.084759706726074,
+            "upper_bound": 2.104769706726074,
+            "nearest_part": "C | outer petal 10",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "277": {
+          "frame": 277,
+          "aabb_candidates": 37,
+          "built_bvhs": 26,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.084792131652832,
+            "upper_bound": 2.104802131652832,
+            "nearest_part": "C | outer petal 10",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "278": {
+          "frame": 278,
+          "aabb_candidates": 36,
+          "built_bvhs": 25,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.0931832735443114,
+            "upper_bound": 2.1131932735443115,
+            "nearest_part": "C | outer petal 10",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "279": {
+          "frame": 279,
+          "aabb_candidates": 34,
+          "built_bvhs": 25,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.1145908777618407,
+            "upper_bound": 2.134600877761841,
+            "nearest_part": "C | outer petal 10",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "280": {
+          "frame": 280,
+          "aabb_candidates": 31,
+          "built_bvhs": 22,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.1423592512512206,
+            "upper_bound": 2.1623692512512207,
+            "nearest_part": "C | outer petal 10",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "281": {
+          "frame": 281,
+          "aabb_candidates": 26,
+          "built_bvhs": 20,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.1722190325164794,
+            "upper_bound": 2.1922290325164795,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "282": {
+          "frame": 282,
+          "aabb_candidates": 23,
+          "built_bvhs": 19,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.2090303842926025,
+            "upper_bound": 2.2290403842926025,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "283": {
+          "frame": 283,
+          "aabb_candidates": 17,
+          "built_bvhs": 17,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.2492952291870116,
+            "upper_bound": 2.2693052291870117,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "284": {
+          "frame": 284,
+          "aabb_candidates": 13,
+          "built_bvhs": 11,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.2933669035339355,
+            "upper_bound": 2.3133769035339355,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "285": {
+          "frame": 285,
+          "aabb_candidates": 10,
+          "built_bvhs": 11,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.3405141775512694,
+            "upper_bound": 2.3605241775512695,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "286": {
+          "frame": 286,
+          "aabb_candidates": 9,
+          "built_bvhs": 10,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.38856195854187,
+            "upper_bound": 2.40857195854187,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "287": {
+          "frame": 287,
+          "aabb_candidates": 7,
+          "built_bvhs": 9,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.4372293894195556,
+            "upper_bound": 2.4572393894195557,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "288": {
+          "frame": 288,
+          "aabb_candidates": 3,
+          "built_bvhs": 4,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.4846680109405517,
+            "upper_bound": 2.5046780109405518,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "289": {
+          "frame": 289,
+          "aabb_candidates": 1,
+          "built_bvhs": 2,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.5303029959106444,
+            "upper_bound": 2.5503129959106445,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "290": {
+          "frame": 290,
+          "aabb_candidates": 1,
+          "built_bvhs": 2,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.573280567398071,
+            "upper_bound": 2.5932905673980713,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "291": {
+          "frame": 291,
+          "aabb_candidates": 0,
+          "built_bvhs": 0,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.609875196685791,
+            "upper_bound": 2.629885196685791,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "292": {
+          "frame": 292,
+          "aabb_candidates": 0,
+          "built_bvhs": 0,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.642245525588989,
+            "upper_bound": 2.6622555255889893,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "293": {
+          "frame": 293,
+          "aabb_candidates": 0,
+          "built_bvhs": 0,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.669129127731323,
+            "upper_bound": 2.6891391277313232,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "294": {
+          "frame": 294,
+          "aabb_candidates": 0,
+          "built_bvhs": 0,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.6864004080200194,
+            "upper_bound": 2.7064104080200195,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "295": {
+          "frame": 295,
+          "aabb_candidates": 0,
+          "built_bvhs": 0,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.69782447265625,
+            "upper_bound": 2.71783447265625,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "296": {
+          "frame": 296,
+          "aabb_candidates": 0,
+          "built_bvhs": 0,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.7021310274505614,
+            "upper_bound": 2.7221410274505615,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "297": {
+          "frame": 297,
+          "aabb_candidates": 0,
+          "built_bvhs": 0,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.7031283323669433,
+            "upper_bound": 2.7231383323669434,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "298": {
+          "frame": 298,
+          "aabb_candidates": 1,
+          "built_bvhs": 2,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.7039086763763427,
+            "upper_bound": 2.7239186763763428,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "299": {
+          "frame": 299,
+          "aabb_candidates": 1,
+          "built_bvhs": 2,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.704848283996582,
+            "upper_bound": 2.724858283996582,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "300": {
+          "frame": 300,
+          "aabb_candidates": 3,
+          "built_bvhs": 6,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.705961460342407,
+            "upper_bound": 2.7259714603424072,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "301": {
+          "frame": 301,
+          "aabb_candidates": 3,
+          "built_bvhs": 6,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.705378526916504,
+            "upper_bound": 2.725388526916504,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "302": {
+          "frame": 302,
+          "aabb_candidates": 4,
+          "built_bvhs": 7,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.7023875658416747,
+            "upper_bound": 2.722397565841675,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "303": {
+          "frame": 303,
+          "aabb_candidates": 5,
+          "built_bvhs": 8,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.692723745574951,
+            "upper_bound": 2.712733745574951,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "304": {
+          "frame": 304,
+          "aabb_candidates": 7,
+          "built_bvhs": 10,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.679734701385498,
+            "upper_bound": 2.699744701385498,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "305": {
+          "frame": 305,
+          "aabb_candidates": 10,
+          "built_bvhs": 15,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.6629283373260497,
+            "upper_bound": 2.68293833732605,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "306": {
+          "frame": 306,
+          "aabb_candidates": 12,
+          "built_bvhs": 17,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.6407720987701415,
+            "upper_bound": 2.6607820987701416,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "307": {
+          "frame": 307,
+          "aabb_candidates": 14,
+          "built_bvhs": 18,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.6159794275665282,
+            "upper_bound": 2.6359894275665283,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "308": {
+          "frame": 308,
+          "aabb_candidates": 16,
+          "built_bvhs": 20,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.5882630293273925,
+            "upper_bound": 2.6082730293273926,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "309": {
+          "frame": 309,
+          "aabb_candidates": 18,
+          "built_bvhs": 22,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.5565273706817626,
+            "upper_bound": 2.5765373706817627,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "310": {
+          "frame": 310,
+          "aabb_candidates": 22,
+          "built_bvhs": 23,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.5231060926818847,
+            "upper_bound": 2.5431160926818848,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "311": {
+          "frame": 311,
+          "aabb_candidates": 22,
+          "built_bvhs": 23,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.487891430130005,
+            "upper_bound": 2.507901430130005,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "312": {
+          "frame": 312,
+          "aabb_candidates": 29,
+          "built_bvhs": 29,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.4507508222961425,
+            "upper_bound": 2.4707608222961426,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "313": {
+          "frame": 313,
+          "aabb_candidates": 30,
+          "built_bvhs": 29,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.4132919256591796,
+            "upper_bound": 2.4333019256591797,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "314": {
+          "frame": 314,
+          "aabb_candidates": 34,
+          "built_bvhs": 30,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.3755984251403808,
+            "upper_bound": 2.395608425140381,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "315": {
+          "frame": 315,
+          "aabb_candidates": 35,
+          "built_bvhs": 30,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.3386602346801757,
+            "upper_bound": 2.358670234680176,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "316": {
+          "frame": 316,
+          "aabb_candidates": 38,
+          "built_bvhs": 30,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.3027880136871337,
+            "upper_bound": 2.322798013687134,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "317": {
+          "frame": 317,
+          "aabb_candidates": 42,
+          "built_bvhs": 31,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.268212789764404,
+            "upper_bound": 2.2882227897644043,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "318": {
+          "frame": 318,
+          "aabb_candidates": 48,
+          "built_bvhs": 35,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.237361664047241,
+            "upper_bound": 2.257371664047241,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "319": {
+          "frame": 319,
+          "aabb_candidates": 48,
+          "built_bvhs": 35,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.2092516367340087,
+            "upper_bound": 2.229261636734009,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "320": {
+          "frame": 320,
+          "aabb_candidates": 48,
+          "built_bvhs": 35,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.1842760984802245,
+            "upper_bound": 2.2042860984802246,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "321": {
+          "frame": 321,
+          "aabb_candidates": 47,
+          "built_bvhs": 35,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.1659464781188964,
+            "upper_bound": 2.1859564781188965,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "322": {
+          "frame": 322,
+          "aabb_candidates": 44,
+          "built_bvhs": 32,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.151752943267822,
+            "upper_bound": 2.1717629432678223,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "323": {
+          "frame": 323,
+          "aabb_candidates": 41,
+          "built_bvhs": 29,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.1421897356414794,
+            "upper_bound": 2.1621997356414795,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "324": {
+          "frame": 324,
+          "aabb_candidates": 41,
+          "built_bvhs": 29,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.1416943018341064,
+            "upper_bound": 2.1617043018341064,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "325": {
+          "frame": 325,
+          "aabb_candidates": 37,
+          "built_bvhs": 26,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.144083255996704,
+            "upper_bound": 2.164093255996704,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "326": {
+          "frame": 326,
+          "aabb_candidates": 36,
+          "built_bvhs": 24,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.14940499710083,
+            "upper_bound": 2.16941499710083,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "327": {
+          "frame": 327,
+          "aabb_candidates": 34,
+          "built_bvhs": 22,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.155665630569458,
+            "upper_bound": 2.175675630569458,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "328": {
+          "frame": 328,
+          "aabb_candidates": 33,
+          "built_bvhs": 22,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.1623191778564452,
+            "upper_bound": 2.1823291778564453,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "329": {
+          "frame": 329,
+          "aabb_candidates": 33,
+          "built_bvhs": 22,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.1694216673278808,
+            "upper_bound": 2.189431667327881,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "330": {
+          "frame": 330,
+          "aabb_candidates": 33,
+          "built_bvhs": 22,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.17662405418396,
+            "upper_bound": 2.19663405418396,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "331": {
+          "frame": 331,
+          "aabb_candidates": 32,
+          "built_bvhs": 22,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.1837093775177,
+            "upper_bound": 2.2037193775177,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "332": {
+          "frame": 332,
+          "aabb_candidates": 32,
+          "built_bvhs": 22,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.1906356756591796,
+            "upper_bound": 2.2106456756591797,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "333": {
+          "frame": 333,
+          "aabb_candidates": 32,
+          "built_bvhs": 21,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.197090143432617,
+            "upper_bound": 2.217100143432617,
+            "nearest_part": "C | outer petal 10",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "334": {
+          "frame": 334,
+          "aabb_candidates": 29,
+          "built_bvhs": 20,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.202890152206421,
+            "upper_bound": 2.222900152206421,
+            "nearest_part": "C | outer petal 10",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "335": {
+          "frame": 335,
+          "aabb_candidates": 29,
+          "built_bvhs": 20,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.2087798063659667,
+            "upper_bound": 2.228789806365967,
+            "nearest_part": "C | outer petal 10",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "336": {
+          "frame": 336,
+          "aabb_candidates": 29,
+          "built_bvhs": 20,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.2157492582702636,
+            "upper_bound": 2.2357592582702637,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "337": {
+          "frame": 337,
+          "aabb_candidates": 26,
+          "built_bvhs": 19,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.2273976747894286,
+            "upper_bound": 2.2474076747894287,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "338": {
+          "frame": 338,
+          "aabb_candidates": 22,
+          "built_bvhs": 18,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.245685571899414,
+            "upper_bound": 2.265695571899414,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "339": {
+          "frame": 339,
+          "aabb_candidates": 18,
+          "built_bvhs": 17,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.2819421236419677,
+            "upper_bound": 2.3019521236419678,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "340": {
+          "frame": 340,
+          "aabb_candidates": 12,
+          "built_bvhs": 16,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.3244266455078124,
+            "upper_bound": 2.3444366455078125,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "341": {
+          "frame": 341,
+          "aabb_candidates": 9,
+          "built_bvhs": 12,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.373225445022583,
+            "upper_bound": 2.393235445022583,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "342": {
+          "frame": 342,
+          "aabb_candidates": 8,
+          "built_bvhs": 11,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.4270157759094237,
+            "upper_bound": 2.447025775909424,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "343": {
+          "frame": 343,
+          "aabb_candidates": 4,
+          "built_bvhs": 6,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.480220312347412,
+            "upper_bound": 2.500230312347412,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "344": {
+          "frame": 344,
+          "aabb_candidates": 2,
+          "built_bvhs": 4,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.532715315093994,
+            "upper_bound": 2.552725315093994,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "345": {
+          "frame": 345,
+          "aabb_candidates": 2,
+          "built_bvhs": 4,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.5778632109069823,
+            "upper_bound": 2.5978732109069824,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "346": {
+          "frame": 346,
+          "aabb_candidates": 2,
+          "built_bvhs": 4,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.616101259460449,
+            "upper_bound": 2.636111259460449,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "347": {
+          "frame": 347,
+          "aabb_candidates": 3,
+          "built_bvhs": 6,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.647196525802612,
+            "upper_bound": 2.6672065258026123,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "348": {
+          "frame": 348,
+          "aabb_candidates": 4,
+          "built_bvhs": 7,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.658958906402588,
+            "upper_bound": 2.678968906402588,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "349": {
+          "frame": 349,
+          "aabb_candidates": 7,
+          "built_bvhs": 11,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.6649722998046874,
+            "upper_bound": 2.6849822998046875,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "350": {
+          "frame": 350,
+          "aabb_candidates": 8,
+          "built_bvhs": 12,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.665241235961914,
+            "upper_bound": 2.685251235961914,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "351": {
+          "frame": 351,
+          "aabb_candidates": 10,
+          "built_bvhs": 14,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.6652383749389648,
+            "upper_bound": 2.685248374938965,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "352": {
+          "frame": 352,
+          "aabb_candidates": 10,
+          "built_bvhs": 14,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.6651139204406737,
+            "upper_bound": 2.685123920440674,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "353": {
+          "frame": 353,
+          "aabb_candidates": 14,
+          "built_bvhs": 18,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.6648554747009277,
+            "upper_bound": 2.6848654747009277,
+            "nearest_part": "C | outer petal 08",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "354": {
+          "frame": 354,
+          "aabb_candidates": 14,
+          "built_bvhs": 18,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.6586837713623046,
+            "upper_bound": 2.6786937713623047,
+            "nearest_part": "C | outer petal 10",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "355": {
+          "frame": 355,
+          "aabb_candidates": 15,
+          "built_bvhs": 19,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.646104091873169,
+            "upper_bound": 2.666114091873169,
+            "nearest_part": "C | outer petal 10",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "356": {
+          "frame": 356,
+          "aabb_candidates": 16,
+          "built_bvhs": 19,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.628774637451172,
+            "upper_bound": 2.648784637451172,
+            "nearest_part": "C | outer petal 10",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "357": {
+          "frame": 357,
+          "aabb_candidates": 18,
+          "built_bvhs": 21,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.6035623495483398,
+            "upper_bound": 2.62357234954834,
+            "nearest_part": "C | outer petal 10",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "358": {
+          "frame": 358,
+          "aabb_candidates": 18,
+          "built_bvhs": 21,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.575085634460449,
+            "upper_bound": 2.595095634460449,
+            "nearest_part": "C | outer petal 10",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "359": {
+          "frame": 359,
+          "aabb_candidates": 22,
+          "built_bvhs": 25,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.5433502142333984,
+            "upper_bound": 2.5633602142333984,
+            "nearest_part": "C | outer petal 10",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        },
+        "360": {
+          "frame": 360,
+          "aabb_candidates": 26,
+          "built_bvhs": 28,
+          "contact_object_pairs": 0,
+          "triangle_contact_pairs": 0,
+          "contacts": [],
+          "A_stem_C_head_clearance": {
+            "lower_bound": 2.5065655653381347,
+            "upper_bound": 2.5265755653381348,
+            "nearest_part": "C | outer petal 10",
+            "method": "Adaptive triangle subdivision with nearest-surface Lipschitz bounds."
+          }
+        }
+      },
+      "sample_count": 360,
+      "total_triangle_contact_pairs": 0,
+      "clearance_sample_count": 360,
+      "minimum_A_stem_C_head_gap": {
+        "lower_bound": 2.084759706726074,
+        "upper_bound": 2.104769706726074,
+        "frame_with_lowest_upper_bound": 276
+      },
+      "latest_run_seconds": 115.259
+    }
+  },
+  "source_sha256": "ff6da7df50ece57fc9812923b03de8a07858322489fc980b8497b30d0c48fd2d"
+}

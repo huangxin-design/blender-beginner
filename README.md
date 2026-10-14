@@ -115,6 +115,16 @@ Skill 尚未出现在列表时，重启 Codex 再检查。首次使用、已有�
 
 花卉与数字盆景已更新至最新完成版，用量读取于 **2026-09-09 19:20（北京时间）**；AI 材质球与粉色波浪保留当天 16:59 的快照。数字对应关联制作任务的累计记录，各案例分别说明覆盖范围。[用量来源与统计方法](docs/showcase-measurements.md)
 
+### 虹彩磨砂玻璃花 · 前景与景深
+
+[![三朵虹彩磨砂玻璃花，右下花清晰置于前景](projects/rainbow-glass-flowers/preview.jpg)](projects/rainbow-glass-flowers/README.md)
+
+乳白半透花瓣带七彩边缘反光，三朵花大小错落，右下花前置并保持清楚焦点。保留从白模、材质、间距修正到前景调整的实际制作过程。
+
+**原生 720 × 960 · 3:4 · 24 fps · 完整 15 秒 · 360 帧 · 无声。** 可编辑母版为 1080 × 1440 设置，四张 2K 贴图内嵌；全段几何检查与成片解码通过。Token 未独立统计。
+
+[完整案例](projects/rainbow-glass-flowers/README.md) · [15 秒成片](projects/rainbow-glass-flowers/final.mp4) · [Blender 工程](projects/rainbow-glass-flowers/versions/v009/scene.blend) · [制作对话](projects/rainbow-glass-flowers/conversation.md)
+
 ### 机械花 · 发光玻璃翼
 
 [![玻璃翼飞行器接近、对接机械花并充能的三个原生 Blender 阶段](projects/mechanical-flower/preview.jpg)](projects/mechanical-flower/README.md)

@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "width": 720,
+  "height": 960,
+  "fps": 24,
+  "frames": 360,
+  "duration_seconds": 15,
+  "complete_timeline": true,
+  "full_decode": "PASS",
+  "movie_bytes": 5041576,
+  "master_resolution": [
+    1080,
+    1440
+  ],
+  "master_sha256": "ff6da7df50ece57fc9812923b03de8a07858322489fc980b8497b30d0c48fd2d"
+}

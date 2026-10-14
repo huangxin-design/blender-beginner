@@ -1,0 +1,72 @@
+{
+  "passed": true,
+  "blender_version": "5.2.1 LTS",
+  "source": "versions/v009/scene.blend",
+  "checks": {
+    "reopened_from_archive": true,
+    "source_bytes_unchanged": true,
+    "four_packed_2k_images": true,
+    "no_linked_libraries": true,
+    "timeline_360_frames_24fps": true,
+    "master_1080x1440": true,
+    "four_camera_cuts": true,
+    "foreground_focus_on_C": true
+  },
+  "packed_images": [
+    {
+      "name": "Petal_BaseColor.png",
+      "size": [
+        2048,
+        2048
+      ],
+      "packed": true
+    },
+    {
+      "name": "Petal_MicroHeight.png",
+      "size": [
+        2048,
+        2048
+      ],
+      "packed": true
+    },
+    {
+      "name": "Petal_NacreThickness.png",
+      "size": [
+        2048,
+        2048
+      ],
+      "packed": true
+    },
+    {
+      "name": "Petal_Roughness.png",
+      "size": [
+        2048,
+        2048
+      ],
+      "packed": true
+    }
+  ],
+  "camera_markers": [
+    {
+      "frame": 1,
+      "camera": "SHOT 01 | three-flower composition",
+      "focus": "C | lower right flower"
+    },
+    {
+      "frame": 73,
+      "camera": "SHOT 02 | overlapping petal close-up",
+      "focus": "C | lower right flower"
+    },
+    {
+      "frame": 181,
+      "camera": "SHOT 03 | oblique crown reveal",
+      "focus": "A | upper flower"
+    },
+    {
+      "frame": 289,
+      "camera": "SHOT 04 | return to the three flowers",
+      "focus": "C | lower right flower"
+    }
+  ],
+  "source_saved": false
+}

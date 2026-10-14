@@ -124,6 +124,16 @@ See [usage, boundaries, and verification](docs/usage-progress.md) (Chinese), or 
 
 Flower bloom and Tree Study now show their latest completed versions, with usage read at **19:20 China Standard Time on September 9, 2026**. The AI spheres and Pink Wave retain their 16:59 snapshots from the same day. Each case states the coverage of its cumulative task record. [Sources and methodology](docs/showcase-measurements.md)
 
+### Mechanical flower · luminous glass wings
+
+[![Three native Blender stages: flight, docking and charging](projects/mechanical-flower/preview.jpg)](projects/mechanical-flower/README.md)
+
+A frosted-glass winged machine lands on a metallic flower, charges and takes off again. Luminous wing veins accompany locally synthesized, synchronized sci-fi wing, petal and energy sounds.
+
+**Native 3072 × 4096 · 3:4 portrait · 24 fps · 16.375 seconds · 393 frames · stereo.** The editable scene, nine texture maps, audio stems and render scripts are preserved. Both 4K formats passed a full-frame software/hardware decode comparison on the production machine. ElevenLabs was researched but was not used to generate the soundtrack.
+
+[Case study](projects/mechanical-flower/README.md) · [1080 preview](projects/mechanical-flower/preview.mp4) · [4K film](https://github.com/huangxin-design/blender-beginner/releases/download/works-mechanical-flower-2026-10-14/mechanical-flower-4k.webm) · [Editable project](https://github.com/huangxin-design/blender-beginner/releases/download/works-mechanical-flower-2026-10-14/mechanical-flower-project.zip) · [Production conversation](projects/mechanical-flower/conversation.md)
+
 ### Yaohuang in bloom · a glass and metal peony
 
 [![Five native Blender frames show a closed peony bud gradually opening](projects/yaohuang-peony/preview.jpg)](projects/yaohuang-peony/README.md)

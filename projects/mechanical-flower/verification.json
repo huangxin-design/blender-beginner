@@ -1,0 +1,70 @@
+{
+  "project": "mechanical-flower",
+  "archived_on": "2026-10-14",
+  "source_versions": {
+    "scene": "v4_4k_glass, with v6 sound replacement and relative paths",
+    "native_frames": "v5_4k_final",
+    "final_video_and_sound": "v6_playback_fix"
+  },
+  "media": {
+    "native_resolution": [
+      3072,
+      4096
+    ],
+    "aspect_ratio": "3:4",
+    "fps": 24,
+    "frames": 393,
+    "duration_seconds": 16.375,
+    "audio_sample_rate": 48000,
+    "channels": 2,
+    "upscaled": false,
+    "motion_interpolation": false,
+    "generative_image_postprocessing": false,
+    "generated_texture": "wing_luminous_veins.png was generated as an image texture and used in Blender"
+  },
+  "original_4k_decode": {
+    "checked_on": "2026-09-29",
+    "report": "qa/full-decode-comparison.json",
+    "formats": [
+      "VP9 NV12",
+      "HEVC Main10 P010"
+    ],
+    "software_hardware_identical_frames_per_format": 393,
+    "hardware": "D3D11VA; hardware surfaces explicitly required",
+    "all_player_device_compatibility_verified": false
+  },
+  "archive_preview": {
+    "resolution": [
+      1080,
+      1440
+    ],
+    "codec": "H.264/AAC",
+    "software_hardware_identical_frames": 393,
+    "software_evidence": "qa/preview_software.framemd5",
+    "hardware_evidence": "qa/preview_d3d11.framemd5"
+  },
+  "source": {
+    "report": "qa/source-reopen.json",
+    "packed_images": 9,
+    "packed_audio": "Mix_SciFi.wav",
+    "relative_resource_paths": true,
+    "relocated_reopen": true,
+    "gpu_and_cpu_preview_rendered": true,
+    "audio_regeneration_byte_identical_wavs": 4
+  },
+  "visual_review": {
+    "contact_sheet": "preview.jpg",
+    "relocated_preview": "qa/relocated-preview.jpg",
+    "inspected": true,
+    "full_player_ui_review": false
+  },
+  "elevenlabs": {
+    "researched": true,
+    "generated_audio": false
+  },
+  "usage": {
+    "tokens": null,
+    "whole_project_duration": null
+  },
+  "scope": "Existing final scene, texture maps, retained audio inputs, editable audio stems, render and encode scripts. No claim of recreating the model from an empty scene."
+}

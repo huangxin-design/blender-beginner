@@ -1,0 +1,285 @@
+{
+  "title": "机械花 · 发光玻璃翼",
+  "version": "v6 delivery / v4 scene with v6 audio",
+  "archived_on": "2026-10-14",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 102,
+      "sha256": "a7df0e700d1dc2fdb1c6d9a7fbb3fa140e1b20c18dfb5047e75fbe8ccb1b0124"
+    },
+    {
+      "path": "brief.md",
+      "bytes": 3409,
+      "sha256": "b2a4ec673f7077f57e6421710ab95112894e2582d4b6afd070b34d9e7e735c19"
+    },
+    {
+      "path": "conversation.md",
+      "bytes": 4758,
+      "sha256": "43da6b020b7f34f5363b0fda1b5a76e55b4d60f54a5536eca94fa81313985126"
+    },
+    {
+      "path": "credits.md",
+      "bytes": 1735,
+      "sha256": "4f92851d0f6c78d7855931d8dbe4c8c8d248010888e52b30f6a92014dae10372"
+    },
+    {
+      "path": "images/charge.jpg",
+      "bytes": 114680,
+      "sha256": "4ab06ee37e730eebc80e00aca629d6439a63d6ea9e7f62e174f6da37d003c7c4"
+    },
+    {
+      "path": "images/docking.jpg",
+      "bytes": 91068,
+      "sha256": "53f05b0817c2bb1b30d60141c4cdcf2541ad8da4c82e0de47d1dc39e9d5eb9ec"
+    },
+    {
+      "path": "images/flight.jpg",
+      "bytes": 81946,
+      "sha256": "171f4c4f658cb2aca36d0685d8e871643183047affbd205bb108e479d87959c1"
+    },
+    {
+      "path": "lessons.md",
+      "bytes": 2072,
+      "sha256": "2cb4ffdf13c0da47d504ad9159ef1713a95d563f79148cf31250bcbbf04e61d7"
+    },
+    {
+      "path": "preview.jpg",
+      "bytes": 114558,
+      "sha256": "9cb75e2aa5e914343bdfa9f8a9e143d5926657d348bf72187f7abc6b5f794c94"
+    },
+    {
+      "path": "preview.mp4",
+      "bytes": 4305960,
+      "sha256": "59eb05010d2e98b2ef6141a24b0b211d6f3d94d3b2ce33131d1e0c12bfb5dc36"
+    },
+    {
+      "path": "prompts.md",
+      "bytes": 4393,
+      "sha256": "8b49ee480398e6bdbcc3cabf979b5151a3b7ce0c71776cce70c9633822b259a1"
+    },
+    {
+      "path": "qa/full-decode-comparison.json",
+      "bytes": 1598,
+      "sha256": "085430b85fc2f876e0a5ca950f8dcf2d3f7181d119a4a026d44ab732a8e772a9"
+    },
+    {
+      "path": "qa/hevc_d3d11_full.framemd5",
+      "bytes": 31656,
+      "sha256": "a937d091b349bb51cbfacf5d1312c15e5b7d5a3504b3498f919864b1973d1b3b"
+    },
+    {
+      "path": "qa/hevc_software_full.framemd5",
+      "bytes": 31656,
+      "sha256": "a937d091b349bb51cbfacf5d1312c15e5b7d5a3504b3498f919864b1973d1b3b"
+    },
+    {
+      "path": "qa/preview_d3d11.framemd5",
+      "bytes": 31656,
+      "sha256": "fb0fcff432d3f86c2ebbb8f3b3dfc9f76c4358865199b5fb4d9b90bea9521af1"
+    },
+    {
+      "path": "qa/preview_software.framemd5",
+      "bytes": 31656,
+      "sha256": "fb0fcff432d3f86c2ebbb8f3b3dfc9f76c4358865199b5fb4d9b90bea9521af1"
+    },
+    {
+      "path": "qa/relocated-preview.jpg",
+      "bytes": 81976,
+      "sha256": "447e74188831b4eae2ab87b58b3985e744a8253408529db62d3c5200bd0f0428"
+    },
+    {
+      "path": "qa/source-reopen.json",
+      "bytes": 2658,
+      "sha256": "f390cc50fc9da0a1922a19fb7a925b66f09215742c3fafbf1478df79cb240407"
+    },
+    {
+      "path": "qa/vp9_d3d11_full.framemd5",
+      "bytes": 31656,
+      "sha256": "2fbf28dcaa239d2faa9f86c5672cdfbc7262be88afa4346b83e84eb0ca15737a"
+    },
+    {
+      "path": "qa/vp9_software_full.framemd5",
+      "bytes": 31656,
+      "sha256": "2fbf28dcaa239d2faa9f86c5672cdfbc7262be88afa4346b83e84eb0ca15737a"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3882,
+      "sha256": "735e6619ad981e1dce17db2c42f12df6784384edcb5ec6d9da102f5af8f21418"
+    },
+    {
+      "path": "source/README.md",
+      "bytes": 3498,
+      "sha256": "151112baea38c8ef4d3ad11bb32fdc26f15af6884c7cea71b4d78da33f7e5832"
+    },
+    {
+      "path": "source/scripts/encode.py",
+      "bytes": 2744,
+      "sha256": "37453f5dd8413d463bdad31559611fa1497f9d84fbb6467bd4deb2b3f7ece899"
+    },
+    {
+      "path": "source/scripts/generate_scifi_audio.py",
+      "bytes": 14415,
+      "sha256": "f3d3311f9da54149d6edc748d29541acb614d2e95f6cb90c95aeb8caeb4d4afa"
+    },
+    {
+      "path": "source/scripts/render.py",
+      "bytes": 3229,
+      "sha256": "124c05bfed0c9eac0dd473def0bf49d0be6b72ea863d13ffe341d8759d50d392"
+    },
+    {
+      "path": "verification.json",
+      "bytes": 2072,
+      "sha256": "fc3d7af21ccb7153d56aa5f1e7c98bb57854952655c303ff98236dbf9335e8a0"
+    }
+  ],
+  "project_archive_source_files": [
+    {
+      "path": "source/assets/audio/Charge_Dock_SciFi.wav",
+      "bytes": 3144044,
+      "sha256": "bbffe221160b6bb6e4285e6f4476a80775485824911a093e3022859328c67462"
+    },
+    {
+      "path": "source/assets/audio/Mix_SciFi.wav",
+      "bytes": 3144044,
+      "sha256": "6e7caada88161206817ac7709a96d4535b788beec2f1f50ecf5f381c722e9b10"
+    },
+    {
+      "path": "source/assets/audio/Petals_SciFi.wav",
+      "bytes": 3144044,
+      "sha256": "884ca43e657e25c70e40cc41d1372d0e56ef669834f37de7ac14c63643ff8c8c"
+    },
+    {
+      "path": "source/assets/audio/sources/02_petal_mechanism.wav",
+      "bytes": 3144044,
+      "sha256": "f6e361b0fdf89ae2b0b9ae28ef02776e75121cdc8eabd871359908a3e1af7a6e"
+    },
+    {
+      "path": "source/assets/audio/sources/03_dock_and_charge.wav",
+      "bytes": 3144044,
+      "sha256": "55f47c16a57e0242e6774ddf4b47243b70f1d20132be83c00c517d0532903397"
+    },
+    {
+      "path": "source/assets/audio/sources/A_glass_air_wings.wav",
+      "bytes": 3144044,
+      "sha256": "59050c91bbfed2dbcdb747b7a94d272c6936b50c237d0b3f36b43a6f719ef11e"
+    },
+    {
+      "path": "source/assets/audio/sources/C_organic_flutter_wings.wav",
+      "bytes": 3144044,
+      "sha256": "88b86b6d2582bfeafc1d02023ec7d770f1df39fb962a5216318ac497fd26e0eb"
+    },
+    {
+      "path": "source/assets/audio/Wing_SciFi.wav",
+      "bytes": 3144044,
+      "sha256": "fda3bd3c41835bbd60b7bdb2b1bde648468d246e1796f750b61eb4c2b0d46bca"
+    },
+    {
+      "path": "source/assets/textures/anodized_normal.png",
+      "bytes": 12594868,
+      "sha256": "62b42d99e7f8b327a16735fb2e221dae4effdc98fb1bd22495bf35311412aacd"
+    },
+    {
+      "path": "source/assets/textures/anodized_roughness.png",
+      "bytes": 6663855,
+      "sha256": "75b6d0b469ab93b8c4c36bd762083fb81ed12048741c344db090ace4f94d89e0"
+    },
+    {
+      "path": "source/assets/textures/enamel_roughness.png",
+      "bytes": 6459284,
+      "sha256": "eea58b6de18a37191a100f70bf9537158ed495da1c352710fe00621cf3f29b66"
+    },
+    {
+      "path": "source/assets/textures/glass_frost_normal.png",
+      "bytes": 16726649,
+      "sha256": "d497d9a1cadd8bf029519168139d9f3efdd5f8b72afa8182165cbcaaa82adc01"
+    },
+    {
+      "path": "source/assets/textures/glass_frost_roughness.png",
+      "bytes": 7260374,
+      "sha256": "fa821b8108be73b1be6a8b7fafe5505280546f6626f12c0d84aa9577e77dc98a"
+    },
+    {
+      "path": "source/assets/textures/opal_roughness.png",
+      "bytes": 6299156,
+      "sha256": "746c5f51587c0fb3ae5f50260dfec07d921dac049304bc8b34366bdeaadbb3cb"
+    },
+    {
+      "path": "source/assets/textures/precision_metal_normal.png",
+      "bytes": 13345763,
+      "sha256": "80c15382ded44439af0002e03db512021193c03db0f8bbfa0030eb76202d5d69"
+    },
+    {
+      "path": "source/assets/textures/precision_metal_roughness.png",
+      "bytes": 7318944,
+      "sha256": "c9d4cadb4ca8338a2f02586eb414f350cb3767f29cd3388a9d8201f1414a73be"
+    },
+    {
+      "path": "source/assets/textures/wing_luminous_veins.png",
+      "bytes": 512890,
+      "sha256": "e96b9c7675daeb6e597ee638ce65dc485cc2e7db3c849bcdcee5e9e25f017306"
+    },
+    {
+      "path": "source/README.md",
+      "bytes": 3498,
+      "sha256": "151112baea38c8ef4d3ad11bb32fdc26f15af6884c7cea71b4d78da33f7e5832"
+    },
+    {
+      "path": "source/scene.blend",
+      "bytes": 80489121,
+      "sha256": "3fed09d3676a1fa5dd9169bf0adada4e86a8f959d79472575f5d3d2233621fbc"
+    },
+    {
+      "path": "source/scripts/encode.py",
+      "bytes": 2744,
+      "sha256": "37453f5dd8413d463bdad31559611fa1497f9d84fbb6467bd4deb2b3f7ece899"
+    },
+    {
+      "path": "source/scripts/generate_scifi_audio.py",
+      "bytes": 14415,
+      "sha256": "f3d3311f9da54149d6edc748d29541acb614d2e95f6cb90c95aeb8caeb4d4afa"
+    },
+    {
+      "path": "source/scripts/render.py",
+      "bytes": 3229,
+      "sha256": "124c05bfed0c9eac0dd473def0bf49d0be6b72ea863d13ffe341d8759d50d392"
+    }
+  ],
+  "stills": [
+    {
+      "path": "stills/charge-4k.png",
+      "bytes": 19484800,
+      "sha256": "34ad8b28d0e45f6363e156a35f516b7a60a2b25cd5ad09d9dbd837a81e994028"
+    },
+    {
+      "path": "stills/docking-4k.png",
+      "bytes": 18802859,
+      "sha256": "4599c62b6033bf0e8385770ed5d1e1aa6482ecf29083712d50ab9a3e37b5b57d"
+    },
+    {
+      "path": "stills/flight-4k.png",
+      "bytes": 16449104,
+      "sha256": "4fe800580094d8634e909b94ccacfc80cb5cda99c415fcd844288a5a207c9334"
+    }
+  ],
+  "release_files": [
+    {
+      "path": "mechanical-flower-4k.webm",
+      "bytes": 25234240,
+      "sha256": "236f39c18e5bd5a2a107cdf1487a1fb7eeae27f28950e90e26c72c688a96e86d",
+      "url": "https://github.com/huangxin-design/blender-beginner/releases/download/works-mechanical-flower-2026-10-14/mechanical-flower-4k.webm"
+    },
+    {
+      "path": "mechanical-flower-4k-hevc.mp4",
+      "bytes": 23626575,
+      "sha256": "8baf5917144d6e80098b1b836bbc2d4fbcc96a4cb97e8a8e9868a54e431153de",
+      "url": "https://github.com/huangxin-design/blender-beginner/releases/download/works-mechanical-flower-2026-10-14/mechanical-flower-4k-hevc.mp4"
+    }
+  ],
+  "project_zip": {
+    "url": "https://github.com/huangxin-design/blender-beginner/releases/download/works-mechanical-flower-2026-10-14/mechanical-flower-project.zip",
+    "checksum_file": "https://github.com/huangxin-design/blender-beginner/releases/download/works-mechanical-flower-2026-10-14/SHA256SUMS.txt"
+  },
+  "manifest_scope": "Manifest excludes its own digest and enclosing ZIP digest; SHA256SUMS.txt records final release asset hashes."
+}

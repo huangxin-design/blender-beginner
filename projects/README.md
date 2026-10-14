@@ -4,6 +4,16 @@
 
 花卉与数字盆景为最新完成版，任务用量读取于 **2026-09-09 19:20（北京时间）**；AI 品牌与粉色波浪保留当天 16:59 的快照。覆盖范围见各案例与[统计说明](../docs/showcase-measurements.md)。
 
+## 机械花 · 发光玻璃翼
+
+[![飞行、对接与充电三个阶段，原生 Blender 渲染](mechanical-flower/preview.jpg)](mechanical-flower/README.md)
+
+金属机械花与带发光翼纹的磨砂玻璃飞行器，完成接近、停靠、充能和起飞。保留从白模、材质到花屏排查的实际迭代过程；科幻声音由本地脚本合成，ElevenLabs 停留在研究阶段。
+
+**原生 3072 × 4096 · 3:4 · 24 fps · 393 帧 · 16.375 秒 · 48 kHz 立体声。** 工程包含打包贴图与新版混音，另附分轨、可复现的音效脚本和渲染入口。Token 未独立统计。
+
+[完整案例](mechanical-flower/README.md) · [1080 预览](mechanical-flower/preview.mp4) · [4K WebM](https://github.com/huangxin-design/blender-beginner/releases/download/works-mechanical-flower-2026-10-14/mechanical-flower-4k.webm) · [4K HEVC](https://github.com/huangxin-design/blender-beginner/releases/download/works-mechanical-flower-2026-10-14/mechanical-flower-4k-hevc.mp4) · [完整工程包](https://github.com/huangxin-design/blender-beginner/releases/download/works-mechanical-flower-2026-10-14/mechanical-flower-project.zip) · [制作对话](mechanical-flower/conversation.md) · [检查记录](mechanical-flower/verification.json)
+
 ## 姚黄初绽 · 玻璃与金属的牡丹
 
 [![花苞、外瓣展开、内瓣显露与盛放，五个原生 Blender 阶段画面](yaohuang-peony/preview.jpg)](yaohuang-peony/README.md)

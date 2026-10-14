@@ -1,0 +1,86 @@
+{
+  "blender_version": "5.2.1 LTS",
+  "verified_file": "source/scene.blend",
+  "relocation_test": "Reopened a separate copy containing scene.blend and render.py only; no external assets alongside that copy.",
+  "packed_image_count": 9,
+  "packed_image_bytes_match_supplied_assets": true,
+  "packed_sound": "Mix_SciFi.wav",
+  "packed_sound_bytes_match_supplied_mix": true,
+  "resource_paths": [
+    "//assets/audio/Mix_SciFi.wav",
+    "//assets/textures/anodized_normal.png",
+    "//assets/textures/anodized_roughness.png",
+    "//assets/textures/enamel_roughness.png",
+    "//assets/textures/glass_frost_normal.png",
+    "//assets/textures/glass_frost_roughness.png",
+    "//assets/textures/opal_roughness.png",
+    "//assets/textures/precision_metal_normal.png",
+    "//assets/textures/precision_metal_roughness.png",
+    "//assets/textures/wing_luminous_veins.png",
+    "//assets/audio/Mix_SciFi.wav"
+  ],
+  "all_resource_paths_relative": true,
+  "resolution": [
+    3072,
+    4096
+  ],
+  "fps": 24,
+  "frame_range": [
+    1,
+    393
+  ],
+  "render_engine": "CYCLES",
+  "audio": {
+    "sample_rate": 48000,
+    "channels": 2,
+    "samples": 786000,
+    "duration_seconds": 16.375,
+    "integrated_lufs": -23.0,
+    "true_peak_dbfs": -3.9,
+    "files": [
+      {
+        "file": "Charge_Dock_SciFi.wav",
+        "sha256": "bbffe221160b6bb6e4285e6f4476a80775485824911a093e3022859328c67462",
+        "regenerated_byte_identical": true
+      },
+      {
+        "file": "Mix_SciFi.wav",
+        "sha256": "6e7caada88161206817ac7709a96d4535b788beec2f1f50ecf5f381c722e9b10",
+        "regenerated_byte_identical": true
+      },
+      {
+        "file": "Petals_SciFi.wav",
+        "sha256": "884ca43e657e25c70e40cc41d1372d0e56ef669834f37de7ac14c63643ff8c8c",
+        "regenerated_byte_identical": true
+      },
+      {
+        "file": "Wing_SciFi.wav",
+        "sha256": "fda3bd3c41835bbd60b7bdb2b1bde648468d246e1796f750b61eb4c2b0d46bca",
+        "regenerated_byte_identical": true
+      }
+    ]
+  },
+  "generated_audio_directory": "source/generated_audio",
+  "reconstruction_scope": "Editable final scene plus render/encode scripts; audio recreated from four retained original input stems. No claim of full model reconstruction from source code.",
+  "preview_render": {
+    "frame": 301,
+    "resolution": [
+      768,
+      1024
+    ],
+    "samples": 8,
+    "backend": "OptiX",
+    "passed": true,
+    "file": "qa/relocated-preview.jpg",
+    "inspected": "No missing textures, magenta materials or block corruption observed"
+  },
+  "cpu_smoke_render": {
+    "frame": 312,
+    "resolution": [
+      368,
+      491
+    ],
+    "samples": 4,
+    "passed": true
+  }
+}

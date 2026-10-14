@@ -1,0 +1,6 @@
+*.md text eol=lf
+*.py text eol=lf
+*.json text eol=lf
+*.framemd5 text eol=lf
+*.jpg binary
+*.mp4 binary

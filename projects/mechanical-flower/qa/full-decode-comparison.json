@@ -1,0 +1,50 @@
+{
+  "audited_at_utc": "2026-09-29T08:10:27.143387+00:00",
+  "time_range_seconds": [
+    0.0,
+    16.375
+  ],
+  "expected_original_frame_range": [
+    1,
+    393
+  ],
+  "expected_decoded_frame_count": 393,
+  "hardware_enforcement": "Explicit -hwaccel d3d11va -hwaccel_output_format d3d11, followed by hwdownload. A software fallback cannot satisfy hwdownload and must fail.",
+  "formats": [
+    {
+      "format": "vp9",
+      "file": "Mechanical_Flower_4K_SciFi.webm",
+      "file_sha256": "236f39c18e5bd5a2a107cdf1487a1fb7eeae27f28950e90e26c72c688a96e86d",
+      "comparison_pixel_format": "nv12",
+      "passed": true,
+      "software_returncode": 0,
+      "software_stderr": "",
+      "d3d11_returncode": 0,
+      "d3d11_stderr": "",
+      "software_frame_count": 393,
+      "hardware_frame_count": 393,
+      "mismatched_original_frames": [],
+      "mismatched_frame_count": 0,
+      "all_pixel_hashes_identical": true,
+      "all_timestamps_and_sizes_identical": true
+    },
+    {
+      "format": "hevc",
+      "file": "Mechanical_Flower_4K_SciFi_HEVC.mp4",
+      "file_sha256": "8baf5917144d6e80098b1b836bbc2d4fbcc96a4cb97e8a8e9868a54e431153de",
+      "comparison_pixel_format": "p010le",
+      "passed": true,
+      "software_returncode": 0,
+      "software_stderr": "",
+      "d3d11_returncode": 0,
+      "d3d11_stderr": "",
+      "software_frame_count": 393,
+      "hardware_frame_count": 393,
+      "mismatched_original_frames": [],
+      "mismatched_frame_count": 0,
+      "all_pixel_hashes_identical": true,
+      "all_timestamps_and_sizes_identical": true
+    }
+  ],
+  "passed": true
+}

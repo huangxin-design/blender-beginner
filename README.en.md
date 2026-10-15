@@ -126,7 +126,7 @@ Flower bloom and Tree Study now show their latest completed versions, with usage
 
 ### Rainbow frosted-glass flowers · foreground and depth
 
-[![Three iridescent glass flowers, with the lower-right bloom in the foreground](projects/rainbow-glass-flowers/preview.jpg)](projects/rainbow-glass-flowers/README.md)
+[![Four-shot filmstrip: opening wide shot, foreground flower, iridescent petal detail, and closing wide shot](projects/rainbow-glass-flowers/preview.jpg)](projects/rainbow-glass-flowers/README.md)
 
 Milky translucent petals carry pastel rainbow reflections. The lower-right flower sits in front and remains in focus, with softer flowers behind it. The case preserves the actual iterations in materials, composition and geometric clearance.
 

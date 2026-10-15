@@ -9,8 +9,8 @@
     },
     {
       "file": "credits.md",
-      "bytes": 1047,
-      "sha256": "b5b0423b97a7cc98da9d265a7fbd1a7c751ec0e6a1180c6678880ac8049240e4"
+      "bytes": 1130,
+      "sha256": "14c2ee78a0bf21af5db560da06c60f24614ba90da6865056a044b38d62f63648"
     },
     {
       "file": "final.mp4",
@@ -39,8 +39,8 @@
     },
     {
       "file": "preview.jpg",
-      "bytes": 86942,
-      "sha256": "c3899ec850d999fa3e32f0a05cb2e1f797d22738a4f3cfcd5e16654c82a7ba6b"
+      "bytes": 245754,
+      "sha256": "1d3454c781e0a7dc46947160fb30afbf31c586cfcda1b948d76b72f54d882653"
     },
     {
       "file": "prompts.md",
@@ -74,13 +74,13 @@
     },
     {
       "file": "README.md",
-      "bytes": 2899,
-      "sha256": "79d99e17bb82fb861224caf7edc18c905be063a2e36d41205cf0463aaaf8f541"
+      "bytes": 3180,
+      "sha256": "500226ddab7f6660fcb38790850e1759aebb560bfced082de553ea9b00c5d2d7"
     },
     {
       "file": "verification.json",
-      "bytes": 1277,
-      "sha256": "bee4afa47645ef51f3063cc7c200e2c832c7e23855ca9e6fabb6ec39c95c46a9"
+      "bytes": 1694,
+      "sha256": "7827b6ef66acafb26071cb3a9c9cb2074763fd7e5ebc9281ea37ec9c2fa34f8e"
     },
     {
       "file": "versions/v009/.gitignore",

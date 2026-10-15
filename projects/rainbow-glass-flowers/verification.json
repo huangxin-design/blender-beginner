@@ -13,6 +13,16 @@
     "audio": false,
     "strict_software_decode": "PASS"
   },
+  "preview_filmstrip": {
+    "updated": "2026-10-15",
+    "file": "preview.jpg",
+    "source": "Native rendered PNG sequence used for final.mp4",
+    "source_frames": [1, 97, 217, 360],
+    "panel_resolution": [480, 640],
+    "resolution": [1920, 640],
+    "processing": "Proportional Lanczos downscale, horizontal concatenation, JPEG encoding; no cropping or generative editing.",
+    "visually_reviewed": true
+  },
   "master_resolution": [
     1080,
     1440

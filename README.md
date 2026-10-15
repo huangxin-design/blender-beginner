@@ -117,7 +117,7 @@ Skill 尚未出现在列表时，重启 Codex 再检查。首次使用、已有�
 
 ### 虹彩磨砂玻璃花 · 前景与景深
 
-[![三朵虹彩磨砂玻璃花，右下花清晰置于前景](projects/rainbow-glass-flowers/preview.jpg)](projects/rainbow-glass-flowers/README.md)
+[![虹彩玻璃花四镜头横向预览：开场全景、前景花近景、花瓣特写、收尾全景](projects/rainbow-glass-flowers/preview.jpg)](projects/rainbow-glass-flowers/README.md)
 
 乳白半透花瓣带七彩边缘反光，三朵花大小错落，右下花前置并保持清楚焦点。保留从白模、材质、间距修正到前景调整的实际制作过程。
 

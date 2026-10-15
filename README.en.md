@@ -124,6 +124,16 @@ See [usage, boundaries, and verification](docs/usage-progress.md) (Chinese), or 
 
 Flower bloom and Tree Study now show their latest completed versions, with usage read at **19:20 China Standard Time on September 9, 2026**. The AI spheres and Pink Wave retain their 16:59 snapshots from the same day. Each case states the coverage of its cumulative task record. [Sources and methodology](docs/showcase-measurements.md)
 
+### Spiral blossom · color film and shaded wire clay
+
+[![Rotating growth, long petals releasing, and matching color and wire-clay frames](projects/spiral-blossom/preview.jpg)](projects/spiral-blossom/README.md)
+
+**15 seconds · 3:4 portrait · native 1080 × 1440 · 60 fps.** Flowers rotate as they grow, with petals and filaments becoming longer and denser toward the bottom. V13 fixes repeated stops between motion segments. V14 adds shaded white clay and quad-grid lines while preserving positions, animation, camera, depth of field, and stem fuzz.
+
+Both versions include 900-frame films, lightweight previews, and editable Blender scenes. Timestamps and full decoding were checked. The case preserves actual revisions; token usage and total production time were not independently measured.
+
+[Case study](projects/spiral-blossom/README.md) · [Color film](projects/spiral-blossom/versions/v013/final.mp4) · [Wire clay](projects/spiral-blossom/versions/v014/final.mp4) · [Condensed conversation](projects/spiral-blossom/conversation.md) · [Color scene](projects/spiral-blossom/versions/v013/scene.blend) · [Clay scene](projects/spiral-blossom/versions/v014/scene.blend)
+
 ### Rainbow frosted-glass flowers · foreground and depth
 
 [![Four-shot filmstrip: opening wide shot, foreground flower, iridescent petal detail, and closing wide shot](projects/rainbow-glass-flowers/preview.jpg)](projects/rainbow-glass-flowers/README.md)

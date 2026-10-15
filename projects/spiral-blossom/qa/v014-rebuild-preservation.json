@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "matched": [
+    "object transforms and parenting",
+    "mesh and shape-key coordinates",
+    "curve control points",
+    "native animation keys",
+    "mesh UVs and connectivity",
+    "geometry modifiers",
+    "camera and DOF",
+    "resolution, frame range, fps and motion blur"
+  ],
+  "flowers_with_verified_original_quad_grid": 128,
+  "frames": 900,
+  "fps": 60,
+  "resolution": [
+    1080,
+    1440
+  ],
+  "source": "versions/v013/scene.blend",
+  "geometry_snapshot_sha256": "76b3faa7dfbe630c57a666f2121bd84f4695c09df4cba9958c8079b613a570b9"
+}

@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "frames": 900,
+  "duration_seconds": 15,
+  "exact_hold_max_error": 0.0,
+  "release_peak_degrees_per_second": [
+    57.368671291904704,
+    60.716010400344544,
+    37.59773251281899
+  ],
+  "maximum_endpoint_error_local": 9.830249847454215e-07,
+  "source_sha256": "0a1f5b0b0ad4f5eb42a6d041dbe806b088559f6f3b96cb4b669fc3bd754e20f9"
+}

@@ -1,0 +1,90 @@
+{
+  "old_video": {
+    "frames": 450,
+    "timestamp_steps_valid": true,
+    "min_step_seconds": 0.03333299999999895,
+    "max_step_seconds": 0.033334000000000086
+  },
+  "old_motion": {
+    "peak_degrees_per_second": 168.72392532429672,
+    "largest_degrees_per_frame": 5.624130844143224,
+    "largest_acceleration_degrees_per_second2": 792.3634156054447,
+    "minimum_turn_speed_2_to_11_seconds": 0.1766662187617385,
+    "reverse_frames": 0
+  },
+  "new_motion": {
+    "peak_degrees_per_second": 60.69384705325547,
+    "largest_degrees_per_frame": 1.0115641175542578,
+    "largest_acceleration_degrees_per_second2": 37.693932845780154,
+    "minimum_turn_speed_2_to_11_seconds": 27.70016492016282,
+    "reverse_frames": 0
+  },
+  "diagnosis": "The old per-interval smoothstep brings every animated channel to rest at every knot; this produces repeated stop-start motion. The encoded timestamps are regular.",
+  "new_mapping": "Integral of a positive speed envelope with smooth broad pulses; no interior full stops. Native 60 fps.",
+  "source_samples": [
+    [
+      0,
+      1.0
+    ],
+    [
+      1,
+      14.215559006196214
+    ],
+    [
+      2,
+      46.91496860603852
+    ],
+    [
+      3,
+      77.97093073542082
+    ],
+    [
+      4,
+      97.30187416091094
+    ],
+    [
+      5,
+      110.06427952699136
+    ],
+    [
+      6,
+      127.12284977969692
+    ],
+    [
+      7,
+      149.42716756637228
+    ],
+    [
+      8,
+      168.12058523775482
+    ],
+    [
+      9,
+      194.37889293298517
+    ],
+    [
+      10,
+      217.99157868663707
+    ],
+    [
+      11,
+      244.6015859417795
+    ],
+    [
+      12,
+      274.07617256791264
+    ],
+    [
+      13,
+      291.6617355139184
+    ],
+    [
+      14,
+      299.9338881159547
+    ],
+    [
+      15,
+      300.0
+    ]
+  ]
+}

@@ -115,6 +115,16 @@ Skill 尚未出现在列表时，重启 Codex 再检查。首次使用、已有�
 
 花卉与数字盆景已更新至最新完成版，用量读取于 **2026-09-09 19:20（北京时间）**；AI 材质球与粉色波浪保留当天 16:59 的快照。数字对应关联制作任务的累计记录，各案例分别说明覆盖范围。[用量来源与统计方法](docs/showcase-measurements.md)
 
+### 螺旋花序 · 彩色成片与布线白模
+
+[![旋转生长、长花瓣甩出、彩色与布线白模同帧对照](projects/spiral-blossom/preview.jpg)](projects/spiral-blossom/README.md)
+
+**15 秒 · 3:4 竖版 · 原生 1080 × 1440 · 60 fps。** 花朵一边旋转一边生长，花瓣与细丝从上到下逐渐加长、加密。V13 修正分段急停的卡顿；V14 换成带光影的布线白模，保留相同位置、镜头、动画、景深和茎杆细毛。
+
+两版各保留 900 帧成片、轻量预览和可编辑 Blender 工程。时间戳与完整解码检查通过；制作过程包含真实返工，Token 与完整制作耗时未独立统计。
+
+[完整案例](projects/spiral-blossom/README.md) · [彩色成片](projects/spiral-blossom/versions/v013/final.mp4) · [布线白模](projects/spiral-blossom/versions/v014/final.mp4) · [制作对话](projects/spiral-blossom/conversation.md) · [彩色工程](projects/spiral-blossom/versions/v013/scene.blend) · [白模工程](projects/spiral-blossom/versions/v014/scene.blend)
+
 ### 虹彩磨砂玻璃花 · 前景与景深
 
 [![虹彩玻璃花四镜头横向预览：开场全景、前景花近景、花瓣特写、收尾全景](projects/rainbow-glass-flowers/preview.jpg)](projects/rainbow-glass-flowers/README.md)

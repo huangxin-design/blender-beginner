@@ -1,0 +1,109 @@
+{
+  "method": "Evaluated Subdivision and Solidify flower surfaces; beveled curve tubes",
+  "root_filter": "All retained face corner UV.v >= 4/22, including rim faces",
+  "limitations": [
+    "Samples eight frames; no continuous-time collision proof.",
+    "Surface crossing only, not contained volumes.",
+    "Closed petal seam contacts are reported separately from open petals.",
+    "World positions are midpoints of intersecting face centroids, not exact intersections.",
+    "Stem and fuzz are excluded."
+  ],
+  "frames": [
+    {
+      "frame": 465,
+      "inter_pair_count": 0,
+      "inter_face_pairs": 0,
+      "open_self_pair_count": 0,
+      "closed_seam_pair_count": 0,
+      "strand_flower_pair_count": 0,
+      "inter_pairs": [],
+      "open_self_pairs": [],
+      "closed_seams": [],
+      "strand_flower_pairs": []
+    },
+    {
+      "frame": 505,
+      "inter_pair_count": 0,
+      "inter_face_pairs": 0,
+      "open_self_pair_count": 0,
+      "closed_seam_pair_count": 0,
+      "strand_flower_pair_count": 0,
+      "inter_pairs": [],
+      "open_self_pairs": [],
+      "closed_seams": [],
+      "strand_flower_pairs": []
+    },
+    {
+      "frame": 535,
+      "inter_pair_count": 0,
+      "inter_face_pairs": 0,
+      "open_self_pair_count": 0,
+      "closed_seam_pair_count": 0,
+      "strand_flower_pair_count": 0,
+      "inter_pairs": [],
+      "open_self_pairs": [],
+      "closed_seams": [],
+      "strand_flower_pairs": []
+    },
+    {
+      "frame": 590,
+      "inter_pair_count": 0,
+      "inter_face_pairs": 0,
+      "open_self_pair_count": 0,
+      "closed_seam_pair_count": 0,
+      "strand_flower_pair_count": 0,
+      "inter_pairs": [],
+      "open_self_pairs": [],
+      "closed_seams": [],
+      "strand_flower_pairs": []
+    },
+    {
+      "frame": 630,
+      "inter_pair_count": 0,
+      "inter_face_pairs": 0,
+      "open_self_pair_count": 0,
+      "closed_seam_pair_count": 0,
+      "strand_flower_pair_count": 0,
+      "inter_pairs": [],
+      "open_self_pairs": [],
+      "closed_seams": [],
+      "strand_flower_pairs": []
+    },
+    {
+      "frame": 690,
+      "inter_pair_count": 0,
+      "inter_face_pairs": 0,
+      "open_self_pair_count": 0,
+      "closed_seam_pair_count": 0,
+      "strand_flower_pair_count": 0,
+      "inter_pairs": [],
+      "open_self_pairs": [],
+      "closed_seams": [],
+      "strand_flower_pairs": []
+    },
+    {
+      "frame": 755,
+      "inter_pair_count": 0,
+      "inter_face_pairs": 0,
+      "open_self_pair_count": 0,
+      "closed_seam_pair_count": 0,
+      "strand_flower_pair_count": 0,
+      "inter_pairs": [],
+      "open_self_pairs": [],
+      "closed_seams": [],
+      "strand_flower_pairs": []
+    },
+    {
+      "frame": 900,
+      "inter_pair_count": 0,
+      "inter_face_pairs": 0,
+      "open_self_pair_count": 0,
+      "closed_seam_pair_count": 0,
+      "strand_flower_pair_count": 0,
+      "inter_pairs": [],
+      "open_self_pairs": [],
+      "closed_seams": [],
+      "strand_flower_pairs": []
+    }
+  ]
+}

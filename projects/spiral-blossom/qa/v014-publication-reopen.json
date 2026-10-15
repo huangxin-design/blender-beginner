@@ -1,0 +1,24 @@
+{
+  "passed": true,
+  "version": "v014",
+  "blender": "5.2.1 LTS",
+  "external_dependencies": [],
+  "objects": 402,
+  "resolution": [
+    1080,
+    1440
+  ],
+  "fps": 60,
+  "frame_range": [
+    1,
+    900
+  ],
+  "cpu_preview": {
+    "frame": 900,
+    "resolution": [
+      540,
+      720
+    ],
+    "samples": 32
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "png_crc_validation": "900 passed",
+  "native_frame_render": true,
+  "repeated_frames_in_2_to_12_seconds": [],
+  "held_frames": "858..900 repeat 857; native scene verified constant",
+  "versions": [
+    {
+      "label": "Master",
+      "path": "versions/v013/final.mp4",
+      "passed": true,
+      "frames": 900,
+      "fps": 60,
+      "seconds": 15,
+      "resolution": [
+        1080,
+        1440
+      ],
+      "full_decode": "passed",
+      "max_timestamp_step_error": 6.66666667707011e-07,
+      "bytes": 5996985
+    },
+    {
+      "label": "Preview",
+      "path": "versions/v013/preview.mp4",
+      "passed": true,
+      "frames": 900,
+      "fps": 60,
+      "seconds": 15,
+      "resolution": [
+        720,
+        960
+      ],
+      "full_decode": "passed",
+      "max_timestamp_step_error": 6.66666667707011e-07,
+      "bytes": 2851195
+    }
+  ]
+}

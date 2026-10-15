@@ -1,0 +1,169 @@
+{
+  "case": "spiral-blossom",
+  "versions": [
+    "v013",
+    "v014"
+  ],
+  "files": [
+    {
+      "file": ".gitattributes",
+      "bytes": 116,
+      "sha256": "6e5602a20700aca27633f81ed50963de4acc63b964e7157c8d190e606c1c56a3"
+    },
+    {
+      "file": ".gitignore",
+      "bytes": 21,
+      "sha256": "7e2f65c80bddb76631f05a448b09378247e7f14af4ade18127925c07a6538dbf"
+    },
+    {
+      "file": "conversation.md",
+      "bytes": 2414,
+      "sha256": "232d410f6635f6726fca29817f284d1c31d0c78484793f0cb0d1ad92039b82a9"
+    },
+    {
+      "file": "credits.md",
+      "bytes": 1193,
+      "sha256": "8cfd1ca3a0b085a6105f085c86b0a8bcea78d584b59aa0af08cb0f95ed1849e7"
+    },
+    {
+      "file": "preview.jpg",
+      "bytes": 149826,
+      "sha256": "8cd704639cc67674a11f93d0cffcb34e604c4f332d4a90e5cc844c8b14818f73"
+    },
+    {
+      "file": "prompts.md",
+      "bytes": 840,
+      "sha256": "686c83b593c7e43a8c33a610d6848c2e39d1a6a100ab06e26be17581324e5b38"
+    },
+    {
+      "file": "qa/v013-motion-comparison.json",
+      "bytes": 1780,
+      "sha256": "f85445da72dabfa09ed111e323080d9362ba5947f155f9af4ca1941cb39eff7a"
+    },
+    {
+      "file": "qa/v013-native-motion-audit.json",
+      "bytes": 352,
+      "sha256": "c018517bfd030c99e438897da2afa99507688b8f7590fbf2df862e92c94cde02"
+    },
+    {
+      "file": "qa/v013-pixel-motion.json",
+      "bytes": 825,
+      "sha256": "fe41618e45eb87efa57b6956f00dae2ffa52a86bf8db14fa08bed4afc8333d50"
+    },
+    {
+      "file": "qa/v013-publication-reopen.json",
+      "bytes": 318,
+      "sha256": "e999482663cb9103f5490bc0798767decf216ae4aa66b6bf6820979c8d329f79"
+    },
+    {
+      "file": "qa/v013-surface-collision-audit.json",
+      "bytes": 2996,
+      "sha256": "bed042e69c466a711e42174daa903eb83a86ac898661afe59586ef0f8151e7cd"
+    },
+    {
+      "file": "qa/v013-video.json",
+      "bytes": 865,
+      "sha256": "2e62faca8ec1f5687c564112fac8cc9be4a9c3b257b8dcc0bf9d2db76e7c8e85"
+    },
+    {
+      "file": "qa/v014-pixel-motion.json",
+      "bytes": 816,
+      "sha256": "a27265bee4643b281fd1df73602f2742b324e32d96fc14dfc4984394bad2949a"
+    },
+    {
+      "file": "qa/v014-preservation.json",
+      "bytes": 569,
+      "sha256": "7a5d7090b7781c3f3335c8461eda5dc07465fa353f354cf6e29f8535c124e759"
+    },
+    {
+      "file": "qa/v014-publication-reopen.json",
+      "bytes": 318,
+      "sha256": "692d9f0db019bf6dfda618445dc225a612bd20641459b7cb8d41d796c64d5d1a"
+    },
+    {
+      "file": "qa/v014-rebuild-preservation.json",
+      "bytes": 568,
+      "sha256": "c4eec1afc8541b4cf67f2d73fd0731b600e194607e4958e2723e146ce7f05be6"
+    },
+    {
+      "file": "qa/v014-video.json",
+      "bytes": 865,
+      "sha256": "e8e7cd12ad4c51288019aa97bf754dbbf2ad44f3a3cb1de5b0106d53463d7cd1"
+    },
+    {
+      "file": "README.md",
+      "bytes": 4042,
+      "sha256": "ccba054dbbd8dbf20bfdd21b9a91d0bba03d39182a971ae4d4947dd96cfbf3ae"
+    },
+    {
+      "file": "scripts/build_wire_clay.py",
+      "bytes": 7743,
+      "sha256": "8e39eddccf9ca3b3ddbe9ab565ebb13c0cb73ae5c385bd8b5dc4f23652a0186f"
+    },
+    {
+      "file": "scripts/encode.py",
+      "bytes": 5670,
+      "sha256": "9893866e6e4f0fcd7a0d6c8b2d38698121792eaa840aac806bd127ce65a4289e"
+    },
+    {
+      "file": "scripts/render.py",
+      "bytes": 2650,
+      "sha256": "fb0636f12767108043f5f87a2de1f4ee1ffffbda7b37db6c6c28c63dfddbd230"
+    },
+    {
+      "file": "verification.json",
+      "bytes": 3408,
+      "sha256": "4c088a015089e9af43de9f1886c95d683d2f01f66da2b0b8bc5a026a79418b33"
+    },
+    {
+      "file": "versions/v013/final.mp4",
+      "bytes": 5996985,
+      "sha256": "01fdb186938d5c99b10b88972b4ac4182751de6889e63e748cda13f87ba603ce"
+    },
+    {
+      "file": "versions/v013/preview.mp4",
+      "bytes": 2851195,
+      "sha256": "ed5a7fc716e37d0fb4bcb1de98cde6aa6666c04bdd9cf50af3f156b4203cad83"
+    },
+    {
+      "file": "versions/v013/preview.png",
+      "bytes": 1620618,
+      "sha256": "f3831ff883fe9c8cc8ce1c05b98ca3b4f2be72762dbff0e8de8d1bea1d0ca743"
+    },
+    {
+      "file": "versions/v013/README.md",
+      "bytes": 1148,
+      "sha256": "a70a6f22818cd8974eefed2e0304c0aa4d7288c71d6578f3455a2737984373c8"
+    },
+    {
+      "file": "versions/v013/scene.blend",
+      "bytes": 8703879,
+      "sha256": "0a1f5b0b0ad4f5eb42a6d041dbe806b088559f6f3b96cb4b669fc3bd754e20f9"
+    },
+    {
+      "file": "versions/v014/final.mp4",
+      "bytes": 5976150,
+      "sha256": "6f62d91159b84f6cda4bb8ad4671b59a3087467267b941d17969f31c192afc1f"
+    },
+    {
+      "file": "versions/v014/preview.mp4",
+      "bytes": 2856068,
+      "sha256": "32dbae66b48dae19699180a48d0c0bfdd90ad25463e8df3856d89d12219b3369"
+    },
+    {
+      "file": "versions/v014/preview.png",
+      "bytes": 1419551,
+      "sha256": "5d36d30b1cc4563b09ebdf9ccaebbc15742dcec37f608b2ea6b15c4350a04075"
+    },
+    {
+      "file": "versions/v014/README.md",
+      "bytes": 1129,
+      "sha256": "b7063a1f289925accb020a2a77003a00a226482729cb12e1ceb3c1cd4430696e"
+    },
+    {
+      "file": "versions/v014/scene.blend",
+      "bytes": 8699576,
+      "sha256": "659c493eb9e8e4dc1766d4b672446eeb29a9acfb080d94e0ef11833170f2ba05"
+    }
+  ]
+}

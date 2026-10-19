@@ -1,0 +1,40 @@
+{
+  "v004": {
+    "resolution": [
+      180,
+      240
+    ],
+    "samples": 16,
+    "engine": "CYCLES",
+    "persistent_data": false,
+    "frames": [
+      {
+        "frame": 330,
+        "seconds": 15.88,
+        "camera": "CAM 04 · 盛开全景 / Open flower"
+      }
+    ],
+    "executed_via": "scripts/render_batches.py",
+    "viewed": true,
+    "purpose": "Relocated scene and script smoke check, not a final-quality render"
+  },
+  "v005": {
+    "resolution": [
+      360,
+      480
+    ],
+    "samples": 8,
+    "engine": "BLENDER_EEVEE",
+    "persistent_data": false,
+    "frames": [
+      {
+        "frame": 330,
+        "seconds": 62.23,
+        "camera": "CAM 04 · 盛开全景 / Open flower"
+      }
+    ],
+    "executed_via": "scripts/render_batches.py",
+    "viewed": true,
+    "purpose": "Relocated scene and script smoke check, not a final-quality render"
+  }
+}

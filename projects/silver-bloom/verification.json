@@ -1,0 +1,84 @@
+{
+  "archived_versions": [
+    "v004-blackfix",
+    "v005-wire-clay-4k",
+    "v006-comparison"
+  ],
+  "production": {
+    "v004": {
+      "resolution": [
+        720,
+        960
+      ],
+      "frames": 450,
+      "fps": 30,
+      "seconds": 15,
+      "source_png_integrity_and_full_decode_passed": true,
+      "black_intervals": [],
+      "evidence": [
+        "qa/v004-native.json",
+        "qa/v004-video.json",
+        "qa/v004-visual.json"
+      ]
+    },
+    "v005": {
+      "resolution": [
+        2880,
+        3840
+      ],
+      "native_4k": true,
+      "frames": 450,
+      "fps": 30,
+      "seconds": 15,
+      "source_png_integrity_and_full_decode_passed": true,
+      "black_intervals": [],
+      "preserved_geometry_animation_and_camera_framing": true,
+      "evidence": [
+        "qa/v005-native.json",
+        "qa/v005-video.json",
+        "qa/v005-visual.json"
+      ]
+    },
+    "v006": {
+      "resolution": [
+        1080,
+        1440
+      ],
+      "upscales_720x960_color_source": true,
+      "frames": 450,
+      "fps": 30,
+      "seconds": 15,
+      "full_decode_passed": true,
+      "black_intervals": [],
+      "evidence": [
+        "qa/v006-timeline.json",
+        "qa/v006-video.json",
+        "qa/v006-visual.json"
+      ]
+    }
+  },
+  "publication": {
+    "date": "2026-10-19",
+    "blender": "5.2.1 LTS",
+    "relocated_scenes_reopened": true,
+    "four_2k_images_packed_in_each_scene": true,
+    "external_dependencies": [],
+    "render_entrypoint_smoke_frame": 330,
+    "comparison_rebuild_identical_mp4_and_all_450_frames": true,
+    "cover_and_smoke_images_viewed": true,
+    "evidence": [
+      "qa/v004-publication-reopen.json",
+      "qa/v005-publication-reopen.json",
+      "qa/publication-render-smoke.json",
+      "qa/v005-preview-video.json",
+      "qa/v006-publication-rebuild.json"
+    ]
+  },
+  "limits": [
+    "Not a continuous collision proof across all frames and subframes.",
+    "Publication smoke renders use reduced dimensions and samples.",
+    "Production-history paths in copied audits label earlier local artifacts; those files are not included.",
+    "The scripts do not reconstruct the entire early modeling history.",
+    "Total production time and token usage were not independently measured."
+  ]
+}

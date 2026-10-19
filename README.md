@@ -115,6 +115,16 @@ Skill 尚未出现在列表时，重启 Codex 再检查。首次使用、已有�
 
 花卉与数字盆景已更新至最新完成版，用量读取于 **2026-09-09 19:20（北京时间）**；AI 材质球与粉色波浪保留当天 16:59 的快照。数字对应关联制作任务的累计记录，各案例分别说明覆盖范围。[用量来源与统计方法](docs/showcase-measurements.md)
 
+### 银蓝花开 · 波浪花瓣与布线白模
+
+[![银蓝花朵、白模结构与同帧材质擦换](projects/silver-bloom/preview.jpg)](projects/silver-bloom/README.md)
+
+**15 秒 · 3:4 竖版 · 30 fps。** 半透明银蓝花瓣层层展开，波浪沿褶皱传递，细毛覆盖花茎。保留彩色修正版、带灯光的原生 **2880 × 3840** 布线白模，以及同帧擦换的合剪。
+
+彩色原片为 720 × 960；合剪为 1080 × 1440 预览，彩色部分经过放大。三段各 450 帧，完整解码与黑场检查通过；提供两份内嵌贴图的 Blender 工程和实际修改过程。Token 与完整制作耗时未独立统计。
+
+[完整案例与工程下载](projects/silver-bloom/README.md) · [15 秒合剪](projects/silver-bloom/versions/v006/final.mp4) · [彩色成片](projects/silver-bloom/versions/v004/final.mp4) · [白模预览](projects/silver-bloom/versions/v005/preview.mp4) · [制作对话](projects/silver-bloom/conversation.md)
+
 ### 螺旋花序 · 彩色成片与布线白模
 
 [![旋转生长、长花瓣甩出、彩色与布线白模同帧对照](projects/spiral-blossom/preview.jpg)](projects/spiral-blossom/README.md)

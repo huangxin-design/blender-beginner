@@ -1,0 +1,52 @@
+{
+  "file": "Silver_Bloom_Clay_Wire_4K_15s.mp4",
+  "width": 2880,
+  "height": 3840,
+  "fps": 30.0,
+  "frames": 450,
+  "samples": [
+    {
+      "requested_seconds": 5.6,
+      "frame": 169,
+      "actual_seconds": 5.6,
+      "mean_luma": 134.69748933015046,
+      "black_pixel_percent_le3": 0.0
+    },
+    {
+      "requested_seconds": 8.63,
+      "frame": 260,
+      "actual_seconds": 8.633333333333333,
+      "mean_luma": 164.29492720992477,
+      "black_pixel_percent_le3": 0.0
+    },
+    {
+      "requested_seconds": 9.333,
+      "frame": 281,
+      "actual_seconds": 9.333333333333334,
+      "mean_luma": 167.26380922670717,
+      "black_pixel_percent_le3": 0.0
+    },
+    {
+      "requested_seconds": 12.667,
+      "frame": 381,
+      "actual_seconds": 12.666666666666666,
+      "mean_luma": 73.56690104166667,
+      "black_pixel_percent_le3": 0.0
+    },
+    {
+      "requested_seconds": 14.967,
+      "frame": 450,
+      "actual_seconds": 14.966666666666667,
+      "mean_luma": 73.4459439199942,
+      "black_pixel_percent_le3": 0.0
+    }
+  ],
+  "visual_review": {
+    "status": "PASS",
+    "scope": "Five requested timestamps decoded directly from the final MP4, with full-frame and mesh-detail inspection.",
+    "wireframe": "Fine quad lines remain readable and follow petal folds.",
+    "clay_lighting": "White clay and layered shading remain consistent.",
+    "black_petals_or_black_tail": "None visible in the five samples; the last frame remains fully visible.",
+    "delivery_blockers": []
+  }
+}

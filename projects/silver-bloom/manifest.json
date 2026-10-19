@@ -1,0 +1,210 @@
+{
+  "release_tag": "works-silver-bloom-2026-10-19",
+  "release_assets": [
+    {
+      "file": "Silver_Bloom_V4_3x4_Fixed.blend",
+      "download_to": "versions/v004/scene.blend",
+      "bytes": 56357655,
+      "sha256": "bafd146e5c2791027a05a73b453c4c687ab07b099eabc61bcc0512091d86234a",
+      "url": "https://github.com/huangxin-design/blender-beginner/releases/download/works-silver-bloom-2026-10-19/Silver_Bloom_V4_3x4_Fixed.blend"
+    },
+    {
+      "file": "Silver_Bloom_Clay_Wire_4K.blend",
+      "download_to": "versions/v005/scene.blend",
+      "bytes": 56423948,
+      "sha256": "6a8498238436e5863e8959b58b9bf0bdad658ed2e882bb70caee9d7da9f31b6f",
+      "url": "https://github.com/huangxin-design/blender-beginner/releases/download/works-silver-bloom-2026-10-19/Silver_Bloom_Clay_Wire_4K.blend"
+    },
+    {
+      "file": "Silver_Bloom_Clay_Wire_4K_15s.mp4",
+      "download_to": "versions/v005/final.mp4",
+      "bytes": 62233103,
+      "sha256": "a90c947a6e3d1f4aa45c201162b4332963779b23b8ebc6c3312ecfd49fea37a8",
+      "url": "https://github.com/huangxin-design/blender-beginner/releases/download/works-silver-bloom-2026-10-19/Silver_Bloom_Clay_Wire_4K_15s.mp4"
+    }
+  ],
+  "repository_files": [
+    {
+      "file": ".gitattributes",
+      "bytes": 66,
+      "sha256": "aa50f0881085ef10455dbc8bff0cadd262ae5762fe761c37df7ac575fb02a2b5"
+    },
+    {
+      "file": ".gitignore",
+      "bytes": 97,
+      "sha256": "aeecfe8157d4e0d0b48b21c0e539ee2b182c212a10966c757682ac29b08e996c"
+    },
+    {
+      "file": "conversation.md",
+      "bytes": 3408,
+      "sha256": "15c8e7ad39cbda74913ba9bae2bbc139bccc5b376e7be152be1865ca49c260a7"
+    },
+    {
+      "file": "credits.md",
+      "bytes": 1929,
+      "sha256": "db7386232d102055781893155ac840eccabb40b743ee2fab29075de7a8a92e55"
+    },
+    {
+      "file": "preview.jpg",
+      "bytes": 157809,
+      "sha256": "a7dab253444b75a6c6a05e3bcad308d5641f527f4ab9aac10a95aea4406fbc6a"
+    },
+    {
+      "file": "prompts.md",
+      "bytes": 1806,
+      "sha256": "61ccd50e7c2de89ba2a8e30ecf4751e609577090d6844dbb99f439ed7db6d133"
+    },
+    {
+      "file": "qa/publication-render-smoke.json",
+      "bytes": 879,
+      "sha256": "7102b97e78df9341fab11f797b1500182fc757a1664ca730bc4f1f9396267a41"
+    },
+    {
+      "file": "qa/v004-native.json",
+      "bytes": 17966,
+      "sha256": "b8fa5f34cc65a1bd89cde0f9ce3b7293be3a0dbab499ec4b8223a4ddd5df630a"
+    },
+    {
+      "file": "qa/v004-publication-reopen.json",
+      "bytes": 895,
+      "sha256": "c193dff9c5ffe992ba81073726c5d73fa87c4e2b41164601e05f94f34310a40e"
+    },
+    {
+      "file": "qa/v004-video.json",
+      "bytes": 149747,
+      "sha256": "553905596a6a14c59808cba81d628fbf05465af14309ae3ba111973633915f9d"
+    },
+    {
+      "file": "qa/v004-visual.json",
+      "bytes": 1576,
+      "sha256": "555048c31bfa6d1c22926d1bcfd4c4595de0bd20c62dec0db5cb74cbc480772e"
+    },
+    {
+      "file": "qa/v005-native.json",
+      "bytes": 8538,
+      "sha256": "2e7edac622f652027898860e03d797ae558ba2298f8589a255c3e71a3d680f1a"
+    },
+    {
+      "file": "qa/v005-preview-video.json",
+      "bytes": 440,
+      "sha256": "5478a8e886852fed99e156541cc62bb86955ca3d7b9ad29fb4360d48222d891a"
+    },
+    {
+      "file": "qa/v005-publication-reopen.json",
+      "bytes": 901,
+      "sha256": "2be67c7b504dda00703f0778421aa9ea135c60bf22301f787f3a9b46ade4cb7c"
+    },
+    {
+      "file": "qa/v005-video.json",
+      "bytes": 68786,
+      "sha256": "11e5b75324b650a6cded9ac5ae0d9a261ac367d0ac886f82206031c43ffc9bb3"
+    },
+    {
+      "file": "qa/v005-visual.json",
+      "bytes": 1508,
+      "sha256": "3623e2e27eca0fa40950b96d58076577681fb7b9e84aad766b840cacfbbabfee"
+    },
+    {
+      "file": "qa/v006-publication-rebuild.json",
+      "bytes": 1447,
+      "sha256": "d7a642a1bad241009da93d1f09b279bd1ab8fb7fa1db3c988ce93975cfc13472"
+    },
+    {
+      "file": "qa/v006-timeline.json",
+      "bytes": 1387,
+      "sha256": "1274696182579865da9e25bc9df7fcae301042b173471dd24cf17f4e175a0c1e"
+    },
+    {
+      "file": "qa/v006-video.json",
+      "bytes": 389,
+      "sha256": "5d7fce052004822555b9c36ba0290bf6568df0ee226c04584c4a2039ddd781f6"
+    },
+    {
+      "file": "qa/v006-visual.json",
+      "bytes": 2843,
+      "sha256": "30409a8d4015e8dfa47fa8cfaf361e3d9c21c6171c986c666da2ad1b55e5cff6"
+    },
+    {
+      "file": "README.md",
+      "bytes": 5713,
+      "sha256": "20947dd266854a1d75cf49bda7928d1f82b68debced2d519039d4643e1d842d1"
+    },
+    {
+      "file": "scripts/build_wire_clay.py",
+      "bytes": 8114,
+      "sha256": "a7b5cc894458ad237df85f38b4d8ce3aec228d7b8144bde7dc5ca3c55d0960b1"
+    },
+    {
+      "file": "scripts/edit_comparison.py",
+      "bytes": 3944,
+      "sha256": "558f5b80ddc70d84c6e017ac78c2222c5c7c0e2c21584757f2cfddb2ea560e9d"
+    },
+    {
+      "file": "scripts/encode.py",
+      "bytes": 2195,
+      "sha256": "f79bd1ce2ec22fd56a411fc8a4cc5558e717aa58840278ca4a2c764929bb3112"
+    },
+    {
+      "file": "scripts/render.py",
+      "bytes": 3576,
+      "sha256": "55b1b27d83dfd8627410d40769f5e9d0d5b66b8d8f3c7d2c5ebb07768952ecdf"
+    },
+    {
+      "file": "scripts/render_batches.py",
+      "bytes": 2592,
+      "sha256": "fb104a534af01effaafd0ca0c53b1561fa5fbb9832cd32c194fdc597add4a41d"
+    },
+    {
+      "file": "verification.json",
+      "bytes": 2261,
+      "sha256": "8b301b3697c4b80b274a002f140f67a9dd03ad4998d62ae573fa188be1172323"
+    },
+    {
+      "file": "versions/v004/final.mp4",
+      "bytes": 3076768,
+      "sha256": "edc51e1e45c9b632e886bce4c7d7262f15305f333cbe6db60d50e72cf378bd2a"
+    },
+    {
+      "file": "versions/v004/preview.jpg",
+      "bytes": 35663,
+      "sha256": "1a6bf02eabbba48172bc61704c535f51954c251982d4090d39cb4bbb63934921"
+    },
+    {
+      "file": "versions/v004/README.md",
+      "bytes": 2154,
+      "sha256": "72787dd4a0c71e52997fc06312569706bcef6cd99d7d222dc08d9e12320153a6"
+    },
+    {
+      "file": "versions/v005/preview.jpg",
+      "bytes": 215465,
+      "sha256": "e853d545e25a397ba2e83c0d3eca00491144f7a5928007a2610e3416de88dd8e"
+    },
+    {
+      "file": "versions/v005/preview.mp4",
+      "bytes": 4393226,
+      "sha256": "6a164a2327b74d42a88fc81d9cbb0b247a5e1f14e88cbcbdcd9a41e73c378c4a"
+    },
+    {
+      "file": "versions/v005/README.md",
+      "bytes": 2491,
+      "sha256": "62c78fb8b94957f2470e21b2bc7bdd9f70f13ee10f0ea96889a517dcce2721f4"
+    },
+    {
+      "file": "versions/v006/final.mp4",
+      "bytes": 9876914,
+      "sha256": "a244f7a951ad8321c303032e3cd93af6b9d2587b263d8e07ed9e81f270a1acbb"
+    },
+    {
+      "file": "versions/v006/preview.jpg",
+      "bytes": 151219,
+      "sha256": "df5094fe4b0e240e91f3da0ff714ec23f401d09fbfc7f4c37689f3b5393f5866"
+    },
+    {
+      "file": "versions/v006/README.md",
+      "bytes": 1985,
+      "sha256": "a6676b45e0bd2efaa6d37901dd5ddeb05e5652ae6fd9834e805ff569d3717717"
+    }
+  ],
+  "hash_algorithm": "SHA256",
+  "note": "manifest.json does not hash itself. Release files are not included in the repository ZIP."
+}

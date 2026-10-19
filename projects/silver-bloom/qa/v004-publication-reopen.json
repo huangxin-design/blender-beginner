@@ -1,0 +1,55 @@
+{
+  "source": "versions/v004/scene.blend",
+  "blender": "5.2.1 LTS",
+  "relocated_reopen_passed": true,
+  "images": [
+    {
+      "name": "petal_basecolor.png",
+      "size": [
+        2048,
+        2048
+      ],
+      "packed": true
+    },
+    {
+      "name": "petal_height.png",
+      "size": [
+        2048,
+        2048
+      ],
+      "packed": true
+    },
+    {
+      "name": "petal_normal.png",
+      "size": [
+        2048,
+        2048
+      ],
+      "packed": true
+    },
+    {
+      "name": "petal_roughness.png",
+      "size": [
+        2048,
+        2048
+      ],
+      "packed": true
+    }
+  ],
+  "external_dependencies": [],
+  "driver_check_frame": 330,
+  "driver_count": 387,
+  "all_drivers_valid": true,
+  "frame_range": [
+    1,
+    450
+  ],
+  "fps": 30,
+  "engine": "CYCLES",
+  "saved_resolution": [
+    1080,
+    1440
+  ],
+  "saved_samples": 256,
+  "persistent_data": false
+}

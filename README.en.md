@@ -124,6 +124,16 @@ See [usage, boundaries, and verification](docs/usage-progress.md) (Chinese), or 
 
 Flower bloom and Tree Study now show their latest completed versions, with usage read at **19:20 China Standard Time on September 9, 2026**. The AI spheres and Pink Wave retain their 16:59 snapshots from the same day. Each case states the coverage of its cumulative task record. [Sources and methodology](docs/showcase-measurements.md)
 
+### Silver bloom · waving petals and shaded wire clay
+
+[![Silver-blue flower, clay topology, and frame-matched material reveals](projects/silver-bloom/preview.jpg)](projects/silver-bloom/README.md)
+
+**15 seconds · 3:4 portrait · 30 fps.** Translucent silver-blue petals unfold with traveling waves, layered folds, and a fuzzy stem. The case includes the corrected color film, a lit wire-clay film rendered at native **2880 × 3840**, and a frame-matched comparison edit.
+
+The color source is 720 × 960; the 1080 × 1440 comparison preview upscales its color portions. All three films contain 450 frames and passed full decode and black-interval checks. Two editable Blender scenes include packed textures. Token usage and total production time were not independently measured.
+
+[Case study and scene downloads](projects/silver-bloom/README.md) · [15-second comparison](projects/silver-bloom/versions/v006/final.mp4) · [Color film](projects/silver-bloom/versions/v004/final.mp4) · [Clay preview](projects/silver-bloom/versions/v005/preview.mp4) · [Condensed conversation](projects/silver-bloom/conversation.md)
+
 ### Spiral blossom · color film and shaded wire clay
 
 [![Rotating growth, long petals releasing, and matching color and wire-clay frames](projects/spiral-blossom/preview.jpg)](projects/spiral-blossom/README.md)

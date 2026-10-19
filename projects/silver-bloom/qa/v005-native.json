@@ -1,0 +1,346 @@
+{
+  "source": "versions/v004/scene.blend",
+  "target": "versions/v005/scene.blend",
+  "passed": true,
+  "checks": {
+    "meshes_unchanged": true,
+    "objects_unchanged": true,
+    "cameras_unchanged": true,
+    "scene_animation_unchanged": true,
+    "markers_unchanged": true,
+    "native_resolution_2880x3840_100pct": true,
+    "450_frames_30fps_15_seconds": true,
+    "eevee_engine_and_64_samples": true,
+    "driver_validity_at_15_samples": true,
+    "compositor_exposure_zero": true,
+    "no_compositor_animation": true,
+    "constant_view_exposure": true,
+    "no_hidden_meshes_in_samples": true,
+    "light_energies_correct": true,
+    "neutral_light_color": true,
+    "background_gray_floor_0012": true,
+    "key_rim_shadow_jitter_only": true,
+    "fast_gi_configuration": true,
+    "camera_dof_disabled": true,
+    "no_external_file_dependencies": true,
+    "no_external_handlers": true,
+    "images_packed": true,
+    "relative_render_path": true,
+    "no_persistent_render_data": true
+  },
+  "failed_checks": [],
+  "comparisons": {
+    "meshes": {
+      "source": "8149ce0a35685ea9dd5ca61666906bcbee42149abfbdcf774bbb021505e21794",
+      "target": "8149ce0a35685ea9dd5ca61666906bcbee42149abfbdcf774bbb021505e21794"
+    },
+    "objects": {
+      "source": "3fa4bdf4660075735c6e553946ccb0f78dc8e3c8818a66c5857aaa9d4849992e",
+      "target": "3fa4bdf4660075735c6e553946ccb0f78dc8e3c8818a66c5857aaa9d4849992e"
+    },
+    "cameras": {
+      "source": "0306a70f2d823beb5d988b8228123f560d420e3c0d2f85de97bfda47ce8f67e3",
+      "target": "0306a70f2d823beb5d988b8228123f560d420e3c0d2f85de97bfda47ce8f67e3"
+    },
+    "scene_animation": {
+      "source": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "target": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b"
+    },
+    "markers": {
+      "source": "783a6ed37c1f5ed064fbb863af62559b53ec248c7e48a7950206871cb0c8e785",
+      "target": "783a6ed37c1f5ed064fbb863af62559b53ec248c7e48a7950206871cb0c8e785"
+    }
+  },
+  "frame_states": [
+    {
+      "frame": 1,
+      "camera": "CAM 01 · 全景 / Focus reveal",
+      "driver_count": 387,
+      "invalid_drivers": [],
+      "compositor_exposure": {
+        "Exposure": 0.0
+      },
+      "view_exposure": -0.25,
+      "hidden_meshes": []
+    },
+    {
+      "frame": 88,
+      "camera": "CAM 01 · 全景 / Focus reveal",
+      "driver_count": 387,
+      "invalid_drivers": [],
+      "compositor_exposure": {
+        "Exposure": 0.0
+      },
+      "view_exposure": -0.25,
+      "hidden_meshes": []
+    },
+    {
+      "frame": 89,
+      "camera": "CAM 02 · 花瓣微距 / Unfold",
+      "driver_count": 387,
+      "invalid_drivers": [],
+      "compositor_exposure": {
+        "Exposure": 0.0
+      },
+      "view_exposure": -0.25,
+      "hidden_meshes": []
+    },
+    {
+      "frame": 160,
+      "camera": "CAM 02 · 花瓣微距 / Unfold",
+      "driver_count": 387,
+      "invalid_drivers": [],
+      "compositor_exposure": {
+        "Exposure": 0.0
+      },
+      "view_exposure": -0.25,
+      "hidden_meshes": []
+    },
+    {
+      "frame": 227,
+      "camera": "CAM 02 · 花瓣微距 / Unfold",
+      "driver_count": 387,
+      "invalid_drivers": [],
+      "compositor_exposure": {
+        "Exposure": 0.0
+      },
+      "view_exposure": -0.25,
+      "hidden_meshes": []
+    },
+    {
+      "frame": 228,
+      "camera": "CAM 03 · 花蕊微距 / Filament detail",
+      "driver_count": 387,
+      "invalid_drivers": [],
+      "compositor_exposure": {
+        "Exposure": 0.0
+      },
+      "view_exposure": -0.25,
+      "hidden_meshes": []
+    },
+    {
+      "frame": 260,
+      "camera": "CAM 03 · 花蕊微距 / Filament detail",
+      "driver_count": 387,
+      "invalid_drivers": [],
+      "compositor_exposure": {
+        "Exposure": 0.0
+      },
+      "view_exposure": -0.25,
+      "hidden_meshes": []
+    },
+    {
+      "frame": 298,
+      "camera": "CAM 03 · 花蕊微距 / Filament detail",
+      "driver_count": 387,
+      "invalid_drivers": [],
+      "compositor_exposure": {
+        "Exposure": 0.0
+      },
+      "view_exposure": -0.25,
+      "hidden_meshes": []
+    },
+    {
+      "frame": 299,
+      "camera": "CAM 04 · 盛开全景 / Open flower",
+      "driver_count": 387,
+      "invalid_drivers": [],
+      "compositor_exposure": {
+        "Exposure": 0.0
+      },
+      "view_exposure": -0.25,
+      "hidden_meshes": []
+    },
+    {
+      "frame": 330,
+      "camera": "CAM 04 · 盛开全景 / Open flower",
+      "driver_count": 387,
+      "invalid_drivers": [],
+      "compositor_exposure": {
+        "Exposure": 0.0
+      },
+      "view_exposure": -0.25,
+      "hidden_meshes": []
+    },
+    {
+      "frame": 380,
+      "camera": "CAM 04 · 盛开全景 / Open flower",
+      "driver_count": 387,
+      "invalid_drivers": [],
+      "compositor_exposure": {
+        "Exposure": 0.0
+      },
+      "view_exposure": -0.25,
+      "hidden_meshes": []
+    },
+    {
+      "frame": 381,
+      "camera": "CAM 04 · 盛开全景 / Open flower",
+      "driver_count": 387,
+      "invalid_drivers": [],
+      "compositor_exposure": {
+        "Exposure": 0.0
+      },
+      "view_exposure": -0.25,
+      "hidden_meshes": []
+    },
+    {
+      "frame": 405,
+      "camera": "CAM 04 · 盛开全景 / Open flower",
+      "driver_count": 387,
+      "invalid_drivers": [],
+      "compositor_exposure": {
+        "Exposure": 0.0
+      },
+      "view_exposure": -0.25,
+      "hidden_meshes": []
+    },
+    {
+      "frame": 434,
+      "camera": "CAM 04 · 盛开全景 / Open flower",
+      "driver_count": 387,
+      "invalid_drivers": [],
+      "compositor_exposure": {
+        "Exposure": 0.0
+      },
+      "view_exposure": -0.25,
+      "hidden_meshes": []
+    },
+    {
+      "frame": 450,
+      "camera": "CAM 04 · 盛开全景 / Open flower",
+      "driver_count": 387,
+      "invalid_drivers": [],
+      "compositor_exposure": {
+        "Exposure": 0.0
+      },
+      "view_exposure": -0.25,
+      "hidden_meshes": []
+    }
+  ],
+  "markers": [
+    [
+      "CAM 01 · 全景 / Focus reveal",
+      1,
+      "CAM 01 · 全景 / Focus reveal"
+    ],
+    [
+      "CAM 02 · 花瓣微距 / Unfold",
+      89,
+      "CAM 02 · 花瓣微距 / Unfold"
+    ],
+    [
+      "CAM 03 · 花蕊微距 / Filament detail",
+      228,
+      "CAM 03 · 花蕊微距 / Filament detail"
+    ],
+    [
+      "CAM 04 · 盛开全景 / Open flower",
+      299,
+      "CAM 04 · 盛开全景 / Open flower"
+    ]
+  ],
+  "lights": {
+    "Key": {
+      "energy": 690.0,
+      "color": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "shadow": true,
+      "jitter": true
+    },
+    "Strip": {
+      "energy": 260.0,
+      "color": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "shadow": true,
+      "jitter": false
+    },
+    "Rim": {
+      "energy": 1050.0,
+      "color": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "shadow": true,
+      "jitter": true
+    },
+    "Fill": {
+      "energy": 105.0,
+      "color": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "shadow": true,
+      "jitter": false
+    }
+  },
+  "eevee": {
+    "taa_render_samples": 64,
+    "use_raytracing": true,
+    "use_fast_gi": true,
+    "fast_gi_method": "AMBIENT_OCCLUSION_ONLY",
+    "fast_gi_distance": 0.44999998807907104,
+    "fast_gi_thickness_near": 0.03500000014901161,
+    "fast_gi_quality": 0.75,
+    "fast_gi_step_count": 16,
+    "fast_gi_ray_count": 4,
+    "fast_gi_resolution": "2",
+    "shadow_ray_count": 2,
+    "shadow_step_count": 8
+  },
+  "external_paths": [],
+  "images": [
+    {
+      "name": "petal_basecolor.png",
+      "packed": true,
+      "size": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "name": "petal_height.png",
+      "packed": true,
+      "size": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "name": "petal_normal.png",
+      "packed": true,
+      "size": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "name": "petal_roughness.png",
+      "packed": true,
+      "size": [
+        2048,
+        2048
+      ]
+    }
+  ],
+  "handlers": {
+    "frame_change_pre": [],
+    "frame_change_post": [],
+    "render_pre": [],
+    "render_post": []
+  },
+  "compositor_animation": {
+    "nla_tracks": 0,
+    "curves": [],
+    "drivers": []
+  },
+  "method": "Both saved files independently opened in background Blender. Full native mesh/topology and every shape-key coordinate hashed; complete object, camera, shape-key actions/drivers compared. Fifteen frame evaluations; no render, collision sweep, or save. UV/material differences permitted."
+}

@@ -1,0 +1,65 @@
+{
+  "sources": {
+    "shaded": "versions/v004/final.mp4",
+    "clay": "versions/v005/final.mp4"
+  },
+  "resolution": [
+    1080,
+    1440
+  ],
+  "fps": 30,
+  "frames": 450,
+  "note": "Preview: shaded source 720x960, clay source 2880x3840. No retiming; identical source frame at every wipe.",
+  "segments": [
+    {
+      "start": 0,
+      "end": 2.933333333333333,
+      "treatment": "shaded introduction"
+    },
+    {
+      "start": 2.933333333333333,
+      "end": 4.5,
+      "treatment": "clay unfolding"
+    },
+    {
+      "start": 4.5,
+      "end": 5.3,
+      "treatment": "left-to-right material reveal"
+    },
+    {
+      "start": 5.3,
+      "end": 7.566666666666666,
+      "treatment": "shaded unfolding"
+    },
+    {
+      "start": 7.566666666666666,
+      "end": 8.733333333333333,
+      "treatment": "clay filament detail"
+    },
+    {
+      "start": 8.733333333333333,
+      "end": 9.4,
+      "treatment": "left-to-right material reveal"
+    },
+    {
+      "start": 9.4,
+      "end": 9.933333333333334,
+      "treatment": "shaded filament detail"
+    },
+    {
+      "start": 9.933333333333334,
+      "end": 11.25,
+      "treatment": "clay wide shot"
+    },
+    {
+      "start": 11.25,
+      "end": 12.25,
+      "treatment": "left-to-right material reveal"
+    },
+    {
+      "start": 12.25,
+      "end": 15,
+      "treatment": "shaded final hold with petal motion"
+    }
+  ]
+}

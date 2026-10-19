@@ -4,6 +4,16 @@
 
 花卉与数字盆景为最新完成版，任务用量读取于 **2026-09-09 19:20（北京时间）**；AI 品牌与粉色波浪保留当天 16:59 的快照。覆盖范围见各案例与[统计说明](../docs/showcase-measurements.md)。
 
+## 银蓝花开 · 波浪花瓣与布线白模
+
+[![银蓝花朵、白模结构与同帧材质擦换](silver-bloom/preview.jpg)](silver-bloom/README.md)
+
+**15 秒 · 3:4 竖版 · 30 fps。** 半透明银蓝花瓣层层展开，波浪沿褶皱传递，细毛覆盖花茎。保留彩色修正版、带灯光的原生 **2880 × 3840** 布线白模，以及同帧擦换的合剪。
+
+彩色原片为 720 × 960；合剪为 1080 × 1440 预览，彩色部分经过放大。三段各 450 帧，完整解码与黑场检查通过；提供两份内嵌贴图的 Blender 工程和实际修改过程。Token 与完整制作耗时未独立统计。
+
+[完整案例与工程下载](silver-bloom/README.md) · [15 秒合剪](silver-bloom/versions/v006/final.mp4) · [彩色成片](silver-bloom/versions/v004/final.mp4) · [白模预览](silver-bloom/versions/v005/preview.mp4) · [制作对话](silver-bloom/conversation.md)
+
 ## 虹彩磨砂玻璃花 · 前景与景深
 
 [![虹彩玻璃花四镜头横向预览：开场全景、前景花近景、花瓣特写、收尾全景](rainbow-glass-flowers/preview.jpg)](rainbow-glass-flowers/README.md)

@@ -1,0 +1,662 @@
+{
+  "source": "versions/v004/scene.blend",
+  "original": "production-history/v4_wave/Silver_Bloom_V4_3x4.blend",
+  "checks": {
+    "meshes_unchanged": true,
+    "objects_unchanged": true,
+    "materials_unchanged": true,
+    "cameras_unchanged": true,
+    "images_unchanged": true,
+    "lights_unchanged": true,
+    "world_unchanged": true,
+    "timeline_unchanged": true,
+    "markers_unchanged": true,
+    "scene_animation_unchanged": true,
+    "view_settings_unchanged": true,
+    "persistent_data_disabled": true,
+    "relative_render_path": true,
+    "four_images_packed": true,
+    "no_external_dependencies": true,
+    "exposure_zero_at_requested_frames": true,
+    "compositor_constant_at_requested_frames": true,
+    "no_sequencer_strips_or_callbacks": true,
+    "no_compositor_curves_drivers_or_nla": true,
+    "no_hidden_geometry_in_sampled_frames": true
+  },
+  "passed": true,
+  "failed_checks": [],
+  "comparisons": {
+    "meshes": {
+      "original": "280f1f3cf554ecd62ea5aa3152ec2c6a62f33fef9095f05bf44d7edf17a66bdc",
+      "fixed": "280f1f3cf554ecd62ea5aa3152ec2c6a62f33fef9095f05bf44d7edf17a66bdc"
+    },
+    "objects": {
+      "original": "66012d6a646b25d89694d00970821ce54929b1aa97ea7bddbab0fc33d11c83e0",
+      "fixed": "66012d6a646b25d89694d00970821ce54929b1aa97ea7bddbab0fc33d11c83e0"
+    },
+    "materials": {
+      "original": "1c5208817e234e23bc6458d625a30d4303bd3ef392b4be7b4ccfb0a4fa09bcba",
+      "fixed": "1c5208817e234e23bc6458d625a30d4303bd3ef392b4be7b4ccfb0a4fa09bcba"
+    },
+    "cameras": {
+      "original": "49585958d877c6bd8daf7684663dac8eae57ef44e081c00193a8a26fdf9ab4e5",
+      "fixed": "49585958d877c6bd8daf7684663dac8eae57ef44e081c00193a8a26fdf9ab4e5"
+    },
+    "images": {
+      "original": "508d860ecc3dcce8c385c121320d9fd4fe2cbe286cf84fddc7f2578937aaef43",
+      "fixed": "508d860ecc3dcce8c385c121320d9fd4fe2cbe286cf84fddc7f2578937aaef43"
+    },
+    "lights": {
+      "original": "877d87d490d8386e3ced9da5b5e0ab698260ac07f09a4fb492e6e249421a58a5",
+      "fixed": "877d87d490d8386e3ced9da5b5e0ab698260ac07f09a4fb492e6e249421a58a5"
+    },
+    "world": {
+      "original": "12e49cd69fd5ae3978bbf1157efad33abf42cd3667bceeb2091f4fc90a33af26",
+      "fixed": "12e49cd69fd5ae3978bbf1157efad33abf42cd3667bceeb2091f4fc90a33af26"
+    }
+  },
+  "images": {
+    "petal_basecolor.png": {
+      "size": [
+        2048,
+        2048
+      ],
+      "source": "FILE",
+      "colorspace": "sRGB",
+      "packed": true,
+      "packed_sha256": "ecb35fdd6ceb5f424d57a6c2e4f7cc8a1a14ddc14c93a1fb452ea4cab74136d8"
+    },
+    "petal_height.png": {
+      "size": [
+        2048,
+        2048
+      ],
+      "source": "FILE",
+      "colorspace": "Non-Color",
+      "packed": true,
+      "packed_sha256": "5bada137b1b7a00017062ef44834a9ff6ae94b70247d1071a1aa020eeadd6d44"
+    },
+    "petal_normal.png": {
+      "size": [
+        2048,
+        2048
+      ],
+      "source": "FILE",
+      "colorspace": "Non-Color",
+      "packed": true,
+      "packed_sha256": "830500d56afce96a9b64a5558401f2a3ec6fb0c063b3563032b1c8a9012e67b9"
+    },
+    "petal_roughness.png": {
+      "size": [
+        2048,
+        2048
+      ],
+      "source": "FILE",
+      "colorspace": "Non-Color",
+      "packed": true,
+      "packed_sha256": "44ac5419cdb3a6e5f0cf949a546a723a06078505e5f3edb52fd9dc3789ac74fc"
+    }
+  },
+  "frame_states": [
+    {
+      "frame": 1,
+      "exposures": {
+        "Exposure": 0.0
+      },
+      "view_exposure": -0.25,
+      "view_gamma": 1.0,
+      "compositor_hash": "9a2ffe1869f534951fa94a2c74affba8a0a8c94046f9dde3eb847b7408a05b3e",
+      "camera": "CAM 01 · 全景 / Focus reveal",
+      "hidden_mesh_objects": []
+    },
+    {
+      "frame": 405,
+      "exposures": {
+        "Exposure": 0.0
+      },
+      "view_exposure": -0.25,
+      "view_gamma": 1.0,
+      "compositor_hash": "9a2ffe1869f534951fa94a2c74affba8a0a8c94046f9dde3eb847b7408a05b3e",
+      "camera": "CAM 04 · 盛开全景 / Open flower",
+      "hidden_mesh_objects": []
+    },
+    {
+      "frame": 406,
+      "exposures": {
+        "Exposure": 0.0
+      },
+      "view_exposure": -0.25,
+      "view_gamma": 1.0,
+      "compositor_hash": "9a2ffe1869f534951fa94a2c74affba8a0a8c94046f9dde3eb847b7408a05b3e",
+      "camera": "CAM 04 · 盛开全景 / Open flower",
+      "hidden_mesh_objects": []
+    },
+    {
+      "frame": 434,
+      "exposures": {
+        "Exposure": 0.0
+      },
+      "view_exposure": -0.25,
+      "view_gamma": 1.0,
+      "compositor_hash": "9a2ffe1869f534951fa94a2c74affba8a0a8c94046f9dde3eb847b7408a05b3e",
+      "camera": "CAM 04 · 盛开全景 / Open flower",
+      "hidden_mesh_objects": []
+    },
+    {
+      "frame": 450,
+      "exposures": {
+        "Exposure": 0.0
+      },
+      "view_exposure": -0.25,
+      "view_gamma": 1.0,
+      "compositor_hash": "9a2ffe1869f534951fa94a2c74affba8a0a8c94046f9dde3eb847b7408a05b3e",
+      "camera": "CAM 04 · 盛开全景 / Open flower",
+      "hidden_mesh_objects": []
+    }
+  ],
+  "fixed_compositor": {
+    "nodes": [
+      {
+        "name": "Render Layers",
+        "type": "CompositorNodeRLayers",
+        "properties": {
+          "type": "R_LAYERS",
+          "location_absolute": [
+            -430.0,
+            0.0
+          ],
+          "warning_propagation": "ALL",
+          "use_custom_color": false,
+          "color": [
+            0.6079999804496765,
+            0.6079999804496765,
+            0.6079999804496765
+          ],
+          "color_tag": "INPUT",
+          "select": true,
+          "show_options": true,
+          "show_preview": true,
+          "hide": false,
+          "mute": false,
+          "show_texture": false,
+          "bl_idname": "CompositorNodeRLayers",
+          "bl_label": "Render Layers",
+          "bl_description": "Input render passes from a scene render",
+          "bl_icon": "NONE",
+          "bl_static_type": "R_LAYERS",
+          "bl_width_default": 240.0,
+          "bl_width_min": 100.0,
+          "bl_width_max": 700.0,
+          "bl_height_default": 100.0,
+          "bl_height_min": 30.0,
+          "bl_height_max": 3.4028234663852886e+38,
+          "layer": "ViewLayer"
+        },
+        "inputs": []
+      },
+      {
+        "name": "Glare",
+        "type": "CompositorNodeGlare",
+        "properties": {
+          "type": "GLARE",
+          "location_absolute": [
+            -190.0,
+            0.0
+          ],
+          "warning_propagation": "ALL",
+          "use_custom_color": false,
+          "color": [
+            0.6079999804496765,
+            0.6079999804496765,
+            0.6079999804496765
+          ],
+          "color_tag": "FILTER",
+          "select": true,
+          "show_options": true,
+          "show_preview": false,
+          "hide": false,
+          "mute": false,
+          "show_texture": false,
+          "bl_idname": "CompositorNodeGlare",
+          "bl_label": "Glare",
+          "bl_description": "Add lens flares, fog and glows around bright parts of the image",
+          "bl_icon": "NONE",
+          "bl_static_type": "GLARE",
+          "bl_width_default": 140.0,
+          "bl_width_min": 100.0,
+          "bl_width_max": 700.0,
+          "bl_height_default": 100.0,
+          "bl_height_min": 30.0,
+          "bl_height_max": 3.4028234663852886e+38
+        },
+        "inputs": [
+          {
+            "name": "Image",
+            "value": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          {
+            "name": "Type",
+            "value": "Fog Glow"
+          },
+          {
+            "name": "Quality",
+            "value": "High"
+          },
+          {
+            "name": "Threshold",
+            "value": 1.399999976158142
+          },
+          {
+            "name": "Smoothness",
+            "value": 0.10000000149011612
+          },
+          {
+            "name": "Clamp",
+            "value": false
+          },
+          {
+            "name": "Maximum",
+            "value": 10.0
+          },
+          {
+            "name": "Strength",
+            "value": 0.07999999821186066
+          },
+          {
+            "name": "Saturation",
+            "value": 1.0
+          },
+          {
+            "name": "Tint",
+            "value": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          {
+            "name": "Size",
+            "value": 0.3499999940395355
+          },
+          {
+            "name": "Streaks",
+            "value": 4
+          },
+          {
+            "name": "Streaks Angle",
+            "value": 0.0
+          },
+          {
+            "name": "Iterations",
+            "value": 3
+          },
+          {
+            "name": "Fade",
+            "value": 0.8999999761581421
+          },
+          {
+            "name": "Color Modulation",
+            "value": 0.25
+          },
+          {
+            "name": "Diagonal",
+            "value": true
+          },
+          {
+            "name": "Sun Position",
+            "value": [
+              0.5,
+              0.5
+            ]
+          },
+          {
+            "name": "Jitter",
+            "value": 0.0
+          },
+          {
+            "name": "Kernel Data Type",
+            "value": "Float"
+          },
+          {
+            "name": "Kernel",
+            "value": 0.0
+          },
+          {
+            "name": "Kernel",
+            "value": [
+              0.800000011920929,
+              0.800000011920929,
+              0.800000011920929,
+              1.0
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Exposure",
+        "type": "CompositorNodeExposure",
+        "properties": {
+          "type": "EXPOSURE",
+          "location_absolute": [
+            60.0,
+            0.0
+          ],
+          "warning_propagation": "ALL",
+          "use_custom_color": false,
+          "color": [
+            0.6079999804496765,
+            0.6079999804496765,
+            0.6079999804496765
+          ],
+          "color_tag": "COLOR",
+          "select": true,
+          "show_options": true,
+          "show_preview": false,
+          "hide": false,
+          "mute": false,
+          "show_texture": false,
+          "bl_idname": "CompositorNodeExposure",
+          "bl_label": "Exposure",
+          "bl_description": "Adjust brightness using a camera exposure parameter",
+          "bl_icon": "NONE",
+          "bl_static_type": "EXPOSURE",
+          "bl_width_default": 140.0,
+          "bl_width_min": 100.0,
+          "bl_width_max": 700.0,
+          "bl_height_default": 100.0,
+          "bl_height_min": 30.0,
+          "bl_height_max": 3.4028234663852886e+38
+        },
+        "inputs": [
+          {
+            "name": "Image",
+            "value": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          {
+            "name": "Exposure",
+            "value": 0.0
+          }
+        ]
+      },
+      {
+        "name": "Group Output",
+        "type": "NodeGroupOutput",
+        "properties": {
+          "type": "GROUP_OUTPUT",
+          "location_absolute": [
+            300.0,
+            0.0
+          ],
+          "warning_propagation": "ALL",
+          "use_custom_color": false,
+          "color": [
+            0.6079999804496765,
+            0.6079999804496765,
+            0.6079999804496765
+          ],
+          "color_tag": "INTERFACE",
+          "select": true,
+          "show_options": true,
+          "show_preview": false,
+          "hide": false,
+          "mute": false,
+          "show_texture": false,
+          "bl_idname": "NodeGroupOutput",
+          "bl_label": "Group Output",
+          "bl_description": "Output data from inside of a node group",
+          "bl_icon": "NONE",
+          "bl_static_type": "GROUP_OUTPUT",
+          "bl_width_default": 140.0,
+          "bl_width_min": 100.0,
+          "bl_width_max": 700.0,
+          "bl_height_default": 100.0,
+          "bl_height_min": 30.0,
+          "bl_height_max": 3.4028234663852886e+38
+        },
+        "inputs": [
+          {
+            "name": "Image",
+            "value": [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          {
+            "name": "",
+            "value": null
+          }
+        ]
+      }
+    ],
+    "links": [
+      [
+        "Render Layers",
+        "Image",
+        "Glare",
+        "Image"
+      ],
+      [
+        "Glare",
+        "Image",
+        "Exposure",
+        "Image"
+      ],
+      [
+        "Exposure",
+        "Image",
+        "Group Output",
+        "Socket_0"
+      ]
+    ],
+    "animation": {
+      "drivers": [],
+      "action": {
+        "name": "Silver Bloom · Soft glow and ending fadeAction",
+        "curves": []
+      },
+      "nla_tracks": 0
+    }
+  },
+  "original_compositor_animation": {
+    "drivers": [],
+    "action": {
+      "name": "Silver Bloom · Soft glow and ending fadeAction",
+      "curves": [
+        {
+          "path": "nodes[\"Exposure\"].inputs[1].default_value",
+          "index": 0,
+          "extrapolation": "CONSTANT",
+          "keys": [
+            {
+              "select_left_handle": true,
+              "select_right_handle": true,
+              "select_control_point": true,
+              "handle_left_type": "AUTO_CLAMPED",
+              "handle_right_type": "AUTO_CLAMPED",
+              "interpolation": "BEZIER",
+              "type": "KEYFRAME",
+              "easing": "AUTO",
+              "back": 1.7015800476074219,
+              "amplitude": 0.800000011920929,
+              "period": 4.099999904632568,
+              "handle_left": [
+                -133.6666717529297,
+                0.0
+              ],
+              "co": [
+                1.0,
+                0.0
+              ],
+              "co_ui": [
+                1.0,
+                0.0
+              ],
+              "handle_right": [
+                135.6666717529297,
+                0.0
+              ]
+            },
+            {
+              "select_left_handle": true,
+              "select_right_handle": true,
+              "select_control_point": true,
+              "handle_left_type": "AUTO_CLAMPED",
+              "handle_right_type": "AUTO_CLAMPED",
+              "interpolation": "BEZIER",
+              "type": "KEYFRAME",
+              "easing": "AUTO",
+              "back": 1.7015800476074219,
+              "amplitude": 0.800000011920929,
+              "period": 4.099999904632568,
+              "handle_left": [
+                270.33331298828125,
+                0.0
+              ],
+              "co": [
+                405.0,
+                0.0
+              ],
+              "co_ui": [
+                405.0,
+                0.0
+              ],
+              "handle_right": [
+                414.6666564941406,
+                0.0
+              ]
+            },
+            {
+              "select_left_handle": true,
+              "select_right_handle": true,
+              "select_control_point": true,
+              "handle_left_type": "AUTO_CLAMPED",
+              "handle_right_type": "AUTO_CLAMPED",
+              "interpolation": "BEZIER",
+              "type": "KEYFRAME",
+              "easing": "AUTO",
+              "back": 1.7015800476074219,
+              "amplitude": 0.800000011920929,
+              "period": 4.099999904632568,
+              "handle_left": [
+                424.3333435058594,
+                -32.0
+              ],
+              "co": [
+                434.0,
+                -32.0
+              ],
+              "co_ui": [
+                434.0,
+                -32.0
+              ],
+              "handle_right": [
+                439.3333435058594,
+                -32.0
+              ]
+            },
+            {
+              "select_left_handle": true,
+              "select_right_handle": true,
+              "select_control_point": true,
+              "handle_left_type": "AUTO_CLAMPED",
+              "handle_right_type": "AUTO_CLAMPED",
+              "interpolation": "BEZIER",
+              "type": "KEYFRAME",
+              "easing": "AUTO",
+              "back": 1.7015800476074219,
+              "amplitude": 0.800000011920929,
+              "period": 4.099999904632568,
+              "handle_left": [
+                444.6666564941406,
+                -32.0
+              ],
+              "co": [
+                450.0,
+                -32.0
+              ],
+              "co_ui": [
+                450.0,
+                -32.0
+              ],
+              "handle_right": [
+                455.3333435058594,
+                -32.0
+              ]
+            }
+          ],
+          "modifiers": []
+        }
+      ]
+    },
+    "nla_tracks": 0
+  },
+  "scene_animation": null,
+  "view_settings": {
+    "look": "AgX - Medium High Contrast",
+    "view_transform": "AgX",
+    "exposure": -0.25,
+    "gamma": 1.0,
+    "use_curve_mapping": false,
+    "use_white_balance": false,
+    "white_balance_temperature": 6500.0,
+    "white_balance_tint": 10.0,
+    "white_balance_whitepoint": [
+      0.9993047714233398,
+      1.0003489255905151,
+      0.9985780119895935
+    ],
+    "support_emulation": true
+  },
+  "persistent_data": false,
+  "render_path": "//previews/sequence/frame_",
+  "timeline": [
+    1,
+    450,
+    30,
+    1080,
+    1440
+  ],
+  "markers": [
+    [
+      "CAM 01 · 全景 / Focus reveal",
+      1,
+      "CAM 01 · 全景 / Focus reveal"
+    ],
+    [
+      "CAM 02 · 花瓣微距 / Unfold",
+      89,
+      "CAM 02 · 花瓣微距 / Unfold"
+    ],
+    [
+      "CAM 03 · 花蕊微距 / Filament detail",
+      228,
+      "CAM 03 · 花蕊微距 / Filament detail"
+    ],
+    [
+      "CAM 04 · 盛开全景 / Open flower",
+      299,
+      "CAM 04 · 盛开全景 / Open flower"
+    ]
+  ],
+  "handlers": {
+    "frame_change_pre": [],
+    "frame_change_post": [],
+    "render_pre": [],
+    "render_post": []
+  },
+  "sequencer_strips": [],
+  "method": "CPU-only structural hashes and five frame samples. No evaluated geometry sweep, rendering or blend save."
+}

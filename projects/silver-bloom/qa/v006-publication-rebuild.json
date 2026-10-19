@@ -1,0 +1,41 @@
+{
+  "checked_at_utc": "2026-10-19T08:01:02.693172+00:00",
+  "status": "pass",
+  "script": "scripts/edit_comparison.py",
+  "command": "python scripts/edit_comparison.py",
+  "inputs": [
+    {
+      "path": "versions/v004/final.mp4",
+      "sha256": "edc51e1e45c9b632e886bce4c7d7262f15305f333cbe6db60d50e72cf378bd2a"
+    },
+    {
+      "path": "versions/v005/final.mp4",
+      "sha256": "a90c947a6e3d1f4aa45c201162b4332963779b23b8ebc6c3312ecfd49fea37a8"
+    }
+  ],
+  "archive": {
+    "path": "versions/v006/final.mp4",
+    "sha256": "a244f7a951ad8321c303032e3cd93af6b9d2587b263d8e07ed9e81f270a1acbb"
+  },
+  "rebuilt": {
+    "path": "output/v006/final.mp4",
+    "sha256": "a244f7a951ad8321c303032e3cd93af6b9d2587b263d8e07ed9e81f270a1acbb"
+  },
+  "ffmpeg_version": "ffmpeg version 9.0.1-full_build-www.gyan.dev Copyright (c) 2000-2026 the FFmpeg developers",
+  "verification": {
+    "rebuild_executed": true,
+    "file_bytes_identical": true,
+    "decoded_video_framemd5_identical": true,
+    "compared_video_frames": 450,
+    "rebuilt_video_frames": 450,
+    "duration_seconds": 15.0,
+    "resolution": [
+      1080,
+      1440
+    ],
+    "frame_rate": "30/1",
+    "full_decode_passed": true,
+    "black_intervals": [],
+    "scope": "Rebuilt the complete 15-second comparison edit with the portable script; compared file SHA256 and every decoded video-frame checksum against the archived V006. No Blender rendering was performed in this check."
+  }
+}

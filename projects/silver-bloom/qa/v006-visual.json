@@ -1,0 +1,97 @@
+{
+  "file": "versions/v006/final.mp4",
+  "resolution": [
+    1080,
+    1440
+  ],
+  "fps": 30.0,
+  "frames": 450,
+  "cuts": [
+    {
+      "frame": 89,
+      "time": 2.933333333333333,
+      "wire_source_RGB_MAE": 2.363150119781494,
+      "mean_channel_spread": 0.16562242805957794
+    },
+    {
+      "frame": 90,
+      "time": 2.966666666666667,
+      "wire_source_RGB_MAE": 2.4923200607299805,
+      "mean_channel_spread": 0.17851337790489197
+    },
+    {
+      "frame": 228,
+      "time": 7.566666666666666,
+      "wire_source_RGB_MAE": 3.329536199569702,
+      "mean_channel_spread": 0.16090278327465057
+    },
+    {
+      "frame": 229,
+      "time": 7.6,
+      "wire_source_RGB_MAE": 3.6995880603790283,
+      "mean_channel_spread": 0.19595421850681305
+    },
+    {
+      "frame": 299,
+      "time": 9.933333333333334,
+      "wire_source_RGB_MAE": 1.1581580638885498,
+      "mean_channel_spread": 0.0042155347764492035
+    },
+    {
+      "frame": 300,
+      "time": 9.966666666666667,
+      "wire_source_RGB_MAE": 1.1702059507369995,
+      "mean_channel_spread": 0.004297839477658272
+    }
+  ],
+  "wipes": [
+    {
+      "frame": 148,
+      "time": 4.9,
+      "mean_best_source_pixel_error": 1.9056802988052368,
+      "p95_best_source_pixel_error": 9.0,
+      "left_wire_mae": 43.35611343383789,
+      "left_color_mae": 0.6695582866668701,
+      "right_wire_mae": 2.3277056217193604,
+      "right_color_mae": 37.513336181640625
+    },
+    {
+      "frame": 273,
+      "time": 9.066666666666666,
+      "mean_best_source_pixel_error": 2.7805721759796143,
+      "p95_best_source_pixel_error": 12.666666984558105,
+      "left_wire_mae": 49.75166702270508,
+      "left_color_mae": 0.8858269453048706,
+      "right_wire_mae": 4.06463623046875,
+      "right_color_mae": 44.93899154663086
+    },
+    {
+      "frame": 353,
+      "time": 11.733333333333333,
+      "mean_best_source_pixel_error": 1.062933325767517,
+      "p95_best_source_pixel_error": 4.333333492279053,
+      "left_wire_mae": 37.902645111083984,
+      "left_color_mae": 0.3549831807613373,
+      "right_wire_mae": 0.8363316059112549,
+      "right_color_mae": 27.376298904418945
+    }
+  ],
+  "visual_review": {
+    "status": "PASS",
+    "wipe_alignment": "The three sampled wipes preserve the same pose, framing, and visible silhouette across the transition boundary.",
+    "camera_cut_frames": [
+      89,
+      228,
+      299
+    ],
+    "camera_cut_following_frames": [
+      90,
+      229,
+      300
+    ],
+    "camera_cut_appearance": "All are clay wireframe immediately, with no visible color flashback in the sampled cut or following frames.",
+    "ending": "Frame 450 is a fully colored rendered flower, with no black tail.",
+    "blocking_issues": [],
+    "scope": "Direct final-MP4 sample review, plus same-frame source comparisons; not a new full-frame-by-frame scan."
+  }
+}

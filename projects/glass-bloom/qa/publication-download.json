@@ -1,0 +1,59 @@
+{
+  "passed": true,
+  "release_url": "https://github.com/huangxin-design/blender-beginner/releases/tag/works-glass-bloom-2026-10-21",
+  "download_method": "GitHub CLI release download, fresh directory",
+  "assets": {
+    "Glass_Bloom_4K_Project.zip": {
+      "sha256": "ae9acaef510f5d9308489747045754a0a5c989cfda638ae643041858bab60793",
+      "bytes": 233273987,
+      "matches_published_checksum": true
+    },
+    "Glass_Bloom_Material_4K_15s.mp4": {
+      "sha256": "45f4bd09abb7597978973327c25924a23608defd3bfb8908cadedb86c4ecc405",
+      "bytes": 17634281,
+      "matches_published_checksum": true
+    },
+    "Glass_Bloom_Wireclay_4K_15s.mp4": {
+      "sha256": "5cad58d7d64a064697da9d4bb660572f4111613da8dd14825de103fecf7383a6",
+      "bytes": 42197931,
+      "matches_published_checksum": true
+    }
+  },
+  "archive_crc": "PASS",
+  "manifest_entry_sha256": "PASS",
+  "archive_entries": 118,
+  "checked_on": "2026-10-21",
+  "blender_version": "5.2.1 LTS",
+  "downloaded_project_reopen": {
+    "v008": {
+      "scene": "versions/v008/scene.blend",
+      "sha256": "095e30603022a73db3f070aa9a412ebcf170a21bcee6de285a678742f85a8419",
+      "petals": 13,
+      "file_images": 0,
+      "packed_images": 0,
+      "missing_dependencies": [],
+      "linked_libraries": 0,
+      "absolute_image_paths": [],
+      "embedded_texts_with_local_paths": []
+    },
+    "v009": {
+      "scene": "versions/v009/scene.blend",
+      "sha256": "2c64fd43c7216231532f5ea4c4a13001f01711352a8b965d63cb03d49fbd1a16",
+      "petals": 13,
+      "file_images": 17,
+      "packed_images": 17,
+      "missing_dependencies": [],
+      "linked_libraries": 0,
+      "absolute_image_paths": [],
+      "embedded_texts_with_local_paths": []
+    }
+  },
+  "sample_frames": [
+    1,
+    73,
+    180,
+    360
+  ],
+  "sampled_animation_and_camera_match": true,
+  "scope": "Downloaded Release assets, checksums, ZIP CRC, archive manifest, and reopened downloaded scenes in a new directory. No new render or collision test in this download check."
+}

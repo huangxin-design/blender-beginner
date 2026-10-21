@@ -10,6 +10,8 @@
 
 [精简制作对话](conversation.md) · [复用提示词](prompts.md) · [素材与出处](credits.md) · [验证范围](verification.json)
 
+发布后已重新下载完整工程包和两部 4K 视频，SHA-256 与压缩包校验通过；两份下载的工程均已在新目录用 Blender 5.2.1 打开，无缺失依赖。见[下载回查记录](qa/publication-download.json)。
+
 ## 视频和可编辑工程
 
 | 实际版本 | 视频 | 工程与说明 |

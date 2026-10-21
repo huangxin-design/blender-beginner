@@ -124,6 +124,14 @@ See [usage, boundaries, and verification](docs/usage-progress.md) (Chinese), or 
 
 Flower bloom and Tree Study now show their latest completed versions, with usage read at **19:20 China Standard Time on September 9, 2026**. The AI spheres and Pink Wave retain their 16:59 snapshots from the same day. Each case states the coverage of its cumulative task record. [Sources and methodology](docs/showcase-measurements.md)
 
+### Glass bloom · translucent petals and matching wire clay
+
+[![Closed, opening and open material flower with matching wire clay](projects/glass-bloom/preview.jpg)](projects/glass-bloom/README.md)
+
+**Two native 3072 × 4096 films · 3:4 · 24 fps · 15 seconds.** Individually textured purple-pink petals unfold at full size with soft waves and delayed stamens. Material and wire-clay editions share geometry, motion and camera; each contains 360 rendered frames without interpolation or upscaling.
+
+[Case and editable project downloads](projects/glass-bloom/README.md) · [Material preview](projects/glass-bloom/versions/v009/preview.mp4) · [Wire-clay preview](projects/glass-bloom/versions/v008/preview.mp4) · [Condensed conversation](projects/glass-bloom/conversation.md)
+
 ### Silver bloom · waving petals and shaded wire clay
 
 [![Silver-blue flower, clay topology, and frame-matched material reveals](projects/silver-bloom/preview.jpg)](projects/silver-bloom/README.md)

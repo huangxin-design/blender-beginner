@@ -115,6 +115,14 @@ Skill 尚未出现在列表时，重启 Codex 再检查。首次使用、已有�
 
 花卉与数字盆景已更新至最新完成版，用量读取于 **2026-09-09 19:20（北京时间）**；AI 材质球与粉色波浪保留当天 16:59 的快照。数字对应关联制作任务的累计记录，各案例分别说明覆盖范围。[用量来源与统计方法](docs/showcase-measurements.md)
 
+### 晶光绽放 · 半透明花瓣与同帧白模
+
+[![晶光绽放的收拢、展开、盛开与同帧白模](projects/glass-bloom/preview.jpg)](projects/glass-bloom/README.md)
+
+**两套原生 3072 × 4096 · 3:4 · 24 fps · 15 秒。** 紫粉半透明花瓣从正常尺寸直接展开，独立纹理与柔软波动随光线显现，花蕊延后伸展。同一几何、动画与相机分别输出材质版和布线白模；各 360 帧，无插帧、无放大。
+
+[完整案例与工程下载](projects/glass-bloom/README.md) · [材质版预览](projects/glass-bloom/versions/v009/preview.mp4) · [白模预览](projects/glass-bloom/versions/v008/preview.mp4) · [制作对话](projects/glass-bloom/conversation.md)
+
 ### 银蓝花开 · 波浪花瓣与布线白模
 
 [![银蓝花朵、白模结构与同帧材质擦换](projects/silver-bloom/preview.jpg)](projects/silver-bloom/README.md)

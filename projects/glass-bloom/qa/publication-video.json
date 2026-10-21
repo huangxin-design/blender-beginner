@@ -1,0 +1,57 @@
+{
+  "passed": true,
+  "videos": {
+    "versions/v008/final.mp4": {
+      "resolution": [
+        3072,
+        4096
+      ],
+      "fps": 24,
+      "frames": 360,
+      "seconds": 15,
+      "full_decode": "PASS",
+      "sha256": "5cad58d7d64a064697da9d4bb660572f4111613da8dd14825de103fecf7383a6",
+      "bytes": 42197931,
+      "matches_delivery_archive": true
+    },
+    "versions/v008/preview.mp4": {
+      "resolution": [
+        1152,
+        1536
+      ],
+      "fps": 24,
+      "frames": 360,
+      "seconds": 15,
+      "full_decode": "PASS",
+      "sha256": "b2f061e2b4bea5997c565e85cf59390f1fb48112b1abfcb1418fd16203e22dcb",
+      "bytes": 9910753,
+      "matches_delivery_archive": false
+    },
+    "versions/v009/final.mp4": {
+      "resolution": [
+        3072,
+        4096
+      ],
+      "fps": 24,
+      "frames": 360,
+      "seconds": 15,
+      "full_decode": "PASS",
+      "sha256": "45f4bd09abb7597978973327c25924a23608defd3bfb8908cadedb86c4ecc405",
+      "bytes": 17634281,
+      "matches_delivery_archive": true
+    },
+    "versions/v009/preview.mp4": {
+      "resolution": [
+        1152,
+        1536
+      ],
+      "fps": 24,
+      "frames": 360,
+      "seconds": 15,
+      "full_decode": "PASS",
+      "sha256": "48573c21e29e6cdcd8f79aac2965133281f97e918912b164204b2ad2f9ae1e4c",
+      "bytes": 2848418,
+      "matches_delivery_archive": false
+    }
+  }
+}

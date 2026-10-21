@@ -1,0 +1,37 @@
+{
+  "qa/production/v008/media_verification.json": {
+    "original_sha256": "7eb454199965555dbbad398b1005b5f34387295c3965704dca6220d9e0d9d1e5",
+    "published_sha256": "c81c2d31170e265235cbcd3759c5ee1278db54ac41537a7dce201ecbd833aba2",
+    "change": "Local paths redacted; historical embedded hash fields retained."
+  },
+  "qa/production/v008/verification_v8.json": {
+    "original_sha256": "578ddf7ac9aebde1cadd26abc5bed10d8341e48a507686d0f5a7ffaf1a5f2588",
+    "published_sha256": "6c6f6005042e7ea23c2f791f2a9dabe75cbe3f1f818c8db83163da1f7f931b01",
+    "change": "Local paths redacted; historical embedded hash fields retained."
+  },
+  "qa/production/v008/verification_geometry.json": {
+    "original_sha256": "411baddc6dff12e6df4b4a997c9c1395d6da71a4fabbb7de24a036f4b8c5d766",
+    "published_sha256": "c476438b084072b968579c1df680f5747282372d5bdb64fab438cac37748bf36",
+    "change": "Local paths redacted; historical embedded hash fields retained."
+  },
+  "qa/production/v008/animation_revision.json": {
+    "original_sha256": "c0ff0331287545919c31289364502ca2b013bf4ab225885054e95caf79c00246",
+    "published_sha256": "245c37ef43a14a6b1dae78a512193571250f9d209b1377c0ca986ef0ef9fe321",
+    "change": "Local paths redacted; historical embedded hash fields retained."
+  },
+  "qa/production/v008/wire_revision.json": {
+    "original_sha256": "9bc19668153d3ffe1c8f7089d5ad39ee2d5ac644ec0caa373e3ed74a2d54d1dd",
+    "published_sha256": "51b53f374698efdad6270f17faaf5692d5430fbcc43c50c3ddc56b09c536d518",
+    "change": "Local paths redacted; historical embedded hash fields retained."
+  },
+  "qa/production/v009/media_verification.json": {
+    "original_sha256": "1355adde99080bd26cbfa063c21aabde7572cb2a61a7804e64633313637930f9",
+    "published_sha256": "aac7d5f8721364c65a1b3d7d13fc84252bceacf2e8554c50146d8bd54d49ebc2",
+    "change": "Local paths redacted; historical embedded hash fields retained."
+  },
+  "qa/production/v009/verification_v9.json": {
+    "original_sha256": "962422e031b0528f9fb77922439f588954340b7e0071cfbaead39c75c25b3aab",
+    "published_sha256": "e474c950247fe291180ed991fcae3923b611bbb319816229978de3188d0af0b5",
+    "change": "Local paths redacted; historical embedded hash fields retained."
+  }
+}

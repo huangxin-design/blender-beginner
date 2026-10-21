@@ -1,0 +1,144 @@
+{
+  "method": "Four independently composed editable vector detail paintings, separately rasterized with Sharp; no image-generation service used.",
+  "orientation": {
+    "u": "left root to right tip",
+    "v": "across petal width"
+  },
+  "interpretation": "Black = no extra detail; gray-white = additional subtle detail. Load PNG as Non-Color. Multiply this detail mask by the listed weight before blending into the base material; do not automatically normalize its brightness.",
+  "size": [
+    2048,
+    2048
+  ],
+  "anti_flicker": "Softened edges; no dense repeated grids or full-white point highlights. Avoid raising micrograin emission.",
+  "bump_distance_note": "Suggested Blender scene-unit starting ranges; adjust to petal scale. Keep thin membrane displacement shallow.",
+  "assets": [
+    {
+      "name": "veins",
+      "label": "细脉络",
+      "purpose": "不对称弧形细脉与有限分叉；适合主瓣内部的薄透组织细节。",
+      "design": "弯曲中脉与逐条布置的独立枝脉，宽阔黑色清透空区，无规则网格。",
+      "recommended_mask_weight": 0.18,
+      "recommended_mask_weight_range": [
+        0.1,
+        0.26
+      ],
+      "bump_strength_range": [
+        0.025,
+        0.055
+      ],
+      "bump_distance_range": [
+        0.0002,
+        0.0005
+      ],
+      "source": "veins.svg",
+      "texture": "veins.png",
+      "width": 2048,
+      "height": 2048,
+      "channels": 3,
+      "svg_sha256": "ff147ee1fa5a61c4a98f195ba55049b2ae489d02c562a8e22c6bd5c9d7dcd39f",
+      "png_sha256": "3ed67855e5168f0fe982f9b502d7631e9c1cdaa873032e8f645ec48df10206ec",
+      "pixel_statistics": {
+        "minimum": 0,
+        "maximum": 194,
+        "mean": 0.531,
+        "visible_area_percent": 0.692
+      }
+    },
+    {
+      "name": "frost",
+      "label": "局部雾状霜纹",
+      "purpose": "局部乳白薄雾与柔霜，适合上层/中层花瓣局部散射。",
+      "design": "右上部数块松散云雾与左下独立薄雾丝，羽化渐变和局部椭圆笔刷。",
+      "recommended_mask_weight": 0.24,
+      "recommended_mask_weight_range": [
+        0.14,
+        0.32
+      ],
+      "bump_strength_range": [
+        0,
+        0.02
+      ],
+      "bump_distance_range": [
+        0,
+        0.00015
+      ],
+      "source": "frost.svg",
+      "texture": "frost.png",
+      "width": 2048,
+      "height": 2048,
+      "channels": 3,
+      "svg_sha256": "7c02a1e17e0b65552555b0d65e8ceb44c316356eb66fbdbcdf56de90028227a4",
+      "png_sha256": "d2cf8eb3e3315c9d00db528bead765e2417100679c07b306a3b4fd4e720507a5",
+      "pixel_statistics": {
+        "minimum": 0,
+        "maximum": 87,
+        "mean": 1.541,
+        "visible_area_percent": 5.836
+      }
+    },
+    {
+      "name": "crystals",
+      "label": "稀疏晶粒",
+      "purpose": "稀疏水晶般微粒，适合少量局部粗糙度与浅凹凸；不建议用于强自发光。",
+      "design": "左中与右下两处不对称弧形疏散晶粒区、右上小簇与少量独立点，圆润软边。",
+      "recommended_mask_weight": 0.12,
+      "recommended_mask_weight_range": [
+        0.06,
+        0.18
+      ],
+      "bump_strength_range": [
+        0.015,
+        0.035
+      ],
+      "bump_distance_range": [
+        0.0001,
+        0.0003
+      ],
+      "source": "crystals.svg",
+      "texture": "crystals.png",
+      "width": 2048,
+      "height": 2048,
+      "channels": 3,
+      "svg_sha256": "8281fd0348ade0ada03242901353e7510e9f794b7eb707e1a25d5d9174280b94",
+      "png_sha256": "79d33d6e52d95dc0c1bf7015b42bf04501bf99f25afefeeca2e517c43e72c216",
+      "pixel_statistics": {
+        "minimum": 0,
+        "maximum": 125,
+        "mean": 0.1111,
+        "visible_area_percent": 0.204
+      }
+    },
+    {
+      "name": "flow",
+      "label": "柔细流线纹",
+      "purpose": "柔软膜片内部的长弧纤维走向，适合边缘或下层花瓣。",
+      "design": "上、中、下三个分离纤维束，各用不同弧线控制点，留有大块黑色空间。",
+      "recommended_mask_weight": 0.16,
+      "recommended_mask_weight_range": [
+        0.08,
+        0.23
+      ],
+      "bump_strength_range": [
+        0.02,
+        0.045
+      ],
+      "bump_distance_range": [
+        0.00015,
+        0.0004
+      ],
+      "source": "flow.svg",
+      "texture": "flow.png",
+      "width": 2048,
+      "height": 2048,
+      "channels": 3,
+      "svg_sha256": "6ace70aa927d089927530cbae9e6312a5a3e588166958c1382e60c25f20f1534",
+      "png_sha256": "b04711223e35e6ab82aff5028d628442012ff9994b2464d6db0075cebfeb28e1",
+      "pixel_statistics": {
+        "minimum": 0,
+        "maximum": 100,
+        "mean": 1.5383,
+        "visible_area_percent": 2.896
+      }
+    }
+  ]
+}

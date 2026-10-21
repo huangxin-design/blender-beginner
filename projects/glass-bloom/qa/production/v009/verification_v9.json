@@ -1,0 +1,822 @@
+{
+  "passed": true,
+  "errors": [],
+  "blend": {
+    "file": "versions/v009/晶光绽放_直接展开_材质版_3x4_4K_15s.blend",
+    "name": "晶光绽放_直接展开_材质版_3x4_4K_15s.blend",
+    "sha256": "2c64fd43c7216231532f5ea4c4a13001f01711352a8b965d63cb03d49fbd1a16",
+    "bytes": 76730727,
+    "identical_to_source": true
+  },
+  "source_evidence": {
+    "source_reports/copy_provenance.json": {
+      "sha256": "5a84497af20366f02ffc9b346ccf3c708a1fc56fdb7bbd2332b17dc8d0f0dc34"
+    },
+    "source_reports/verification_v8.json": {
+      "sha256": "578ddf7ac9aebde1cadd26abc5bed10d8341e48a507686d0f5a7ffaf1a5f2588"
+    },
+    "source_reports/verification_geometry.json": {
+      "sha256": "411baddc6dff12e6df4b4a997c9c1395d6da71a4fabbb7de24a036f4b8c5d766"
+    },
+    "source_reports/animation_revision.json": {
+      "sha256": "c0ff0331287545919c31289364502ca2b013bf4ab225885054e95caf79c00246"
+    },
+    "source_reports/wire_revision.json": {
+      "sha256": "9bc19668153d3ffe1c8f7089d5ad39ee2d5ac644ec0caa373e3ed74a2d54d1dd"
+    }
+  },
+  "geometry_proof": {
+    "inherited_from_identical_color_project": true,
+    "collision_checks_rerun": false,
+    "source_verification_sha256": "578ddf7ac9aebde1cadd26abc5bed10d8341e48a507686d0f5a7ffaf1a5f2588",
+    "geometry_report_sha256": "411baddc6dff12e6df4b4a997c9c1395d6da71a4fabbb7de24a036f4b8c5d766",
+    "source_white_blend_sha256": "095e30603022a73db3f070aa9a412ebcf170a21bcee6de285a678742f85a8419",
+    "complete_frame_count": 360,
+    "zero_petals_intersections": true,
+    "all_360_camera_and_animation_samples_equal": true,
+    "geometry_fingerprints_equal": true,
+    "scope": {
+      "all_requested_frames": "solid surface, subdivision 1",
+      "key_frames": "Solidify + subdivision 1, plus self-intersection",
+      "self_adjacency_excluded": "Triangle pairs sharing any vertex",
+      "narrow_phase": "17-axis triangle SAT, edge-plane segments, coplanar polygon clipping",
+      "not_checked": "Between-frame motion; render subdivision above tested levels"
+    }
+  },
+  "textures": {
+    "packed_count": 17,
+    "file_count": 36,
+    "files": {
+      "textures/details/crystals.png": {
+        "sha256": "79d33d6e52d95dc0c1bf7015b42bf04501bf99f25afefeeca2e517c43e72c216",
+        "bytes": 41312
+      },
+      "textures/details/crystals.svg": {
+        "sha256": "8281fd0348ade0ada03242901353e7510e9f794b7eb707e1a25d5d9174280b94",
+        "bytes": 23476
+      },
+      "textures/details/details_manifest.json": {
+        "sha256": "bbb0a4b188bae8388623bacb3fd1c088239e742fbb5ee49724f38323a7cbb711",
+        "bytes": 4723
+      },
+      "textures/details/flow.png": {
+        "sha256": "b04711223e35e6ab82aff5028d628442012ff9994b2464d6db0075cebfeb28e1",
+        "bytes": 211123
+      },
+      "textures/details/flow.svg": {
+        "sha256": "6ace70aa927d089927530cbae9e6312a5a3e588166958c1382e60c25f20f1534",
+        "bytes": 5280
+      },
+      "textures/details/frost.png": {
+        "sha256": "d2cf8eb3e3315c9d00db528bead765e2417100679c07b306a3b4fd4e720507a5",
+        "bytes": 115878
+      },
+      "textures/details/frost.svg": {
+        "sha256": "7c02a1e17e0b65552555b0d65e8ceb44c316356eb66fbdbcdf56de90028227a4",
+        "bytes": 19929
+      },
+      "textures/details/veins.png": {
+        "sha256": "3ed67855e5168f0fe982f9b502d7631e9c1cdaa873032e8f645ec48df10206ec",
+        "bytes": 89457
+      },
+      "textures/details/veins.svg": {
+        "sha256": "ff147ee1fa5a61c4a98f195ba55049b2ae489d02c562a8e22c6bd5c9d7dcd39f",
+        "bytes": 6188
+      },
+      "textures/inner_01.png": {
+        "sha256": "f881c10f80b4015b3e9ee2b067a0517fe53defb79308c9e66c4d8fa6d36d0983",
+        "bytes": 200536
+      },
+      "textures/inner_01.svg": {
+        "sha256": "844b8b6fea8b559f8bdda37f49f6b14dd1828a89f9dcf1481a585a0d01bb75fc",
+        "bytes": 36097
+      },
+      "textures/inner_02.png": {
+        "sha256": "2e33710e282501db07b1e37036b1685cbb5b186c3dcac9022b878bc503bad09e",
+        "bytes": 408909
+      },
+      "textures/inner_02.svg": {
+        "sha256": "1e1c44c9670b25d1b5503a284340774135e3ca6ec14afb72112e5ad57ee5e661",
+        "bytes": 45828
+      },
+      "textures/inner_03.png": {
+        "sha256": "7e03b513110ee9fffd25b9b1e1e5c18bebb51cf4a926cae8891be422a3e6748f",
+        "bytes": 196481
+      },
+      "textures/inner_03.svg": {
+        "sha256": "bceef8c307bf0b1634ef8b881d3892f81782992e41af949284bd9303db9eed45",
+        "bytes": 85443
+      },
+      "textures/outer_01.png": {
+        "sha256": "d82e2748fac5ceeb8d23c271ad55ae3cec30e94696d8dc1d7931b2c0d6574c01",
+        "bytes": 248072
+      },
+      "textures/outer_01.svg": {
+        "sha256": "bd72b38fe376e3335fbf11cded5de48fe727e99ff4ba67197bc9f83a0c15660b",
+        "bytes": 34379
+      },
+      "textures/outer_02.png": {
+        "sha256": "1fe6c3541effb404db49fb8fd3b1f5c57b6a1e610d9121c6fb6331a78be751c4",
+        "bytes": 192205
+      },
+      "textures/outer_02.svg": {
+        "sha256": "3d594329821b66610e8f7a0a3151d1e078e8d6c84b068c12e5308b89b61c894b",
+        "bytes": 126499
+      },
+      "textures/outer_03.png": {
+        "sha256": "b718e2475edc7df81652bf40d17fd26f2bb9a08be87654c603d4b2879c98e572",
+        "bytes": 384507
+      },
+      "textures/outer_03.svg": {
+        "sha256": "87afef966bcfddcf8261431e8efa819bdcbdcea35f78956c5991e875742116c9",
+        "bytes": 33289
+      },
+      "textures/outer_04.png": {
+        "sha256": "e6ae7b08fef2d7128fb49cf1801c6268474d9f2cb5c4b0d6838bfbff8e916506",
+        "bytes": 129072
+      },
+      "textures/outer_04.svg": {
+        "sha256": "3b1eadf942ea987780bbd4227bdc393a08d5cb1d3ee29f1e618f49d3125b5519",
+        "bytes": 22613
+      },
+      "textures/outer_05.png": {
+        "sha256": "8541277fd12105270d148989b4e42b000c6b4180d6d483db4e1f19db6a1e085c",
+        "bytes": 225164
+      },
+      "textures/outer_05.svg": {
+        "sha256": "900ede023c0068463d36714478d50c378d57d17932e19d7edabbb7445073ff86",
+        "bytes": 177454
+      },
+      "textures/outer_06.png": {
+        "sha256": "1d9cc3833506349e4d58c0b8f7eaf9cdf5a4f28f985ee9ec3cdf6e730fc3fd27",
+        "bytes": 556155
+      },
+      "textures/outer_06.svg": {
+        "sha256": "2891d804cf49274cf53a3e2f0c6faead79da08c97340d0648253c3ceaa7cdaa0",
+        "bytes": 148228
+      },
+      "textures/outer_07.png": {
+        "sha256": "7289afffc178f6ba1032f8415b307f2c6fb89f6c4cfa20ba6375acdaf168ff35",
+        "bytes": 220596
+      },
+      "textures/outer_07.svg": {
+        "sha256": "2f2936ea328311b4a38ce2d7e5474cdadd9ab8b8c41186ccab8bb6f29b31d123",
+        "bytes": 39472
+      },
+      "textures/sepal_01.png": {
+        "sha256": "9a2527c2c2a6d728742147100973a8d44a20fe0f493f568424501b22a159a111",
+        "bytes": 528056
+      },
+      "textures/sepal_01.svg": {
+        "sha256": "d73349ea1e9661144964bf71349f25a8d2533b19b502ce155082cecd3e673bce",
+        "bytes": 88566
+      },
+      "textures/sepal_02.png": {
+        "sha256": "82947e88e7f31f7758c1ac4981f34a1b1afc5f3a1d474ad7af7758aba9b6f503",
+        "bytes": 206089
+      },
+      "textures/sepal_02.svg": {
+        "sha256": "0433b9f9db3ff141ece84a8537406425402288cab73b755bef48c7a2a9b381a0",
+        "bytes": 81464
+      },
+      "textures/sepal_03.png": {
+        "sha256": "8452a0a31178093c365e3b6b67a29520b3f21cf80fbb832d01417ce8281e0005",
+        "bytes": 343809
+      },
+      "textures/sepal_03.svg": {
+        "sha256": "d8ae8888eabb6eaec78f8de8ac02da1d2ea0c4851b7802121741995c0da4a37e",
+        "bytes": 73349
+      },
+      "textures/texture_manifest.json": {
+        "sha256": "eb5ed69cfb9dd2ea8466e917e4000c65cb544bd340d9808e72f193e07a7ed55d",
+        "bytes": 4356
+      }
+    },
+    "images": [
+      {
+        "filename": "crystals.png",
+        "sha256": "79d33d6e52d95dc0c1bf7015b42bf04501bf99f25afefeeca2e517c43e72c216",
+        "filepath": "//textures/details/crystals.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "packed": true
+      },
+      {
+        "filename": "flow.png",
+        "sha256": "b04711223e35e6ab82aff5028d628442012ff9994b2464d6db0075cebfeb28e1",
+        "filepath": "//textures/details/flow.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "packed": true
+      },
+      {
+        "filename": "frost.png",
+        "sha256": "d2cf8eb3e3315c9d00db528bead765e2417100679c07b306a3b4fd4e720507a5",
+        "filepath": "//textures/details/frost.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "packed": true
+      },
+      {
+        "filename": "veins.png",
+        "sha256": "3ed67855e5168f0fe982f9b502d7631e9c1cdaa873032e8f645ec48df10206ec",
+        "filepath": "//textures/details/veins.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "packed": true
+      },
+      {
+        "filename": "inner_01.png",
+        "sha256": "f881c10f80b4015b3e9ee2b067a0517fe53defb79308c9e66c4d8fa6d36d0983",
+        "filepath": "//textures/inner_01.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "packed": true
+      },
+      {
+        "filename": "inner_02.png",
+        "sha256": "2e33710e282501db07b1e37036b1685cbb5b186c3dcac9022b878bc503bad09e",
+        "filepath": "//textures/inner_02.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "packed": true
+      },
+      {
+        "filename": "inner_03.png",
+        "sha256": "7e03b513110ee9fffd25b9b1e1e5c18bebb51cf4a926cae8891be422a3e6748f",
+        "filepath": "//textures/inner_03.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "packed": true
+      },
+      {
+        "filename": "outer_01.png",
+        "sha256": "d82e2748fac5ceeb8d23c271ad55ae3cec30e94696d8dc1d7931b2c0d6574c01",
+        "filepath": "//textures/outer_01.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "packed": true
+      },
+      {
+        "filename": "outer_02.png",
+        "sha256": "1fe6c3541effb404db49fb8fd3b1f5c57b6a1e610d9121c6fb6331a78be751c4",
+        "filepath": "//textures/outer_02.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "packed": true
+      },
+      {
+        "filename": "outer_03.png",
+        "sha256": "b718e2475edc7df81652bf40d17fd26f2bb9a08be87654c603d4b2879c98e572",
+        "filepath": "//textures/outer_03.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "packed": true
+      },
+      {
+        "filename": "outer_04.png",
+        "sha256": "e6ae7b08fef2d7128fb49cf1801c6268474d9f2cb5c4b0d6838bfbff8e916506",
+        "filepath": "//textures/outer_04.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "packed": true
+      },
+      {
+        "filename": "outer_05.png",
+        "sha256": "8541277fd12105270d148989b4e42b000c6b4180d6d483db4e1f19db6a1e085c",
+        "filepath": "//textures/outer_05.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "packed": true
+      },
+      {
+        "filename": "outer_06.png",
+        "sha256": "1d9cc3833506349e4d58c0b8f7eaf9cdf5a4f28f985ee9ec3cdf6e730fc3fd27",
+        "filepath": "//textures/outer_06.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "packed": true
+      },
+      {
+        "filename": "outer_07.png",
+        "sha256": "7289afffc178f6ba1032f8415b307f2c6fb89f6c4cfa20ba6375acdaf168ff35",
+        "filepath": "//textures/outer_07.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "packed": true
+      },
+      {
+        "filename": "sepal_01.png",
+        "sha256": "9a2527c2c2a6d728742147100973a8d44a20fe0f493f568424501b22a159a111",
+        "filepath": "//textures/sepal_01.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "packed": true
+      },
+      {
+        "filename": "sepal_02.png",
+        "sha256": "82947e88e7f31f7758c1ac4981f34a1b1afc5f3a1d474ad7af7758aba9b6f503",
+        "filepath": "//textures/sepal_02.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "packed": true
+      },
+      {
+        "filename": "sepal_03.png",
+        "sha256": "8452a0a31178093c365e3b6b67a29520b3f21cf80fbb832d01417ce8281e0005",
+        "filepath": "//textures/sepal_03.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "packed": true
+      }
+    ]
+  },
+  "petal_count": 13,
+  "materials": [
+    {
+      "petal": "INNER 01 · 可编辑花瓣",
+      "material": "INNER 01 · 纹理加强 / frost",
+      "absolute_shape_keys": 360,
+      "image_nodes": [
+        "PAINTED_inner_01",
+        "DETAIL_frost",
+        "DETAIL_veins"
+      ],
+      "shader_types": [
+        "BSDF_PRINCIPLED",
+        "BSDF_TRANSLUCENT",
+        "BSDF_TRANSPARENT"
+      ]
+    },
+    {
+      "petal": "INNER 02 · 可编辑花瓣",
+      "material": "INNER 02 · 纹理加强 / crystals",
+      "absolute_shape_keys": 360,
+      "image_nodes": [
+        "PAINTED_inner_02",
+        "DETAIL_crystals",
+        "DETAIL_flow"
+      ],
+      "shader_types": [
+        "BSDF_PRINCIPLED",
+        "BSDF_TRANSLUCENT",
+        "BSDF_TRANSPARENT"
+      ]
+    },
+    {
+      "petal": "INNER 03 · 可编辑花瓣",
+      "material": "INNER 03 · 通透加强 / flow",
+      "absolute_shape_keys": 360,
+      "image_nodes": [
+        "PAINTED_inner_03",
+        "DETAIL_flow",
+        "DETAIL_frost"
+      ],
+      "shader_types": [
+        "BSDF_PRINCIPLED",
+        "BSDF_TRANSLUCENT",
+        "BSDF_TRANSPARENT"
+      ]
+    },
+    {
+      "petal": "OUTER 01 · 可编辑花瓣",
+      "material": "OUTER 01 · 通透加强 / flow",
+      "absolute_shape_keys": 360,
+      "image_nodes": [
+        "PAINTED_outer_01",
+        "DETAIL_flow",
+        "DETAIL_veins"
+      ],
+      "shader_types": [
+        "BSDF_PRINCIPLED",
+        "BSDF_TRANSLUCENT",
+        "BSDF_TRANSPARENT"
+      ]
+    },
+    {
+      "petal": "OUTER 02 · 可编辑花瓣",
+      "material": "OUTER 02 · 纹理加强 / veins",
+      "absolute_shape_keys": 360,
+      "image_nodes": [
+        "PAINTED_outer_02",
+        "DETAIL_veins",
+        "DETAIL_frost"
+      ],
+      "shader_types": [
+        "BSDF_PRINCIPLED",
+        "BSDF_TRANSLUCENT",
+        "BSDF_TRANSPARENT"
+      ]
+    },
+    {
+      "petal": "OUTER 03 · 可编辑花瓣",
+      "material": "OUTER 03 · 纹理加强 / veins",
+      "absolute_shape_keys": 360,
+      "image_nodes": [
+        "PAINTED_outer_03",
+        "DETAIL_veins",
+        "DETAIL_crystals"
+      ],
+      "shader_types": [
+        "BSDF_PRINCIPLED",
+        "BSDF_TRANSLUCENT",
+        "BSDF_TRANSPARENT"
+      ]
+    },
+    {
+      "petal": "OUTER 04 · 可编辑花瓣",
+      "material": "OUTER 04 · 纹理加强 / frost",
+      "absolute_shape_keys": 360,
+      "image_nodes": [
+        "PAINTED_outer_04",
+        "DETAIL_frost",
+        "DETAIL_flow"
+      ],
+      "shader_types": [
+        "BSDF_PRINCIPLED",
+        "BSDF_TRANSLUCENT",
+        "BSDF_TRANSPARENT"
+      ]
+    },
+    {
+      "petal": "OUTER 05 · 可编辑花瓣",
+      "material": "OUTER 05 · 通透加强 / crystals",
+      "absolute_shape_keys": 360,
+      "image_nodes": [
+        "PAINTED_outer_05",
+        "DETAIL_crystals",
+        "DETAIL_frost"
+      ],
+      "shader_types": [
+        "BSDF_PRINCIPLED",
+        "BSDF_TRANSLUCENT",
+        "BSDF_TRANSPARENT"
+      ]
+    },
+    {
+      "petal": "OUTER 06 · 可编辑花瓣",
+      "material": "OUTER 06 · 纹理加强 / flow",
+      "absolute_shape_keys": 360,
+      "image_nodes": [
+        "PAINTED_outer_06",
+        "DETAIL_flow",
+        "DETAIL_crystals"
+      ],
+      "shader_types": [
+        "BSDF_PRINCIPLED",
+        "BSDF_TRANSLUCENT",
+        "BSDF_TRANSPARENT"
+      ]
+    },
+    {
+      "petal": "OUTER 07 · 可编辑花瓣",
+      "material": "OUTER 07 · 纹理加强 / crystals",
+      "absolute_shape_keys": 360,
+      "image_nodes": [
+        "PAINTED_outer_07",
+        "DETAIL_crystals",
+        "DETAIL_veins"
+      ],
+      "shader_types": [
+        "BSDF_PRINCIPLED",
+        "BSDF_TRANSLUCENT",
+        "BSDF_TRANSPARENT"
+      ]
+    },
+    {
+      "petal": "SEPAL 01 · 可编辑花瓣",
+      "material": "SEPAL 01 · 纹理加强 / flow",
+      "absolute_shape_keys": 360,
+      "image_nodes": [
+        "PAINTED_sepal_01",
+        "DETAIL_flow",
+        "DETAIL_veins"
+      ],
+      "shader_types": [
+        "BSDF_PRINCIPLED",
+        "BSDF_TRANSLUCENT",
+        "BSDF_TRANSPARENT"
+      ]
+    },
+    {
+      "petal": "SEPAL 02 · 可编辑花瓣",
+      "material": "SEPAL 02 · 纹理加强 / veins",
+      "absolute_shape_keys": 360,
+      "image_nodes": [
+        "PAINTED_sepal_02",
+        "DETAIL_veins",
+        "DETAIL_frost"
+      ],
+      "shader_types": [
+        "BSDF_PRINCIPLED",
+        "BSDF_TRANSLUCENT",
+        "BSDF_TRANSPARENT"
+      ]
+    },
+    {
+      "petal": "SEPAL 03 · 可编辑花瓣",
+      "material": "SEPAL 03 · 纹理加强 / frost",
+      "absolute_shape_keys": 360,
+      "image_nodes": [
+        "PAINTED_sepal_03",
+        "DETAIL_frost",
+        "DETAIL_crystals"
+      ],
+      "shader_types": [
+        "BSDF_PRINCIPLED",
+        "BSDF_TRANSLUCENT",
+        "BSDF_TRANSPARENT"
+      ]
+    }
+  ],
+  "render_settings": {
+    "resolution": [
+      3072,
+      4096
+    ],
+    "resolution_percentage": 100,
+    "fps": 24.0,
+    "frames": [
+      1,
+      360
+    ],
+    "saved_frame": 1,
+    "engine": "CYCLES",
+    "samples": 64,
+    "render_filepath": "//renders/frames/",
+    "adaptive_threshold": 0.02199999988079071,
+    "adaptive_min_samples": 16
+  },
+  "camera_settings": {
+    "type": "ORTHO",
+    "lens": 50.0,
+    "sensor_width": 36.0,
+    "sensor_height": 24.0,
+    "sensor_fit": "AUTO",
+    "shift_x": 0.0,
+    "shift_y": 0.0,
+    "ortho_scale": 6.599999904632568
+  },
+  "spot_checked_frames": [
+    {
+      "frame": 1,
+      "flower_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "flower_rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "stamens_scale": [
+        0.02500000037252903,
+        0.02500000037252903,
+        0.02500000037252903
+      ],
+      "stamens_location": [
+        0.0,
+        0.0,
+        0.10000000149011612
+      ],
+      "source_pose": 1.0,
+      "camera_matrix": [
+        0.9999912977218628,
+        -0.0020882119424641132,
+        0.003605576464906335,
+        0.05000000074505806,
+        0.004166630562394857,
+        0.501170814037323,
+        -0.8653383255004883,
+        -12.0,
+        6.916525685518593e-11,
+        0.86534583568573,
+        0.5011751651763916,
+        7.400000095367432,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "frame": 73,
+      "flower_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "flower_rotation": [
+        -0.018575012683868408,
+        -0.005674160085618496,
+        0.08396142721176147
+      ],
+      "stamens_scale": [
+        0.21276111900806427,
+        0.21276111900806427,
+        0.21276111900806427
+      ],
+      "stamens_location": [
+        0.0,
+        0.0,
+        0.07435503602027893
+      ],
+      "source_pose": 73.0,
+      "camera_matrix": [
+        0.9999912977218628,
+        -0.0020882119424641132,
+        0.003605576464906335,
+        0.05000000074505806,
+        0.004166630562394857,
+        0.501170814037323,
+        -0.8653383255004883,
+        -12.0,
+        6.916525685518593e-11,
+        0.86534583568573,
+        0.5011751651763916,
+        7.400000095367432,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "frame": 180,
+      "flower_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "flower_rotation": [
+        -0.016937723383307457,
+        0.023038258776068687,
+        -0.0868258997797966
+      ],
+      "stamens_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "stamens_location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "source_pose": 180.0,
+      "camera_matrix": [
+        0.9999912977218628,
+        -0.0020882119424641132,
+        0.003605576464906335,
+        0.05000000074505806,
+        0.004166630562394857,
+        0.501170814037323,
+        -0.8653383255004883,
+        -12.0,
+        6.916525685518593e-11,
+        0.86534583568573,
+        0.5011751651763916,
+        7.400000095367432,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "frame": 360,
+      "flower_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "flower_rotation": [
+        -0.015601333230733871,
+        -0.024901824072003365,
+        -0.02148238942027092
+      ],
+      "stamens_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "stamens_location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "source_pose": 360.0,
+      "camera_matrix": [
+        0.9999912977218628,
+        -0.0020882119424641132,
+        0.003605576464906335,
+        0.05000000074505806,
+        0.004166630562394857,
+        0.501170814037323,
+        -0.8653383255004883,
+        -12.0,
+        6.916525685518593e-11,
+        0.86534583568573,
+        0.5011751651763916,
+        7.400000095367432,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    }
+  ],
+  "color_management": {
+    "view_transform": "Standard",
+    "look": "None",
+    "exposure": 0.05000000074505806,
+    "gamma": 1.0,
+    "display_device": "sRGB"
+  },
+  "glare_inputs": {
+    "Type": "Bloom",
+    "Quality": "Medium",
+    "Threshold": 1.350000023841858,
+    "Smoothness": 0.10000000149011612,
+    "Clamp": false,
+    "Maximum": 10.0,
+    "Strength": 0.12999999523162842,
+    "Saturation": 1.0,
+    "Tint": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "Size": 0.18000000715255737,
+    "Streaks": 4,
+    "Streaks Angle": 0.0,
+    "Iterations": 3,
+    "Fade": 0.8999999761581421,
+    "Color Modulation": 0.25,
+    "Diagonal": true,
+    "Sun Position": [
+      0.5,
+      0.5
+    ],
+    "Jitter": 0.0,
+    "Kernel Data Type": "Float",
+    "Kernel": [
+      0.800000011920929,
+      0.800000011920929,
+      0.800000011920929,
+      1.0
+    ]
+  },
+  "compositor_links": [
+    {
+      "from_node": "Render Layers",
+      "from_socket": "Image",
+      "to_node": "Glare",
+      "to_socket": "Image"
+    },
+    {
+      "from_node": "Glare",
+      "from_socket": "Image",
+      "to_node": "Group Output",
+      "to_socket": "Image"
+    }
+  ],
+  "changes_to_animation_or_materials": false,
+  "read_only_blender_inspection": true
+}

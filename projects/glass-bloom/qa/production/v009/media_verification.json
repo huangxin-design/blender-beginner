@@ -1,0 +1,69 @@
+{
+  "passed": true,
+  "source_frames": "versions/v009/renders/cache/frames",
+  "source_resolution": [
+    3072,
+    4096
+  ],
+  "source_bit_depths": [
+    16
+  ],
+  "native_render_frames": 360,
+  "frame_interpolation": false,
+  "master": {
+    "file": "versions/v009/Glass_Bloom_Direct_Material_3x4_4K_15s.mp4",
+    "checks": {
+      "resolution": true,
+      "frame_count": true,
+      "fps": true,
+      "duration": true,
+      "aspect_ratio": true,
+      "codec": true,
+      "level": true,
+      "pixel_format": true,
+      "color": true
+    },
+    "full_decode": "PASS",
+    "color_encoding": {
+      "color_space": "bt709",
+      "color_transfer": "iec61966-2-1",
+      "color_primaries": "bt709",
+      "color_range": "tv"
+    },
+    "width": 3072,
+    "height": 4096,
+    "fps": 24,
+    "frames": 360,
+    "duration_seconds": 15,
+    "h264_level": "6.0",
+    "bytes": 17634281
+  },
+  "preview": {
+    "file": "versions/v009/previews/Glass_Bloom_Direct_Material_3x4_15s_preview.mp4",
+    "checks": {
+      "resolution": true,
+      "frame_count": true,
+      "fps": true,
+      "duration": true,
+      "aspect_ratio": true,
+      "codec": true,
+      "level": true,
+      "pixel_format": true,
+      "color": true
+    },
+    "full_decode": "PASS",
+    "color_encoding": {
+      "color_space": "bt709",
+      "color_transfer": "iec61966-2-1",
+      "color_primaries": "bt709",
+      "color_range": "tv"
+    },
+    "width": 1152,
+    "height": 1536,
+    "fps": 24,
+    "frames": 360,
+    "duration_seconds": 15,
+    "h264_level": "5.1",
+    "bytes": 2848418
+  }
+}

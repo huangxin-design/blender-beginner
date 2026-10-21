@@ -4,6 +4,14 @@
 
 花卉与数字盆景为最新完成版，任务用量读取于 **2026-09-09 19:20（北京时间）**；AI 品牌与粉色波浪保留当天 16:59 的快照。覆盖范围见各案例与[统计说明](../docs/showcase-measurements.md)。
 
+## 晶光绽放 · 半透明花瓣与同帧白模
+
+[![紫粉花朵从收拢到展开，以及同帧白模](glass-bloom/preview.jpg)](glass-bloom/README.md)
+
+**材质 / 白模两套原生 4K · 3072 × 4096 · 3:4 · 24 fps · 15 秒。** 从正常尺寸直接展开，13 片花瓣独立变形，17 套底纹与细节图可编辑；两套动画、几何和相机一致。保留“小花蕾长大”方案被否定后改为直接展开的真实修改过程。Token 与完整制作总耗时未独立统计。
+
+[案例与完整工程下载](glass-bloom/README.md) · [材质预览](glass-bloom/versions/v009/preview.mp4) · [白模预览](glass-bloom/versions/v008/preview.mp4) · [制作对话](glass-bloom/conversation.md)
+
 ## 银蓝花开 · 波浪花瓣与布线白模
 
 [![银蓝花朵、白模结构与同帧材质擦换](silver-bloom/preview.jpg)](silver-bloom/README.md)

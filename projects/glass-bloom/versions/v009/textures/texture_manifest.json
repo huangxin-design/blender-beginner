@@ -1,0 +1,122 @@
+{
+  "method": "13 independently authored vector paintings, rasterized separately; image generation service failed and was not used for these assets",
+  "textures": [
+    {
+      "name": "outer_01",
+      "source": "outer_01.svg",
+      "texture": "outer_01.png",
+      "width": 2048,
+      "height": 2048,
+      "svg_sha256": "bd72b38fe376e3335fbf11cded5de48fe727e99ff4ba67197bc9f83a0c15660b",
+      "png_sha256": "d82e2748fac5ceeb8d23c271ad55ae3cec30e94696d8dc1d7931b2c0d6574c01"
+    },
+    {
+      "name": "outer_02",
+      "source": "outer_02.svg",
+      "texture": "outer_02.png",
+      "width": 2048,
+      "height": 2048,
+      "svg_sha256": "3d594329821b66610e8f7a0a3151d1e078e8d6c84b068c12e5308b89b61c894b",
+      "png_sha256": "1fe6c3541effb404db49fb8fd3b1f5c57b6a1e610d9121c6fb6331a78be751c4"
+    },
+    {
+      "name": "outer_03",
+      "source": "outer_03.svg",
+      "texture": "outer_03.png",
+      "width": 2048,
+      "height": 2048,
+      "svg_sha256": "87afef966bcfddcf8261431e8efa819bdcbdcea35f78956c5991e875742116c9",
+      "png_sha256": "b718e2475edc7df81652bf40d17fd26f2bb9a08be87654c603d4b2879c98e572"
+    },
+    {
+      "name": "outer_04",
+      "source": "outer_04.svg",
+      "texture": "outer_04.png",
+      "width": 2048,
+      "height": 2048,
+      "svg_sha256": "3b1eadf942ea987780bbd4227bdc393a08d5cb1d3ee29f1e618f49d3125b5519",
+      "png_sha256": "e6ae7b08fef2d7128fb49cf1801c6268474d9f2cb5c4b0d6838bfbff8e916506"
+    },
+    {
+      "name": "outer_05",
+      "source": "outer_05.svg",
+      "texture": "outer_05.png",
+      "width": 2048,
+      "height": 2048,
+      "svg_sha256": "900ede023c0068463d36714478d50c378d57d17932e19d7edabbb7445073ff86",
+      "png_sha256": "8541277fd12105270d148989b4e42b000c6b4180d6d483db4e1f19db6a1e085c"
+    },
+    {
+      "name": "outer_06",
+      "source": "outer_06.svg",
+      "texture": "outer_06.png",
+      "width": 2048,
+      "height": 2048,
+      "svg_sha256": "2891d804cf49274cf53a3e2f0c6faead79da08c97340d0648253c3ceaa7cdaa0",
+      "png_sha256": "1d9cc3833506349e4d58c0b8f7eaf9cdf5a4f28f985ee9ec3cdf6e730fc3fd27"
+    },
+    {
+      "name": "outer_07",
+      "source": "outer_07.svg",
+      "texture": "outer_07.png",
+      "width": 2048,
+      "height": 2048,
+      "svg_sha256": "2f2936ea328311b4a38ce2d7e5474cdadd9ab8b8c41186ccab8bb6f29b31d123",
+      "png_sha256": "7289afffc178f6ba1032f8415b307f2c6fb89f6c4cfa20ba6375acdaf168ff35"
+    },
+    {
+      "name": "inner_01",
+      "source": "inner_01.svg",
+      "texture": "inner_01.png",
+      "width": 2048,
+      "height": 2048,
+      "svg_sha256": "844b8b6fea8b559f8bdda37f49f6b14dd1828a89f9dcf1481a585a0d01bb75fc",
+      "png_sha256": "f881c10f80b4015b3e9ee2b067a0517fe53defb79308c9e66c4d8fa6d36d0983"
+    },
+    {
+      "name": "inner_02",
+      "source": "inner_02.svg",
+      "texture": "inner_02.png",
+      "width": 2048,
+      "height": 2048,
+      "svg_sha256": "1e1c44c9670b25d1b5503a284340774135e3ca6ec14afb72112e5ad57ee5e661",
+      "png_sha256": "2e33710e282501db07b1e37036b1685cbb5b186c3dcac9022b878bc503bad09e"
+    },
+    {
+      "name": "inner_03",
+      "source": "inner_03.svg",
+      "texture": "inner_03.png",
+      "width": 2048,
+      "height": 2048,
+      "svg_sha256": "bceef8c307bf0b1634ef8b881d3892f81782992e41af949284bd9303db9eed45",
+      "png_sha256": "7e03b513110ee9fffd25b9b1e1e5c18bebb51cf4a926cae8891be422a3e6748f"
+    },
+    {
+      "name": "sepal_01",
+      "source": "sepal_01.svg",
+      "texture": "sepal_01.png",
+      "width": 2048,
+      "height": 2048,
+      "svg_sha256": "d73349ea1e9661144964bf71349f25a8d2533b19b502ce155082cecd3e673bce",
+      "png_sha256": "9a2527c2c2a6d728742147100973a8d44a20fe0f493f568424501b22a159a111"
+    },
+    {
+      "name": "sepal_02",
+      "source": "sepal_02.svg",
+      "texture": "sepal_02.png",
+      "width": 2048,
+      "height": 2048,
+      "svg_sha256": "0433b9f9db3ff141ece84a8537406425402288cab73b755bef48c7a2a9b381a0",
+      "png_sha256": "82947e88e7f31f7758c1ac4981f34a1b1afc5f3a1d474ad7af7758aba9b6f503"
+    },
+    {
+      "name": "sepal_03",
+      "source": "sepal_03.svg",
+      "texture": "sepal_03.png",
+      "width": 2048,
+      "height": 2048,
+      "svg_sha256": "d8ae8888eabb6eaec78f8de8ac02da1d2ea0c4851b7802121741995c0da4a37e",
+      "png_sha256": "8452a0a31178093c365e3b6b67a29520b3f21cf80fbb832d01417ce8281e0005"
+    }
+  ]
+}

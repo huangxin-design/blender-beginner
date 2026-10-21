@@ -1,0 +1,11 @@
+# Actual Blender sources and 4K masters are distributed in the linked Release ZIP.
+versions/*/scene.blend
+versions/*/final.mp4
+versions/*/renders/
+versions/*/previews/
+versions/*/logs/
+versions/*/Glass_Bloom_*.mp4
+versions/*/*_status.json
+versions/*/*_progress.json
+versions/*/media_verification.json
+__pycache__/

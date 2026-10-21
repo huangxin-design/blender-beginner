@@ -1,0 +1,67 @@
+{
+  "passed": true,
+  "checked_on": "2026-10-21",
+  "versions": [
+    "v008",
+    "v009"
+  ],
+  "source_projects": "Original delivered .blend bytes, unchanged; hashes in manifest and reopen report.",
+  "media": {
+    "native_size": [
+      3072,
+      4096
+    ],
+    "preview_size": [
+      1152,
+      1536
+    ],
+    "fps": 24,
+    "frames_each": 360,
+    "seconds_each": 15,
+    "audio": false,
+    "upscaled": false,
+    "interpolated": false,
+    "full_decode_all_four_files": "PASS"
+  },
+  "publication_reopen": {
+    "passed": true,
+    "missing_dependencies": 0,
+    "material_packed_images": 17,
+    "wire_clay_image_dependencies": 0,
+    "sample_frames": [
+      1,
+      73,
+      180,
+      360
+    ],
+    "sampled_animation_and_camera_match": true,
+    "smoke_render_each": [
+      768,
+      1024
+    ],
+    "smoke_samples": 32
+  },
+  "geometry": {
+    "inherited_from": "qa/production/v008/verification_geometry.json",
+    "checked_integer_frames": 360,
+    "source_v8_v9_geometry_and_all_360_camera_animation_equality": "qa/production/v008/verification_v8.json",
+    "not_rerun_on_publication": true,
+    "not_claimed": [
+      "continuous between-frame collision checks",
+      "all-object collisions",
+      "a new 360-frame render during publication"
+    ]
+  },
+  "reports": {
+    "paths_redacted": true,
+    "historical_hash_fields_unchanged": true,
+    "original_and_redacted_report_sha256": "qa/production-provenance.json"
+  },
+  "scripts": "Production render scripts adapted only for scene name, installation paths and removing local packaging; syntax checked. Full adapted batch not rerun.",
+  "visual_checks": [
+    "Original native 4K key frames and final-film contact sheets reviewed during production",
+    "Relocated frame 180 samples and publication filmstrip inspected"
+  ],
+  "token_usage": "Not independently recorded",
+  "total_production_time": "Not independently measured"
+}

@@ -1,0 +1,190 @@
+{
+  "source_blend": "versions/v008/晶光绽放_直接展开_彩色工程.blend",
+  "blend_file": "versions/v008/晶光绽放_直接展开_布线白模_3x4_4K_15s.blend",
+  "look": "opaque neutral matte white clay with dark gray control-quad boundaries",
+  "wire_method": "Native shader uses distance to the UV lattice validated against every control quad; linear subdivision UV interpolation keeps the lattice on base-patch boundaries.",
+  "displayed_topology": "56x24 control quadrilateral grid on the subdivided surface, not the 112x48 rendered subdivision grid",
+  "floating_wire_geometry": false,
+  "triangulation_diagonals": false,
+  "petal_topology": [
+    {
+      "object": "OUTER 01 · 可编辑花瓣",
+      "vertices": 1425,
+      "control_quads": 1344,
+      "grid": [
+        56,
+        24
+      ],
+      "maximum_uv_lattice_error": 1.430511474609375e-06
+    },
+    {
+      "object": "OUTER 02 · 可编辑花瓣",
+      "vertices": 1425,
+      "control_quads": 1344,
+      "grid": [
+        56,
+        24
+      ],
+      "maximum_uv_lattice_error": 1.430511474609375e-06
+    },
+    {
+      "object": "OUTER 03 · 可编辑花瓣",
+      "vertices": 1425,
+      "control_quads": 1344,
+      "grid": [
+        56,
+        24
+      ],
+      "maximum_uv_lattice_error": 1.430511474609375e-06
+    },
+    {
+      "object": "OUTER 04 · 可编辑花瓣",
+      "vertices": 1425,
+      "control_quads": 1344,
+      "grid": [
+        56,
+        24
+      ],
+      "maximum_uv_lattice_error": 1.430511474609375e-06
+    },
+    {
+      "object": "OUTER 05 · 可编辑花瓣",
+      "vertices": 1425,
+      "control_quads": 1344,
+      "grid": [
+        56,
+        24
+      ],
+      "maximum_uv_lattice_error": 1.430511474609375e-06
+    },
+    {
+      "object": "OUTER 06 · 可编辑花瓣",
+      "vertices": 1425,
+      "control_quads": 1344,
+      "grid": [
+        56,
+        24
+      ],
+      "maximum_uv_lattice_error": 1.430511474609375e-06
+    },
+    {
+      "object": "OUTER 07 · 可编辑花瓣",
+      "vertices": 1425,
+      "control_quads": 1344,
+      "grid": [
+        56,
+        24
+      ],
+      "maximum_uv_lattice_error": 1.430511474609375e-06
+    },
+    {
+      "object": "INNER 01 · 可编辑花瓣",
+      "vertices": 1425,
+      "control_quads": 1344,
+      "grid": [
+        56,
+        24
+      ],
+      "maximum_uv_lattice_error": 1.430511474609375e-06
+    },
+    {
+      "object": "INNER 02 · 可编辑花瓣",
+      "vertices": 1425,
+      "control_quads": 1344,
+      "grid": [
+        56,
+        24
+      ],
+      "maximum_uv_lattice_error": 1.430511474609375e-06
+    },
+    {
+      "object": "INNER 03 · 可编辑花瓣",
+      "vertices": 1425,
+      "control_quads": 1344,
+      "grid": [
+        56,
+        24
+      ],
+      "maximum_uv_lattice_error": 1.430511474609375e-06
+    },
+    {
+      "object": "SEPAL 01 · 可编辑花瓣",
+      "vertices": 1425,
+      "control_quads": 1344,
+      "grid": [
+        56,
+        24
+      ],
+      "maximum_uv_lattice_error": 1.430511474609375e-06
+    },
+    {
+      "object": "SEPAL 02 · 可编辑花瓣",
+      "vertices": 1425,
+      "control_quads": 1344,
+      "grid": [
+        56,
+        24
+      ],
+      "maximum_uv_lattice_error": 1.430511474609375e-06
+    },
+    {
+      "object": "SEPAL 03 · 可编辑花瓣",
+      "vertices": 1425,
+      "control_quads": 1344,
+      "grid": [
+        56,
+        24
+      ],
+      "maximum_uv_lattice_error": 1.430511474609375e-06
+    }
+  ],
+  "petal_count": 13,
+  "line_color_linear_rgba": [
+    0.055,
+    0.055,
+    0.055,
+    1.0
+  ],
+  "clay_color_linear_rgba": [
+    0.72,
+    0.72,
+    0.72,
+    1.0
+  ],
+  "line_halfwidth_cell_units": [
+    0.035,
+    0.052
+  ],
+  "roughness": 0.78,
+  "metallic": 0,
+  "transmission": 0,
+  "flower_emission": 0,
+  "lighting_watts": {
+    "KEY": 200,
+    "RIM": 110,
+    "STRIP": 12,
+    "FILL": 95,
+    "HEART": 0
+  },
+  "light_color": [
+    1,
+    1,
+    1
+  ],
+  "bloom": false,
+  "native_resolution": [
+    3072,
+    4096
+  ],
+  "resolution_percentage": 100,
+  "samples": 64,
+  "frames": [
+    1,
+    360
+  ],
+  "fps": 24,
+  "duration_seconds": 15,
+  "view_transform": "Standard",
+  "exposure": 0.0,
+  "geometry_animation_unchanged_from_color_source": true
+}

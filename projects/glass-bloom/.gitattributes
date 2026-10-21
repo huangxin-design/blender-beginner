@@ -1,0 +1,5 @@
+* -text whitespace=trailing-space,space-before-tab,cr-at-eol
+*.blend binary
+*.mp4 binary
+*.png binary
+*.jpg binary

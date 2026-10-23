@@ -1,0 +1,19 @@
+{
+  "mode": "artwork",
+  "artwork": "flower_artwork_example.png",
+  "artwork_crop": [20, 15, 650, 555],
+  "source_note": "仅用于验证显式两行长标题及花冠特写的花朵示例；这是二维图像合成。新案例请替换作品和教学文案，并重新测量 artwork_crop。",
+  "channel": "黄花鱼频道",
+  "series": "01",
+  "title": {
+    "lines": [
+      {"plain": "玻璃花的造型"},
+      {"plain": "材质与动画", "highlight": "教程"}
+    ],
+    "size": 80,
+    "tracking": 4
+  },
+  "tools": "Codex × Blender",
+  "subtitle": "从对话到开花动画",
+  "topics": ["造型搭建", "半透材质", "开花动画"]
+}

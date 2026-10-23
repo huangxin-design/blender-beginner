@@ -1,0 +1,156 @@
+{
+  "brand": "黄花鱼频道",
+  "brand_tag": "AI × BLENDER",
+  "footer": "离线示例 · 无声预览",
+  "video": {
+    "width": 1080,
+    "height": 1440,
+    "fps": 30,
+    "tail_seconds": 0.35
+  },
+  "chapters": [
+    {
+      "code": "01/PROMPT",
+      "label": "对话要点"
+    },
+    {
+      "code": "02/BUILD",
+      "label": "制作拆解"
+    }
+  ],
+  "shots": [
+    {
+      "id": "S01",
+      "title": "先描述想要的画面",
+      "chapter": 0,
+      "layout": "single",
+      "kicker": "示例素材 · 紫色半透明花朵",
+      "note": "把颜色、材质与动画节奏说明白",
+      "narration_parts": [
+        {"text": "先说明画面目标，再补充材质和运动细节。", "subtitle_lines": ["先说明画面目标，", "再补充材质和运动细节。"]},
+        {"text": "先看低清预览，确认后再做最终渲染。", "subtitle_lines": ["先看低清预览，", "确认后再做最终渲染。"]}
+      ],
+      "media": [
+        {
+          "file": "media/flower.png",
+          "fit": "contain",
+          "label": "成片示例"
+        }
+      ],
+      "duration_seconds": 1.65,
+      "subtitle_events": [
+        {
+          "start": 0,
+          "end": 0.6,
+          "lines": [
+            "先说明画面目标，",
+            "再补充材质和运动细节。"
+          ]
+        },
+        {
+          "start": 0.85,
+          "end": 1.65,
+          "lines": [
+            "先看低清预览，",
+            "确认后再做最终渲染。"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S02",
+      "title": "让参考和要求对得上",
+      "chapter": 0,
+      "layout": "split",
+      "kicker": "示例素材 · 动画与纹理并排展示",
+      "note": "视频来自同一工程；细节图保留原始灰度",
+      "narration_parts": [
+        {"text": "同一镜头并排说明，不要把信息切得太碎。", "subtitle_lines": ["同一镜头并排说明，", "不要把信息切得太碎。"]}
+      ],
+      "media": [
+        {
+          "file": "media/flower_motion.mp4",
+          "fit": "contain",
+          "start_seconds": 0.1,
+          "crop": [
+            10,
+            10,
+            390,
+            510
+          ],
+          "label": "示例动画 / 24 fps"
+        },
+        {
+          "file": "media/veins.png",
+          "fit": "contain",
+          "label": "示例纹理 / 细脉"
+        }
+      ],
+      "audio_file": "media/silence.wav",
+      "duration_seconds": 1.65,
+      "subtitle_events": [
+        {
+          "start": 0,
+          "end": 1.65,
+          "lines": [
+            "同一镜头并排说明，",
+            "不要把信息切得太碎。"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S03",
+      "title": "把细节拆成可编辑素材",
+      "chapter": 1,
+      "layout": "grid",
+      "kicker": "示例素材 · 四种细节纹理",
+      "note": "下一次只需替换截图、标题和字幕",
+      "narration_parts": [
+        {"text": "四种纹理分别展示，方便解释各自的作用。", "subtitle_lines": ["四种纹理分别展示，", "方便解释各自的作用。"]},
+        {"text": "字幕跨停顿保持显示，只在下一句到来时换字。", "subtitle_lines": ["字幕跨停顿保持显示，", "只在下一句到来时换字。"]}
+      ],
+      "media": [
+        {
+          "file": "media/veins.png",
+          "fit": "cover",
+          "label": "细脉"
+        },
+        {
+          "file": "media/frost.png",
+          "fit": "cover",
+          "label": "霜雾"
+        },
+        {
+          "file": "media/crystals.png",
+          "fit": "cover",
+          "label": "微晶"
+        },
+        {
+          "file": "media/flow.png",
+          "fit": "cover",
+          "label": "流线"
+        }
+      ],
+      "duration_seconds": 1.65,
+      "subtitle_events": [
+        {
+          "start": 0,
+          "end": 0.6,
+          "lines": [
+            "四种纹理分别展示，",
+            "方便解释各自的作用。"
+          ]
+        },
+        {
+          "start": 0.85,
+          "end": 1.65,
+          "lines": [
+            "字幕跨停顿保持显示，",
+            "只在下一句到来时换字。"
+          ]
+        }
+      ]
+    }
+  ]
+}

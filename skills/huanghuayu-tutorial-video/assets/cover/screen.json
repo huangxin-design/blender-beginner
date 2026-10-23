@@ -1,0 +1,7 @@
+{
+  "quad": [[320, 455], [895, 505], [899, 1021], [310, 983]],
+  "plane_size": [1120, 960],
+  "corner_radius": 0,
+  "mask": "main_glass_mask.png",
+  "fit": "cover"
+}

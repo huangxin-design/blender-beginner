@@ -1,0 +1,8 @@
+Mode: built-in image_gen
+Source reference: previews/tv_subtitle_style_v1.png
+
+Use case: precise-object-edit / background-extraction.
+Asset type: reusable CRT subtitle monitor housing for a Chinese 3:4 tutorial video.
+Input image 1 is an approved design reference. Extract and faithfully recreate ONLY the wide shallow television unit visible at the bottom, not the rest of the tutorial. The original has a beautiful dark graphite-purple brushed metal casing, subtle lavender beveled rounded corners, a recessed dark convex CRT screen, three slim rectangular buttons stacked on the right, and a mint green power LED below them. Preserve that design and front-on orthographic symmetry. It must feel like a premium late-1980s studio video instrument crossed with an AI terminal.
+Critical edit: remove ALL typography, Chinese captions, channel label, code, line numbers, and symbols from the screen and housing. The screen must be a blank very dark black-indigo clean glass field with only extremely subtle scanlines and edge reflections; absolutely no text. Leave almost all inner screen space usable for large editable captions later. Screen should not be so reflective that overlay text is hard to read.
+Composition: isolated single very wide horizontal shallow TV with width-to-height approximately 3.65:1, centered on a transparent canvas. Entire monitor visible including small soft shadow, no crop, no stands, no background, no cables, no other objects. Use a wide landscape canvas; the object should occupy nearly all width. Make the edge details polished and precise. This is a production bitmap asset, not an infographic or a new whole tutorial frame.

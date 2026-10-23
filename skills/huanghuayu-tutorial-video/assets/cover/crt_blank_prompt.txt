@@ -1,0 +1,10 @@
+Asset: crt_blank.png
+Purpose: Reusable empty main CRT screen for current-case artwork compositing.
+Source: Built-in ImageGen edit of the approved dimensional television poster.
+Generated: 2026-10-22
+Output preparation: Normalized to 1080 x 1440; screen coordinates are in screen.json.
+Representation: AI-generated poster background. This is not a native Blender scene render.
+The original flower is intentionally removed. Current-case artwork is supplied separately.
+
+Generation prompt:
+Edit target: the supplied 3:4 portrait poster of vintage CRT televisions. Make a reusable empty-screen background for a Chinese design tutorial cover. Change ONLY the CONTENT INSIDE the LARGE CENTRAL CRT screen: remove the entire glass flower, its stem, its glowing stamens and all flower reflections completely, replacing the whole interior display area with a blank, clean, nearly black deep blue screen, very subtle diffuse blue-purple glass tint near the edges. The screen must contain NO subject, NO flowers, NO lettering, NO icons, NO UI, NO marks or placeholders. Preserve as faithfully as possible the original composition and exact screen geometry: large CRT tilted a little clockwise, worn black metal casing, warm orange side lighting, cyan illumination, small violet TV upper-right, small cyan/orange TVs left, yellow diagonal tape behind them, cables and equipment below, dark empty upper area for later typesetting. Do not add any text. Maintain the original materials and high quality cinematic texture. This blank screen will be filled by deterministic compositing later, so keep it flat and free of bright highlight shapes in the middle. The main television and whole composition should remain in the same positions and proportions as input.

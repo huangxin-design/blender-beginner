@@ -1,6 +1,6 @@
 # GitHub 仓库资料维护
 
-`skills/blender-beginner/` 是可安装的 Skill。`projects/` 中的作品、源文件、提示词与精简对话，以及 `docs/`、`templates/` 中的发布资料，属于 GitHub 展示内容，独立于 Skill 功能。
+`skills/blender-beginner/` 是可安装的 Blender 开工助手，`skills/huanghuayu-tutorial-video/` 是独立的黄花鱼频道教程视频与封面 Skill。`projects/` 中的作品、源文件、提示词与精简对话，以及 `docs/`、`templates/` 中的发布资料，属于 GitHub 展示内容，独立于 Skill 功能。
 
 - 普通 Blender 制作或修改按当前用户要求进行，不自动整理 GitHub 案例或对话，不要求用户遵循本仓库的作品目录。
 - 仅在用户要求整理作品或维护 GitHub 资料时，参考 `docs/project-archive.md` 与 `docs/conversation-archive.md`，保留实际源文件、出处和制作边界。导入早期作品时保留已有版本关系，不编造历史版本或聊天。

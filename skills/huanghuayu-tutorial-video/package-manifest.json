@@ -1,0 +1,196 @@
+{
+  "skill": "huanghuayu-tutorial-video",
+  "version": "1.2.0",
+  "files": [
+    {
+      "file": "agents/openai.yaml",
+      "bytes": 437,
+      "sha256": "3978f44fd9a051d0287abf09bf45b9d065738c093681070683e98549a905bcf2"
+    },
+    {
+      "file": "assets/approved-reference.png",
+      "bytes": 569574,
+      "sha256": "793e22aa2ddd7b8d583cb49c344eb78e8fd773b5b168ab9930e82aefb32c326d"
+    },
+    {
+      "file": "assets/cover/approved-cover.png",
+      "bytes": 1979562,
+      "sha256": "7bc1eb66c2a78aef13553abaed37bfb75ecaf7fce27683636c9c6fcc19284c6d"
+    },
+    {
+      "file": "assets/cover/crt_blank.png",
+      "bytes": 1964400,
+      "sha256": "abbc3c45ae4789b1e78a978e80ffc3295445f987807170f11ba7edf50b4f9a0f"
+    },
+    {
+      "file": "assets/cover/crt_blank_prompt.txt",
+      "bytes": 1746,
+      "sha256": "43d5ef3536e7527d87df211c5ce897235fa18244c47530982d718caf42069ac2"
+    },
+    {
+      "file": "assets/cover/footer_halftone.png",
+      "bytes": 39909,
+      "sha256": "50e078c8540eaa7e0cebd048bd4f7d8e6833b5632c691f8436808933621ca2f2"
+    },
+    {
+      "file": "assets/cover/footer_halftone.svg",
+      "bytes": 174852,
+      "sha256": "0c5c50c460c4cc0462042f271969d6bf686b17b3835bd50c4cf44e899ba370cb"
+    },
+    {
+      "file": "assets/cover/main_glass_mask.png",
+      "bytes": 8495,
+      "sha256": "812fe9c5ec2143b55f271e38cf720588b5515c298dca9fc04fed9cb665661c78"
+    },
+    {
+      "file": "assets/cover/main_glass_mask.svg",
+      "bytes": 366,
+      "sha256": "286a7f1a422b07ac38ebbfbbef11eb45ddde4e6d1634814b68430b2772ecf5be"
+    },
+    {
+      "file": "assets/cover/screen.json",
+      "bytes": 166,
+      "sha256": "391f506c68ab1ae07a4a60d31412dc9c8b62ea441bbc5fae7b90c47eee1ecd02"
+    },
+    {
+      "file": "assets/cover_example/artwork_example.json",
+      "bytes": 661,
+      "sha256": "a1c02341d42972a930ab0096bb36c84024b1d1e6afb7e459a31d9d6e91ea6433"
+    },
+    {
+      "file": "assets/cover_example/background_example.json",
+      "bytes": 605,
+      "sha256": "7f9788ec4cd37256d46eda0785b7a484dd4df07ed1d01e814aeaeeebb14ca355"
+    },
+    {
+      "file": "assets/cover_example/flower_artwork_example.png",
+      "bytes": 184491,
+      "sha256": "e064b939a7b214264d0d6ab8bbb7a76cbc8998aab5f8b56555ca950257f42846"
+    },
+    {
+      "file": "assets/cover_example/flower_poster_example.png",
+      "bytes": 2204346,
+      "sha256": "5fbccfec8ecc7bb8a112be00dceb4bf94a6bb624b8e17891f11bbe93441d4051"
+    },
+    {
+      "file": "assets/cover_example/two_line_example.json",
+      "bytes": 651,
+      "sha256": "95a8a3429e34844ffbd4e56d2fd43d49d81820a711c2b05e140bd266d30a5c56"
+    },
+    {
+      "file": "assets/example_project/card_example.json",
+      "bytes": 1343,
+      "sha256": "92553c3edd805ee035d7f6d6d4b73a2cdf0d0366d3ddc9467ae9b0a8b3b7188e"
+    },
+    {
+      "file": "assets/example_project/lesson.json",
+      "bytes": 4421,
+      "sha256": "ae33b3692e8a031957239053a043ebbd3d6b138d06d097313a9574df7d068ad7"
+    },
+    {
+      "file": "assets/example_project/media/crystals.png",
+      "bytes": 7687,
+      "sha256": "fee9c77e3267499f9998511cd18c64eac201cda81e35a087e09fda6f7c8f7971"
+    },
+    {
+      "file": "assets/example_project/media/flow.png",
+      "bytes": 30384,
+      "sha256": "b1347a2b0eaaeffb47d48f7d36186814f65800fca9db1eecfb48d5c8810272cc"
+    },
+    {
+      "file": "assets/example_project/media/flower.png",
+      "bytes": 184491,
+      "sha256": "e064b939a7b214264d0d6ab8bbb7a76cbc8998aab5f8b56555ca950257f42846"
+    },
+    {
+      "file": "assets/example_project/media/flower_motion.mp4",
+      "bytes": 42528,
+      "sha256": "45f8e88d75d5f64f92b6d14ff16bd3de8a1afe1be327709bf1cb2230375b19b9"
+    },
+    {
+      "file": "assets/example_project/media/frost.png",
+      "bytes": 13201,
+      "sha256": "83f52ea346dd3d9745a2601ee1f6ce7d9ebfb677582afbca4be0238153b2b1ef"
+    },
+    {
+      "file": "assets/example_project/media/silence.wav",
+      "bytes": 96044,
+      "sha256": "0a8f76d89c709043814cb74f331a4578d17ff61256303bd0019a263d053f86e8"
+    },
+    {
+      "file": "assets/example_project/media/veins.png",
+      "bytes": 20883,
+      "sha256": "541fb88ca517c1b5f2ca22e7f911e67fd9e51a3f09f89d532b2800e1169f15d7"
+    },
+    {
+      "file": "assets/example_project/preview.png",
+      "bytes": 126850,
+      "sha256": "068e6996c8d3c2dac36a1813d73f5c73cb4ccf6961242f0b9cfba254ac003e44"
+    },
+    {
+      "file": "assets/example_project/render_verification.json",
+      "bytes": 710,
+      "sha256": "7b3ac322cd9acc97c2d6ca59ec226009140c45cede366e19c8f21b330c4afa5f"
+    },
+    {
+      "file": "assets/graphics/tv_caption_blank_v1.png",
+      "bytes": 1587770,
+      "sha256": "5b899a273cca9e573c83e3411f4d007115158cb4706f256e3686be4c6b6c2972"
+    },
+    {
+      "file": "assets/graphics/tv_caption_blank_v1_prompt.txt",
+      "bytes": 1658,
+      "sha256": "2954223f6c60108fcb673e15a4729a8d60dba9f69b735f710899c0fa30114246"
+    },
+    {
+      "file": "references/cover.md",
+      "bytes": 8067,
+      "sha256": "e2d966a966d83b87e79d8d678b9fb61cf57bde0967ec8d59cd5bc1b00b75c0fa"
+    },
+    {
+      "file": "references/visual-style.md",
+      "bytes": 2918,
+      "sha256": "09f7bf1a5f5065fdc35789f965b39164af2e36a4514782c9c334d583f3330493"
+    },
+    {
+      "file": "references/voice.md",
+      "bytes": 4609,
+      "sha256": "621cfa0947cfed2a789b883874f7cdc6574a0ac4325921d80aa2c1a943931ba8"
+    },
+    {
+      "file": "references/workflow.md",
+      "bytes": 5101,
+      "sha256": "6de315568894459e69b9409f6290ccd25855a12ec6d53c1f3dcf0c78872b08b9"
+    },
+    {
+      "file": "requirements.txt",
+      "bytes": 29,
+      "sha256": "7befc9d148983588d863b821fd3d26d025c7c8ccb6e008ad0050cf66392003b6"
+    },
+    {
+      "file": "scripts/image_backdrop.py",
+      "bytes": 1694,
+      "sha256": "e06f1157386102961987ed0d15a15fcc847ddf021fd960fb4ec3378b157882a8"
+    },
+    {
+      "file": "scripts/render_cover.py",
+      "bytes": 19562,
+      "sha256": "a9cbcf50f23a6afdbfc8a29ba54f3992639e873cda44b4403675b3c45e1d7058"
+    },
+    {
+      "file": "scripts/render_tutorial.py",
+      "bytes": 23594,
+      "sha256": "29dba29340717b1e166724403a1275b3f930aa53c81cc833f62c95ff3a4800f2"
+    },
+    {
+      "file": "scripts/synthesize_voice.py",
+      "bytes": 8960,
+      "sha256": "b4379a13a5b4a4b4755ab8c6776c6eab61794c7fe07c0e90d15bc7d440ec0982"
+    },
+    {
+      "file": "SKILL.md",
+      "bytes": 7349,
+      "sha256": "c915f42931ad9da71271dfa747cac0f16ab2a0907ec0b9fa414d38f4119dcac7"
+    }
+  ]
+}

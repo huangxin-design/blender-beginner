@@ -1,0 +1,4 @@
+interface:
+  display_name: "黄花鱼频道 · 教程与封面"
+  short_description: "复用复古电视教程、中文配音和荧光半调封面，为当前案例替换作品、文案与工程讲解。"
+  default_prompt: "使用 $huanghuayu-tutorial-video，根据这个案例的真实作品和制作过程，制作一条教程视频及配套封面，沿用频道字体、配音、转场和已确认的荧光半调封面样式。"

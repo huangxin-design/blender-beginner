@@ -1,0 +1,58 @@
+{
+  "brand": "黄花鱼频道",
+  "brand_tag": "AI × BLENDER",
+  "footer": "离线示例 · 无声预览",
+  "video": {
+    "width": 1080,
+    "height": 1440,
+    "fps": 30,
+    "tail_seconds": 0.35
+  },
+  "chapters": [
+    {
+      "code": "01/PROMPT",
+      "label": "对话要点"
+    },
+    {
+      "code": "02/BUILD",
+      "label": "制作拆解"
+    }
+  ],
+  "shots": [
+    {
+      "id": "C01",
+      "title": "一起把喜欢的风格做出来",
+      "chapter": 1,
+      "layout": "card",
+      "kicker": "资料署名示例 · 按实际项目修改",
+      "note": "只写确实已公开的资料，链接不自动发布",
+      "media": [
+        {
+          "file": "media/flower.png",
+          "fit": "contain",
+          "label": "作品示例"
+        }
+      ],
+      "card": {
+        "eyebrow": "GitHub",
+        "lines": [
+          "your-name /",
+          "your-project",
+          "制作对话与工程资料"
+        ],
+        "note": "简洁署名 · 不添加强引导"
+      },
+      "duration_seconds": 1.65,
+      "subtitle_events": [
+        {
+          "start": 0,
+          "end": 1.65,
+          "lines": [
+            "喜欢的风格，可以告诉我。",
+            "一起把制作过程分享出来。"
+          ]
+        }
+      ]
+    }
+  ]
+}

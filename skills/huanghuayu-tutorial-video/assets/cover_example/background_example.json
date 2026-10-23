@@ -1,0 +1,15 @@
+{
+  "mode": "background",
+  "background": "flower_poster_example.png",
+  "source_note": "已确认的花朵案例电视海报示例，用于排版回归；花朵已烘焙在背景内。它是图像生成海报，不是新案例的原生 Blender 渲染。新案例必须更换整个 background。",
+  "channel": "黄花鱼频道",
+  "series": "01",
+  "title": {
+    "lines": [{"plain": "玻璃花建模", "highlight": "教程"}],
+    "size": 122,
+    "tracking": 9
+  },
+  "tools": "Codex × Blender",
+  "subtitle": "从对话到开花动画",
+  "topics": ["造型搭建", "半透材质", "开花动画"]
+}

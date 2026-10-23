@@ -29,6 +29,18 @@ https://github.com/huangxin-design/blender-beginner/tree/main/skills/blender-beg
 
 Skill 尚未出现在列表时，重启 Codex 再检查。首次使用、已有版本更新和手动放置方式见 [快速开始](docs/quickstart.md)。
 
+## 黄花鱼频道 · 教程与封面 Skill
+
+把制作过程整理成一条 **3:4 竖版教程及配套封面**，结合对话经验和真实 Blender 工程讲解。复用复古电视、中文字体、合成配音、稳定转场和荧光黄半调封面。**v1.2.0** 修正电视内屏展示：围绕核心视觉裁切、等比放大铺满，并沿玻璃曲边贴合。后续替换当前案例的作品与文案即可；原来的 Blender 开工助手继续负责建模工作。
+
+[查看 Skill](skills/huanghuayu-tutorial-video/SKILL.md) · [使用与安装](docs/huanghuayu-tutorial-video.md) · [下载完整 Skill 包](https://github.com/huangxin-design/blender-beginner/releases/download/huanghuayu-tutorial-video-v1.2.0/huanghuayu-tutorial-video-v1.2.0.zip)
+
+```text
+请帮我安装这个教程与封面 Skill：
+https://github.com/huangxin-design/blender-beginner/tree/main/skills/huanghuayu-tutorial-video
+保留完整目录和所有附带文件，核验后告诉我怎样在新对话中使用。
+```
+
 ## 这些地方，它能帮上忙
 
 **零基础安装｜“我从没用过 Blender，帮我装到 D 盘，项目也放这里。”**

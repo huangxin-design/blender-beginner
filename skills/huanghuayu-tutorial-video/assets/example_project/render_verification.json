@@ -1,0 +1,28 @@
+{
+  "passed": true,
+  "checks": {
+    "resolution": true,
+    "fps": true,
+    "frames": true,
+    "duration": true,
+    "audio": true,
+    "full_decode": true,
+    "no_black_frames": true
+  },
+  "frames": 180,
+  "seconds": 6.010687,
+  "sha256": "6e8bff1684958485f8a070a53cbde366890157ac0a84cb68ff104c60a81fc480",
+  "bytes": 545475,
+  "font_names": {
+    "title": "DouyinSansBold.otf",
+    "regular": "MiSans-Regular.ttf",
+    "bold": "MiSans-Semibold.ttf",
+    "mono": "consola.ttf"
+  },
+  "additional_checks": {
+    "caption_holds_across_pause": true,
+    "latin_only_cjk_font_rejected": true,
+    "caption_overflow_rejected": true,
+    "card_prepared_from_another_cwd": true
+  }
+}

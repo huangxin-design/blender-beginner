@@ -1,0 +1,16 @@
+{
+  "mode": "artwork",
+  "artwork": "flower_artwork_example.png",
+  "artwork_crop": [20, 15, 650, 555],
+  "source_note": "花朵工程渲染示例，裁取花冠铺满曲边电视屏幕；二维映屏，电视背景为图像生成资产。用于新案例时必须替换 artwork 并重新测量 artwork_crop，不能沿用示例花朵或裁切坐标。",
+  "channel": "黄花鱼频道",
+  "series": "01",
+  "title": {
+    "lines": [{"plain": "玻璃花建模", "highlight": "教程"}],
+    "size": 122,
+    "tracking": 9
+  },
+  "tools": "Codex × Blender",
+  "subtitle": "从对话到开花动画",
+  "topics": ["造型搭建", "半透材质", "开花动画"]
+}
